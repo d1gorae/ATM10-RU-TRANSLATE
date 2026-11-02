@@ -17,7 +17,7 @@
   "gui.dimstorage.eject": "Автоматический выброс",
   "gui.dimstorage.empty": "Пусто",
   "gui.dimstorage.frequency": "Частота:",
-  "gui.dimstorage.gas": "Газообразное:",
+  "gui.dimstorage.gas": "Газ:",
   "gui.dimstorage.idle": "Ожидание",
   "gui.dimstorage.liquid": "Жидкость: %s",
   "gui.dimstorage.locked": "Заблокировано:",
