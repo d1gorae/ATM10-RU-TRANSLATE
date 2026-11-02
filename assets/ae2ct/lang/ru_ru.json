@@ -1,0 +1,21 @@
+{
+  "gui.ae2ct.CraftingTreeTitle": "Дерево крафта",
+  "gui.ae2ct.ShowTree": "Показать дерево крафта",
+  "gui.ae2ct.OutputAmount": "создать: %s",
+  "gui.ae2ct.InputAmount": "требуется: %s",
+  "gui.ae2ct.MiddenAmount": "использовать: %s",
+  "gui.ae2ct.Info": "Информация:",
+  "gui.ae2ct.CraftingAmount": "создать: %s",
+  "gui.ae2ct.MissingAmount": "недостаёт: %s",
+  "gui.ae2ct.StoredAmount": "в хранилище: %s",
+  "gui.ae2ct.Screenshot": "Снимок экрана",
+  "gui.ae2ct.CraftingTreeSettingTitle": "Настройки",
+  "gui.ae2ct.Setting": "Настройки",
+  "gui.ae2ct.UseCompactTreeCheckbox": "использовать компактное дерево крафта (бета)",
+  "gui.ae2ct.ScreenShotShowCountCheckbox": "показывать количество на снимке экрана",
+  "ae2ct.screenshot.noready": "Снимок экрана ещё не готов. Попробуйте позже.",
+  "ae2ct.screenshot.exception": "Не удалось создать снимок экрана. Причина: %s",
+  "ae2ct.openscreen.plannull": "Ожидание завершения расчёта подтверждения крафта",
+  "gui.ae2ct.ShowMissingOnly": "Показывать только недостающие",
+  "gui.ae2ct.ShowMissingOnlyByDefault": "по умолчанию показывать только недостающие"
+}
