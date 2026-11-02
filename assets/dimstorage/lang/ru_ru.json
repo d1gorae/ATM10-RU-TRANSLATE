@@ -30,7 +30,7 @@
   "item.dimstorage.dim_wall": "Измерительная стенка",
   "item.dimstorage.dimensional_tablet": "Измерительный планшет",
   "item.dimstorage.solid_dim_core": "Твёрдое измерительное ядро",
-  "message.dimstorage.bind_dimchest": "Щёлкните правой кнопкой мыши, чтобы привязать измерительный сундук",
+  "message.dimstorage.bind_dimchest": "Щёлкните правой кнопкой мыши, чтобы привязать сундук измерений",
   "message.dimstorage.changeAutoCollect": "Щёлкните правой кнопкой мыши по любому блоку, кроме сундука измерений, чтобы включить или отключить автосбор",
   "message.dimstorage.for_details": "для получения подробностей",
   "message.dimstorage.hold": "Удерживайте",
