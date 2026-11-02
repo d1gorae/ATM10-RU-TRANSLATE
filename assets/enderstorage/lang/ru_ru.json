@@ -1,0 +1,10 @@
+{
+  "item.enderstorage.ender_pouch": "Эндер-сумка",
+  "block.enderstorage.ender_chest": "Эндер-сундук",
+  "enderstorage.command.no_colour": "Недопустимый цвет: %s",
+  "enderstorage.command.usage": "enderstorage <частота>|(<цвет> <цвет> <цвет>) [владелец]",
+  "enderstorage.command.no_freq": "Недопустимая частота",
+  "block.enderstorage.ender_tank": "Эндер-резервуар",
+  "enderstorage.command.no_arguments": "Неверное количество аргументов",
+  "enderstorage.serverop": "Оператор"
+}
