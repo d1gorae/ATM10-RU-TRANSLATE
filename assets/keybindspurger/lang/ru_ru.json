@@ -1,0 +1,6 @@
+{
+  "button.keybindspurger.purge": "Удалить все назначения клавиш в этой категории",
+  "button.keybindspurger.purge_all": "Удалить все назначения клавиш",
+  "button.keybindspurger.purge_non_vanilla": "Удалить все назначения клавиш, добавленные модами",
+  "button.keybindspurger.reset": "Сбросить все назначения клавиш в этой категории"
+}
