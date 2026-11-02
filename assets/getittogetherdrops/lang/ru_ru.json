@@ -1,0 +1,6 @@
+{
+  "getittogetherdrops.configuration.checkY": "Проверять по вертикали",
+  "getittogetherdrops.configuration.checkY.tooltip": "Включите, чтобы выпавшие предметы также проверяли пространство выше и ниже себя. Отключите, чтобы этого не делать (значение «false» соответствует поведению игры без мода).",
+  "getittogetherdrops.configuration.radius": "Радиус",
+  "getittogetherdrops.configuration.radius.tooltip": "Радиус в блоках, в пределах которого выпавшие предметы ищут другие предметы для объединения (значение «0.5» соответствует поведению игры без мода)."
+}
