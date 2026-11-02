@@ -1,5 +1,5 @@
 {
-  "advancements.dimstorage.dimensional_chest": "Измерительный сундук",
+  "advancements.dimstorage.dimensional_chest": "Сундук измерений",
   "advancements.dimstorage.dimensional_chest.desc": "Инвентарь, связанный с другими измерениями",
   "advancements.dimstorage.dimensional_tablet": "Измерительный резервуар",
   "advancements.dimstorage.dimensional_tablet.desc": "Многомерный резервуар",
@@ -7,7 +7,7 @@
   "advancements.dimstorage.dimensional_tank.desc": "Удалённый инвентарь",
   "advancements.dimstorage.root": "Измерительное ядро",
   "advancements.dimstorage.root.desc": "Сила измерений",
-  "block.dimstorage.dimensional_chest": "Измерительный сундук",
+  "block.dimstorage.dimensional_chest": "Сундук измерений",
   "block.dimstorage.dimensional_tank": "Измерительный резервуар",
   "config.jade.plugin_dimstorage.dim_block_base": "Включить особое отображение измерительного сундука",
   "config.jade.plugin_dimstorage.dim_tank": "Включить особое отображение измерительного резервуара",
