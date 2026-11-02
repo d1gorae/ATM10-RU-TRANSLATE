@@ -9,7 +9,7 @@
   "advancements.dimstorage.root.desc": "Сила измерений",
   "block.dimstorage.dimensional_chest": "Сундук измерений",
   "block.dimstorage.dimensional_tank": "Измерительный резервуар",
-  "config.jade.plugin_dimstorage.dim_block_base": "Включить особое отображение измерительного сундука",
+  "config.jade.plugin_dimstorage.dim_block_base": "Включить особое отображение сундука измерений",
   "config.jade.plugin_dimstorage.dim_tank": "Включить особое отображение измерительного резервуара",
   "gui.dimstorage.amount": "Количество: %s мБ",
   "gui.dimstorage.change": "Изменить",
@@ -31,7 +31,7 @@
   "item.dimstorage.dimensional_tablet": "Измерительный планшет",
   "item.dimstorage.solid_dim_core": "Твёрдое измерительное ядро",
   "message.dimstorage.bind_dimchest": "Щёлкните правой кнопкой мыши, чтобы привязать измерительный сундук",
-  "message.dimstorage.changeAutoCollect": "Щёлкните правой кнопкой мыши по любому блоку, кроме измерительного сундука, чтобы включить или отключить автосбор",
+  "message.dimstorage.changeAutoCollect": "Щёлкните правой кнопкой мыши по любому блоку, кроме сундука измерений, чтобы включить или отключить автосбор",
   "message.dimstorage.for_details": "для получения подробностей",
   "message.dimstorage.hold": "Удерживайте",
   "message.dimstorage.press": "Нажмите"
