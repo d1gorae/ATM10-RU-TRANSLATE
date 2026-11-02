@@ -9,6 +9,6 @@
   "options.sortZA": "Я → А",
   "options.sortKeyAZ": "Клавиши: А → Я",
   "options.sortKeyZA": "Клавиши: Я → А",
-  "options.toggleFree": "Переключить свободные",
+  "options.toggleFree": "Показать свободные клавиши",
   "options.confirmReset": "Подтвердить?"
 }
