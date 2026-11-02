@@ -1,0 +1,6 @@
+{
+  "crashutils.keycategory": "Утилиты при сбоях",
+  "crashutils.openscreen": "Открыть экран утилит при сбоях",
+  "crashutils.copycontainer": "Копировать класс контейнера",
+  "crashutils.slottooltips": "Показывать подсказки с индексами слотов"
+}
