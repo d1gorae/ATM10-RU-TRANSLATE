@@ -1,0 +1,23 @@
+{
+  "filter.type.exact_count": "Фильтр точного количества",
+  "filter.type.exact_count.tooltip": "Передавать предметы, только если их количество совпадает с количеством в заданном фильтре.",
+  "filter.type.mod": "Фильтр по моду",
+  "filter.type.mod.tooltip": "Передавать предметы, только если их ID мода совпадает с указанным в фильтре.",
+  "filter.type.normal": "Обычный фильтр",
+  "filter.type.normal.tooltip": "Передавать предметы, только если они совпадают с предметом в фильтре.",
+  "filter.type.regulating": "Регулирующий фильтр",
+  "filter.type.regulating.tooltip": "Передавать предметы, чтобы поддерживать заданное количество в целевом инвентаре.",
+  "filter.type.scroll": "*Прокрутите колёсико мыши, чтобы изменить тип фильтра*",
+  "filter.type.tag": "Фильтр по тегу",
+  "filter.type.tag.tooltip": "Передавать предметы, только если их тег совпадает с указанным в фильтре.",
+  "item.transfer_labels.fluidstack_extract_transfer_label": "Метка извлечения жидкостей",
+  "item.transfer_labels.fluidstack_insert_transfer_label": "Метка передачи жидкостей",
+  "item.transfer_labels.itemstack_extract_transfer_label": "Метка извлечения предметов",
+  "item.transfer_labels.itemstack_insert_transfer_label": "Метка передачи предметов",
+  "item.transfer_labels.label_accessor": "Считыватель меток",
+  "itemGroup.transfer_labels": "Метки передачи",
+  "tooltip.transfer_labels.blacklist": "Чёрный список",
+  "tooltip.transfer_labels.slot.amount": "Количество",
+  "tooltip.transfer_labels.slot.speed": "Скорость",
+  "tooltip.transfer_labels.whitelist": "Белый список"
+}
