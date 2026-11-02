@@ -1,0 +1,14 @@
+{
+  "item.mob_bottle.tooltip": "Содержит: %s",
+  "item.mob_bottle.tooltip_empty": "Щёлкните правой кнопкой мыши по уменьшенному существу, держа стеклянную бутылку, чтобы поймать его",
+  "item.mob_bottle.tooltip_with_name": "Содержит: %s (%s)",
+  "item.shrink.shrink_bottle": "Стеклянная бутылка",
+  "item.shrink.shrinking_device": "Персональное устройство уменьшения",
+  "itemGroup.shrink": "Уменьшение",
+  "key.shrink.category": "Уменьшение",
+  "key.shrink.shrink": "Переключить уменьшение",
+  "shrink.deny_shrink": "Уменьшение существа запрещено тегом запрета",
+  "shrink.message.already_shrunk": "Нельзя открыть, пока вы уменьшены",
+  "shrink.message.missing": "Отсутствует атрибут уменьшения",
+  "shrink.message.power": "Недостаточно энергии"
+}
