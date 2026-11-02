@@ -1,0 +1,4 @@
+{
+  "bcc.gui.tooltip.compatible_server": "§3Сервер: %s\\n§2Клиент (вы): %s",
+  "bcc.gui.tooltip.incompatible_server": "§6У вас установлена другая версия\\n§6сборки, чем на сервере :(\\n \\n§4Сервер: %s\\n§4Клиент (вы): %s"
+}
