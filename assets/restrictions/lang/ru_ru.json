@@ -1,0 +1,14 @@
+{
+  "block.restrictions.pusher": "Толкатель",
+  "block.restrictions.attractor": "Притягиватель",
+  "block.restrictions.oneway": "Односторонний блок",
+  "block.restrictions.oneway_wall": "Односторонняя стена",
+  "item.restrictions.glassboots": "Стеклянные ботинки",
+  "itemGroup.restrictions": "Restrictions",
+  "message.restrictions.shiftmessage": "<Нажмите Shift>",
+  "message.restrictions.glassboots.header": "Пока на вас надеты эти ботинки, притягиватель, толкатель и односторонние блоки не действуют.",
+  "message.restrictions.attractor.header": "Этот блок притягивает сущности, предметы, существ, игроков и другие объекты с расстояния, зависящего от уровня сигнала редстоуна.",
+  "message.restrictions.pusher.header": "Этот блок отталкивает сущности, предметы, существ, игроков и другие объекты на расстояние, зависящее от уровня сигнала редстоуна.",
+  "message.restrictions.oneway.header": "Этот блок заставляет сущности, предметы, существ, игроков и другие объекты двигаться в заданном направлении.",
+  "message.restrictions.oneway_wall.header": "Этот блок пропускает сущности, предметы, существ, игроков и другие объекты только в одном направлении."
+}
