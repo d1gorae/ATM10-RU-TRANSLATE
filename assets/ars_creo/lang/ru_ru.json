@@ -1,0 +1,20 @@
+{
+  "block.ars_creo.starbuncle_wheel": "Колесо старбункула",
+  "ars_creo.page1.starbuncle_wheel": "Создаёт вращательную силу для Create. Если поставить перед колесом золотой блок, скорость вращения (RPM) увеличится.",
+  "ars_creo.page.behaviors": "Ars Creo добавляет особое поведение блокам Ars Nouveau при использовании в конструкциях Create, включая турели заклинаний и банки источника. Обычная турель заклинаний — запускает заклинание при взаимодействии с конструкцией. Турель с таймером — запускает заклинание через заданные интервалы. Зачарованная турель — запускает заклинание при посещении каждого нового блока. Банка источника — может расходоваться турелями, установленными на конструкции.",
+  "itemGroup.ars_creo.general": "Ars Creo",
+  "ars_creo.display_source.turret.not_enough_space": "Недостаточно места ",
+  "ars_creo.display_source.turret.for_turret_status": "для отображения состояния турели",
+  "ars_creo.display_source.turret.no_spell": "Заклинание не задано.",
+  "ars_creo.display_source.turret.spell_name": "Заклинание: %s",
+  "ars_creo.display_source.turret.spell": "%s",
+  "ars_creo.display_source.turret_target": "Турель заклинаний",
+  "ars_creo.display_source.source_count": "Источник: %s",
+  "ars_creo.display_source.for_source_status": "для отображения состояния источника",
+  "ars_creo.display_source.source_jar": "Количество источника",
+  "ars_creo.display_source.turret": "Заклинание",
+  "ars_creo.page1.ars_creo.display_link": "Ссылку отображения можно прикрепить к банке источника, чтобы показывать количество источника в ней, или к турели заклинаний, чтобы выводить текущее заклинание на доску отображения.",
+  "ars_creo.page1.ars_creo.fluid_tank": "Зелья можно хранить и перемещать между жидкостными резервуарами Create с помощью труб и резервуара.",
+  "ars_creo.display_link": "Ссылка отображения Ars Creo",
+  "ars_creo.fluid_tank": "Жидкостный резервуар Ars Creo"
+}
