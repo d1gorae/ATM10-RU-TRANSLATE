@@ -34,6 +34,6 @@
 
 ## Ветка разработки
 
-`atm10-ru-initial`. Основная ветка `main` не изменялась.
+`main` в репозитории [ATM10-RU-TRANSLATE](https://github.com/d1gorae/ATM10-RU-TRANSLATE).
 
 Перевод неофициальный и не связан с авторами ATM10 или отдельных модов.
