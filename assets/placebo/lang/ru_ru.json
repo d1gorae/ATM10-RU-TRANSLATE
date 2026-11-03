@@ -1,0 +1,8 @@
+{
+  "key.categories.placebo": "Placebo",
+  "placebo.toggleTrails": "Переключить следы поддержки",
+  "placebo.toggleWings": "Переключить крылья поддержки",
+  "placebo.cmd.serialize_success": "%s сохранено в %s.",
+  "placebo.cmd.serialize_failure": "Не удалось выполнить сериализацию.",
+  "placebo.cmd.not_found": "%s не найдено."
+}
