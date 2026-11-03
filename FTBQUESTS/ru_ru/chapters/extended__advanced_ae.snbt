@@ -32,34 +32,34 @@
 	quest.09F43EB79DDBD127.title: "Избыточно огромное хранилище: квантовый запутыватель данных"
 	quest.0A354B4707894A62.quest_subtitle: "Up to +3 Jump Height"
 	quest.0B4CE3969067FA31.quest_desc: [
-		"The Quantum Armor can be upgraded with a variety of different upgrades."
+		"Квантовую броню можно улучшить различными модулями."
 		""
-		"To upgrade your Quantum Armor, open the Quantum Armor Configuration Menu by pressing its respective keybind (N by default)."
+		"Чтобы настроить броню, откройте меню конфигурации квантовой брони соответствующей клавишей (по умолчанию N)."
 	]
 	quest.0B4CE3969067FA31.title: "Улучшения квантовой брони"
 	quest.0D8B4DAB82ABEF9D.quest_desc: ["Каждый &bквантовый ускоритель&r добавляет 12 потоков сопроцессора квантовому компьютеру. Все задания крафта могут совместно использовать сопроцессоры, поэтому стоит установить их побольше."]
 	quest.0D8B4DAB82ABEF9D.title: "Бездна сопроцессоров: ускоритель квантового компьютера"
 	quest.0E06F323BF8C1D73.quest_desc: [
-		"Given the inevitability of the decay of Budding Entroized Fluix, you might want some other ways to automatically farm them."
+		"Поскольку растущий энтроизированный флюкс неизбежно разрушается, стоит автоматизировать его получение."
 		""
-		"Fortunately, there's a bee for that. And a seed, as well."
+		"К счастью, для этого есть пчела. И семя тоже."
 	]
 	quest.0E06F323BF8C1D73.quest_subtitle: "For when you can't deal with decay"
 	quest.0E06F323BF8C1D73.title: "Автоматизация энтро-кристаллов"
 	quest.12749A25600C7FF3.quest_desc: [
-		"The Quantum Crafter is a powerful and configurable auto-crafter. With an entire inventory of an ME network at its grasp, crafting non-stop becomes a trivial task. It is capable of running crafting jobs at a very fast pace. It is also capable of running fluid substitutions as well as recursive crafts (such as Smithing Template Duplication)."
+		"Квантовый автокрафтер — мощное настраиваемое устройство автоматического крафта. Он имеет доступ ко всему инвентарю сети ME, поэтому может непрерывно создавать предметы. Он выполняет задания очень быстро, поддерживает замену жидкостей и рекурсивный крафт, например дублирование кузнечных шаблонов."
 		""
-		"You can also regulate how much of each ingredient you want to keep, and up to how many of the product you want to keep in stock."
+		"Можно указать, сколько каждого ингредиента нужно сохранять и какой запас готового продукта поддерживать."
 		""
-		"Won't accept crafting requests from Pattern Providers, though."
+		"Однако он не принимает запросы на крафт от поставщиков шаблонов."
 	]
 	quest.12749A25600C7FF3.title: "Полностью автоматический крафт: квантовый автокрафтер"
 	quest.14FC9E4A3C80C0AE.quest_desc: [
-		"The Reaction Chamber is capable of accelerating various In-World Reactions within itself, using a catalyst fluid and great amounts of power. Due to the controlled environment, this machine is capable of making said reactions more efficient, allowing you to gain more material out of them."
+		"Реакционная камера ускоряет различные реакции в мире внутри себя, используя жидкость-катализатор и большое количество энергии. Контролируемая среда повышает эффективность реакций и позволяет получать больше материалов."
 		""
-		"This machine is quite power hungry, though, good power generation and energy cells in your ME Network are highly recommended."
+		"Но машина потребляет очень много энергии, поэтому рекомендуется хорошая генерация и энергетические ячейки в сети ME."
 		""
-		"This machine is also required for Quantum related recipes in Advanced AE."
+		"Она также необходима для рецептов, связанных с квантовыми устройствами Advanced AE."
 	]
 	quest.14FC9E4A3C80C0AE.title: "Ускорение реакций: реакционная камера"
 	quest.18499D33BA12A8A9.quest_desc: ["Надоело, что формирующие плоскости работают как шина хранения и плохо подходят для автоматизации? Используйте активную формирующую плоскость. Она похожа на экспортную шину ME, но взаимодействует напрямую с миром. Подсеть не нужна."]
@@ -104,15 +104,15 @@
 	quest.34FBD04361657724.quest_subtitle: "not to be confused with time crystals"
 	quest.34FBD04361657724.title: "Кристаллы пространства и времени: энтро-кристаллы"
 	quest.3621155A4138EBCA.quest_desc: [
-		"The Void Cell needs to be partitioned (filtered) in a Cell Workbench before using. It will delete anything that enters the ME system that matches the filter (assuming the void cell is prioritized), or condenses them into Matter Balls or Singularities, similarly to the Matter Condenser."
+		"Пустотную ячейку нужно настроить (задать фильтр) на верстаке ячеек перед использованием. Она удаляет из системы ME любые предметы, соответствующие фильтру, если ячейка имеет приоритет, либо сжимает их в шары материи или сингулярности, как конденсатор материи."
 		""
-		"Right click it to open the configuration GUI."
+		"Щёлкните правой кнопкой, чтобы открыть меню настройки."
 	]
 	quest.3621155A4138EBCA.title: "Конденсатор материи в ячейке: пустотная ячейка"
 	quest.36FB694262102CFD.quest_desc: [
-		"ExtendedAE offers a new type of cell, the Infinity Cell."
+		"ExtendedAE добавляет новый тип ячеек — ячейки бесконечности."
 		""
-		"These cells provide a limitless supply of a certain type of resource, such as Water, Cobblestone, Lava, etc."
+		"Они обеспечивают неограниченный запас выбранного ресурса: воды, булыжника, лавы и других материалов."
 	]
 	quest.36FB694262102CFD.quest_subtitle: "The Sink but in cell form"
 	quest.36FB694262102CFD.title: "Больше ресурсов, чем нужно: ячейки бесконечности"
