@@ -1,0 +1,11 @@
+{
+  "itemGroup.rangedpumps": "Насосы дальнего действия",
+  "block.rangedpumps.pump": "Насос",
+  "block.rangedpumps.pump.state": "%d мБ %s — %d / %d FE",
+  "block.rangedpumps.pump.state_empty": "Пусто — %d / %d FE",
+  "block.rangedpumps.pump.state.energy": "Недостаточно энергии.",
+  "block.rangedpumps.pump.state.redstone": "Не работает из-за сигнала редстоуна.",
+  "block.rangedpumps.pump.state.working": "Сканирование: %d, %d, %d (радиус: %d из %d).",
+  "block.rangedpumps.pump.state.full": "Внутренний резервуар заполнен.",
+  "block.rangedpumps.pump.state.done": "Готово."
+}
