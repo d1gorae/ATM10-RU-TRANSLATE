@@ -1,0 +1,13 @@
+{
+  "betterstrongholds.commands.locate.stronghold": "Вместо этого используйте команду /locate structure betterstrongholds:stronghold!",
+  "Use /locate structure betterstrongholds:stronghold instead!": "Вместо этого используйте команду /locate structure betterstrongholds:stronghold!",
+  "text.autoconfig.betterstrongholds-fabric-1_21.title": "YUNG's Better Strongholds",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds": "YUNG's Better Strongholds",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general": "Основные настройки",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.@Tooltip": "Основные настройки.",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin": "Разрушение структуры",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin.@Tooltip[0]": "Позволяет небольшим узким пещерам частично разрушать крепости.",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.enableStructureRuin.@Tooltip[1]": "Большие пещеры при этом не влияют на крепости.",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.filledPortalFrameChance": "Шанс появления заполненной рамки портала",
+  "text.autoconfig.betterstrongholds-fabric-1_21.option.betterStrongholds.general.filledPortalFrameChance.@Tooltip": "Вероятность того, что блок рамки портала в Край изначально появится с оком Края."
+}
