@@ -355,7 +355,7 @@
 	]
 	quest.4F77EDCEB49EB67F.quest_subtitle: "Сложные проценты, версия с кровью"
 	quest.4F77EDCEB49EB67F.title: "Усиливаем руны"
-	quest.538E28637FF76912.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\\\n\\\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\\\n\\\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
+	quest.538E28637FF76912.quest_desc: ["Этот квест создан &6командой AllTheMods&r или &2участником сообщества&r для сборок AllTheMods. Все сборки &6AllTheMods&r распространяются на условиях &eAll Rights Reserved&r, поэтому без явного разрешения команды этот квест нельзя использовать в публичных сборках, не выпущенных AllTheMods. Квест намеренно скрыт; если вы его видите, значит, включён режим редактирования."]
 	quest.538E28637FF76912.title: "AllRightsReserved"
 	quest.54AB11938676D4C7.quest_desc: [
 		"Этот рабочий стол удваивает обычные руды при обработке реагентами: железо, золото, медь и другие руды на входе — двойной выход."
