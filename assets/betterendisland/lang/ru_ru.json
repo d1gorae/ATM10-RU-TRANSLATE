@@ -1,0 +1,15 @@
+{
+  "text.autoconfig.betterendisland-fabric-1_21.title": "YUNG's Better End Island",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg": "Дракон роняет яйцо после повторного призыва",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.resummonedDragonDropsEgg.@Tooltip": "Роняет ли дракон Края яйцо каждый раз после победы над ним",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform": "Создавать стандартную обсидиановую платформу",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaSpawnPlatform.@Tooltip": "Создавать в Крае стандартную обсидиановую платформу вместо обновлённой",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways": "Создавать стандартные врата Края",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.useVanillaEndGateways.@Tooltip": "Создавать в Крае стандартные врата вместо обновлённых",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound": "Воспроизводить звон колокола",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.playBellSound.@Tooltip": "Воспроизводить звон колокола перед первым призывом дракона Края и при его повторном призыве",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially": "Создавать центральную башню при генерации мира",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerInitially.@Tooltip": "Создавать центральную башню в Крае при первой генерации мира",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon": "Восстанавливать центральную башню при повторном призыве",
+  "text.autoconfig.betterendisland-fabric-1_21.option.general.spawnCentralTowerOnResummon.@Tooltip": "Восстанавливать центральную башню в Крае при повторном призыве дракона Края"
+}
