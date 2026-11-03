@@ -1,0 +1,10 @@
+{
+  "blockui.container_gui.client_side_only": "Содержимое контейнера видно только при игре на интегрированном сервере (одиночная игра без LAN).",
+  "blockui.container_gui.empty": "Контейнер пуст.",
+  "blockui.tooltip.item_additional_info": "Удерживайте %s, чтобы увидеть дополнительную информацию",
+  "blockui.tooltip.properties": "Свойства состояния блока:",
+  "blockui.config.default.boolean": "[По умолчанию: %s]",
+  "blockui.config.default.string": "[По умолчанию: %s]",
+  "blockui.config.default.enum": "[По умолчанию: %s, значения: %s]",
+  "blockui.config.default.number": "[По умолчанию: %s, мин.: %s, макс.: %s]"
+}
