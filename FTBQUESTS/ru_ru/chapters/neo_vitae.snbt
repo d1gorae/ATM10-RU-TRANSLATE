@@ -69,30 +69,30 @@
 	quest.16F8403D1836717A.quest_subtitle: "Стрелам здесь не рады"
 	quest.16F8403D1836717A.title: "Кровавый барьер"
 	quest.18CD5EBD9682E855.quest_desc: [
-		"Tier IV runes bend the numbers hard: Speed IV, Capacity IV, sacrifice multipliers."
+		"Руны четвёртого уровня значительно усиливают характеристики: скорость IV, вместимость IV и множители жертвоприношения."
 		""
-		"Cost of entry rises with the payoff."
+		"Чем выше уровень, тем дороже его получить."
 	]
 	quest.18CD5EBD9682E855.quest_subtitle: "Speed IV, Capacity IV"
 	quest.18CD5EBD9682E855.title: "Уровень IV: четвёртое кольцо"
 	quest.19891A8F26FBAB0A.quest_desc: [
-		"The &6Divination Sigil&r reads your altar and your Anima out loud: fill level, current work, what the altar lacks."
+		"&6Сигил предвидения&r рассказывает о состоянии алтаря и Анимы: уровне заполнения, текущем процессе и недостающих ресурсах."
 		""
-		"Carry one while you learn the system."
+		"Носите его с собой, пока осваиваете систему."
 	]
 	quest.19891A8F26FBAB0A.quest_subtitle: "The gossip sigil"
 	quest.19891A8F26FBAB0A.title: "Взгляд массива"
 	quest.1B6642BBDAEB2BD5.quest_desc: [
-		"The &6Veneficus Orb&r raises the ceiling to &l150,000 EV&r. Rituals and Athanor work get expensive fast from here."
+		"&6Сфера Veneficus&r увеличивает запас до &l150 000 EV&r. Ритуалы и работа Атанора с этого момента становятся значительно дороже."
 		""
-		"Keep harvesting; the old orbs still fill fine."
+		"Продолжайте собирать ресурсы: старые сферы всё ещё можно использовать для наполнения."
 	]
 	quest.1B6642BBDAEB2BD5.quest_subtitle: "Six figures"
 	quest.1B6642BBDAEB2BD5.title: "Сфера мага"
 	quest.1BBABB2106D321A4.quest_desc: [
-		"Seat your orb in an &6Orb Filling Link&r beside the altar and the network charges your Anima continuously."
+		"Установите сферу в &6связующее звено наполнения сферы&r рядом с алтарём, и сеть будет непрерывно заряжать вашу Аниму."
 		""
-		"The hands-free way to keep rituals fed. Optional."
+		"Так можно поддерживать ритуалы без постоянного участия. Необязательно."
 	]
 	quest.1BBABB2106D321A4.quest_subtitle: "Hands-free soul charging"
 	quest.1BBABB2106D321A4.title: "Связующее звено сферы"
@@ -379,23 +379,23 @@
 	quest.56983FF3D82AF789.quest_subtitle: "Буквально дешёвые трюки"
 	quest.56983FF3D82AF789.title: "Несовершенные ритуалы"
 	quest.56DDCB2865CEB9D3.quest_desc: [
-		"The &6Spiritus Aura Gauge&r projects the chunk's five bars onto your vision while it sits in your inventory."
+		"&6Индикатор ауры Spiritus&r отображает пять шкал чанка, пока находится в вашем инвентаре."
 		""
-		"Sneak for exact numbers: Raw, Ruina, Invictus, Nihilum, Vindicta, 0 to 100 each."
+		"Присядьте, чтобы увидеть точные значения: Raw, Ruina, Invictus, Nihilum и Vindicta — от 0 до 100 каждое."
 	]
 	quest.56DDCB2865CEB9D3.quest_subtitle: "Five bars, no signal"
 	quest.56DDCB2865CEB9D3.title: "Чтение ауры"
 	quest.56F4E4845B8F12BB.quest_desc: [
-		"With a bound orb, right-click it near the altar to offer your own blood: the basin fills with EV. Away from the altar, the orb stores the offering for later."
+		"Со связанной сферой щёлкните правой кнопкой рядом с алтарём, чтобы предложить собственную кровь: чаша наполнится EV. Вдали от алтаря сфера сохраняет подношение для последующего использования."
 		""
-		"EV in the basin crafts &6Tabula Rasa&r, the substrate for almost every sigil, and plenty more."
+		"EV в чаше используется для создания &6Tabula Rasa&r — основы почти всех сигилов, а также множества других предметов."
 	]
 	quest.56F4E4845B8F12BB.quest_subtitle: "Blood into power"
 	quest.56F4E4845B8F12BB.title: "Чистый лист"
 	quest.5785D68A5F1ED2D2.quest_desc: [
-		"&6Tau&r grows only in the Demon Realm: Tau Fruit, Saturated Tau and Tau Oil all come from inside."
+		"&6Тау&r растёт только в Демоническом измерении: плоды тау, насыщенный тау и масло тау можно получить лишь там."
 		""
-		"It feeds the incense garden and mid-tier alchemy. Harvest it while you are down there."
+		"Они нужны саду благовоний и алхимии среднего уровня. Собирайте их, пока находитесь в измерении."
 	]
 	quest.5785D68A5F1ED2D2.quest_subtitle: "Demon fruit, best fruit"
 	quest.5785D68A5F1ED2D2.title: "Урожай тау"
@@ -469,21 +469,21 @@
 	quest.6171A7D347B9DFF4.quest_subtitle: "Узнайте цену заранее"
 	quest.6171A7D347B9DFF4.title: "Взгляд дивинатора"
 	quest.62341583003C250F.quest_desc: [
-		"A &6Daemonium Doloris&r stalks the deeper corridors: the pain-bringer, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Doloris&r выслеживает путников в глубинных коридорах. Это демон боли, один из десяти обитателей измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
 	quest.62341583003C250F.quest_subtitle: "One of the realm's ten"
 	quest.62341583003C250F.title: "Daemonium Doloris"
 	quest.62F71D88F1ED68B8.quest_desc: [
-		"Ten daemonium species stalk the realm, one per aspect and mood: Animaris, Cruoris, Doloris and the rest, each drops its own loot."
+		"В измерении обитают десять видов демониумов, каждый связан со своим аспектом и характером: Animaris, Cruoris, Doloris и другие. Каждый оставляет собственную добычу."
 		""
-		"The Bestiary page lists what each one guards. Optional field guide."
+		"В бестиарии указано, что охраняет каждый вид. Необязательный справочник."
 	]
 	quest.62F71D88F1ED68B8.quest_subtitle: "Ten flavors of trouble"
 	quest.62F71D88F1ED68B8.title: "Знакомьтесь: демониумы"
 	quest.63BEB615CC08733D.quest_desc: [
-		"A &6Daemonium Fervidis&r stalks the deeper corridors: the fervent one, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Fervidis&r выслеживает путников в глубинных коридорах. Это пылкий демон, один из десяти обитателей измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
 	quest.63BEB615CC08733D.quest_subtitle: "One of the realm's ten"
 	quest.63BEB615CC08733D.title: "Daemonium Fervidis"
