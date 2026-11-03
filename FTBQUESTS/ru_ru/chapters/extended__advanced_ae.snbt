@@ -109,94 +109,68 @@
 	quest.3FE739EA7E297DF3.quest_desc: ["Расширенные устройства — это варианты устройств AE2 с большей ёмкостью, повышенной скоростью или и тем и другим. \\n\\nНапример, расширенный поставщик шаблонов имеет 36 слотов — в четыре раза больше обычного. \\n\\nРасширенные шины импорта и экспорта примерно в восемь раз быстрее обычных и поддерживают больше улучшений. \\n\\nПоскольку большинство из них — просто улучшенные версии базовых устройств, отдельный квест для каждого не нужен."]
 	quest.3FE739EA7E297DF3.title: "Быстрее и вместительнее: расширенные устройства"
 	quest.411A463E98C3B102.quest_desc: [
-		"Some ingredients you'll need to make the Quantum Computer, Crafter, and Armor."
+		"Некоторые ингредиенты для квантового компьютера, автокрафтера и брони."
 		""
-		"Shattered Singularity is made with a Singularity, 2 Ender Dust, 2 Sky Stone Dust, and 100 mB of Lava in a Reaction Chamber."
+		"Разрушенная сингулярность создаётся в реакционной камере из сингулярности, двух единиц эндер-пыли, двух единиц пыли небесного камня и 100 мБ лавы."
 		""
-		"1 bucket of Quantum Infusion is made with 4 buckets of Water and a Quantum Infused Dust, which is obtained by crushing the Shattered Singularity in an Inscriber or Mekanism Crusher."
+		"Ведро квантового настоя получается из четырёх вёдер воды и квантового инфузионного порошка, который можно получить дроблением разрушенной сингулярности в печатном прессе или дробилке Mekanism."
 		""
-		"Quantum Infused Alloy is made with 1 bucket of Quantum Infusion, 4 Copper Ingots, 4 Shattered and 4 regular Singularities."
+		"Квантовый инфузионный сплав создаётся из ведра настоя, четырёх медных слитков, четырёх разрушенных и четырёх обычных сингулярностей."
 	]
 	quest.411A463E98C3B102.title: "Квантовые ингредиенты"
 	quest.4818C8387C0DBBE7.quest_desc: [
-		"ExtendedAE is an addon for Applied Energistics 2, focused on adding improved versions of various devices, and bringing back some features from older versions of AE2."
+		"ExtendedAE — дополнение для Applied Energistics 2, добавляющее улучшенные версии устройств и возвращающее некоторые возможности старых версий AE2."
 		""
-		"To get started, get a Fluix Block."
+		"Для начала получите блок флюкса."
 	]
 	quest.4818C8387C0DBBE7.title: "ExtendedAE"
 	quest.48357A7486125C52.quest_desc: [
-		"Tired of the slow speed of the Inscriber?"
+		"Устали от медленной работы печатного пресса?"
 		""
-		"We present the Circuit Slicer! It can slice blocks such as Gold Blocks into circuits, making up to 9 circuits at a time (or 4 in the case of certus or entro)."
+		"Представляем резак схем! Он разрезает блоки, например золотые, на схемы — до 9 штук за раз (или 4 для сертификатных и энтро-кристаллов)."
 		""
-		"The glass faces of the Circuit Slicer that don't have a port can't connect to an ME Network."
+		"Стеклянные стороны резака без порта не подключаются к сети ME."
 	]
-	quest.48357A7486125C52.title: "Blocks to Circuits: The Circuit Slicer"
+	quest.48357A7486125C52.title: "Из блоков в схемы: резак схем"
 	quest.4AC3EA41234BC5F0.quest_subtitle: "+20 Max HP"
 	quest.52CD31F48715B17C.quest_desc: [
-		"The ME Wireless Connector can be used to connect two points of an ME Network wirelessly, similarly to the Quantum Bridge. Unlike the Quantum Bridge, it can only connect to Wireless Connectors up to about 1000 blocks away, and cannot connect across dimensions."
+		"Беспроводной соединитель ME позволяет связывать две точки сети ME без проводов, как квантовый мост. Но он работает только с другими беспроводными соединителями на расстоянии примерно до 1000 блоков и не соединяет разные измерения."
 		""
-		"&lTo set up a connection, use a Wireless Setup Kit on the two Wireless Connectors you want to link.&r"
+		"&lЧтобы установить связь, примените комплект настройки беспроводной связи к двум соединителям, которые нужно связать.&r"
 		""
-		"You can also change the color of a Wireless Connector with the Color Applicator. This will make it not connect to cables or Wireless Connectors of a different color."
+		"Цвет соединителя можно изменить аппликатором цвета. Соединители разных цветов не подключаются к кабелям и друг к другу."
 	]
 	quest.52CD31F48715B17C.title: "Связь на расстоянии: беспроводной соединитель"
 	quest.534D827A628907F4.quest_desc: [
-		"The Extended Pattern Access Terminal works the same as the regular Pattern Access Terminal, but with 3 additional features."
+		"Расширенный терминал доступа к шаблонам работает как обычный, но имеет три дополнительные функции."
 		""
-		"&l&nImproved Pattern Search&r"
+		"&l&nУлучшенный поиск шаблонов&r"
 		""
-		"You can search for a pattern by input/output ingredients' name."
+		"Можно искать шаблоны по названиям входных и выходных ингредиентов."
 		""
-		"&l&nPattern Highlight&r"
+		"&l&nПодсветка шаблонов&r"
 		""
-		"Sometimes, due to how patterns are displayed in a group, it is still hard to find the pattern you are looking for. With this terminal, the pattern you are looking for will be highlighted in the GUI."
+		"Иногда из-за группировки шаблонов трудно найти нужный. Этот терминал подсвечивает выбранный шаблон в интерфейсе."
 		""
-		"&l&nPattern Provider In-World Highlight&r"
+		"&l&nПодсветка поставщиков шаблонов в мире&r"
 		""
-		"It can be annoying to find out which of your Pattern Providers are stuck when doing large crafting jobs. The Extended Pattern Access Terminal can highlight the Pattern Providers in world, making it easier to locate it."
+		"При больших заданиях бывает сложно найти поставщиков шаблонов, которые застряли. Терминал подсвечивает их в мире, облегчая поиск."
 	]
-	quest.534D827A628907F4.title: "Улучшенный доступ к шаблонам: расширенный терминал доступа к шаблонам"
-	quest.55DFC96B4CDBFA7D.quest_desc: ["Ядро квантового компьютера — сердце квантового компьютера. Само по себе оно обеспечивает 256M хранилища крафта и 12 потоков сопроцессора. Это единственный блок, способный самостоятельно сформировать квантовый компьютер при подаче питания сверху или снизу, где расположены разъёмы. Но многоблочная конструкция намного мощнее."]
-	quest.55DFC96B4CDBFA7D.title: "Сердце крафта: ядро квантового компьютера"
-	quest.56DE217FEAE3F036.quest_desc: [
-		"The ME Advanced Pattern Provider is a new type of ME Pattern Provider that upgrades a standard or Extended Pattern Provider with the ability to configure the face to which any individual item in a pattern is sent to. This allows for automation of machines that require specific sides for specific inputs to be done with a single block and no pipes or a subnet, such as with the Metallurgic Infuser from Mekanism."
-		""
-		"To make use of this feature, you need an Advanced Pattern Encoder, to decide which side of the machine to send each ingredient."
+	quest.534D827A628907F4.title: "Улучшенный доступ к шаблонам: расширенный терминал"
+	quest.55DFC96B4CDBFA7D.quest_desc: [
+		"Ядро квантового компьютера — его сердце. Само по себе оно даёт 256M хранилища крафта и 12 потоков сопроцессора. Это единственный блок, который может работать как квантовый компьютер самостоятельно, если подать питание сверху или снизу, где расположены разъёмы. Но многоблочная конструкция значительно мощнее."
 	]
-	quest.56DE217FEAE3F036.quest_subtitle: "Looking at you, Mekanism"
-	quest.56DE217FEAE3F036.title: "Specific Sided Patterns: The Advanced Pattern Provider"
+	quest.56DE217FEAE3F036.quest_subtitle: "Смотрим на тебя, Mekanism"
+	quest.56DE217FEAE3F036.title: "Шаблоны для определённых сторон: расширенный поставщик шаблонов"
 	quest.5E610C059737628B.quest_subtitle: "Up to +3 Step Height"
 	quest.6033ABA2088BA70C.quest_subtitle: "No Flight Drift"
 	quest.6559C57A1A476489.quest_subtitle: "+5 Attack Speed"
-	quest.658DEAAD1E68E549.quest_desc: ["These blocks expand the crafting storage of the Quantum Core. They effectively increase the amount of concurrent tasks the Quantum Computer is able to run. They are also required to make a Quantum Computer Core."]
-	quest.658DEAAD1E68E549.title: "Massive Crafting Storage: The Quantum Computer Storage"
-	quest.67C7EF299BEC37DE.quest_subtitle: "Creative Flight"
-	quest.763A19067AEEF6D5.quest_subtitle: "+2 Luck"
-	quest.7725CB7D0AE55180.quest_desc: [
-		"Advanced AE is an addon for Applied Energistics 2, that focuses on improving user experience whenever you handle your ME System and expanding the possibilities of end game systems."
-		""
-		"From a Pattern Provider that can push to specific sides of a machine, to a multiblock computer that is capable of running unlimited crafting jobs, sharing co-processors among said crafts, and anything in between."
+	quest.658DEAAD1E68E549.quest_desc: [
+		"Эти блоки увеличивают хранилище крафта квантового ядра. Благодаря им квантовый компьютер может одновременно выполнять больше заданий. Они также необходимы для создания ядра квантового компьютера."
 	]
 	quest.7725CB7D0AE55180.title: "Advanced AE"
-	quest.78215D704E6095B0.quest_desc: ["You think &5&lMekanism&r and &l&7Modern Industrialization&r can have all the fun with their end game armor sets? \\n\\nThis &5Quantum Armor&r has default stats similar to &cNetherite Armor&r but, like the &aMekaSuit&r it can use Energy as a shield. \\nIt also has upgrades which can be installed to make you even more powerful! Like Flight, Night Vision, and even the ability to recharge. \\n\\nBut the best part is that it can Linked to your Storage System! Then, you can automatically take Energy out from it and take out any Item from it no matter where you are. \\n\\nFurthermore, wearing the full set can prevent &aRadiation&r from killing you."]
-	quest.78215D704E6095B0.quest_subtitle: "Won't make you fully invincible"
-	quest.78215D704E6095B0.title: "ME System As Armor: The Quantum Armor"
-	quest.7900A4836CC55428.quest_desc: [
-		"The Assembler Matrix is a multiblock that can effectively contain multiple Molecular Assemblers and Pattern Providers, all in one channel."
-		""
-		"The Assembler Matrix must be at least a 3x3x3 cuboid and up to a 7x7x7 cuboid. It requires the following parts:"
-		"- Edges composed of Assembler Matrix Frames"
-		"- Faces composed of Assembler Matrix Wall/Glass"
-		"- Interior composed of Assembler Matrix Pattern/Craft/Speed Core"
-		""
-		"A valid Assembler Matrix must contain at least one pattern core and craft core. It must be completely filled and can't be hollow. When the Assembler Matrix is correctly formed and powered, the lines on the frame will turn blue."
-		""
-		"{@pagebreak}"
-		""
-		"In this example, we will be making a 7x7x7 Assembler Matrix, focused mainly on balance between craft and pattern cores."
-		""
-		"Make the first 43 Assembler Matrix Frames and the first 125 Assembler Matrix Walls. I'll give 25 of each as a gift in the rewards for this quest (to reach a total of 68 frames and 150 walls)"
+	quest.78215D704E6095B0.quest_desc: [
+		"Думаете, только &5&lMekanism&r и &l&7Modern Industrialization&r могут похвастаться бронёй поздней игры? Эта &5квантовая броня&r по умолчанию похожа по характеристикам на &cнезеритовую броню&r, но, как и &aмека-костюм&r, использует энергию в качестве щита. Её можно улучшать, получая полёт, ночное зрение и автоматическую зарядку. Главное — броню можно связать с системой хранения: тогда вы сможете автоматически брать из неё энергию и получать любые предметы из системы, где бы ни находились. Полный комплект также защищает от &aрадиации&r."
 	]
 	quest.7900A4836CC55428.quest_subtitle: "Many Molecular Assemblers and Pattern Providers in One Channel"
 	quest.7900A4836CC55428.title: "Many Assemblers In One: The Assembler Matrix"
