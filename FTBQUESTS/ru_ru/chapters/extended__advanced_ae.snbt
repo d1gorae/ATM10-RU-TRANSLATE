@@ -72,7 +72,7 @@
 		""
 		"It is also an ingredient for the ATM Star."
 	]
-	quest.1A20BBBAFBEDF911.title: "Co-Processing To Infinity: Quantum Computer Multi-Threader"
+	quest.1A20BBBAFBEDF911.title: "До бесконечности потоков: многопоточный блок квантового компьютера"
 	quest.1A815711703E4A24.quest_desc: ["Этот квест создан &6командой AllTheMods&r или &2участником сообщества&r для сборок AllTheMods. Все сборки &6AllTheMods&r распространяются на условиях &eAll Rights Reserved&r, поэтому без явного разрешения команды этот квест нельзя использовать в публичных сборках, не выпущенных AllTheMods. Квест намеренно скрыт; если вы его видите, значит, включён режим редактирования."]
 	quest.1B90B94D07BBDD09.quest_desc: [
 		"To make all these ExtendedAE devices, a Crafting Table's hammer and pliers won't cut it."
@@ -85,11 +85,11 @@
 		""
 		"The face that has a screen can't connect to an ME Network."
 	]
-	quest.1B90B94D07BBDD09.title: "Complex Crafter: The Crystal Assembler"
+	quest.1B90B94D07BBDD09.title: "Сложный крафт: кристальный сборщик"
 	quest.1E535784A9D3DE89.quest_desc: ["Это устройства ExtendedAE, для работы которых не нужны энтро-кристаллы."]
 	quest.27FC0C092EE00532.quest_desc: ["ME-консервировщик наполняет или опустошает ёмкости с жидкостями, химикатами или энергией — вёдра, химические резервуары и другие контейнеры. Если используется шаблон, наполненные ёмкости автоматически отправляются поставщикам шаблонов."]
 	quest.27FC0C092EE00532.quest_subtitle: "not to be confused with the me caner"
-	quest.27FC0C092EE00532.title: "Can this Liquid: The ME Canner"
+	quest.27FC0C092EE00532.title: "Для чего эта жидкость? ME-консервировщик"
 	quest.2E61219FC0BAB675.quest_subtitle: "Up to +5 Reach"
 	quest.3347CB6478F486C6.quest_subtitle: "Cell Workbench Wherever You Go"
 	quest.34FBD04361657724.quest_desc: [
@@ -102,25 +102,25 @@
 		"&aBudding Entroized Fluix&r will always drop &lone &r&aEntro Dust&r when broken, regardless of the state it's in. Entro Buds will drop Entro Shards when they aren't fully grown."
 	]
 	quest.34FBD04361657724.quest_subtitle: "not to be confused with time crystals"
-	quest.34FBD04361657724.title: "The Crystals of Space and Time: Entro Crystals"
+	quest.34FBD04361657724.title: "Кристаллы пространства и времени: энтро-кристаллы"
 	quest.3621155A4138EBCA.quest_desc: [
 		"The Void Cell needs to be partitioned (filtered) in a Cell Workbench before using. It will delete anything that enters the ME system that matches the filter (assuming the void cell is prioritized), or condenses them into Matter Balls or Singularities, similarly to the Matter Condenser."
 		""
 		"Right click it to open the configuration GUI."
 	]
-	quest.3621155A4138EBCA.title: "Matter Condenser in a Cell: The Void Cell"
+	quest.3621155A4138EBCA.title: "Конденсатор материи в ячейке: пустотная ячейка"
 	quest.36FB694262102CFD.quest_desc: [
 		"ExtendedAE offers a new type of cell, the Infinity Cell."
 		""
 		"These cells provide a limitless supply of a certain type of resource, such as Water, Cobblestone, Lava, etc."
 	]
 	quest.36FB694262102CFD.quest_subtitle: "The Sink but in cell form"
-	quest.36FB694262102CFD.title: "More Resources than you ever need: Infinity Cells"
+	quest.36FB694262102CFD.title: "Больше ресурсов, чем нужно: ячейки бесконечности"
 	quest.38D0BBD5F699EF41.quest_desc: ["Позволяет квантовой броне заряжаться от энергии сети ME при подключении к точке беспроводного доступа. В квантовом нагруднике оно также заряжает предметы в инвентаре. При наличии ячеек FE в сети устройство может забирать энергию из них."]
 	quest.3916B48D7F294932.quest_desc: ["Беспроводной концентратор ME — улучшенная версия беспроводного соединителя ME. Он подключается к восьми соединителям или концентраторам, но передаёт не более 32 каналов."]
-	quest.3916B48D7F294932.title: "Branches of Connections: The Wireless Hub"
+	quest.3916B48D7F294932.title: "Ветвящиеся соединения: беспроводной концентратор"
 	quest.3972EE0ECB215843.quest_desc: ["Extended AE и Advanced AE — дополнения для Applied Energistics 2, улучшающие игровой процесс и добавляющие усовершенствованные версии устройств."]
-	quest.3972EE0ECB215843.title: "Extended \\& Advanced AE"
+	quest.3972EE0ECB215843.title: "Extended & Advanced AE"
 	quest.3B3F1DE1AF6EBC1E.quest_subtitle: "+10 Strength"
 	quest.3CF32F2314839B1D.quest_desc: [
 		"Getting tired of your budding Certus Quartz and Entroized Fluix decaying? We can fix it! With this Crystal Fixer, you can fix Budding Certus Crystals with Charged Certus Quartz, and Entroized Fluix with Ender Dust."
@@ -229,9 +229,9 @@
 		"Make the first 43 Assembler Matrix Frames and the first 125 Assembler Matrix Walls. I'll give 25 of each as a gift in the rewards for this quest (to reach a total of 68 frames and 150 walls)"
 	]
 	quest.7900A4836CC55428.quest_subtitle: "Many Molecular Assemblers and Pattern Providers in One Channel"
-	quest.7900A4836CC55428.title: "Many Assemblers In One: The Assembler Matrix"
+	quest.7900A4836CC55428.title: "Улучшение квантовой брони"
 	quest.7E35ED5B30697722.quest_desc: ["Хотите собрать идеальный квантовый компьютер? Вот конфигурация, рассчитанная на максимальное число потоков сопроцессора. \\n\\nНужно 218 блоков структурного стекла квантового компьютера, 123 квантовых ускорителя, одно ядро и один многопоточный блок. В сумме получится 8928 потоков сопроцессора. Хранилище не учитывается: 256M, которые даёт само ядро, уже достаточно. Квест о запутывателе данных необязателен не просто так. \\n\\nСоберите 200 блоков структурного стекла и 100 ускорителей — остальное я дам вам, ведь я такой же щедрый, как глава Apothic Enchanting!"]
-	quest.7E35ED5B30697722.title: "The Ultimate Quantum Computer"
+	quest.7E35ED5B30697722.title: "Идеальный квантовый компьютер"
 	task.13FF4A021BBF1451.title: "Infinity Cells"
 	task.1854DDA036C8A2BA.title: "Entro Seeds/Combs"
 	task.1B927BD83D40F37D.title: "Non-Entro Things"
