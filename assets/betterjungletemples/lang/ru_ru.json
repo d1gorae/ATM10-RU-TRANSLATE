@@ -1,0 +1,13 @@
+{
+  "Use /locate structure betterjungletemples:jungle_temple instead!": "Вместо этого используйте команду /locate structure betterjungletemples:jungle_temple!",
+  "text.autoconfig.betterjungletemples-fabric-1_21.title": "YUNG's Better Jungle Temples",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples": "YUNG's Better Jungle Temples",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general": "Основные настройки",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.@Tooltip": "Основные настройки",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat": "Совместимость с модами",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.@Tooltip": "Настройки совместимости с модами",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples": "Отключить обычные храмы в джунглях",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "Отключает стандартные храмы в джунглях.",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled": "Включить совместимость с Pick Your Poison",
+  "text.autoconfig.betterjungletemples-fabric-1_21.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "Добавлять ли отравленные дротики PYP в улучшенные храмы в джунглях."
+}
