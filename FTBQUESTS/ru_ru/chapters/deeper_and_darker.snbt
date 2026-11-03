@@ -69,14 +69,14 @@
 	quest.44F9B8F285546B2C.title: "&bЦветущий мох"
 	quest.45C9D975E3731DFE.quest_desc: ["&9Усиленный осколок эха&r — предмет, который создаётся из нескольких компонентов. \\n\\nПервый и самый простой — &7мембрана фантома&r. &7Фантомы&r появляются, если игрок несколько дней не спит; чем больше бессонных ночей, тем больше фантомов. \\n\\nВторой компонент — &9осколок эха&r. Его можно получить разными способами, но проще всего искать в сундуках &6Древних городов&r. \\n\\nПоследний компонент — &9панцирь Хранителя&r, выпадающий после смерти &9&lХранителя&r. Обычно их выпадает больше одного!"]
 	quest.45C9D975E3731DFE.title: "&9Усиленный осколок эха"
-	quest.4A01C5F5DCF32C19.quest_desc: ["&3Элитры души&r работают как обычные &8элитры&r, но обладают дополнительными свойствами."]
+	quest.4A01C5F5DCF32C19.quest_desc: ["&3Элитры души&r работают как обычные &8элитры&r, но имеют повышенную прочность и очки брони. \\n\\nИх нельзя чинить &7мембранами фантома&r, как обычные элитры, однако зачарования на починку работают. Для создания нужны элитры, четыре &3скалковые кости&r от &3Разрушителей&r, два &3порошка души&r от &3скалковых пиявок&r и &3кристалл души&r от &3&lСталкера&r."]
 	quest.4A01C5F5DCF32C19.title: "&3Элитры души"
 	quest.4D57A07592AED307.quest_desc: [
 		"The &3&lStalker&r is a Boss that can be spawned by breaking Ancient Vases. \\n\\nHe has 200 &4Hearts&r and a Boss Bar to keep track. We'll need to kill him to get &3Soul Crystals&r. \\n\\nHe is very fast and does a ton of Damage if he Hits you. Thankfully he is Blind, like the &9&lWarden&r. But he also has an amazing sense of hearing which allows him to hear everything nearby. \\n\\nHe has a few attacks, normally he will just Hit you. Sometimes he might cause an AOE attack and can summon &3Sculk Leeches&r to attack you! \\n\\nHe'll also attack every non-&3Sculk&r Mob."
 		"{image:atm:textures/questpics/deepndark/dnd_stalker.png width:100 height:200 align:center}"
 	]
 	quest.4D57A07592AED307.title: "&3&lStalker"
-	quest.56D41A4605C42EB5.quest_desc: ["&6Crystallized Amber&r spawns within &cOvercast Columns&r. \\n\\nYou'll need Silk Touch to grab them. \\n\\nThey don't do much, but they look pretty!"]
+	quest.56D41A4605C42EB5.quest_desc: ["&6Кристаллизованный янтарь&r встречается в &cПасмурных колоннах&r. \\n\\nДля добычи нужно «Шёлковое касание». \\n\\nПользы немного, зато выглядит красиво!"]
 	quest.56D41A4605C42EB5.title: "&6Crystallized Amber"
 	quest.5866438E5D19AB69.quest_desc: [
 		"&3Sculk Leeches&r can sometimes spawn from broken Ancient Vases. \\n\\nIt acts as a little surprise for you when 2 spawn out! \\n\\nThey only have 2 &4Hearts&r and will attack you despise that. \\n\\nOn death they will drop &3Soul Dust&r."
@@ -88,9 +88,9 @@
 		"{image:atm:textures/questpics/deepndark/dnd_forest.png width:200 height:100 align:center}"
 	]
 	quest.59AF80E8EE17C769.title: "&5Echoing Forest"
-	quest.5C983A41886A2B75.quest_desc: ["To get back to the &2&lOverworld&r, we can leave the same way we came! \\n\\nUse the &9Heart of the Deep&r on a Frame of &8Reinforced Deepslate&r. \\n\\nLuckily we get one of those within the bottom of the &6Ancient Temple&r."]
+	quest.5C983A41886A2B75.quest_desc: ["Чтобы вернуться в &2&lобычный мир&r, можно уйти тем же путём, которым пришли! \\n\\nИспользуйте &9сердце глубин&r на рамке из &8усиленного глубинного сланца&r. \\n\\nК счастью, такая рамка есть в нижней части &6Древнего храма&r."]
 	quest.5C983A41886A2B75.title: "Home, Sweet Home!"
-	quest.5CCF573B67317591.quest_desc: ["&bGlowing Roots&r spawn in &bBlooming Caverns&r. \\n\\nThey can't be Climbed and don't drop Food... I think they are just for decor."]
+	quest.5CCF573B67317591.quest_desc: ["&bСветящиеся корни&r встречаются в &bЦветущих пещерах&r. \\n\\nПо ним нельзя лазить, и еды они не дают… Похоже, они просто для украшения."]
 	quest.5CCF573B67317591.title: "&bGlowing Roots"
 	quest.5E287410EE969244.quest_desc: [
 		"&9Shattered&r spawn in quite a few Biomes in the &3&lOtherside&r. \\n\\nThey act like mini &9&lWardens&r, being Blind relying on &3Sculk&r to find Enemies. They also attack all non-&3Sculk&r Mobs. \\n\\n&9Shattereds&r have 50 &4Hearts&r and pack quite a punch! So careful to not attract too many. \\n\\nIf you can kill them, they'll drop &9Sculk Bones&r. These will be needed for a few Recipes."
@@ -102,16 +102,16 @@
 		"{image:atm:textures/questpics/deepndark/dnd_centipede.png width:100 height:100 align:center}"
 	]
 	quest.60721C9B94B36C24.title: "&3Sculk Centipede"
-	quest.67D38E8A57949B34.quest_desc: ["&3Sculk Jaws&r are Blocks we can find within the &9Deeplands&r. \\n\\nWhen you accidentally walk over them they'll bite you, this drags you down and deals Damage when you are stuck in them. \\n\\nYou can take them by using Silk Touch."]
+	quest.67D38E8A57949B34.quest_desc: ["&3Скалковые челюсти&r — блоки, встречающиеся в &9Глубинных землях&r. \\n\\nЕсли случайно наступить на них, они укусят, затянут вас вниз и нанесут урон, пока вы застряли. \\n\\nИх можно добыть с помощью «Шёлкового касания»."]
 	quest.67D38E8A57949B34.title: "&3Sculk Jaw"
 	quest.68446510A1B0D9B8.quest_desc: [
 		"The &bBlooming Caverns&r are more like Lush Caves than normal Caves. I say that because of the abundance of PLANTS! \\n\\nYou'll find Plants growing from the ceiling to the floor, Plants growing from the floor to the ceiling, Plants growing from the &9Water&r, and Plants not even Growing at all! \\n\\nThe floor is covered in &bBlooming Sculk Stone&r and even &bBlooming Moss&r. \\n\\nThere's even Water Ponds here, the only place you can find &9Water&r in this &3&lDimension&r."
 		"{image:atm:textures/questpics/deepndark/dnd_cave.png width:200 height:100 align:center}"
 	]
 	quest.68446510A1B0D9B8.title: "&bBlooming Caverns"
-	quest.6BB948F44B0950E8.quest_desc: ["&3Sculk Stone&r spawns pretty much everywhere but &cOvercast Columns&r. \\n\\nIt works like normal &7Stone&r, like in every single way. You can smelt Cobbled versions to get &3Sculk Stone&r which can then be made into many other Building Blocks. \\n\\nUnfortunately it can't be used to make Stone Tools though... wait what do you care you killed the &9&lWarden&r! Why do you need Stone Tools?!?!?!"]
+	quest.6BB948F44B0950E8.quest_desc: ["&3Скалковый камень&r встречается почти везде, кроме &cПасмурных колонн&r. \\n\\nОн во всём похож на обычный &7камень&r. Булыжниковую версию можно переплавить в &3скалковый камень&r, а из него создать множество строительных блоков. \\n\\nК сожалению, инструменты из него не сделать… Хотя зачем вам каменные инструменты, если вы уже убили &9&lХранителя&r?!"]
 	quest.6BB948F44B0950E8.title: "&3Sculk Stone"
-	quest.6E38CF6E7360E9CA.quest_desc: ["The &9&lWarden&r will drop quite a few Items but the &9Heart of the Deep&r is most important. \\n\\nWe can use the &9Heart of the Deep&r on a frame of &8Reinforced Deepslate&r to get our Portal to the &3&lOtherside&r. There can't be any Blocks blocking the Portal Frame or else it won't work. \\n\\nHe also drops &9Warden Carapace&r and &9Echo Shards&r, both will be useful for Crafting other Items!"]
+	quest.6E38CF6E7360E9CA.quest_desc: ["&9&lХранитель&r оставляет несколько предметов, но важнее всего &9сердце глубин&r. \\n\\nИспользуйте его на рамке из &8усиленного глубинного сланца&r, чтобы открыть портал в &3&lИной мир&r. Рамка должна быть свободна от блоков, иначе портал не заработает. \\n\\nТакже Хранитель оставляет &9панцирь Хранителя&r и &9осколки эха&r — они пригодятся для создания других предметов."]
 	quest.6E38CF6E7360E9CA.title: "&9Heart of the Deep"
 	quest.6E901EF1CB411088.quest_desc: ["&9Warden Armor&r is direct upgrade to &cNetherite&r. Just use a &9Warden Upgrade Template&r, a &9Reinforced Echo Shard&r, and a piece of &cNetherite Armor&r to make it. \\n\\nEach piece has 1 more Armor Point and 1 more Armor Protection compared to its &cNetherite&r counterpart. \\n\\nNo more Knockback Resistance though. \\n\\nThey atleast look much cooler than &cNetherite&r though! The &9Helmet&r has giant horns like the &9&lWarden&r and the &9Chestplate&r has a heart spot."]
 	quest.6E901EF1CB411088.title: "&9Warden&r Armor"
