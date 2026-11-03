@@ -74,28 +74,28 @@
 		"Cost of entry rises with the payoff."
 	]
 	quest.18CD5EBD9682E855.quest_subtitle: "Speed IV, Capacity IV"
-	quest.18CD5EBD9682E855.title: "Tier IV: The Fourth Ring"
+	quest.18CD5EBD9682E855.title: "Уровень IV: четвёртое кольцо"
 	quest.19891A8F26FBAB0A.quest_desc: [
 		"The &6Divination Sigil&r reads your altar and your Anima out loud: fill level, current work, what the altar lacks."
 		""
 		"Carry one while you learn the system."
 	]
 	quest.19891A8F26FBAB0A.quest_subtitle: "The gossip sigil"
-	quest.19891A8F26FBAB0A.title: "Eyes of the Array"
+	quest.19891A8F26FBAB0A.title: "Взгляд массива"
 	quest.1B6642BBDAEB2BD5.quest_desc: [
 		"The &6Veneficus Orb&r raises the ceiling to &l150,000 EV&r. Rituals and Athanor work get expensive fast from here."
 		""
 		"Keep harvesting; the old orbs still fill fine."
 	]
 	quest.1B6642BBDAEB2BD5.quest_subtitle: "Six figures"
-	quest.1B6642BBDAEB2BD5.title: "The Magician's Orb"
+	quest.1B6642BBDAEB2BD5.title: "Сфера мага"
 	quest.1BBABB2106D321A4.quest_desc: [
 		"Seat your orb in an &6Orb Filling Link&r beside the altar and the network charges your Anima continuously."
 		""
 		"The hands-free way to keep rituals fed. Optional."
 	]
 	quest.1BBABB2106D321A4.quest_subtitle: "Hands-free soul charging"
-	quest.1BBABB2106D321A4.title: "The Orb Link"
+	quest.1BBABB2106D321A4.title: "Связующее звено сферы"
 	quest.1C43D98AB4E51F15.quest_desc: [
 		"&6Алтарь благовоний&r находится в саду из блоков спокойствия. Он даёт эффект &6благословенной жертвы&r, значительно усиливающий ваши подношения."
 		""
@@ -384,21 +384,21 @@
 		"Sneak for exact numbers: Raw, Ruina, Invictus, Nihilum, Vindicta, 0 to 100 each."
 	]
 	quest.56DDCB2865CEB9D3.quest_subtitle: "Five bars, no signal"
-	quest.56DDCB2865CEB9D3.title: "Reading the Aura"
+	quest.56DDCB2865CEB9D3.title: "Чтение ауры"
 	quest.56F4E4845B8F12BB.quest_desc: [
 		"With a bound orb, right-click it near the altar to offer your own blood: the basin fills with EV. Away from the altar, the orb stores the offering for later."
 		""
 		"EV in the basin crafts &6Tabula Rasa&r, the substrate for almost every sigil, and plenty more."
 	]
 	quest.56F4E4845B8F12BB.quest_subtitle: "Blood into power"
-	quest.56F4E4845B8F12BB.title: "The Blank Slate"
+	quest.56F4E4845B8F12BB.title: "Чистый лист"
 	quest.5785D68A5F1ED2D2.quest_desc: [
 		"&6Tau&r grows only in the Demon Realm: Tau Fruit, Saturated Tau and Tau Oil all come from inside."
 		""
 		"It feeds the incense garden and mid-tier alchemy. Harvest it while you are down there."
 	]
 	quest.5785D68A5F1ED2D2.quest_subtitle: "Demon fruit, best fruit"
-	quest.5785D68A5F1ED2D2.title: "The Tau Harvest"
+	quest.5785D68A5F1ED2D2.title: "Урожай тау"
 	quest.58248AF507380501.quest_desc: [
 		"Снимайте зачарования с устаревшего снаряжения и сохраняйте их для повторного использования."
 		""
@@ -480,7 +480,7 @@
 		"The Bestiary page lists what each one guards. Optional field guide."
 	]
 	quest.62F71D88F1ED68B8.quest_subtitle: "Ten flavors of trouble"
-	quest.62F71D88F1ED68B8.title: "Know Your Daemonium"
+	quest.62F71D88F1ED68B8.title: "Знакомьтесь: демониумы"
 	quest.63BEB615CC08733D.quest_desc: [
 		"A &6Daemonium Fervidis&r stalks the deeper corridors: the fervent one, one of the realm's ten."
 		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
@@ -493,7 +493,7 @@
 		"Follow the main line left to right. Quests on the side branches are optional lessons that pay better stories than gear."
 	]
 	quest.65BD73DA55BCC624.quest_subtitle: "It only wants a little"
-	quest.65BD73DA55BCC624.title: "Welcome to Neo Vitae"
+	quest.65BD73DA55BCC624.title: "Добро пожаловать в Neo Vitae"
 	quest.6607F68E3F0B6243.quest_desc: [
 		"A &6Daemonium Glaciaris&r stalks the deeper corridors: the frozen stalker, one of the realm's ten."
 		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
@@ -569,41 +569,41 @@
 		"One tier left after this."
 	]
 	quest.7731623EA92027D9.quest_subtitle: "Five million and counting"
-	quest.7731623EA92027D9.title: "The Archmage's Orb"
+	quest.7731623EA92027D9.title: "Сфера архимага"
 	quest.7AFEB7A91DC8F413.quest_desc: [
 		"Forge the &6Discipulus Orb&r at a Tier I altar. Your Anima capacity jumps from 5,000 to &l25,000 EV&r."
 		""
 		"Bigger offerings, bigger crafts. Keep filling."
 	]
 	quest.7AFEB7A91DC8F413.quest_subtitle: "25,000 reasons to keep going"
-	quest.7AFEB7A91DC8F413.title: "The Apprentice's Orb"
+	quest.7AFEB7A91DC8F413.title: "Сфера ученика"
 	quest.7B293C32824033F9.quest_desc: [
 		"The &6Crystallarium Maleficum&r grows Spiritus Crystals from raw shards fed by the aura."
 		""
 		"The crystal farm that keeps your five aspects stocked."
 	]
 	quest.7B293C32824033F9.quest_subtitle: "Crystal farming, basically"
-	quest.7B293C32824033F9.title: "Activate the Crystallarium Maleficum"
+	quest.7B293C32824033F9.title: "Запустите Crystallarium Maleficum"
 	quest.7C7C061FC04B89FB.quest_desc: [
 		"Refine demonite into &6Hellforged&r parts and ingots: the metal behind the top tools and cells."
 		""
 		"The last material the chapter asks for."
 	]
 	quest.7C7C061FC04B89FB.quest_subtitle: "Top shelf material"
-	quest.7C7C061FC04B89FB.title: "Hellforged Steel"
+	quest.7C7C061FC04B89FB.title: "Адская сталь"
 	quest.7CF9A68167ADAD1A.quest_desc: [
 		"Sacrifice production scales with altar speed runes and your sacrifice bonus."
 		""
 		"Slow blood means slow work; the earlier automation quests fix it. Optional."
 	]
 	quest.7CF9A68167ADAD1A.quest_subtitle: "Speed is a build stat"
-	quest.7CF9A68167ADAD1A.title: "A Sluggish Heart Serves No One"
+	quest.7CF9A68167ADAD1A.title: "Усиление жертвоприношения"
 	quest.7FEB1850709B6C3B.quest_desc: [
 		"A &6Daemonium Corrodis&r stalks the deeper corridors: the corroder, one of the realm's ten."
 		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
 	]
 	quest.7FEB1850709B6C3B.quest_subtitle: "One of the realm's ten"
-	quest.7FEB1850709B6C3B.title: "Daemonium Corrodis"
+	quest.7FEB1850709B6C3B.title: "Ритуальная сеть"
 	task.0288CB407D31C889.title: "Step into the Endless Realm"
 	task.1FF3177703E8A956.title: "Seat the third ring of runes"
 	task.29A4F7568EC9A669.title: "Forge a Greater Spiritus Gem"
