@@ -74,33 +74,15 @@
 	]
 	quest.1A20BBBAFBEDF911.title: "Co-Processing To Infinity: Quantum Computer Multi-Threader"
 	quest.1A815711703E4A24.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
-	quest.1B90B94D07BBDD09.quest_desc: [
-		"To make all these ExtendedAE devices, a Crafting Table's hammer and pliers won't cut it."
-		""
-		"It's time we upgrade to the Crystal Assembler, a machine capable of handling these complex operations."
-		""
-		"With these, you can assemble the various devices of ExtendedAE."
-		""
-		"These are also capable of handling In-World Reactions, but not quite as well as the Reaction Chamber, and also capable of assembling processors, 4 at a time."
-		""
-		"The face that has a screen can't connect to an ME Network."
-	]
+	quest.1B90B94D07BBDD09.quest_desc: ["Для создания устройств ExtendedAE обычных молотка и плоскогубцев из верстака уже недостаточно. \\n\\nПора перейти на кристальный сборщик — машину, способную выполнять более сложные операции. \\n\\nС его помощью можно собирать различные устройства ExtendedAE. Он также выполняет внутриигровые реакции, хотя и хуже реакционной камеры, и собирает процессоры по четыре за раз. \\n\\nСторона с экраном не подключается к сети ME."]
 	quest.1B90B94D07BBDD09.title: "Complex Crafter: The Crystal Assembler"
-	quest.1E535784A9D3DE89.quest_desc: ["These are things from ExtendedAE that don't require Entro Crystals."]
-	quest.27FC0C092EE00532.quest_desc: ["The ME Canner can fill or empty containers that can contain fluids, chemicals, energy, such as buckets, chemical tanks, and more. It automatically outputs to pattern providers if a pattern is used to fill them."]
+	quest.1E535784A9D3DE89.quest_desc: ["Это устройства ExtendedAE, для работы которых не нужны энтро-кристаллы."]
+	quest.27FC0C092EE00532.quest_desc: ["ME-консервировщик может наполнять и опустошать ёмкости с жидкостями, химикатами или энергией: вёдра, химические резервуары и другие контейнеры. Если используется шаблон, заполненные контейнеры автоматически отправляются поставщикам шаблонов."]
 	quest.27FC0C092EE00532.quest_subtitle: "not to be confused with the me caner"
 	quest.27FC0C092EE00532.title: "Can this Liquid: The ME Canner"
 	quest.2E61219FC0BAB675.quest_subtitle: "Up to +5 Reach"
 	quest.3347CB6478F486C6.quest_subtitle: "Cell Workbench Wherever You Go"
-	quest.34FBD04361657724.quest_desc: [
-		"Throughout ExtendedAE, you will often be using &aEntro Crystals &ras a resource."
-		""
-		"To get the &aEntro Crystal&r, you will need a Fluix Block and an Entro Seed. Right click the Fluix Block with the Entro Seed."
-		""
-		"This will create &aBudding Entroized Fluix&r, which will, similarly to Budding Certus Quartz, grow Entro Buds around it. Unlike with Certus, its decay is inevitable."
-		""
-		"&aBudding Entroized Fluix&r will always drop &lone &r&aEntro Dust&r when broken, regardless of the state it's in. Entro Buds will drop Entro Shards when they aren't fully grown."
-	]
+	quest.34FBD04361657724.quest_desc: ["В ExtendedAE вам часто понадобится &aэнтрo-кристалл&r. \\n\\nДля его получения нужны блок флюкса и энтро-семя. Щёлкните семенем правой кнопкой по блоку флюкса. \\n\\nТак получится &aрастущий энтроизированный флюкс&r, который, как и растущий сертификатный кварц, выращивает энтро-бутончики вокруг себя. Но в отличие от сертификатного кварца, он неизбежно разрушается. \\n\\nПри разрушении растущий энтроизированный флюкс всегда даёт ровно одну &aэнтро-пыль&r независимо от стадии роста. Незрелые энтро-бутончики дают осколки энтро."]
 	quest.34FBD04361657724.quest_subtitle: "not to be confused with time crystals"
 	quest.34FBD04361657724.title: "The Crystals of Space and Time: Entro Crystals"
 	quest.3621155A4138EBCA.quest_desc: [
@@ -116,27 +98,15 @@
 	]
 	quest.36FB694262102CFD.quest_subtitle: "The Sink but in cell form"
 	quest.36FB694262102CFD.title: "More Resources than you ever need: Infinity Cells"
-	quest.38D0BBD5F699EF41.quest_desc: ["Allows the Quantum Armor piece to charge from your ME system's energy if linked to a Wireless Access Point. If placed into a Quantum Chestplate, it also recharges items in your inventory. This has a special interaction with AppliedFlux, where, if you have FE Cells in the network, it will extract energy from those."]
-	quest.3916B48D7F294932.quest_desc: ["The ME Wireless Hub is an upgrade to the ME Wireless Connector. It can now connect to 8 different Wireless Connectors or Hubs. Note that the Hub can only transfer 32 channels in total."]
+	quest.38D0BBD5F699EF41.quest_desc: ["Позволяет заряжать элемент квантовой брони от энергии сети ME, если она связана с точкой беспроводного доступа. Если улучшение установлено в квантовый нагрудник, оно также заряжает предметы в инвентаре. Есть особое взаимодействие с AppliedFlux: если в сети есть ячейки FE, устройство будет забирать энергию из них."]
+	quest.3916B48D7F294932.quest_desc: ["Беспроводной концентратор ME — улучшенная версия беспроводного соединителя ME. Он может подключаться к восьми соединителям или концентраторам, но передаёт не более 32 каналов."]
 	quest.3916B48D7F294932.title: "Branches of Connections: The Wireless Hub"
-	quest.3972EE0ECB215843.quest_desc: ["Extended and Advanced AE are addons for Applied Energistics 2. Both of them focus on improving your experience, adding improved versions of various devices, and more."]
+	quest.3972EE0ECB215843.quest_desc: ["Extended AE и Advanced AE — дополнения для Applied Energistics 2. Они улучшают игровой процесс, добавляя усовершенствованные версии различных устройств и другие возможности."]
 	quest.3972EE0ECB215843.title: "Extended \\& Advanced AE"
 	quest.3B3F1DE1AF6EBC1E.quest_subtitle: "+10 Strength"
-	quest.3CF32F2314839B1D.quest_desc: [
-		"Getting tired of your budding Certus Quartz and Entroized Fluix decaying? We can fix it! With this Crystal Fixer, you can fix Budding Certus Crystals with Charged Certus Quartz, and Entroized Fluix with Ender Dust."
-		""
-		"It even has a small chance to make Flawless Budding Certus Quartz."
-	]
+	quest.3CF32F2314839B1D.quest_desc: ["Надоело, что растущие сертификатные кристаллы и энтроизированный флюкс разрушаются? Это можно исправить! Исправитель кристаллов восстанавливает растущие сертификатные кристаллы с помощью заряженного кварца, а энтроизированный флюкс — с помощью эндер-пыли. \\n\\nЕсть даже небольшой шанс получить безупречный растущий сертификатный кварц."]
 	quest.3CF32F2314839B1D.title: "Из блоков в схемы: резак схем"
-	quest.3FE739EA7E297DF3.quest_desc: [
-		"Extended Devices are variants of AE2 devices that either have a higher capacity, are faster, and maybe even both."
-		""
-		"For example: The Extended Pattern Provider has 36 pattern slots, 4 times as many as an ordinary Pattern Provider."
-		""
-		"Or the Extended Export/Import Buses, they work about 8x faster than a regular one, and support more upgrades."
-		""
-		"As most of these are just upgraded versions of the base version, I won't be making separate quests for each individual one."
-	]
+	quest.3FE739EA7E297DF3.quest_desc: ["Расширенные устройства — это варианты устройств AE2 с большей ёмкостью, повышенной скоростью или и тем и другим. \\n\\nНапример, расширенный поставщик шаблонов имеет 36 слотов — в четыре раза больше обычного. \\n\\nРасширенные шины импорта и экспорта примерно в восемь раз быстрее обычных и поддерживают больше улучшений. \\n\\nПоскольку большинство из них — просто улучшенные версии базовых устройств, отдельный квест для каждого не нужен."]
 	quest.3FE739EA7E297DF3.title: "Быстрее и вместительнее: расширенные устройства"
 	quest.411A463E98C3B102.quest_desc: [
 		"Some ingredients you'll need to make the Quantum Computer, Crafter, and Armor."
