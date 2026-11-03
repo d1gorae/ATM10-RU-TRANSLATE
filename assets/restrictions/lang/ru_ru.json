@@ -4,7 +4,7 @@
   "block.restrictions.oneway": "Односторонний блок",
   "block.restrictions.oneway_wall": "Односторонняя стена",
   "item.restrictions.glassboots": "Стеклянные ботинки",
-  "itemGroup.restrictions": "Restrictions",
+  "itemGroup.restrictions": "Ограничения",
   "message.restrictions.shiftmessage": "<Нажмите Shift>",
   "message.restrictions.glassboots.header": "Пока на вас надеты эти ботинки, притягиватель, толкатель и односторонние блоки не действуют.",
   "message.restrictions.attractor.header": "Этот блок притягивает сущности, предметы, существ, игроков и другие объекты с расстояния, зависящего от уровня сигнала редстоуна.",
