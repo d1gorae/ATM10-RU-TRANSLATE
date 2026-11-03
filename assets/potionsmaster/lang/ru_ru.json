@@ -1,0 +1,17 @@
+{
+  "itemGroup.potionsmaster": "Мастер зелий",
+  "item.potionsmaster.charcoal_powder": "Угольный порошок",
+  "item.potionsmaster.pestle": "Пестик",
+  "item.potionsmaster.bezoar": "Безоар",
+  "item.potionsmaster.red_feather": "Красное перо",
+  "item.potionsmaster.ender_powder": "Порошок Энда",
+  "item.potionsmaster.activated_charcoal": "Активированный уголь",
+  "item.potionsmaster.gallbladder": "Жёлчный пузырь белого медведя",
+  "bezoar.effect": "Снимает отравление",
+  "bladder.effect": "Снимает усталость",
+  "charcoal.effect": "Снимает иссушение",
+  "quick.snack": "Быстро съедается!",
+  "block.potionsmaster.tile_mortar": "Ступка",
+  "block.potionsmaster.cauldron": "Котёл",
+  "potionsmaster.tile_mortar": "Ступка"
+}
