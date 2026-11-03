@@ -62,7 +62,7 @@
 		"This machine is also required for Quantum related recipes in Advanced AE."
 	]
 	quest.14FC9E4A3C80C0AE.title: "Ускорение реакций: реакционная камера"
-	quest.18499D33BA12A8A9.quest_desc: ["Ever thought that Formation Planes acting like a Storage Bus was way too unintuitive for automation? Look no further than the Active Formation Plane. It works like an ME Export Bus but it treats the world as its medium. You don't need a subnet for this one."]
+	quest.18499D33BA12A8A9.quest_desc: ["Надоело, что формирующие плоскости работают как шина хранения и плохо подходят для автоматизации? Используйте активную формирующую плоскость. Она похожа на экспортную шину ME, но взаимодействует напрямую с миром. Подсеть не нужна."]
 	quest.18499D33BA12A8A9.quest_subtitle: "GET OUT: Active Edition"
 	quest.18499D33BA12A8A9.title: "Активная установка из сети: активная формирующая плоскость"
 	quest.1A20BBBAFBEDF911.quest_desc: [
@@ -73,7 +73,7 @@
 		"It is also an ingredient for the ATM Star."
 	]
 	quest.1A20BBBAFBEDF911.title: "Co-Processing To Infinity: Quantum Computer Multi-Threader"
-	quest.1A815711703E4A24.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
+	quest.1A815711703E4A24.quest_desc: ["Этот квест создан &6командой AllTheMods&r или &2участником сообщества&r для сборок AllTheMods. Все сборки &6AllTheMods&r распространяются на условиях &eAll Rights Reserved&r, поэтому без явного разрешения команды этот квест нельзя использовать в публичных сборках, не выпущенных AllTheMods. Квест намеренно скрыт; если вы его видите, значит, включён режим редактирования."]
 	quest.1B90B94D07BBDD09.quest_desc: [
 		"To make all these ExtendedAE devices, a Crafting Table's hammer and pliers won't cut it."
 		""
@@ -230,7 +230,7 @@
 	]
 	quest.7900A4836CC55428.quest_subtitle: "Many Molecular Assemblers and Pattern Providers in One Channel"
 	quest.7900A4836CC55428.title: "Many Assemblers In One: The Assembler Matrix"
-	quest.7E35ED5B30697722.quest_desc: ["Ever wanted the ultimate Quantum Computer setup? Well, here's a setup for you, focused on maximizing co-processing threads.\\n\\n218 Quantum Computer Structural Glass, 123 Quantum Computer Accelerators, 1 Quantum Computer Core, and 1 Quantum Computer Multi-Threader are what we need. This gives us a total of 8928 co-processing threads. Note that I did not include any storage here besides the core, as the 256M crafting storage from the core is plenty enough already. The Data Entangler quest is optional for a reason.\\n\\nGet 200 Q.C. Structural Glass and 100 Q.C. Accelerators, and I'll give you the rest, because I'm just as generous as the Apothic Enchanting chapter."]
+	quest.7E35ED5B30697722.quest_desc: ["Хотите собрать идеальный квантовый компьютер? Вот конфигурация, рассчитанная на максимальное число потоков сопроцессора. \\n\\nНужно 218 блоков структурного стекла квантового компьютера, 123 квантовых ускорителя, одно ядро и один многопоточный блок. В сумме получится 8928 потоков сопроцессора. Хранилище не учитывается: 256M, которые даёт само ядро, уже достаточно. Квест о запутывателе данных необязателен не просто так. \\n\\nСоберите 200 блоков структурного стекла и 100 ускорителей — остальное я дам вам, ведь я такой же щедрый, как глава Apothic Enchanting!"]
 	quest.7E35ED5B30697722.title: "The Ultimate Quantum Computer"
 	task.13FF4A021BBF1451.title: "Infinity Cells"
 	task.1854DDA036C8A2BA.title: "Entro Seeds/Combs"
