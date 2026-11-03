@@ -39,38 +39,38 @@
 	quest.1A2EA742FDED54FF.quest_desc: ["&5Эхо-почва&r покрывает землю в &5Эховом лесу&r. \\n\\nВ отличие от обычной &2травы&r и земли, на ней могут расти только &5эховые саженцы&r. \\n\\nОбычные саженцы здесь не растут."]
 	quest.1A2EA742FDED54FF.title: "&5Эхо-почва"
 	quest.1BFE6745F49B4AB0.quest_desc: ["Sculk Gleam has properties of Shroomlights. They don't need a Tool to collect, but break fastest with a Hoe. \\n\\nThey spawn within &5Echoing Trees&r and rarely underground."]
-	quest.201E3E41018F9521.quest_desc: ["&6Gloomy Cacti&r are just like normal &2Cacti&r, just these spawn within &cOvercast Columns&r. \\n\\nI mean they like the Heat, they don't need &9Water&r to grow, they hurt to touch, are there even any differences? \\n\\nOh yeah, these can be Smelted into &6Orange Dye&r instead of &2Green&r!"]
-	quest.201E3E41018F9521.title: "&6Gloomy Cacti"
-	quest.21398F45428CD1D1.quest_desc: ["&6Bloom Berries&r grow from &bGlowing Vines&r on the roof of the &bBlooming Caverns&r. \\n\\nWithin the &bGlowing Vines&r, &6Bloom Berries&r might spawn and will wait for you to pick them off the &bVine&r with Right Click! \\n\\nThis is the only Food Source in the &3&lOtherside&r."]
-	quest.21398F45428CD1D1.title: "&6Bloom Berries"
+	quest.201E3E41018F9521.quest_desc: ["&6Мрачные кактусы&r похожи на обычные &2кактусы&r, но растут в &cПасмурных колоннах&r. \\n\\nИм нравится жара, вода для роста не нужна, а прикосновение ранит — почти никаких отличий! Хотя эти кактусы переплавляются в &6оранжевый краситель&r вместо &2зелёного&r."]
+	quest.201E3E41018F9521.title: "&6Мрачные кактусы"
+	quest.21398F45428CD1D1.quest_desc: ["&6Цветущие ягоды&r растут на &bсветящихся лозах&r под потолком &bЦветущих пещер&r. \\n\\nЯгоды иногда появляются на лозах — нажмите по ним правой кнопкой, чтобы собрать. \\n\\nЭто единственный источник пищи в &3&lИном мире&r."]
+	quest.21398F45428CD1D1.title: "&6Цветущие ягоды"
 	quest.35629CB10DBDE340.quest_desc: [
 		"The &6Ancient Temple&r is the important and necessary Structure found within the &9Deeplands&r. \\n\\nIt looks like a Mayan Pyramid made of &8Deepslate &fand &3Sculk&r. There's tons of &3Sculk Sensors &fand &3Shriekers&r as well as Chests and Ancient Vases. \\n\\nWithin the higher floors you'll find mostly just Chests and Ancient Vases but within the &6Pyramid&r we'll find even &eBlocks of Gold&r and other Materials."
 		"{image:atm:textures/questpics/deepndark/dnd_temple.png width:200 height:100 align:center}"
 	]
-	quest.35629CB10DBDE340.quest_subtitle: "The only structure"
-	quest.35629CB10DBDE340.title: "&6Ancient Temples"
-	quest.36149E69A8C264E4.quest_desc: ["&bIce Lilies&r are Plants that grow on the &9Water Ponds&r within the &bBlooming Caverns&r (I told you it has a lot of Plants). \\n\\nThere's 2 parts to the Plant, the &bLily&r and the &bIce Flower&r. The &bLily Pad&r is what floats on &9Water&r and allows you to walk on it. The &bIce Flower&r lies on top of the &bLily Pad&r and looks pretty!\\n\\nYou'll need Shears to nab them."]
-	quest.36149E69A8C264E4.title: "&bIce Lilies"
-	quest.39100B3867E9C01E.quest_desc: ["&cGloomy Geysers&r are Blocks you can find within &cOvercast Columns&r. \\n\\nWhen you Walk over them they will shoot you high up into the Air! Be careful though, you'll still take Fall Damage. \\n\\nYou can pick them up with Silk Touch."]
-	quest.39100B3867E9C01E.title: "&cGloomy Geyser"
-	quest.39BED5DD9D24F98E.quest_desc: ["&3Sculk Grime&r is &3&lDeeper and Darker's&r version of Clay! \\n\\nYou can find it within a few Biomes and when you mine it you'll get &3Grime Balls&r. \\n\\nThese can then be made back into &3Sculk Grime&r or made into &3Grime Bricks&r."]
-	quest.39BED5DD9D24F98E.title: "&3Sculk Grime"
+	quest.35629CB10DBDE340.quest_subtitle: "Единственная структура"
+	quest.35629CB10DBDE340.title: "&6Древние храмы"
+	quest.36149E69A8C264E4.quest_desc: ["&bЛедяные лилии&r растут в водоёмах &9Цветущих пещер&r (я же говорил, что там полно растений). \\n\\nУ растения две части: &bлилия&r и &bледяной цветок&r. Лист плавает на &9воде&r и позволяет ходить по ней, а цветок сверху просто красиво выглядит! \\n\\nДля сбора нужны ножницы."]
+	quest.36149E69A8C264E4.title: "&bЛедяные лилии"
+	quest.39100B3867E9C01E.quest_desc: ["&cМрачные гейзеры&r — блоки, встречающиеся в &cПасмурных колоннах&r. \\n\\nЕсли пройти по ним, они подбросят вас высоко в воздух. Но будьте осторожны: урон от падения никуда не исчезает. \\n\\nИх можно добыть с зачарованием «Шёлковое касание»."]
+	quest.39100B3867E9C01E.title: "&cМрачный гейзер"
+	quest.39BED5DD9D24F98E.quest_desc: ["&3Скалковая грязь&r — аналог глины в &3&lDeeper and Darker&r! \\n\\nОна встречается в нескольких биомах; при добыче выпадают &3комки грязи&r. \\n\\nИз них можно снова сделать &3скалковую грязь&r или создать &3кирпичи из грязи&r."]
+	quest.39BED5DD9D24F98E.title: "&3Скалковая грязь"
 	quest.3CF2DFB7F0CE065B.quest_desc: [
 		"The &cOvercast Columns&r are much more Hot and &6Orange&r than any other Biome here. \\n\\nHere &3Sculk&r is replaced with &cGloomy Sculk&r and &3Sculk Stone&r is replaced with &cGloomslate&r. \\n\\nYou'll also find Soul Sand/Soil plus &cMagma &fwith &cLava&r beneath them. \\n\\nWith the temperatures being so Hot, Mobs won't normally spawn here, but there is a few Plant life! "
 		"{image:atm:textures/questpics/deepndark/dnd_column.png width:200 height:100 align:center}"
 	]
-	quest.3CF2DFB7F0CE065B.title: "&cOvercast Columns"
+	quest.3CF2DFB7F0CE065B.title: "&cПасмурные колонны"
 	quest.3D579A1F7EFEDD5C.quest_desc: [
 		"The &9&lWarden&r. The most difficult boss in &2&lMinecraft&r, of course being within the most difficult Structure. \\n\\nHe's spawned from a &3Sculk Shrieker&r being activated 3 times, or any amount after the first &9&lWarden&r. \\n\\nHe has 500 &4Hearts&r and does a ton of Damage from either hitting you with his fists or his &bSonic Blast&r! \\n\\nHe does have a weakness though, that being that he is Blind. He can only find you with Sound, or Smell if you are close enough! Keep your distance, like 23 Blocks up."
 		"{image:atm:textures/questpics/gettingstarted/warden_roar.png width:100 height:100 align:center}"
 	]
-	quest.3D579A1F7EFEDD5C.title: "Kill the &9&lWarden&r"
-	quest.44F9B8F285546B2C.quest_desc: ["&bBlooming Moss&r comes from the... you guessed it! &bBlooming Caverns&r! \\n\\nIt will spawn on the ground just waiting for you to collect it. \\n\\nThey don't spread like normal &2Moss&r nor do they have any Recipes."]
-	quest.44F9B8F285546B2C.title: "&bBlooming Moss"
-	quest.45C9D975E3731DFE.quest_desc: ["&9Reinforced Echo Shard&r is a Crafted Item that requires a few Items. \\n\\nFirst, and easiest to obtain are &7Phantom Membrane&r! &7Phantoms&r will spawn after the Player hasn't slept in a few days. The more restless nights, the more &7Phantoms&r! \\n\\nSecond, is the &9Echo Shard&r. These can be found in quite a few ways but easiest is Looting in &6Ancient Cities&r. \\n\\nThe last is the &9Warden Carapaces&r. These are Drops from the &9&lWarden&r on death. Don't worry he usually drops more than one!"]
-	quest.45C9D975E3731DFE.title: "&9Reinforced Echo Shard"
-	quest.4A01C5F5DCF32C19.quest_desc: ["The &3Soul Elytra&r works just like a normal &8Elytra&r, just now with more Durability and Armor Points! \\n\\nThey can't be repaired with &7Phantom Membranes&r like normal &8Elytras&r... but Enchantments can still repair them! \\n\\nTo Craft one you'll need an &8Elytra&r, 4 &3Sculk Bones&r which drop from &3Shattered&r, 2 &3Soul Dust&r which drop from &3Sculk Snappers &for &3Sculk Leeches&r, and a &3Soul Crystal&r which drops from the &3&lStalker&r."]
-	quest.4A01C5F5DCF32C19.title: "&3Soul Elytra"
+	quest.3D579A1F7EFEDD5C.title: "Убейте &9&lХранителя&r"
+	quest.44F9B8F285546B2C.quest_desc: ["&bЦветущий мох&r растёт в… правильно, &bЦветущих пещерах&r! \\n\\nОн появляется на земле и просто ждёт, пока вы его соберёте. \\n\\nОн не распространяется, как обычный &2мох&r, и не имеет рецептов."]
+	quest.44F9B8F285546B2C.title: "&bЦветущий мох"
+	quest.45C9D975E3731DFE.quest_desc: ["&9Усиленный осколок эха&r — предмет, который создаётся из нескольких компонентов. \\n\\nПервый и самый простой — &7мембрана фантома&r. &7Фантомы&r появляются, если игрок несколько дней не спит; чем больше бессонных ночей, тем больше фантомов. \\n\\nВторой компонент — &9осколок эха&r. Его можно получить разными способами, но проще всего искать в сундуках &6Древних городов&r. \\n\\nПоследний компонент — &9панцирь Хранителя&r, выпадающий после смерти &9&lХранителя&r. Обычно их выпадает больше одного!"]
+	quest.45C9D975E3731DFE.title: "&9Усиленный осколок эха"
+	quest.4A01C5F5DCF32C19.quest_desc: ["&3Элитры души&r работают как обычные &8элитры&r, но обладают дополнительными свойствами."]
+	quest.4A01C5F5DCF32C19.title: "&3Элитры души"
 	quest.4D57A07592AED307.quest_desc: [
 		"The &3&lStalker&r is a Boss that can be spawned by breaking Ancient Vases. \\n\\nHe has 200 &4Hearts&r and a Boss Bar to keep track. We'll need to kill him to get &3Soul Crystals&r. \\n\\nHe is very fast and does a ton of Damage if he Hits you. Thankfully he is Blind, like the &9&lWarden&r. But he also has an amazing sense of hearing which allows him to hear everything nearby. \\n\\nHe has a few attacks, normally he will just Hit you. Sometimes he might cause an AOE attack and can summon &3Sculk Leeches&r to attack you! \\n\\nHe'll also attack every non-&3Sculk&r Mob."
 		"{image:atm:textures/questpics/deepndark/dnd_stalker.png width:100 height:200 align:center}"
