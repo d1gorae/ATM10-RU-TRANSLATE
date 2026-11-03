@@ -70,7 +70,7 @@
 	quest.2EDE91023F7924FB.quest_desc: ["Разместите телепортационную панель в &d&lЭнде&r, чтобы отправиться в &5&lЗапределье&r."]
 	quest.2EDE91023F7924FB.title: "&d&lЭнд&r"
 	quest.39B6D9FD21419776.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_vibmage.png width:100 height:175 align:center}"]
-	quest.39B6D9FD21419776.title: "&3Вибраниевая броня мага"
+	quest.39B6D9FD21419776.title: "&3Вибраниумная броня мага"
 	quest.3F8D515D7B81B0E3.quest_desc: [
 		"Ещё один кузнечный шаблон?!?!?! \\n\\nНу, по крайней мере, вам не нужна археология для этого! \\n\\nВам нужно будет получить их, победив испытательные спавнеры, которые находятся в структуре подземелья в &b&lином измерении&r. Точнее, в библиотечных комнатах!\\n"
 		"{image:atm:textures/questpics/allthemodium/all_library.png width:200 height:100 align:center}"
@@ -95,7 +95,7 @@
 	quest.4E737C490DCC5D6C.title: "&5Унобтаниумная броня"
 	quest.552F0B9B00F4F914.quest_desc: ["Этот квест был создан &6командой AllTheMods&r или &2участником сообщества&r для использования в сборках AllTheMods.\\n\\nПоскольку все сборки &6AllTheMods&r защищены лицензией &eВсе права защищены&r, этот квест нельзя использовать в публичных сборках, не выпущенных &6командой AllTheMods&r, без явного разрешения.\\n\\nЭтот квест скрыт по умолчанию - если вы видите это сообщение, значит вы находитесь в режиме редактирования."]
 	quest.558FF21A6BCFE6E8.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_unomage.png width:100 height:175 align:center}"]
-	quest.558FF21A6BCFE6E8.title: "&5Унобтаниевая броня мага"
+	quest.558FF21A6BCFE6E8.title: "&5Унобтаниумная броня мага"
 	quest.5A26738AC904DC39.quest_desc: ["13 слотов для заклинаний!"]
 	quest.5A26738AC904DC39.title: "&6Всемодиевая книга заклинаний"
 	quest.5AAF6CA41209B365.title: "&3Вибраниумные инструменты"
@@ -104,7 +104,7 @@
 	quest.5BA986D7928BF09F.quest_desc: ["Пиглих — это босс, добавленный модом &6&lAllthemodium&r. \\n\\nУ него 1000 сердец, и пока у него нет атак, но поверьте мне, когда они появятся, они будут разрушительными! \\n\\nПосле убийства он выбросит своё сердце, которое понадобится для сплавов и звезды ATM! \\n\\n(Изучите способы их фарма, например, с помощью HNN или EnderIO!)"]
 	quest.5BA986D7928BF09F.title: "Босс Пиглих"
 	quest.5FA68047A3C05E80.quest_desc: ["15 слотов для заклинаний!"]
-	quest.5FA68047A3C05E80.title: "&5Унобтаниевая книга заклинаний"
+	quest.5FA68047A3C05E80.title: "&5Унобтаниумная книга заклинаний"
 	quest.66039B738CF0718A.quest_desc: ["&3Вибраниум&r, объединённый с &6всемодием&r!"]
 	quest.66039B738CF0718A.title: "Слиток &3вибраниумно&r - &6всемодиевого&r сплава"
 	quest.68E6AE1B9EBCEFFF.title: "&3Вибраниумный молот"
@@ -128,7 +128,7 @@
 	]
 	quest.766EEB89C6DF3575.quest_desc: ["Вечная стелла может быть использована для создания неуничтожимого предмета, объединив её с предметом на кузнечном столе. Или вы можете использовать её для создания инструментов из сплавов! \\n\\nСначала вам понадобится кузница 3 уровня с большим количеством материалов. \\n\\nЗатем вам понадобятся 3 эксокаменевших сферы. Чтобы получить их, нужно кормить чёрную дыру предметами. \\n\\nПлюс кусок стелларита, который нужно добыть! И &6слиток всемодия&r, который также нужен."]
 	quest.77AD61FCA9BC9AFB.quest_desc: ["14 слотов для заклинаний!"]
-	quest.77AD61FCA9BC9AFB.title: "&3Вибраниевая книга заклинаний"
+	quest.77AD61FCA9BC9AFB.title: "&3Вибраниумная книга заклинаний"
 	quest.795A860668072830.quest_desc: ["{image:atm:textures/questpics/allthemodium/all_armor_vibarcane.png width:100 height:175 align:center}"]
 	quest.795A860668072830.title: "&3Вибраниумная броня арканиста"
 	quest.7B3613C01F0B1373.quest_desc: [
@@ -141,27 +141,27 @@
 		"{image:atm:textures/questpics/allthemodium/all_armor_vib.png width:100 height:175 align:center}"
 	]
 	quest.7DE2154159D273C3.title: "&3Вибраниумная броня"
-	task.00DDA48F9632A5C1.title: "Visit The Overworld"
+	task.00DDA48F9632A5C1.title: "Посетить обычный мир"
 	task.03ACF4486D706DEE.title: "Вибраниумная броня"
 	task.05256FE880D981D5.title: "Вибраниумные инструменты"
 	task.0BFAF56214875C90.title: "Всемодиевая броня мага"
 	task.0E7E336483AFA69C.title: "Вибраниевая броня мага"
-	task.0F9FCFCEE795FD41.title: "Visit The Other"
+	task.0F9FCFCEE795FD41.title: "Посетить Иное измерение"
 	task.194C02E800F974D6.title: "Вибраниумная броня арканиста"
-	task.298EA976A7627731.title: "Locate an Ancient City"
+	task.298EA976A7627731.title: "Найти древний город"
 	task.2A7CD3F14D3DC7C5.title: "Унобтаниумная броня"
 	task.2E3BC536B8A9FD91.title: "Унобтаниевая броня мага"
-	task.32447C5882610D6C.title: "Visit The End"
+	task.32447C5882610D6C.title: "Посетить Энд"
 	task.40C43560F454AD82.title: "Всемодиевые инструменты"
-	task.46B42667B6BC1A3C.title: "Visit The Nether"
+	task.46B42667B6BC1A3C.title: "Посетить Нижний мир"
 	task.4709938E0FDCE0FB.title: "Всемодиевая броня"
 	task.5F45BABFD89DE0EC.title: "Все права защищены"
 	task.614C3310C61487CB.title: "Унобтаниумная броня арканиста"
 	task.61E3800DF5D25567.title: "Всемодиевая броня арканиста"
 	task.6304FF8A9E8957FE.title: "Унобитаниумные инструменты"
-	task.6514595CBD4DE6C6.title: "Visit The Beyond"
-	task.681CB7DF06F2F506.title: "Visit The Mining Dimension"
+	task.6514595CBD4DE6C6.title: "Посетить Запределье"
+	task.681CB7DF06F2F506.title: "Посетить измерение добычи"
 	task.6AE0DA6AB109A840.title: "Карьеры"
-	task.6C974DF242CFDB8E.title: "Locate an Ancient Pyramid"
+	task.6C974DF242CFDB8E.title: "Найти древнюю пирамиду"
 	task.7A588081117FA54F.title: "Все права защищены"
 }
