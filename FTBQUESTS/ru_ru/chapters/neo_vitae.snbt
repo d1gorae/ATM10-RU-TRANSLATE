@@ -97,12 +97,12 @@
 	quest.1BBABB2106D321A4.quest_subtitle: "Hands-free soul charging"
 	quest.1BBABB2106D321A4.title: "The Orb Link"
 	quest.1C43D98AB4E51F15.quest_desc: [
-		"The &6Incense Altar&r sits in a garden of tranquility blocks. It grants &6Blessed Sacrifice&r, a fat bonus to your own offerings."
+		"&6Алтарь благовоний&r находится в саду из блоков спокойствия. Он даёт эффект &6благословенной жертвы&r, значительно усиливающий ваши подношения."
 		""
-		"Lay path rings and tranquility blocks around it; the garden planner site shows the math."
+		"Разместите вокруг него кольца дорожек и блоки спокойствия; планировщик сада поможет рассчитать схему."
 	]
-	quest.1C43D98AB4E51F15.quest_subtitle: "Smells like victory"
-	quest.1C43D98AB4E51F15.title: "The Incense Altar"
+	quest.1C43D98AB4E51F15.quest_subtitle: "Пахнет победой"
+	quest.1C43D98AB4E51F15.title: "Алтарь благовоний"
 	quest.1CBBEFE4A84ABA45.quest_desc: [
 		"&6Проводник Spiritus&r проверяет пространство на 16 блоков в каждом из четырёх направлений и перетягивает ауру из более насыщенных мест, выравнивая её запас, но не опустошая источник."
 		""
@@ -173,65 +173,65 @@
 	quest.29B003254299103C.quest_subtitle: "Более вместительные сосуды"
 	quest.29B003254299103C.title: "Повышаем уровень"
 	quest.2C0A6D0EC40C766A.quest_desc: [
-		"A &6Daemonium Ignis&r stalks the deeper corridors: the burning one, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Ignis&r выслеживает путников в глубинных коридорах. Это огненный демон, один из десяти обитателей измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
-	quest.2C0A6D0EC40C766A.quest_subtitle: "One of the realm's ten"
+	quest.2C0A6D0EC40C766A.quest_subtitle: "Один из десяти демонов"
 	quest.2C0A6D0EC40C766A.title: "Daemonium Ignis"
 	quest.2C178EF05E31AE9A.quest_desc: [
-		"Inside, every &6Dungeon Seal&r wants a &lSimple Dungeon Key&r: found only in these chests, never crafted. A key you bring opens nothing."
+		"Внутри каждая &6печать подземелья&r требует &lпростого ключа подземелья&r. Такие ключи можно найти только в этих сундуках — их нельзя изготовить. Принесённый с собой ключ не подойдёт."
 		""
-		"Chests here pay out enchanted gear, anointments, Spiritus and the first Tau crops."
+		"В сундуках лежат зачарованное снаряжение, аннотации, Spiritus и первые культуры тау."
 	]
-	quest.2C178EF05E31AE9A.quest_subtitle: "Keys are loot, not recipes"
-	quest.2C178EF05E31AE9A.title: "The Antechamber"
+	quest.2C178EF05E31AE9A.quest_subtitle: "Ключи — добыча, не рецепт"
+	quest.2C178EF05E31AE9A.title: "Преддверие"
 	quest.2E22A601DC126B7B.quest_desc: [
-		"&6Spiritus&r is the second economy: soul-currency instead of blood. Dagger-marked kills and sentient blades yield it."
+		"&6Spiritus&r — вторая экономика: вместо крови используется валюта души. Она выпадает при убийствах, отмеченных кинжалом, и от разумных клинков."
 		""
-		"Loose Spiritus clutters everything; it wants a gem."
+		"Свободный Spiritus быстро засоряет инвентарь — ему нужен самоцвет."
 	]
-	quest.2E22A601DC126B7B.quest_subtitle: "The second wallet"
-	quest.2E22A601DC126B7B.title: "Crystals from Nothing"
+	quest.2E22A601DC126B7B.quest_subtitle: "Вторая валюта"
+	quest.2E22A601DC126B7B.title: "Кристаллы из ничего"
 	quest.332F3C08E4014F63.quest_desc: [
-		"The &6Spirit Accumulator&r is a floating reservoir for 1,000 Spiritus of one Aspect that the routing network can draw on."
+		"&6Накопитель Spiritus&r — парящий резервуар на 1000 единиц Spiritus одного аспекта, из которого может забирать ресурс сеть маршрутизации."
 		""
-		"The Athanor forges it from an Animus Mote, a Common Gem, a Tabula Spiritus, a Raw shard, a Blood Tank and 2,000 mB of EV, in a chunk holding 45 Raw."
+		"Атанор создаёт его из частицы Animus, обычного самоцвета, Tabula Spiritus, сырого осколка, резервуара крови и 2000 мБ EV. Чанк должен содержать 45 единиц сырого аспекта."
 	]
-	quest.332F3C08E4014F63.quest_subtitle: "A thousand in the tank"
-	quest.332F3C08E4014F63.title: "The Spirit Accumulator"
+	quest.332F3C08E4014F63.quest_subtitle: "Тысяча в резервуаре"
+	quest.332F3C08E4014F63.title: "Накопитель Spiritus"
 	quest.3617A216FF8BC06C.quest_desc: [
-		"The dungeon rebuilds as a new jigsaw every trip, same rooms, new map."
+		"Подземелье перестраивается перед каждым посещением: комнаты те же, но их расположение меняется."
 		""
-		"Watch for &6Spatial Distortions&r: void-tendril chambers hiding the entrance to the Mines or the Foreman's door. The realm itself warns you when they appear."
+		"Остерегайтесь &6пространственных искажений&r — комнат с щупальцами пустоты, где скрываются вход в шахты или дверь бригадира. Измерение предупредит вас об их появлении."
 	]
-	quest.3617A216FF8BC06C.quest_subtitle: "Same rooms, new horror"
-	quest.3617A216FF8BC06C.title: "The Endless Realm"
+	quest.3617A216FF8BC06C.quest_subtitle: "Те же комнаты, новый кошмар"
+	quest.3617A216FF8BC06C.title: "Бесконечное измерение"
 	quest.36BA45620B2BED5B.quest_desc: [
-		"&6Runes of the Orb&r stretch your Anima capacity beyond what even the Divinus Orb allows."
+		"&6Руны сферы&r увеличивают запас Анимы сверх предела даже сферы Divinus."
 		""
-		"If the top-tier orb still is not enough, this is the next lever. Optional."
+		"Если сферы высшего уровня всё ещё недостаточно, это следующий способ увеличить вместимость. Необязательно."
 	]
-	quest.36BA45620B2BED5B.quest_subtitle: "Stretch the battery"
-	quest.36BA45620B2BED5B.title: "Runes of the Orb"
+	quest.36BA45620B2BED5B.quest_subtitle: "Увеличиваем запас"
+	quest.36BA45620B2BED5B.title: "Руны сферы"
 	quest.383F7F715C60252B.quest_desc: [
-		"Tier II widens the altar again. More rune slots mean your first real build: a working mix of Speed and Capacity."
+		"Второй уровень алтаря расширяет его возможности. Дополнительные слоты рун позволяют создать первую полноценную комбинацию скорости и вместимости."
 		""
-		"It also unlocks the altar recipes that gate the middle of the mod."
+		"Он также открывает рецепты алтаря, необходимые для продвижения по середине мода."
 	]
-	quest.383F7F715C60252B.quest_subtitle: "More room for ambition"
-	quest.383F7F715C60252B.title: "Tier II: The Second Ring"
+	quest.383F7F715C60252B.quest_subtitle: "Больше места для амбиций"
+	quest.383F7F715C60252B.title: "Уровень II: второе кольцо"
 	quest.3CA324BE8531F253.quest_desc: [
-		"The &6Weak Blood Shard&r is Athanor work: produced once the machine stands."
+		"&6Слабый осколок крови&r создаётся в Атаноре после запуска машины."
 		""
-		"It keys the Greater Gem and the recipes above it."
+		"Он нужен для большого самоцвета и рецептов более высокого уровня."
 	]
-	quest.3CA324BE8531F253.quest_subtitle: "Small shard, big keys"
-	quest.3CA324BE8531F253.title: "The Weak Blood Shard"
+	quest.3CA324BE8531F253.quest_subtitle: "Маленький осколок, важные рецепты"
+	quest.3CA324BE8531F253.title: "Слабый осколок крови"
 	quest.3E563EED3D77FC35.quest_desc: [
-		"A &6Daemonium Animaris&r stalks the deeper corridors: the realm's soul-aspected hunter, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Animaris&r выслеживает путников в глубинных коридорах. Это демон аспекта души, один из десяти обитателей измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
-	quest.3E563EED3D77FC35.quest_subtitle: "One of the realm's ten"
+	quest.3E563EED3D77FC35.quest_subtitle: "Один из десяти демонов"
 	quest.3E563EED3D77FC35.title: "Daemonium Animaris"
 	quest.3EC65211B94462DA.quest_desc: [
 		"The &6Animus Mote&r only drops in realm loot. It is the piece the Spirit Accumulator cannot be forged without."
