@@ -498,71 +498,71 @@
 		"A &6Daemonium Glaciaris&r stalks the deeper corridors: the frozen stalker, one of the realm's ten."
 		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
 	]
-	quest.6607F68E3F0B6243.quest_subtitle: "One of the realm's ten"
+	quest.6607F68E3F0B6243.quest_subtitle: "Один из десяти демонов"
 	quest.6607F68E3F0B6243.title: "Daemonium Glaciaris"
 	quest.671F7551CBDF462F.quest_desc: [
 		"The Tier III ritual skips the vestibule and lands you in the &lEndless Realm&r: the procedural heart of the dimension."
 		""
 		"Rooms escalate the deeper you go, tougher spawners, richer loot. Bring gear."
 	]
-	quest.671F7551CBDF462F.quest_subtitle: "No tolls, just demons"
-	quest.671F7551CBDF462F.title: "Highway to Hell"
+	quest.671F7551CBDF462F.quest_subtitle: "Никаких пошлин, только демоны"
+	quest.671F7551CBDF462F.title: "Дорога в ад"
 	quest.678017C531F68528.quest_desc: [
 		"Sigils are your working tools: each does one job, powered by EV from your Anima."
 		""
 		"The next quests show the families. All optional, all useful."
 	]
-	quest.678017C531F68528.quest_subtitle: "One sigil, one job"
-	quest.678017C531F68528.title: "A Belt Full of Sigils"
+	quest.678017C531F68528.quest_subtitle: "Один сигил — одна задача"
+	quest.678017C531F68528.title: "Пояс, полный сигилов"
 	quest.6A866C75EE839078.quest_desc: [
 		"Elemental sigils bend terrain and weather: flight assists, lava handling, frost work."
 		""
 		"Each is crafted in an array and feeds on Anima charge."
 	]
-	quest.6A866C75EE839078.quest_subtitle: "Elemental toolkit"
-	quest.6A866C75EE839078.title: "Air, Lava and Frost"
+	quest.6A866C75EE839078.quest_subtitle: "Набор стихий"
+	quest.6A866C75EE839078.title: "Воздух, лава и лёд"
 	quest.702FC3E5D0D6C31F.quest_desc: [
 		"The &6Divinus Orb&r: &l10,000,000 EV&r, the largest vessel Vitaemancy offers."
 		""
 		"With this in hand, every ritual on the map is affordable."
 	]
-	quest.702FC3E5D0D6C31F.quest_subtitle: "The pinnacle is a lifestyle"
-	quest.702FC3E5D0D6C31F.title: "The Pinnacle"
+	quest.702FC3E5D0D6C31F.quest_subtitle: "Вершина — это образ жизни"
+	quest.702FC3E5D0D6C31F.title: "Вершина"
 	quest.70D2718D54785867.quest_desc: [
 		"The &6Spiritus Crucible&r burns gems and crystals into the &lAura&r, Spiritus diffused through the air of the chunk it sits in."
 		""
 		"Feed it charged gems or crystal shards."
 	]
-	quest.70D2718D54785867.quest_subtitle: "The air gets a balance"
-	quest.70D2718D54785867.title: "The Spiritus Crucible"
+	quest.70D2718D54785867.quest_subtitle: "Аура приходит в равновесие"
+	quest.70D2718D54785867.title: "Тигель Spiritus"
 	quest.71E0D06EA65172CF.quest_desc: [
 		"The altar also forges &6Throwing Daggers&r, your early ranged weapon and the seed of the Spiritus economy."
 		""
 		"Mark a hostile creature with a dagger wound, then finish it: the kill yields &6Spiritus&r motes. Keep a stack."
 	]
-	quest.71E0D06EA65172CF.quest_subtitle: "Stab first, collect later"
-	quest.71E0D06EA65172CF.title: "Throwing Daggers"
+	quest.71E0D06EA65172CF.quest_subtitle: "Сначала ударь, потом собирай"
+	quest.71E0D06EA65172CF.title: "Метательные кинжалы"
 	quest.73391A08D7615C77.quest_desc: [
 		"Place an &6Ara Vitae&r on flat ground and lay a &ldiamond&r on it. With no power of its own, the altar draws blood from whoever stands near and refines it into &6Essentia Vitae (EV)&r."
 		""
 		"The diamond is transfigured into a &6Novicius Orb&r. Right-click with it to bind it to your soul."
 	]
-	quest.73391A08D7615C77.quest_subtitle: "It only wants a little"
-	quest.73391A08D7615C77.title: "The First Altar"
+	quest.73391A08D7615C77.quest_subtitle: "Он просит совсем немного"
+	quest.73391A08D7615C77.title: "Первый алтарь"
 	quest.759B0D6F8C0CC1EF.quest_desc: [
 		"The first altar upgrade is a ring of runes seated in the stone around the Ara Vitae. Eight rune slots open at Tier I."
 		""
 		"Speed Runes shorten every craft; Capacity Runes deepen the basin. The planner site shows exact numbers."
 	]
-	quest.759B0D6F8C0CC1EF.quest_subtitle: "The altar grows a crown"
-	quest.759B0D6F8C0CC1EF.title: "Tier I: Ring of Runes"
+	quest.759B0D6F8C0CC1EF.quest_subtitle: "Алтарь обретает корону"
+	quest.759B0D6F8C0CC1EF.title: "Уровень I: кольцо рун"
 	quest.770A5CCB2B571FD0.quest_desc: [
 		"An orb in the off-hand drinks from every kill: &l10 EV per point of max health&r of the victim lands in the orb's own reservoir."
 		""
 		"Fill it on the battlefield, then drop the orb on the altar for a 10x-rate deposit into your Anima."
 	]
-	quest.770A5CCB2B571FD0.quest_subtitle: "Every kill pays"
-	quest.770A5CCB2B571FD0.title: "Harvest of the Slain"
+	quest.770A5CCB2B571FD0.quest_subtitle: "Каждое убийство приносит пользу"
+	quest.770A5CCB2B571FD0.title: "Урожай павших"
 	quest.7731623EA92027D9.quest_desc: [
 		"The &6Dominus Orb&r holds &l5,000,000 EV&r. Past this point the Anima rarely bottoms out mid-ritual."
 		""
