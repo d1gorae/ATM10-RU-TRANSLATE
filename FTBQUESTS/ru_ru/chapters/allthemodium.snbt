@@ -155,7 +155,7 @@ quest.7DE2154159D273C3.quest_desc: [
 	task.40C43560F454AD82.title: "Всемодиевые инструменты"
 	task.46B42667B6BC1A3C.title: "Посетить Нижний мир"
 	task.4709938E0FDCE0FB.title: "Всемодиевая броня"
-	task.5F45BABFD89DE0EC.title: "Все права защищены"
+	task.5F45BABFD89DE0EC.title: "AllRightsReserved"
 	task.614C3310C61487CB.title: "Унобтаниумная броня арканиста"
 	task.61E3800DF5D25567.title: "Всемодиевая броня арканиста"
 	task.6304FF8A9E8957FE.title: "Унобтаниумные инструменты"
@@ -163,5 +163,5 @@ quest.7DE2154159D273C3.quest_desc: [
 	task.681CB7DF06F2F506.title: "Посетить измерение добычи"
 	task.6AE0DA6AB109A840.title: "Карьеры"
 	task.6C974DF242CFDB8E.title: "Найти древнюю пирамиду"
-	task.7A588081117FA54F.title: "Все права защищены"
+	task.7A588081117FA54F.title: "AllRightsReserved"
 }
