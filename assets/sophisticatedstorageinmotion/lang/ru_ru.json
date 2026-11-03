@@ -1,0 +1,10 @@
+{
+  "itemGroup.sophisticatedstorageinmotion": "Sophisticated Storage In Motion",
+  "item.sophisticatedstorageinmotion.storage_minecart": "Вагонетка «%s»",
+  "item.sophisticatedstorageinmotion.storage_boat": "Лодка «%s» с предметом «%s»",
+  "item.sophisticatedstorageinmotion.storage_raft": "Плот «%s» с предметом «%s»",
+  "entity.sophisticatedstorageinmotion.storage_minecart": "Вагонетка «%s»",
+  "entity.sophisticatedstorageinmotion.storage_boat": "Лодка «%s» с предметом «%s»",
+  "entity.sophisticatedstorageinmotion.storage_raft": "Плот «%s» с предметом «%s»",
+  "entity.sophisticatedstorageinmotion.chested_horse_with_storage": "%s с предметом «%s»"
+}
