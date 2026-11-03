@@ -180,8 +180,8 @@
 	quest.7DA48EDCF28DBE03.quest_subtitle: "гинкго + лещина"
 	quest.7E7637DAD2C242CB.quest_subtitle: "европейская лиственница + ель"
 	quest.7EC89242980768B3.quest_subtitle: "пекан + дикая вишня"
-	task.0E7EAD7D7DF5E7C3.title: "Все права защищены"
-	task.3D3F0DB8237E5856.title: "Все права защищены"
+	task.0E7EAD7D7DF5E7C3.title: "AllRightsReserved"
+	task.3D3F0DB8237E5856.title: "AllRightsReserved"
 	task.6609E5E7EDE6F92B.title: "Саженцы"
 	task.79889CC26DCD7F19.title: "Самостоятельное... опыление?"	quest.4DC4FFD69B1688BF.quest_subtitle: ["Бальса + розовая камедь"]
 }
