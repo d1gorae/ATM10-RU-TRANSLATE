@@ -21,14 +21,24 @@
 	quest.0B718FC37699B822.quest_desc: ["&aЭхо-брёвна&r получаются из &aэхо-деревьев&r, растущих в &5Эховом лесу&r. Кажется, здесь повсюду эхо — почему я всё время его слышу? \\n\\nУ &aэхо-деревьев&r &5фиолетовая листва&r и скалковое свечение. Кора у брёвен &7светло-серая&r, а древесина — &aсветло-зелёная&r. \\n\\nДоски и остальные деревянные предметы имеют светло-зелёный, почти мятный оттенок. У люков и дверей также есть уникальные узоры!"]
 	quest.0B718FC37699B822.title: "&aЭхо-деревья"
 	quest.10E025288BB00657.quest_desc: [
-		"&bSludges&r spawn in &bBlooming Caverns&r and act like Slimes! \\n\\nTheir largest form has 8 &4Hearts&r and does a ton of Damage. On death they will spawn 2-4 Medium &bSludges&r. \\n\\nTheir medium forms have 2 &4Hearts&r and do much less Damage. On death they'll spawn 2-4 small &bSludges&r. \\n\\nThe small form has only a half a &4Heart of Health&r and won't do any Damage."
+		"&bСлизи&r появляются в &bЦветущих пещерах&r и ведут себя как обычные слизни!"
+		""
+		"Крупнейшая форма имеет 8 &4сердец&r и наносит большой урон. После смерти она порождает 2–4 средних &bслизи&r."
+		""
+		"У средней формы 2 &4сердца&r; после смерти она порождает 2–4 маленьких слизи. У маленькой слизи всего половина &4сердца&r, и она не наносит урона."
 		"{image:atm:textures/questpics/deepndark/dnd_sludge.png width:100 height:100 align:center}"
 	]
 	quest.10E025288BB00657.title: "&bСлизь"
 	quest.13B338F377951032.quest_desc: ["Хотели бы вы сами использовать &bзвуковой удар&r &9&lХранителя&r? \\n\\nТеперь это возможно с помощью &bзвучного посоха&r! Удерживайте правую кнопку мыши, чтобы зарядить его, затем отпустите для запуска &bзвукового удара&r. \\n\\nУ посоха есть небольшая перезарядка и ограниченная прочность, так что используйте его осторожно. Для создания нужны &9сердце глубин&r от &9&lХранителя&r, два &3кристалла души&r от &3&lСталкера&r и две &3скалковые кости&r от &3Разрушителей&r."]
 	quest.13B338F377951032.title: "&bЗвучный посох"
 	quest.16A2CC83C99B1F86.quest_desc: [
-		"&9Angler Fish&r spawn in &9Water Ponds&r within &bBlooming Caverns&r. \\n\\nThey act like normal Fish, obviously needing &9Water&r to breathe. \\n\\nThey have 3 &4Hearts&r and will attack you when you are near. \\n\\nThey don't drop anything on death unfortunately... sorry Fishies!"
+		"&9Рыбы-удильщики&r появляются в водоёмах &9Цветущих пещер&r."
+		""
+		"Они ведут себя как обычные рыбы и, разумеется, нуждаются в &9воде&r."
+		""
+		"У них 3 &4сердца&r, и они атакуют, если вы подойдёте близко."
+		""
+		"К сожалению, после смерти они ничего не оставляют… простите, рыбки!"
 		"{image:atm:textures/questpics/deepndark/dnd_fish.png width:100 height:120 align:center}"
 	]
 	quest.16A2CC83C99B1F86.title: "&9Рыба-удильщик"
@@ -72,19 +82,33 @@
 	quest.4A01C5F5DCF32C19.quest_desc: ["&3Элитры души&r работают как обычные &8элитры&r, но имеют повышенную прочность и очки брони. \\n\\nИх нельзя чинить &7мембранами фантома&r, как обычные элитры, однако зачарования на починку работают. Для создания нужны элитры, четыре &3скалковые кости&r от &3Разрушителей&r, два &3порошка души&r от &3скалковых пиявок&r и &3кристалл души&r от &3&lСталкера&r."]
 	quest.4A01C5F5DCF32C19.title: "&3Элитры души"
 	quest.4D57A07592AED307.quest_desc: [
-		"The &3&lStalker&r is a Boss that can be spawned by breaking Ancient Vases. \\n\\nHe has 200 &4Hearts&r and a Boss Bar to keep track. We'll need to kill him to get &3Soul Crystals&r. \\n\\nHe is very fast and does a ton of Damage if he Hits you. Thankfully he is Blind, like the &9&lWarden&r. But he also has an amazing sense of hearing which allows him to hear everything nearby. \\n\\nHe has a few attacks, normally he will just Hit you. Sometimes he might cause an AOE attack and can summon &3Sculk Leeches&r to attack you! \\n\\nHe'll also attack every non-&3Sculk&r Mob."
+		"&3&lСталкер&r — босс, которого можно призвать, разбив древнюю вазу."
+		""
+		"У него 200 &4сердец&r и отдельная полоса здоровья. Его нужно убить, чтобы получить &3кристаллы души&r."
+		""
+		"Он очень быстр и наносит огромный урон. К счастью, он слеп, как &9&lХранитель&r, но прекрасно слышит всё вокруг."
+		""
+		"Обычно он просто бьёт вас, иногда атакует по области и призывает &3скалковых пиявок&r. Также он атакует всех мобов, не относящихся к &3скалку&r."
 		"{image:atm:textures/questpics/deepndark/dnd_stalker.png width:100 height:200 align:center}"
 	]
 	quest.4D57A07592AED307.title: "&3&lСталкер"
 	quest.56D41A4605C42EB5.quest_desc: ["&6Кристаллизованный янтарь&r встречается в &cПасмурных колоннах&r. \\n\\nДля добычи нужно «Шёлковое касание». \\n\\nПользы немного, зато выглядит красиво!"]
 	quest.56D41A4605C42EB5.title: "&6Кристаллизованный янтарь"
 	quest.5866438E5D19AB69.quest_desc: [
-		"&3Sculk Leeches&r can sometimes spawn from broken Ancient Vases. \\n\\nIt acts as a little surprise for you when 2 spawn out! \\n\\nThey only have 2 &4Hearts&r and will attack you despise that. \\n\\nOn death they will drop &3Soul Dust&r."
+		"&3Скалковые пиявки&r иногда появляются из разбитых древних ваз."
+		""
+		"Это небольшой сюрприз: обычно выпрыгивают сразу две!"
+		""
+		"У них всего 2 &4сердца&r, но они всё равно атакуют. После смерти выпадает &3порошок души&r."
 		"{image:atm:textures/questpics/deepndark/dnd_leech.png width:100 height:100 align:center}"
 	]
 	quest.5866438E5D19AB69.title: "&3Скалковая пиявка"
 	quest.59AF80E8EE17C769.quest_desc: [
-		"The &5Echoing Forest&r is a little plain but it also houses the &5Echoing Trees&r! \\n\\nThe &5Echoing Trees&r act like normal Trees, you can Mine their &aLogs&r for Crafting and their &5Leaves&r will drop Saplings. You can also find Sculk Gleam within the Leaves. \\n\\nAround it you will find &5Echoing Soil&r all over the surface. These unfortunately can not be made into Farmland or Dirt, they're just Blocks."
+		"&5Эховый лес&r довольно обычен на вид, но в нём растут &5эхо-деревья&r!"
+		""
+		"Они похожи на обычные деревья: брёвна можно добывать для крафта, а из листвы выпадают саженцы. В листьях также встречается скалковое свечение."
+		""
+		"Поверхность вокруг покрыта &5эховой почвой&r. К сожалению, её нельзя превратить в пашню или обычную землю — это просто блок."
 		"{image:atm:textures/questpics/deepndark/dnd_forest.png width:200 height:100 align:center}"
 	]
 	quest.59AF80E8EE17C769.title: "&5Эховый лес"
@@ -93,12 +117,22 @@
 	quest.5CCF573B67317591.quest_desc: ["&bСветящиеся корни&r встречаются в &bЦветущих пещерах&r. \\n\\nПо ним нельзя лазить, и еды они не дают… Похоже, они просто для украшения."]
 	quest.5CCF573B67317591.title: "&bСветящиеся корни"
 	quest.5E287410EE969244.quest_desc: [
-		"&9Shattered&r spawn in quite a few Biomes in the &3&lOtherside&r. \\n\\nThey act like mini &9&lWardens&r, being Blind relying on &3Sculk&r to find Enemies. They also attack all non-&3Sculk&r Mobs. \\n\\n&9Shattereds&r have 50 &4Hearts&r and pack quite a punch! So careful to not attract too many. \\n\\nIf you can kill them, they'll drop &9Sculk Bones&r. These will be needed for a few Recipes."
+		"&9Разрушители&r появляются в нескольких биомах &3&lИного мира&r."
+		""
+		"Они похожи на маленьких &9&lХранителей&r: слепы и находят врагов благодаря &3скалку&r. Они также атакуют всех мобов, не относящихся к скалку."
+		""
+		"У &9разрушителей&r 50 &4сердец&r и очень сильные атаки, поэтому не привлекайте слишком много."
+		""
+		"За убийство выпадают &9скалковые кости&r, необходимые для нескольких рецептов."
 		"{image:atm:textures/questpics/deepndark/dnd_shattered.png width:100 height:150 align:center}"
 	]
 	quest.5E287410EE969244.title: "&9Разрушители"
 	quest.60721C9B94B36C24.quest_desc: [
-		"&3Sculk Centipedes&r are long neutral Mobs that spawn in the &3&lOtherside&r. \\n\\nThey have 10 &4Hearts&r and will attack in a group if Hit, like Wolves. \\n\\nThey only drop &aXP&r and maybe String, so best to leave them be!"
+		"&3Скалковые многоножки&r — длинные нейтральные мобы, появляющиеся в &3&lИном мире&r."
+		""
+		"У них 10 &4сердец&r; если ударить одну, вся группа нападёт, как волки."
+		""
+		"Они дают только &aопыт&r и иногда нить, так что лучше оставить их в покое!"
 		"{image:atm:textures/questpics/deepndark/dnd_centipede.png width:100 height:100 align:center}"
 	]
 	quest.60721C9B94B36C24.title: "&3Скалковая многоножка"
