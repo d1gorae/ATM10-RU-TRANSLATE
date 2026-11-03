@@ -1,20 +1,28 @@
 {
 	quest.01ECFBB5F0574C24.quest_desc: [
-		"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. "
+		"Этот квест создан &6командой AllTheMods&r или &2участником сообщества&r для сборок AllTheMods."
 		""
-		"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. "
+		"Все сборки &6AllTheMods&r распространяются на условиях &eAll Rights Reserved&r. Без явного разрешения команды этот квест нельзя использовать в публичных сборках, не выпущенных AllTheMods."
 		""
-		"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+		"Квест намеренно скрыт; если вы его видите, значит, включён режим редактирования."
 	]
 	quest.0450060852F290CA.quest_desc: [
-		"The &9Deeplands&r are most similar to the &3Deep Dark&r. \\n\\nThey are full of &3Sculk &falong with &3Shriekers &fand &3Sensors&r, which yes can still spawn the &9&lWarden&r. \\n\\nHere you'll also find more &3Sculk Creatures&r and Plants, and even the one Structure the &3&lOtherside&r has!"
+		"&9Глубинные земли&r больше всего напоминают &3Глубокую тьму&r."
+		""
+		"Здесь повсюду &3скалк&r, а также &3визгуны &fи &3сенсоры&r, которые всё ещё могут призвать &9&lХранителя&r."
+		""
+		"Вы также найдёте новых &3скалковых существ&r и растения, а ещё единственную структуру &3&lИного мира&r!"
 		"{image:atm:textures/questpics/deepndark/dnd_land.png width:200 height:100 align:center}"
 	]
 	quest.0450060852F290CA.title: "&9Глубинные земли"
 	quest.0850F88E2205623F.quest_desc: ["&3Щупальца скалка&r похожи на &bизвивающиеся лозы&r, только покрыты скалком. \\n\\nОни редко встречаются в &9Глубинных землях&r."]
 	quest.0850F88E2205623F.title: "&3Скалковые щупальца"
 	quest.0B11EAB8D76529E0.quest_desc: [
-		"The &6Ancient City&r is only the most dangerous Structure in &2&lVanilla Minecraft&r. So of course that is just the start to &3&lDeeper and Darker&r! \\n\\nHere we can find &3Sculk&r galore, along with Loot and the &9&lWarden&r. We'll also find the Portal Frame made of &8Reinforced Deepslate&r. \\n\\nBut until then, Loot all you can! And be careful of the..."
+		"&6Древний город&r — самая опасная структура в обычном &2&lMinecraft&r. Но в &3&lDeeper and Darker&r это только начало!"
+		""
+		"Здесь полно &3скалка&r, добычи и &9&lХранителя&r. Вы также найдёте рамку портала из &8усиленного глубинного сланца&r."
+		""
+		"Пока что собирайте добычу и остерегайтесь…"
 		"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
 	]
 	quest.0B11EAB8D76529E0.title: "Посетите &6Древний город&r"
@@ -54,7 +62,11 @@
 	quest.21398F45428CD1D1.quest_desc: ["&6Цветущие ягоды&r растут на &bсветящихся лозах&r под потолком &bЦветущих пещер&r. \\n\\nЯгоды иногда появляются на лозах — нажмите по ним правой кнопкой, чтобы собрать. \\n\\nЭто единственный источник пищи в &3&lИном мире&r."]
 	quest.21398F45428CD1D1.title: "&6Цветущие ягоды"
 	quest.35629CB10DBDE340.quest_desc: [
-		"The &6Ancient Temple&r is the important and necessary Structure found within the &9Deeplands&r. \\n\\nIt looks like a Mayan Pyramid made of &8Deepslate &fand &3Sculk&r. There's tons of &3Sculk Sensors &fand &3Shriekers&r as well as Chests and Ancient Vases. \\n\\nWithin the higher floors you'll find mostly just Chests and Ancient Vases but within the &6Pyramid&r we'll find even &eBlocks of Gold&r and other Materials."
+		"&6Древний храм&r — важнейшая структура в &9Глубинных землях&r."
+		""
+		"Он похож на пирамиду майя из &8глубинного сланца &fи &3скалка&r. Внутри много &3скалковых сенсоров &fи &3визгунов&r, сундуков и древних ваз."
+		""
+		"На верхних этажах в основном сундуки и вазы, а внутри &6пирамиды&r можно найти даже &eзолотые блоки&r и другие материалы."
 		"{image:atm:textures/questpics/deepndark/dnd_temple.png width:200 height:100 align:center}"
 	]
 	quest.35629CB10DBDE340.quest_subtitle: "Единственная структура"
@@ -66,12 +78,22 @@
 	quest.39BED5DD9D24F98E.quest_desc: ["&3Скалковая грязь&r — аналог глины в &3&lDeeper and Darker&r! \\n\\nОна встречается в нескольких биомах; при добыче выпадают &3комки грязи&r. \\n\\nИз них можно снова сделать &3скалковую грязь&r или создать &3кирпичи из грязи&r."]
 	quest.39BED5DD9D24F98E.title: "&3Скалковая грязь"
 	quest.3CF2DFB7F0CE065B.quest_desc: [
-		"The &cOvercast Columns&r are much more Hot and &6Orange&r than any other Biome here. \\n\\nHere &3Sculk&r is replaced with &cGloomy Sculk&r and &3Sculk Stone&r is replaced with &cGloomslate&r. \\n\\nYou'll also find Soul Sand/Soil plus &cMagma &fwith &cLava&r beneath them. \\n\\nWith the temperatures being so Hot, Mobs won't normally spawn here, but there is a few Plant life! "
+		"&cПасмурные колонны&r жарче и имеют более &6оранжевый&r оттенок, чем другие биомы этого измерения."
+		""
+		"Здесь обычный &3скалк&r заменён на &cмрачный скалк&r, а &3скалковый камень&r — на &cмрачный сланец&r."
+		""
+		"Также встречаются песок и почва душ, &cмагма &fи &cлава&r под ними. Из-за жары мобы обычно не появляются, но растительность всё же есть."
 		"{image:atm:textures/questpics/deepndark/dnd_column.png width:200 height:100 align:center}"
 	]
 	quest.3CF2DFB7F0CE065B.title: "&cПасмурные колонны"
 	quest.3D579A1F7EFEDD5C.quest_desc: [
-		"The &9&lWarden&r. The most difficult boss in &2&lMinecraft&r, of course being within the most difficult Structure. \\n\\nHe's spawned from a &3Sculk Shrieker&r being activated 3 times, or any amount after the first &9&lWarden&r. \\n\\nHe has 500 &4Hearts&r and does a ton of Damage from either hitting you with his fists or his &bSonic Blast&r! \\n\\nHe does have a weakness though, that being that he is Blind. He can only find you with Sound, or Smell if you are close enough! Keep your distance, like 23 Blocks up."
+		"&9&lХранитель&r — самый сложный босс &2&lMinecraft&r, и обитает он, конечно, в самой сложной структуре."
+		""
+		"Он появляется, когда &3скалковый визгун&r активируют трижды, либо после появления первого &9&lХранителя&r — при любом числе активаций."
+		""
+		"У него 500 &4сердец&r, а урон огромен: он атакует кулаками или &bзвуковым ударом&r."
+		""
+		"Но у него есть слабость — он слеп. Он обнаруживает вас по звуку, а вблизи — по запаху. Держитесь подальше, например на высоте 23 блоков."
 		"{image:atm:textures/questpics/gettingstarted/warden_roar.png width:100 height:100 align:center}"
 	]
 	quest.3D579A1F7EFEDD5C.title: "Убейте &9&lХранителя&r"
@@ -139,7 +161,11 @@
 	quest.67D38E8A57949B34.quest_desc: ["&3Скалковые челюсти&r — блоки, встречающиеся в &9Глубинных землях&r. \\n\\nЕсли случайно наступить на них, они укусят, затянут вас вниз и нанесут урон, пока вы застряли. \\n\\nИх можно добыть с помощью «Шёлкового касания»."]
 	quest.67D38E8A57949B34.title: "&3Скалковая челюсть"
 	quest.68446510A1B0D9B8.quest_desc: [
-		"The &bBlooming Caverns&r are more like Lush Caves than normal Caves. I say that because of the abundance of PLANTS! \\n\\nYou'll find Plants growing from the ceiling to the floor, Plants growing from the floor to the ceiling, Plants growing from the &9Water&r, and Plants not even Growing at all! \\n\\nThe floor is covered in &bBlooming Sculk Stone&r and even &bBlooming Moss&r. \\n\\nThere's even Water Ponds here, the only place you can find &9Water&r in this &3&lDimension&r."
+		"&bЦветущие пещеры&r больше похожи на пышные пещеры, чем на обычные. Причина — огромное количество РАСТЕНИЙ!"
+		""
+		"Они растут от потолка до пола, от пола до потолка, из &9воды&r и даже там, где ничего не растёт!"
+		""
+		"Пол покрыт &bцветущим скалковым камнем&r и &bцветущим мхом&r. Здесь есть водоёмы — единственное место, где можно найти &9воду&r в этом &3&lизмерении&r."
 		"{image:atm:textures/questpics/deepndark/dnd_cave.png width:200 height:100 align:center}"
 	]
 	quest.68446510A1B0D9B8.title: "&bЦветущие пещеры"
@@ -156,16 +182,18 @@
 	quest.72EC845C19645AFC.quest_desc: ["&3Скалковые лозы&r — версия &4плачущих лоз&r, покрытая скалком. \\n\\nОни могут расти в &bЦветущих пещерах&r и &9Глубинных землях&r."]
 	quest.72EC845C19645AFC.title: "&3Скалковые лозы"
 	quest.736F4A43EEBDD7B3.quest_desc: [
-		"&3Sculk Snappers&r are tiny but angry Mobs! \\n\\nI've seen them spawn in &9Deeplands &fand &cBlooming Caverns&r. \\n\\nThey have 6 &4Hearts&r and will drop &3Soul Dust&r on Death."
-		"{image:atm:textures/questpics/deepndark/dnd_snapper.png width:100 height:100 align:center}"
+		"&3Скалковые щёлкуны&r — крошечные, но очень злые мобы!"
+		""
+		"Я видел, как они появлялись в &9Глубинных землях&r и &bЦветущих пещерах&r. Они бросаются на вас, поэтому будьте осторожны."
 	]
 	quest.736F4A43EEBDD7B3.title: "&3Скалковые существа"
 	quest.76F14C2B866B4EAD.quest_desc: ["&3&lИной мир&r — родина &3скалка &fи скалковых существ&r, включая &9&lХранителя&r. \\n\\nЗдесь обитают его дальние родственники, но есть и приятные стороны! Вы найдёте множество новых строительных блоков и предметов, а также повсюду &3скалк&r, дающий много &aопыта&r. \\n\\nБерите мотыгу и отправляйтесь исследовать &3&lИной мир&r!"]
 	quest.76F14C2B866B4EAD.quest_subtitle: "Hello from..."
 	quest.76F14C2B866B4EAD.title: "&3&lИной мир"
 	quest.774D61FEFABEFD9A.quest_desc: [
-		"Shriek Worms spawn from stepping on &3Infested Sculk&r in &9Deeplands&r. \\n\\nThey are Mini bosses with 100 &4Hearts&r. \\n\\nIf you get too close they'll bite you, causing a ton of Damage! But if you go too far they'll retreat back down into the ground. \\n\\nThey don't drop anything but a bit of &aXP&r, which I don't think is worth the trouble."
-		"{image:atm:textures/questpics/deepndark/dnd_worm.png width:100 height:200 align:center}"
+		"Черви-визгуны появляются, если наступить на &3заражённый скалк&r в &9Глубинных землях&r."
+		""
+		"Они могут внезапно выскочить из-под земли и атаковать. Следите за заражёнными участками."
 	]
 	quest.774D61FEFABEFD9A.title: "&3Скалковый передатчик"
 	quest.78BCED8699ADEDF4.quest_desc: ["&3Звукоизоляционное стекло&r создаётся из &3порошка души&r и стекла. \\n\\nОно поглощает звук, как шерсть! Если закрыть им &3скалковый сенсор &fили &3визгун&r, они не услышат звуки. \\n\\nНо сквозь это стекло можно видеть!"]
