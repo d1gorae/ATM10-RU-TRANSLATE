@@ -557,50 +557,50 @@
 	quest.759B0D6F8C0CC1EF.quest_subtitle: "Алтарь обретает корону"
 	quest.759B0D6F8C0CC1EF.title: "Уровень I: кольцо рун"
 	quest.770A5CCB2B571FD0.quest_desc: [
-		"An orb in the off-hand drinks from every kill: &l10 EV per point of max health&r of the victim lands in the orb's own reservoir."
+		"Сфера в левой руке поглощает энергию каждого убийства: в её резервуар поступает &l10 EV за каждую единицу максимального здоровья&r жертвы."
 		""
-		"Fill it on the battlefield, then drop the orb on the altar for a 10x-rate deposit into your Anima."
+		"Наполняйте её в бою, затем положите сферу на алтарь, чтобы передать запас в Аниму с десятикратной скоростью."
 	]
 	quest.770A5CCB2B571FD0.quest_subtitle: "Каждое убийство приносит пользу"
 	quest.770A5CCB2B571FD0.title: "Урожай павших"
 	quest.7731623EA92027D9.quest_desc: [
-		"The &6Dominus Orb&r holds &l5,000,000 EV&r. Past this point the Anima rarely bottoms out mid-ritual."
+		"&6Сфера Dominus&r хранит &l5 000 000 EV&r. С этого момента Анима редко будет иссякать посреди ритуала."
 		""
-		"One tier left after this."
+		"После неё остаётся ещё один уровень."
 	]
 	quest.7731623EA92027D9.quest_subtitle: "Five million and counting"
 	quest.7731623EA92027D9.title: "Сфера архимага"
 	quest.7AFEB7A91DC8F413.quest_desc: [
-		"Forge the &6Discipulus Orb&r at a Tier I altar. Your Anima capacity jumps from 5,000 to &l25,000 EV&r."
+		"Создайте &6сферу Discipulus&r на алтаре первого уровня. Вместимость Анимы увеличится с 5000 до &l25 000 EV&r."
 		""
-		"Bigger offerings, bigger crafts. Keep filling."
+		"Больше подношений, более мощные рецепты. Продолжайте наполнять сферу."
 	]
 	quest.7AFEB7A91DC8F413.quest_subtitle: "25,000 reasons to keep going"
 	quest.7AFEB7A91DC8F413.title: "Сфера ученика"
 	quest.7B293C32824033F9.quest_desc: [
-		"The &6Crystallarium Maleficum&r grows Spiritus Crystals from raw shards fed by the aura."
+		"&6Crystallarium Maleficum&r выращивает кристаллы Spiritus из сырых осколков, подпитываемых аурой."
 		""
-		"The crystal farm that keeps your five aspects stocked."
+		"Кристаллическая ферма поддерживает запас всех пяти аспектов."
 	]
 	quest.7B293C32824033F9.quest_subtitle: "Crystal farming, basically"
 	quest.7B293C32824033F9.title: "Запустите Crystallarium Maleficum"
 	quest.7C7C061FC04B89FB.quest_desc: [
-		"Refine demonite into &6Hellforged&r parts and ingots: the metal behind the top tools and cells."
+		"Перерабатывайте демонит в детали и слитки &6адской ковки&r — металл для лучших инструментов и ячеек."
 		""
-		"The last material the chapter asks for."
+		"Это последний материал, который требуется в этой главе."
 	]
 	quest.7C7C061FC04B89FB.quest_subtitle: "Top shelf material"
 	quest.7C7C061FC04B89FB.title: "Адская сталь"
 	quest.7CF9A68167ADAD1A.quest_desc: [
-		"Sacrifice production scales with altar speed runes and your sacrifice bonus."
+		"Производительность жертвоприношения зависит от рун скорости алтаря и бонуса к жертвоприношению."
 		""
-		"Slow blood means slow work; the earlier automation quests fix it. Optional."
+		"Медленная подача крови означает медленную работу. Улучшайте автоматизацию, чтобы ускорить процессы. Необязательно."
 	]
 	quest.7CF9A68167ADAD1A.quest_subtitle: "Speed is a build stat"
 	quest.7CF9A68167ADAD1A.title: "Усиление жертвоприношения"
 	quest.7FEB1850709B6C3B.quest_desc: [
-		"A &6Daemonium Corrodis&r stalks the deeper corridors: the corroder, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Corrodis&r выслеживает путников в глубинных коридорах. Это демон-разъедатель, один из десяти обитателей измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
 	quest.7FEB1850709B6C3B.quest_subtitle: "One of the realm's ten"
 	quest.7FEB1850709B6C3B.title: "Ритуальная сеть"
