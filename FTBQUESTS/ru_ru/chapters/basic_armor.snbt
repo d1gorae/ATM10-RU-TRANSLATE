@@ -344,6 +344,6 @@
 	quest.7FABB77A60E7962C.title: "&5Обсидиановая броня"
 	quest.7FBC64E6408D8D7F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_knightmetal.png width:100 height:150 align:center}"]
 	quest.7FBC64E6408D8D7F.title: "&7Рацарский металл"
-	task.4BDF268861CA744F.title: "Все права защищены"
-	task.57895147416291FE.title: "Все права защищены"
+	task.4BDF268861CA744F.title: "AllRightsReserved"
+	task.57895147416291FE.title: "AllRightsReserved"
 }
