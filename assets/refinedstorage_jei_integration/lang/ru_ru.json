@@ -1,0 +1,12 @@
+{
+  "gui.refinedstorage_jei_integration.grid.synchronizer": "JEI",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.help": "Синхронизировать текст поиска с фильтром JEI.",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.two_way": "Двусторонняя синхронизация JEI",
+  "gui.refinedstorage_jei_integration.grid.synchronizer.two_way.help": "Синхронизировать текст поиска с фильтром JEI и фильтр JEI с текстом поиска.",
+  "gui.refinedstorage_jei_integration.transfer.missing_but_all_autocraftable": "Недостающие предметы можно изготовить автоматически",
+  "gui.refinedstorage_jei_integration.transfer.missing_but_some_autocraftable": "Некоторые недостающие предметы можно изготовить автоматически",
+  "gui.refinedstorage_jei_integration.transfer.ctrl_click_to_autocraft": "CTRL + щелчок — автоматическое изготовление",
+  "gui.refinedstorage_jei_integration.transfer.all_autocraftable": "Все предметы можно изготовить автоматически",
+  "gui.refinedstorage_jei_integration.transfer.some_autocraftable": "Некоторые предметы можно изготовить автоматически",
+  "alias.refinedstorage_jei_integration.refinedstorage1_disk_manipulator": "Манипулятор дисков"
+}
