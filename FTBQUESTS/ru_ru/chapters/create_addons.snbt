@@ -43,28 +43,28 @@
 	quest.387973CD4EF9057B.title: "&7&oСуперпламенный кузнец"
 	quest.3A57C0B9D9FF9DB4.quest_desc: ["However you get it, &aFluid Experience&r or &aBucket O' Enchanting&r is necessary for many functions in &6&lCreate Enchanting Industry&r. \\n\\nYou can Place it on the ground and it will form a singular &aXP Orb&r. \\n\\nYou can place it in Tanks and move it with Pipes. \\n\\nOr even just use the &aBucket&r on Machines that need &aFluid Experience&r like &5Blaze Enchanters &for &7Forgers&r."]
 	quest.3A57C0B9D9FF9DB4.title: "&aFluid Experience"
-	quest.3BA838FDB8FEE5FF.quest_desc: ["&6Blaze Composers&r work very similar to &7Blaze Forgers&r, just with &6Affixes&r! \\n\\nThey can Extract &6Affixes&r and place them on Templates, Merge two Templates together, or Apply a Template to an Item. \\n\\nThey'll need &6Apotheothic Essence&r to work, like &7Forgers&r need &aFluid Experience&r. "]
-	quest.3BA838FDB8FEE5FF.title: "&6Blaze Composer"
-	quest.41FCA8A3777A28A1.quest_desc: ["&6Apotheothic Essence&r is used with a lot of Machines, so let's make some! \\n\\nToss some &5Arcane Sands&r into a Basin under a &6Mechanical Mixer&r and it'll mix it up into &6Apoethic Essence&r. \\n\\nYep, it's that easy!"]
-	quest.41FCA8A3777A28A1.title: "&6Apotheothic Essence"
-	quest.421CC1438CB78C30.quest_desc: ["Just &6Press&r a &bBlock of Super Experience &rand you'll get a &bSuper Enchanting Template&r. \\n\\nThese are needed for &5&oSuper Blaze Enchanters&r and &7&oSuper Blaze Forgers&r."]
-	quest.421CC1438CB78C30.title: "&bSuper Enchanting Templates"
-	quest.42BF03EFA79B720E.quest_desc: ["&7Mechanical Grindstones&r are automated versions of the &2&lVanilla&r &7Grindstone&r. With more features of course! \\n\\nPlace one &7Mechanical Grindstone&r in an &bItem Drain&r, with a second one on top, then give both &dRotational Power&r. \\n\\nWhen Items go through it they'll make &aFluid Experience&r and might give the Items back depending on what went through. \\n\\nIf a &aNugget of Experience&f, &aBlock of Experience&f, or&a Bottle o' Enchanting&r go through they'll be turned directly into &aFluid Experience&r. If an &5Enchanted Item&r goes through, it'll void the &5Enchantments&r and give back &aExperience&r and the Item. \\n\\nAnother function with the &7Mechanical Grindstone&r is that it will Sand Items, like with Sandpaper."]
-	quest.42BF03EFA79B720E.title: "&7Mechanical Grindstones"
-	quest.440D66B93CCEB98E.quest_desc: ["When a &bBlock of Experience&r is struck by Lightning it (might) turn into a &bBlock of Super Experience&r. \\n\\nWe'll need these for an even greater source of &5Enchantments&r with &5&oSuper Blaze Enchanters&r."]
-	quest.440D66B93CCEB98E.title: "&bBlock of Super Experience"
-	quest.44EFB641E6492700.quest_desc: ["Straws are accessories to &6Blaze Burners&r. \\n\\nOnce given a Straw, the &6Blaze Burner&r will take in Fluid Fuels like &cLava&r to power them. \\n\\nYou can hand feed them Buckets of Fuel or Pipe it in."]
-	quest.4755E9E19D89FBDE.quest_desc: ["Making &5Trains&r is easy! Making &5Trains&r look good is hard... \\n\\nHere's some tips that can help make them look better!"]
-	quest.4755E9E19D89FBDE.title: "Decorating &5Trains"
-	quest.4803EF7C6A0FA53B.quest_desc: ["Takes in &dRotational Power&r, gives out &cEnergy&r."]
-	quest.4803EF7C6A0FA53B.quest_subtitle: "Rotational Power -> Energy"
-	quest.4803EF7C6A0FA53B.title: "&cAlternator"
-	quest.48AB303F230749F0.quest_desc: ["&bCakes o' Enchanting&r are needed to upgrade our &5Blaze Enchanters&f and &7Forgers&r. \\n\\nThey're made by filling a &9Cake Base O' Enchanting&r with &aFluid Experience&r from a &bSpout&r. \\n\\n&9Cake Bases o' Enchanting&r are made by compacting an Egg, Sugar, and &9Lapis Lazuli&r in a Basin with a &6Mechanical Press&r. \\n\\n&9Lapis&r? Ohhh like for &5Enchanting&r, because you use &9Lapis&r to &5Enchant&r. I got it now."]
-	quest.48AB303F230749F0.title: "&bCake o' Enchanting"
-	quest.4B0A0F0CAA1CFDAF.quest_desc: ["This &9Gem Cutter&r sits on Belts or Depots and will do what the &9Gem Cutter Table&r does, just automatically! \\n\\nYou'll need a Tank below the &9Gem Cutter&r in order to feed it &9Crystal Essence&r. \\n\\nThen, once the Gem is in the &9Gem Cutter&r it will take some &9Crystal Essence&r and start upgrading your Gem."]
-	quest.4B0A0F0CAA1CFDAF.title: "&9Gem Cutter"
-	quest.4E9B335A9F0D039E.quest_desc: ["Old &5Trains&r are very recognizable for the Cowcatchers/Pilots on front. \\n\\nMost new &5Trains&r don't use them, they'd probably make them even more dangerous if they did... \\n\\nBut if you are building an older &5Train&r than these are perfect!"]
-	quest.4E9B335A9F0D039E.title: "Cowcatchers"
+	quest.3BA838FDB8FEE5FF.quest_desc: ["&6Композиторы пламени&r работают почти как &7пламенные кузнецы&r, только с &6аффиксами&r! \\n\\nОни извлекают &6аффиксы&r на шаблоны, объединяют два шаблона или применяют шаблон к предмету. \\n\\nДля работы им нужна &6эссенция Apotheosis&r."]
+	quest.3BA838FDB8FEE5FF.title: "&6Композитор пламени"
+	quest.41FCA8A3777A28A1.quest_desc: ["&6Эссенция Apotheosis&r нужна многим машинам, так что давайте её изготовим! \\n\\nПоместите &5чародейские пески&r в чашу под &6механическим смесителем&r, и они превратятся в &6эссенцию Apotheosis&r. \\n\\nДа, всё настолько просто!"]
+	quest.41FCA8A3777A28A1.title: "&6Эссенция Apotheosis"
+	quest.421CC1438CB78C30.quest_desc: ["Просто &6спрессуйте&r &bблок суперопыта&r, чтобы получить &bсупершаблон зачарования&r. \\n\\nОн нужен для &5&oсуперпламенных зачарователей&r и &7&oсуперпламенных кузнецов&r."]
+	quest.421CC1438CB78C30.title: "&bСупершаблоны зачарования"
+	quest.42BF03EFA79B720E.quest_desc: ["&7Механические точильные камни&r — автоматизированная версия &7точильного камня&r из &2&lобычного Minecraft&r, но с дополнительными функциями! \\n\\nПоместите один точильный камень в &bслив предметов&r, второй — сверху, затем подайте на оба &dвращательную энергию&r. \\n\\nПроходящие предметы превращаются в &aжидкий опыт&r; в зависимости от предмета он может также вернуться. Самородки опыта, блоки опыта и бутылочки зачарования напрямую превращаются в &aжидкий опыт&r. Если проходит &5зачарованный предмет&r, зачарования удаляются, а предмет возвращается вместе с опытом. Точильный камень также шлифует предметы, как наждачная бумага."]
+	quest.42BF03EFA79B720E.title: "&7Механические точильные камни"
+	quest.440D66B93CCEB98E.quest_desc: ["Если в &bблок суперопыта&r ударит молния, он может превратиться в &bблок суперопыта&r. \\n\\nОн нужен для получения ещё более мощных &5зачарований&r с помощью &5&oсуперпламенных зачарователей&r."]
+	quest.440D66B93CCEB98E.title: "&bБлок суперопыта"
+	quest.44EFB641E6492700.quest_desc: ["Трубочки — это аксессуары для &6горелок пламени&r. \\n\\nС трубочкой &6горелка пламени&r сможет использовать жидкое топливо, например &cлаву&r. \\n\\nМожно вручную подавать вёдра топлива или подключить трубы."]
+	quest.4755E9E19D89FBDE.quest_desc: ["Создавать &5поезда&r легко! Сложно сделать их красивыми… \\n\\nВот несколько советов, которые помогут улучшить внешний вид!"]
+	quest.4755E9E19D89FBDE.title: "Украшаем &5поезда"
+	quest.4803EF7C6A0FA53B.quest_desc: ["Получает &dвращательную энергию&r и выдаёт &cэлектроэнергию&r."]
+	quest.4803EF7C6A0FA53B.quest_subtitle: "Вращательная энергия → энергия"
+	quest.4803EF7C6A0FA53B.title: "&cАльтернатор"
+	quest.48AB303F230749F0.quest_desc: ["&bТорты зачарования&r нужны для улучшения &5зачарователей пламени&f и &7кузнецов&r. \\n\\nИх делают, заполняя &9основу торта зачарования&r &aжидким опытом&r из &bносика&r. \\n\\n&9Основы торта&r создаются прессованием яйца, сахара и &9лазурита&r в чаше с помощью &6механического пресса&r. \\n\\n&9Лазурит&r? А, точно — он же нужен для &5зачаровывания&r! Теперь понятно."]
+	quest.48AB303F230749F0.title: "&bТорт зачарования"
+	quest.4B0A0F0CAA1CFDAF.quest_desc: ["Этот &9огранщик самоцветов&r устанавливается на ленту или поддон и автоматически выполняет работу &9стола огранщика&r. \\n\\nПод ним должен быть резервуар с &9кристаллической эссенцией&r. \\n\\nПоместите самоцвет в &9огранщик&r: он израсходует эссенцию и начнёт улучшать самоцвет."]
+	quest.4B0A0F0CAA1CFDAF.title: "&9Огранщик самоцветов"
+	quest.4E9B335A9F0D039E.quest_desc: ["Старые &5поезда&r легко узнать по коровоотбойникам спереди. \\n\\nБольшинство современных поездов их не использует — с ними они, вероятно, были бы ещё опаснее… \\n\\nНо для старого &5поезда&r такие детали подойдут идеально!"]
+	quest.4E9B335A9F0D039E.title: "Коровоотбойники"
 	quest.55EC5B3CD0843514.quest_desc: ["Takes in &cEnergy&r, gives out &dRotational Power&r."]
 	quest.55EC5B3CD0843514.quest_subtitle: "Rotational Power <- Energy"
 	quest.55EC5B3CD0843514.title: "&dElectric Motor"
