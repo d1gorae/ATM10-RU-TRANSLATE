@@ -1,0 +1,15 @@
+{
+  "betterdeserttemples.advancements.root.title": "YUNG's Better Desert Temples",
+  "betterdeserttemples.advancements.root.description": "Где-то глубоко в пустыне…",
+  "betterdeserttemples.advancements.temple_clear.title": "Вечный покой",
+  "betterdeserttemples.advancements.temple_clear.description": "Победите фараона и освободите храм от его проклятия",
+  "betterdeserttemples.advancements.temple_entry.title": "Древняя гробница",
+  "betterdeserttemples.advancements.temple_entry.description": "Найдите улучшенный храм в пустыне",
+  "Use /locate structure betterdeserttemples:desert_temple instead!": "Вместо этого используйте команду /locate structure betterdeserttemples:desert_temple!",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.title": "YUNG's Better Desert Temples",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.disableVanillaPyramids": "Отключить обычные пирамиды",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.disableVanillaPyramids.@Tooltip": "Отключает стандартные пустынные пирамиды.",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue": "Накладывать усталость",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue.@Tooltip[0]": "Накладывать ли на игроков в храме эффект усталости от добычи,",
+  "text.autoconfig.betterdeserttemples-fabric-1_21.option.general.applyMiningFatigue.@Tooltip[1]": "если храм ещё не очищен от врагов."
+}
