@@ -5,7 +5,7 @@
   "ftbquestslangsplitter.commands.unsupported_locale": "Язык %s не поддерживается",
   "ftbquestslangsplitter.commands.permission_denied": "У вас нет разрешения на выполнение этой команды",
   "ftbquestslangsplitter.commands.lang_manager_force_saved": "Менеджер языков принудительно сохранил изменения",
-  "ftbquestslangsplitter.commands.added_missing_lang_entries": "В язык %s добавлено недостающих записей: %s",
+  "ftbquestslangsplitter.commands.added_missing_lang_entries": "Добавлено недостающих записей: %s (язык: %s)",
   "ftbquestslangsplitter.commands.no_missing_entries": "В языке %s нет недостающих записей",
   "ftbquestslangsplitter.commands.lang_file_split": "Языковой файл %s успешно разделён",
   "ftbquestslangsplitter.commands.all_lang_file_split": "Все языковые файлы успешно разделены",
