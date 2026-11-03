@@ -1,7 +1,7 @@
 {
   "options.showAll": "Показать все",
   "options.showConflicts": "Показать конфликты",
-  "options.showNone": "Показать неназначенные",
+  "options.showNone": "Показать клавиши без назначения",
   "options.availableKeys": "Доступные клавиши",
   "options.sort": "Сортировка",
   "options.sortNone": "Без сортировки",
