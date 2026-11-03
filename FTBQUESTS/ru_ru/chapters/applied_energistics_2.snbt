@@ -233,4 +233,16 @@
 	task.75924053D6F5B242.title: "Пространственные ячейки хранения"
 	task.7E0D9E6342295AB0.title: "Введение в систему каналов"
 	task.7FC3DAA1BD5016A0.title: "МЭ умные кабели"
+
+	quest.332A3C7BA261DBFC.quest_desc: ["Для более точного поиска используйте лозоходческий жезл из &dArs Nouveau&r: он поможет определить точное местоположение &eметеорита&r после того, как &eкомпас метеоритов&r укажет примерное направление."]
+	quest.332A3C7BA261DBFC.quest_subtitle: "Для более точного поиска"
+	quest.7C40F1963FC5BF65.quest_desc: [
+		"Дополнительные руководства по AE2 — помимо официального руководства и внутриигровой справки:"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://allthemods.github.io/alltheguides/mods/ae2/\"},\"color\":\"blue\",\"text\":\"Руководство AE2 от AllTheGuides\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=3htUhkDYbJ8\"},\"color\":\"blue\",\"text\":\"Видео-руководство AE2 от BucketSt\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLz9AkOmMlH1lI4H3GeBQ3VzEKlcDDNO8_\"},\"color\":\"blue\",\"text\":\"Плейлист руководств от The MindCrafters\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=2_s1srWvq20\"},\"color\":\"blue\",\"text\":\"Руководство по Advanced AE от The MindCrafters\",\"underlined\":true}"
+	]
+	task.2923D1E2BEAF94B0.title: "Дополнительные руководства"
+
 }
