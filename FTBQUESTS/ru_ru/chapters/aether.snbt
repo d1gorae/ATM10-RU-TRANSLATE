@@ -8,14 +8,30 @@
 	quest.08788F976B5C3281.quest_desc: ["&6Святой меч&r похож на &bалмазный меч&r с зачарованием «Небесная кара». Оно наносит дополнительный урон нежити, как и сам &6святой меч&r. \\n\\nА если зачаровать его «Небесной карой», урон станет ещё выше!"]
 	quest.08788F976B5C3281.title: "&6Святой меч"
 	quest.08E4892F96828EC4.quest_desc: [
-		"You can't Hit the &c&lSun Spirit&r, to start a Fight with him you'll need to Right Click him to talk to him. \\n\\nDo it a few more times... then a few more... then after a dozen extra he'll be angered enough to start the fight! \\n\\nThe &c&lSun Spirit&r will begin to wander around the room spreading &cFire&r wherever he goes. \\n\\nHe will also shoot &cFire Crystals&r and &bIce Crystals&r. In order to deal Damage to him you'll need to Hit the &bIce Crystals&r at him to Freeze him! Once Frozen you can finally Hit him. \\n\\nAfter being Frozen he'll also summon &cFire Minions&r to help him. \\n\\nOnce he is put out he'll Drop..."
+		"Нельзя просто ударить &c&lДуха Солнца&r. Чтобы начать бой, щёлкните по нему правой кнопкой и поговорите с ним."
+		""
+		"Повторите это несколько раз… потом ещё несколько… и ещё с десяток раз, пока он не разозлится настолько, чтобы начать бой!"
+		""
+		"&c&lДух Солнца&r будет бродить по комнате и оставлять за собой &cогонь&r."
+		""
+		"Он также стреляет &cогненными кристаллами&r и &bледяными кристаллами&r. Чтобы нанести ему урон, ударьте &bледяными кристаллами&r по нему и заморозьте его. Только после этого можно атаковать!"
+		""
+		"После заморозки он призовёт &cогненных прислужников&r."
+		""
+		"Когда его наконец потушат, он оставит…"
 		"{image:atm:textures/questpics/aether/aether_gold2.png width:200 height:100 align:center}"
 	]
 	quest.08E4892F96828EC4.title: "&c&lДух Солнца"
 	quest.0D2BF2C5D784FCBE.quest_desc: ["&eПлащ валькирии&r действует как зелье медленного падения. \\n\\nПригодится в &e&lЭфире&r и &d&lКрае&r!"]
 	quest.0D2BF2C5D784FCBE.title: "&eПлащ валькирии"
 	quest.0D2F07FC0F804223.quest_desc: [
-		"Bring her the 10 &eVictory Medals&r and now you can fight her! \\n\\nThe &e&lQueen&r has 500 &4Hearts&r. She'll dash around the room swinging her Sword at you. \\n\\nSometimes she'll throw Thunders Crystals at you that will summon Lightning which 1. should be impossible because of the roof and 2. is definitely cheating. \\n\\nOnce beaten in Battle she'll give her &eGold Sword&r and..."
+		"Принесите ей 10 &eмедалей победы&r — и можно начинать бой!"
+		""
+		"У &e&lКоролевы&r 500 &4сердец&r. Она стремительно перемещается по комнате и атакует мечом."
+		""
+		"Иногда она бросает громовые кристаллы, вызывающие молнии. Да, молнии в комнате с крышей — это нечестно."
+		""
+		"После победы она отдаст свой &eзолотой меч&r и…"
 		"{image:atm:textures/questpics/aether/aether_silver2.png width:200 height:100 align:center}"
 	]
 	quest.0D2F07FC0F804223.title: "&e&lКоролева валькирий"
@@ -34,7 +50,15 @@
 	quest.242C183437A4CCD4.quest_desc: ["&7Сапоги часового&r полностью отменяют урон от падения!"]
 	quest.242C183437A4CCD4.title: "&7Сапоги часового"
 	quest.24E124F12CFF2A50.quest_desc: [
-		"The &7&lSlider&r is the Boss of the &7Bronze Dungeon&r. \\n\\nIt's a Cube... It has 400 &4Hearts&r and you'll need a Pickaxe to deal Damage. The better the Pickaxe the more Damage. \\n\\nThe &l&7Slider&r is very simple, he only moves one way at a time and only a few Blocks. Very easy to avoid. \\n\\nOnce you get him to 100 &4Hearts&r his Eyes will turn &4Red&r and he'll move faster. \\n\\nIf you \"Mine\" him you'll get..."
+		"&7&lПолзун&r — босс &7Бронзового подземелья&r."
+		""
+		"Это куб с 400 &4сердцами&r. Чтобы нанести ему урон, нужна кирка; чем лучше кирка, тем выше урон."
+		""
+		"&l&7Ползун&r довольно прост: он двигается только в одном направлении за раз и всего на несколько блоков, поэтому его легко избегать."
+		""
+		"Когда у него останется 100 &4сердец&r, глаза станут &4красными&r, и он начнёт двигаться быстрее."
+		""
+		"Если «добыть» его киркой, вы получите…"
 		"{image:atm:textures/questpics/aether/aether_bronze2.png width:200 height:100 align:center}"
 	]
 	quest.24E124F12CFF2A50.title: "&l&7Ползун"
@@ -87,7 +111,11 @@
 	quest.4AED9EF9E0F68483.quest_desc: ["&7Кирка из священного камня&r добывает &5занит&r, но не &dгравитит&r. \\n\\nВсе эти инструменты могут случайно давать &eосколки амброзия&r при разрушении блоков."]
 	quest.4AED9EF9E0F68483.title: "&7Инструменты из священного камня"
 	quest.4BF7F82F1C8680B9.quest_desc: [
-		"The &7Bronze Dungeon&r is the easiest and simplest Dungeon. \\n\\nIt spawns underground and is made of big square rooms made of &7Carved Stone&r. You can find it by looking for Mossy Holystone above ground and following it down. \\n\\nEach room will Spawn &7Sentries&r and the Boss room will hold the &7&lSlider&r."
+		"&7Бронзовое подземелье&r — самое простое подземелье."
+		""
+		"Оно находится под землёй и состоит из больших квадратных комнат из &7резного камня&r. Ищите покрытый мхом священный камень на поверхности и следуйте за ним вниз."
+		""
+		"В каждой комнате появляются &7часовые&r, а в комнате босса находится &7&lПолзун&r."
 		"{image:atm:textures/questpics/aether/aether_bronze1.png width:200 height:100 align:center}"
 	]
 	quest.4BF7F82F1C8680B9.title: "&7Бронзовое подземелье"
@@ -103,12 +131,24 @@
 	quest.5825892699A8DCB7.quest_desc: ["Ух ты, получилось… \\n\\nДобро пожаловать в &e&lЭфир&r — измерение из нашего детства! И да, оно такое же, каким мы его помним. \\n\\n&e&lЭфир&r — небесное измерение высоко над &2&lобычным миром&r: парящие острова, структуры и облака. Очень много облаков. \\n\\nЗдесь также есть новые предметы, мобы и подземелья."]
 	quest.5825892699A8DCB7.title: "&l&eЭфир"
 	quest.5900ADCC247CD5F9.quest_desc: [
-		"The &eSilver Dungeon&r is the easiest Dungeon to find because its above ground. \\n\\nAnd on huge Clouds. \\n\\nAnd made of &eAngelic Stone&r. \\n\\nIt is shaped like Greek Architecture, which is weird because &eValkyries&r are Norse. \\n\\nTo find the &e&lValkyrie Queen&r you need to go up to the top floor and find the staircase in the back and go down it. After talking to her she'll tell you to get 10 &eVictory Medals&r before you can fight her."
+		"&eСеребряное подземелье&r проще всего найти, потому что оно находится над землёй."
+		""
+		"На огромных облаках."
+		""
+		"Оно построено из &eангельского камня&r."
+		""
+		"Архитектура напоминает древнегреческую, что странно, ведь &eвалькирии&r относятся к скандинавской мифологии."
+		""
+		"Чтобы найти &e&lКоролеву валькирий&r, поднимитесь на верхний этаж, найдите лестницу в задней части и спуститесь вниз. После разговора она попросит собрать 10 &eмедалей победы&r перед боем."
 		"{image:atm:textures/questpics/aether/aether_silver1.png width:200 height:100 align:center}"
 	]
 	quest.5900ADCC247CD5F9.title: "&eСеребряное подземелье"
 	quest.5A5D4DFE4175FB42.quest_desc: [
-		"The &cGold Dungeon&r is also found underground. \\n\\nThis time it is more noticeable as it spawns under a huge mound covered in &eGolden Oak Trees&r. \\n\\nThe Dungeon is pretty darn simple, it is just a room with the Boss in it."
+		"&cЗолотое подземелье&r также находится под землёй."
+		""
+		"На этот раз его легче заметить: оно расположено под огромным холмом, покрытым &eзолотыми дубами&r."
+		""
+		"Подземелье очень простое — всего одна комната с боссом."
 		"{image:atm:textures/questpics/aether/aether_gold1.png width:200 height:100 align:center}"
 	]
 	quest.5A5D4DFE4175FB42.title: "&cЗолотое подземелье"
