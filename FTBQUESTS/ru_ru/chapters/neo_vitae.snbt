@@ -400,74 +400,74 @@
 	quest.5785D68A5F1ED2D2.quest_subtitle: "Demon fruit, best fruit"
 	quest.5785D68A5F1ED2D2.title: "The Tau Harvest"
 	quest.58248AF507380501.quest_desc: [
-		"Strip enchantments off gear you have outgrown and bank them for reuse."
+		"Снимайте зачарования с устаревшего снаряжения и сохраняйте их для повторного использования."
 		""
-		"A quiet way to recycle the loot the dungeon hands out. Optional."
+		"Спокойный способ переработать добычу из подземелий. Необязательно."
 	]
-	quest.58248AF507380501.quest_subtitle: "Recycle the shine"
-	quest.58248AF507380501.title: "Enchantment Salvaging"
+	quest.58248AF507380501.quest_subtitle: "Переработка зачарованного снаряжения"
+	quest.58248AF507380501.title: "Извлечение зачарований"
 	quest.5A99B71DB0C6A42A.quest_desc: [
-		"Seals come in grades. Simple keys open the Antechamber; the deeper doors take &6Mine Keys&r and worse."
+		"Печати бывают разных уровней. Простые ключи открывают Преддверие, а для более глубоких дверей нужны &6ключи шахт&r и ещё более редкие ключи."
 		""
-		"Every key is loot inside the realm. You never craft one."
+		"Все ключи находятся в добыче внутри измерения. Их нельзя изготовить."
 	]
-	quest.5A99B71DB0C6A42A.quest_subtitle: "Keys are loot, not recipes"
-	quest.5A99B71DB0C6A42A.title: "Deeper Locks"
+	quest.5A99B71DB0C6A42A.quest_subtitle: "Ключи — добыча, не рецепт"
+	quest.5A99B71DB0C6A42A.title: "Глубокие замки"
 	quest.5AA17C1657E8E5DE.quest_desc: [
-		"Sentient gear only improves while worn and used. Feed it work."
+		"Разумное снаряжение улучшается, только пока вы носите его и используете. Давайте ему работу."
 		""
-		"The longer it lives on you, the better it gets. Optional."
+		"Чем дольше оно с вами, тем сильнее становится. Необязательно."
 	]
-	quest.5AA17C1657E8E5DE.quest_subtitle: "Break it in like boots"
-	quest.5AA17C1657E8E5DE.title: "Wear It In"
+	quest.5AA17C1657E8E5DE.quest_subtitle: "Разнашивайте, как ботинки"
+	quest.5AA17C1657E8E5DE.title: "Привыкаем к снаряжению"
 	quest.5ACB4565C6B2466C.quest_desc: [
-		"Power the crucible with &lredstone&r and it reverses: an empty gem inside is &lfilled&r from the chunk's Aura instead of drained."
+		"Подайте на тигель сигнал &lредстоуна&r, и его работа изменится на противоположную: пустой самоцвет будет &lнаполняться&r аурой чанка, а не опустошаться."
 		""
-		"Saturate one aspect, leave a gem charging, and it takes that aspect."
+		"Насытите чанк нужным аспектом и оставьте самоцвет заряжаться — он впитает этот аспект."
 	]
-	quest.5ACB4565C6B2466C.quest_subtitle: "Redstone reverses the tap"
-	quest.5ACB4565C6B2466C.title: "Aspected Gems"
+	quest.5ACB4565C6B2466C.quest_subtitle: "Редстоун меняет поток"
+	quest.5ACB4565C6B2466C.title: "Самоцветы с аспектами"
 	quest.5BDD9D290D63ECE7.quest_desc: [
-		"A &6Daemonium Rancoris&r stalks the deeper corridors: the spiteful one, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Rancoris&r выслеживает путников в глубинных коридорах. Это злобный демон, один из десяти обитателей измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
-	quest.5BDD9D290D63ECE7.quest_subtitle: "One of the realm's ten"
+	quest.5BDD9D290D63ECE7.quest_subtitle: "Один из десяти демонов"
 	quest.5BDD9D290D63ECE7.title: "Daemonium Rancoris"
 	quest.5C3EA8B4F5949406.quest_desc: [
-		"The &6Hellfire Forge&r is the second bench: sentient equipment, better Spiritus Gems and parts of the mid-game all come from it."
+		"&6Адская кузня&r — вторая рабочая станция. Здесь создаётся разумное снаряжение, улучшенные самоцветы Spiritus и важные компоненты середины игры."
 		""
-		"It drinks Spiritus and EV, so feed both economies before heavy work."
+		"Она расходует Spiritus и EV, поэтому перед сложной работой подготовьте оба ресурса."
 	]
-	quest.5C3EA8B4F5949406.quest_subtitle: "Hotter than a barbecue"
-	quest.5C3EA8B4F5949406.title: "The Hellfire Forge"
+	quest.5C3EA8B4F5949406.quest_subtitle: "Жарче, чем барбекю"
+	quest.5C3EA8B4F5949406.title: "Адская кузня"
 	quest.5C7581C81669C499.quest_desc: [
-		"&6Fast Miner&r speeds your pick, &6Green Grove&r grows crops, &6Magnetism&r pulls drops to you."
+		"&6Быстрый шахтёр&r ускоряет кирку, &6Зелёная роща&r ускоряет рост культур, а &6Магнетизм&r притягивает добычу к вам."
 		""
-		"The classic utility set. Optional."
+		"Классический набор полезных сигилов. Необязательно."
 	]
-	quest.5C7581C81669C499.quest_subtitle: "Haste makes ore"
-	quest.5C7581C81669C499.title: "Worker Sigils"
+	quest.5C7581C81669C499.quest_subtitle: "Спешка приносит руду"
+	quest.5C7581C81669C499.title: "Рабочие сигилы"
 	quest.602884068EC40EDB.quest_desc: [
-		"&6Sentient&r tools and the sword are living equipment. Kills with a sentient blade drop Spiritus outright, no dagger-marking needed."
+		"&6Разумные&r инструменты и меч — живое снаряжение. Убийства разумным клинком сразу дают Spiritus, и помечать цель кинжалом не нужно."
 		""
-		"They level up through the will you feed them. Optional but worth it."
+		"Они повышают уровень благодаря воле, которую вы в них вкладываете. Необязательно, но полезно."
 	]
-	quest.602884068EC40EDB.quest_subtitle: "It learns. Feed it."
-	quest.602884068EC40EDB.title: "Sentient Steel"
+	quest.602884068EC40EDB.quest_subtitle: "Она учится — подпитывайте её"
+	quest.602884068EC40EDB.title: "Разумная сталь"
 	quest.6101AB772B0317F1.quest_desc: [
-		"Your &6Anima&r is an invisible soul-network that stores EV for everything vitaemantic: sigils, rituals, orbs. When it runs dry, some items draw the cost from your flesh instead."
+		"Ваша &6Анима&r — невидимая сеть души, хранящая EV для всего, что связано с витамантией: сигилов, ритуалов и сфер. Когда запас иссякает, некоторые предметы начинают брать энергию прямо из вашей плоти."
 		""
-		"Put the orb inside a charged altar to move stored blood into your Anima, ten times faster than normal."
+		"Поместите сферу в заряженный алтарь, чтобы перенести накопленную кровь в Аниму в десять раз быстрее обычного."
 	]
-	quest.6101AB772B0317F1.quest_subtitle: "The soul has a battery"
-	quest.6101AB772B0317F1.title: "A Sense for Anima"
+	quest.6101AB772B0317F1.quest_subtitle: "У души есть батарея"
+	quest.6101AB772B0317F1.title: "Чувство Анимы"
 	quest.6171A7D347B9DFF4.quest_desc: [
-		"The &6Ritual Diviner&r shows the shape a ritual wants and previews cost before you commit stones."
+		"&6Ритуальный дивинатор&r показывает требуемую форму ритуала и заранее оценивает стоимость, прежде чем вы разместите камни."
 		""
-		"Costs less than guessing. Optional."
+		"Это дешевле, чем гадать. Необязательно."
 	]
-	quest.6171A7D347B9DFF4.quest_subtitle: "Preview before you pay"
-	quest.6171A7D347B9DFF4.title: "The Diviner's Eye"
+	quest.6171A7D347B9DFF4.quest_subtitle: "Узнайте цену заранее"
+	quest.6171A7D347B9DFF4.title: "Взгляд дивинатора"
 	quest.62341583003C250F.quest_desc: [
 		"A &6Daemonium Doloris&r stalks the deeper corridors: the pain-bringer, one of the realm's ten."
 		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
