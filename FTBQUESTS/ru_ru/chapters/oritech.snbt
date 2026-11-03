@@ -2,12 +2,12 @@
 	quest.01C0DC225CB25A0C.quest_subtitle: "Модуль \"Охотник\" позволяет лазеру нацеливаться на мобов"
 	quest.01C0DC225CB25A0C.title: "Нанесение урона мобам"
 	quest.02315D55EB638E3C.quest_subtitle: "Создаёт биомассу для использования"
-	quest.0C9F9196CA49FF8D.quest_subtitle: "Найдите никелевую руду, чтобы начать свое путешествие"
-	quest.0C9F9196CA49FF8D.title: "Oritech начинается"
+	quest.0C9F9196CA49FF8D.quest_subtitle: "Найдите никелевую руду, чтобы начать своё путешествие"
+	quest.0C9F9196CA49FF8D.title: "Начало работы с Oritech"
 	quest.0EC0F93FA4B4BE49.quest_desc: ["Эта машина может питаться только от &5эндерических лазеров&r. Используется для создания ценных предметов."]
 	quest.0EC0F93FA4B4BE49.quest_subtitle: "Совершенная машина для крафта"
 	quest.0EC0F93FA4B4BE49.title: "Атомная кузня"
-	quest.114EACA9B32B32FB.quest_subtitle: "Ты знаешь, в чем дело..."
+	quest.114EACA9B32B32FB.quest_subtitle: "Ты знаешь, в чём дело..."
 	quest.11A4C57600E692EC.quest_subtitle: "Увеличивает энергоёмкость машины"
 	quest.11A4C57600E692EC.title: "Модуль: Конденсатор"
 	quest.124CD4B8876B81F6.quest_subtitle: "Храните энергию, которую вы производите"
@@ -21,12 +21,12 @@
 	quest.1831B35A3239B583.quest_subtitle: "Выполнение нескольких рецептов одновременно"
 	quest.1831B35A3239B583.title: "Модуль: Вспомогательная камера обработки"
 	quest.1B2BD489D5173B40.quest_subtitle: "Существует множество способов добиться этого"
-	quest.1D9A00C81C2A97F0.quest_subtitle: "Невпечатляющий"
+	quest.1D9A00C81C2A97F0.quest_subtitle: "Не впечатляет"
 	quest.1D9A00C81C2A97F0.title: "Модуль: Манхэттен"
 	quest.1DBF1D4061518B0B.quest_desc: ["Эта ветка квестов научит вас переработке руды с помощью &5Oritech&r."]
 	quest.1DBF1D4061518B0B.quest_subtitle: "Самая мощная переработка руды"
 	quest.1DBF1D4061518B0B.title: "Переработка руды в Oritech"
-	quest.1F139091C1B4E50B.quest_subtitle: "Нормальная схема"
+	quest.1F139091C1B4E50B.quest_subtitle: "Обычная схема"
 	quest.208F759905CF7744.quest_desc: [
 		"Порты дронов довольно быстрые, но для работы им требуется минимальное расстояние в &450 блоков&r."
 		""
@@ -52,7 +52,7 @@
 	quest.2A69272FD3C57924.quest_subtitle: "Немного лучше"
 	quest.310FA9380CB3E0BB.quest_subtitle: "Позволяет добавлять жидкости в центрифугу"
 	quest.310FA9380CB3E0BB.title: "Жидкостный модуль"
-	quest.334AB2ED426108C7.quest_subtitle: "Называйте его как хотите, он потрясает"
+	quest.334AB2ED426108C7.quest_subtitle: "Как ни назови — он всё перемелет"
 	quest.35BC118040E7428F.quest_desc: [
 		"Эндерические лазеры имеют множество применений:"
 		""
@@ -63,7 +63,7 @@
 	]
 	quest.35BC118040E7428F.quest_subtitle: "Не используйте рядом с кошками"
 	quest.35BC118040E7428F.title: "Эндерический лазер"
-	quest.38F4448F9603FE68.quest_subtitle: "Еще 2 шага к величию"
+	quest.38F4448F9603FE68.quest_subtitle: "Ещё 2 шага к величию"
 	quest.3DD27DED791C6A0B.quest_desc: ["Для переработки руды с помощью &5Oritech&r вам понадобится &aцентрифуга&r с &6жидкостным модулем&r и &aизмельчитель&r или &6фрагментарная кузня&r."]
 	quest.3DD27DED791C6A0B.quest_subtitle: "Максимальный выход"
 	quest.3DD27DED791C6A0B.title: "Переработка руды"
