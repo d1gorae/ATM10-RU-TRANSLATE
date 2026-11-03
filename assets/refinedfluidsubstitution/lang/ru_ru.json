@@ -1,0 +1,5 @@
+{
+  "mod.refinedfluidsubstitution": "Refined Fluid Substitution",
+  "item.refinedfluidsubstitution.fluid_substitution_pattern": "Шаблон замены жидкости",
+  "item.refinedfluidsubstitution.fluid_substitution_pattern.help": "Позволяет использовать хранящиеся жидкости вместо наполненных вёдер при автокрафте."
+}
