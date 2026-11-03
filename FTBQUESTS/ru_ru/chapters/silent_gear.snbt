@@ -117,4 +117,10 @@
 }
 	quest.0EF9F10A2178451F.quest_desc: ["Все части &c&lлитейной&r (кроме кранов, литейных столов и бассейнов) можно окрасить в любой &zцвет&r. &zЦвета&r также взаимозаменяемы внутри &c&lлитейной&r, поэтому при желании можно создать разноцветную &c&lлитейную&r."]
 	quest.0EF9F10A2178451F.title: ["&zОкрашиваемые части &c&lлитейной&r"]
+
+	task.2AE89914A34BF3AD.title: "Огнеупорные кирпичи или окна литейной"
+	task.3B23E744D3B72AE8.title: "Огнеупорные кирпичи или окна литейной"
+	task.511ECEA2E9BD1F71.title: "Любой #productivemetalworks:foundry_drains"
+	task.51297F6E0D9BB58C.title: "Любой #productivemetalworks:foundry_tanks"
+	task.76E296A2AD3EFE92.title: "Любой #productivemetalworks:foundry_controllers"
 }
