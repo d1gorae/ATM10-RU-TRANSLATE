@@ -117,7 +117,7 @@
 	quest.39F9C825B03DA317.title: "&8Воздушный интерфейс"
 	quest.3AAB71E9BDFD4C1E.quest_desc: ["Без давления! Хотя на самом деле вам понадобится много давления с использованием &4&lPneumaticCraft&r. \\n\\nВ этом и заключается суть мода..."]
 	quest.3AAB71E9BDFD4C1E.title: "&4&lPneumaticCraft"
-	quest.3BE5CD0C7CC4BCC6.quest_desc: ["Душевная лава — это часть мода &6&lAllthemodium&r. Её можно найти в &b&lИном измерении&r, редко под землёй или часто в деревнях пиглихов! \\n\\nНужно скормить ведро &9душевной лавы&r призрачной пчеле, чтобы получить &9пчелу душевной лавы&r. \\n\\nЗатем вам нужно будет раздавить или ткнуть её, чтобы добыть её ДНК и создать яйцо призыва!"]
+	quest.3BE5CD0C7CC4BCC6.quest_desc: ["Душевная лава — это часть мода &6&lAllthemodium&r. Её можно найти в &b&lИном измерении&r, редко под землёй или часто в деревнях пиглихов! \\n\\nНужно скормить ведро &9душевной лавы&r призрачной пчеле, чтобы получить &9пчелу душевной лавы&r. \\n\\nЗатем вам нужно будет раздавить или ткнуть её, чтобы добыть её ДНК и создать яйцо призыва!\\n{image:atm:textures/questpics/soul_lava_process.png width:100 height:100 align:center}"]
 	quest.3BE5CD0C7CC4BCC6.title: "&9Яйцо призыва пчелы душевной лавы"
 	quest.3C7C9EE57AD00A76.quest_desc: ["Их можно создать?! Я всегда просто добывал их с мобов. \\n\\nВы можете настроить, будут ли они наводиться на цели или лететь прямо. При наведении можно переключаться между настройками &cскорости&r, &6урона&r и &aскорости поворота&r."]
 	quest.3C7C9EE57AD00A76.title: "&cМикроракеты"
@@ -212,25 +212,26 @@
 	quest.70CCE558E03227AB.quest_desc: [
 		"&6&lРунический звёздный алтарь&r — это многоблочная структура, созданная нашим &3Drack.ion&r через &lModular Machinery&r! \\n\\nЭто структура размером 15x9x15, которая начинается с &aконтроллера рунического звёздного алтаря&r. Установите его, затем используйте &cчертеж машины&r на нём. Это покажет подсветку, по которой можно собрать многоблок. \\n\\nМожно также зайти в &aконтроллер&r и настроить автосборку, обещаю, это быстрее! \\n\\nС каждой стороны &6&lалтаря&r можно заменить &9полированный тёмный камень&r рядом с &6мистическим полированным тёмным камнем&r на люки. Они нужны для крафта &6&lзвезды ATM&r. \\n\\nИспользуйте люки ввода предметов (все из &lModular Machinery&r) — туда помещается рецепт. Люки вывода предметов — оттуда выходит &6&lзвезда ATM&r. И нужны люки ввода энергии для питания &6&lалтаря&r! \\n\\nПроверяйте &aконтроллер&r, чтобы следить за прогрессом рецепта или проблемами с &6&lалтарём&r. \\n\\n(Кстати, сумка с добычей в его рецепте — из &5Лунного чудовища&r. Также направление блоков, таких как &9ступеньки&r или &6столбы&r, не имеет значения для &6алтаря&r)."
 		"{@pagebreak}"
-		"{image:atm:textures/questpics/chap2/atmstar_layer1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer1.png width:125 height:75 align:center}"
 		"Первый слой — это просто &9полированный тёмный камень&r, &9полированные ступеньки из тёмного камня&r и &6мистический полированный тёмный камень&r, вместе с &aконтроллером&r."
-		"{image:atm:textures/questpics/chap2/atmstar_layer2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer2.png width:125 height:75 align:center}"
 		"Второй слой — это больше &9полированного тёмного камня&r, &9ступенек&r и теперь &6золотой резной полированный тёмный камень&r."
-		"{image:atm:textures/questpics/chap2/atmstar_layer3.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer3.png width:125 height:100 align:center}"
 		"Третий слой добавляет &bмистические кристальные обелиски&r, рунные блоки, &6мистический резной полированный тёмный камень&r и &9полированные плиты из тёмного камня&r!"
-		"{image:atm:textures/questpics/chap2/atmstar_layer4.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer4.png width:125 height:100 align:center}"
 		"Четвёртый слой — это &6пьедесталы из тёмного камня&r, &7магнитный пьедестал из тёмного камня&r в центре, банки из Утрима и &6мистические полированные столбы из тёмного камня&r."
-		"{image:atm:textures/questpics/chap2/atmstar_layer5.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer5.png width:125 height:100 align:center}"
 		"Пятый слой довольно прост, просто ещё немного &6столбов&r."
-		"{image:atm:textures/questpics/chap2/atmstar_layer6.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer6.png width:125 height:100 align:center}"
 		"Шестой слой требует больше &6столбов&r и &7квантовый инжектор&r над &7магнитным пьедесталом из тёмного камня&r."
 		"{image:atm:textures/questpics/chap2/atmstar_layer7.png width:100 height:100 align:center}"
 		"Седьмой слой тоже очень прост, просто больше &6столбов&r!"
 		"{image:atm:textures/questpics/chap2/atmstar_layer8.png width:100 height:100 align:center}"
 		"Восьмой слой следует тому же шаблону, ещё больше &6столбов&r!"
-		"{image:atm:textures/questpics/chap2/atmstar_layer9.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer9.png width:125 height:100 align:center}"
 		"Последний слой, девятый, требует, конечно, ещё больше &6столбов&r, а также дополнительные рунные блоки и &bмистические кристальные блоки&r."
 		"{image:atm:textures/questpics/chap2/atmstar_layer10.png width:200 height:100 align:center}"
+		"{image:atm:textures/questpics/chap2/atmstar_layer11.png width:200 height:100 align:center}"
 		"Последнее, что нужно сделать для запуска &6&lалтаря&r, — добавить люки. Разместите их снаружи от &6мистического полированного тёмного камня&r, как показано, вам понадобятся люки ввода и вывода предметов и ввода энергии."
 	]
 	quest.70CCE558E03227AB.quest_subtitle: "Крафт &l&6звезды ATM"
