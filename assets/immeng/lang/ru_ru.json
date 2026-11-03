@@ -1,6 +1,6 @@
 {
   "block.immeng.connector_me": "МЭ-коннектор",
   "block.immeng.connector_me_relay": "МЭ-ретранслятор",
-  "item.immeng.wirecoil_me": "Катушка МЭ-кабеля",
-  "item.immeng.wirecoil_me_dense": "Катушка плотного МЭ-кабеля"
+  "item.immeng.wirecoil_me": "Катушка МЭ-провода",
+  "item.immeng.wirecoil_me_dense": "Катушка плотного МЭ-провода"
 }
