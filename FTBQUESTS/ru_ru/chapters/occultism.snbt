@@ -391,4 +391,16 @@
 	quest.5FE507DAEE770507.quest_subtitle: ["«Альтернативный способ получить светло-голубой мел»"]
 	quest.5FE507DAEE770507.title: ["&aПризыв Офикса"]
 	quest.6FFFAE334DFAAAAB.title: ["Ритуальная чаша иесния"]
+
+	task.0446B7C6DBB5DDF9.title: "Золотые ритуальные чаши"
+	task.05A43D4098C30ED1.title: "Эльдрические чаши"
+	task.10037D5225C2D20E.title: "Ритуальные чаши из иезниума"
+	task.2C5C6F411E2F0CAF.title: "Любая пыль из #c:dusts/netherite"
+	task.31290830C6767E5B.title: "Стабильные червоточины"
+	task.348A7E3E3A3D324E.title: "Да, я это прочитал и точно не забуду!"
+	task.3621D48E2CFAF2C2.title: "Любая шерсть из #c:wools"
+	task.3A9C5AE548810FA6.title: "Жертвенные чаши"
+	task.523951BF097BA61F.title: "Любая пыль из #c:dusts/emerald"
+	task.5A70EA7F9D922945.title: "Стабилизаторы межпространственного хранилища"
+	task.67C1DF1704EBF6AF.title: "Улучшения пентаграммы"
 }
