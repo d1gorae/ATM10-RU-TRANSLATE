@@ -225,7 +225,7 @@
 		""
 		"Вот как будет выглядеть ритуал."
 		""
-		"{image:atm:textures/questpics/occultism/aviarcircle.png width:200 height:200 align:1}"
+		"{image:atm:textures/questpics/occultism/aviarcirclenew.png width:200 height:200 align:1}"
 	]
 	quest.4F35D04721DFC9FF.quest_subtitle: "&eКруг Авиара"
 	quest.4F35D04721DFC9FF.title: "&bНаш первый &dритуал"
