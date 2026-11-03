@@ -104,74 +104,74 @@
 	quest.1C43D98AB4E51F15.quest_subtitle: "Smells like victory"
 	quest.1C43D98AB4E51F15.title: "The Incense Altar"
 	quest.1CBBEFE4A84ABA45.quest_desc: [
-		"A &6Spiritus Conduit&r probes 16 blocks in each cardinal direction and pulls Aura downhill, equalizing, never draining dry."
+		"&6Проводник Spiritus&r проверяет пространство на 16 блоков в каждом из четырёх направлений и перетягивает ауру из более насыщенных мест, выравнивая её запас, но не опустошая источник."
 		""
-		"Chain them from a saturated chunk to your worksite. Optional."
+		"Соединяйте проводники от насыщенного чанка до рабочего места. Необязательно."
 	]
-	quest.1CBBEFE4A84ABA45.quest_subtitle: "Plumbing, but spooky"
-	quest.1CBBEFE4A84ABA45.title: "Moving the Aura"
+	quest.1CBBEFE4A84ABA45.quest_subtitle: "Магическая сантехника"
+	quest.1CBBEFE4A84ABA45.title: "Перемещение ауры"
 	quest.1F7ACF813D8804A6.quest_desc: [
-		"An &6Alchemy Array&r takes two offerings dropped inside the circle. Some pairs craft items, others trigger effects on the spot."
+		"&6Алхимический массив&r принимает два подношения, брошенных внутрь круга. Некоторые сочетания создают предметы, другие сразу запускают эффекты."
 		""
-		"Your first sigil, the &6Divination Sigil&r, comes from an array recipe."
+		"Первый сигил — &6сигил предвидения&r — создаётся по рецепту массива."
 	]
-	quest.1F7ACF813D8804A6.quest_subtitle: "Two drops, one wish"
-	quest.1F7ACF813D8804A6.title: "Circle of Intent"
+	quest.1F7ACF813D8804A6.quest_subtitle: "Два дара — одно желание"
+	quest.1F7ACF813D8804A6.title: "Круг намерения"
 	quest.22CB17C102BB6773.quest_desc: [
-		"Work Tau Fruit into Saturated Tau and Tau Oil back home; the incense garden drinks it."
+		"Переработайте плоды тау в насыщенный тау и масло тау у себя дома — сад благовоний использует это топливо."
 		""
-		"The oil is also a reagent for the better flasks."
+		"Масло также служит реагентом для улучшенных флаконов."
 	]
-	quest.22CB17C102BB6773.quest_subtitle: "Garden fuel"
-	quest.22CB17C102BB6773.title: "Refining the Tau"
+	quest.22CB17C102BB6773.quest_subtitle: "Топливо для сада"
+	quest.22CB17C102BB6773.title: "Очистка тау"
 	quest.22D7D3FBACEBE7FB.quest_desc: [
-		"&6Necromancy&r sigils raise husk, skeleton and stray servants that fight for you until dismissed."
+		"Сигилы &6некромантии&r призывают слуг: кадавров, скелетов и stray, которые сражаются за вас, пока вы их не отпустите."
 		""
-		"They cost Anima while they stand. Optional."
+		"Пока они существуют, они расходуют Аниму. Необязательно."
 	]
-	quest.22D7D3FBACEBE7FB.quest_subtitle: "Employee of the month: the dead"
-	quest.22D7D3FBACEBE7FB.title: "The Dead That Serve"
+	quest.22D7D3FBACEBE7FB.quest_subtitle: "Сотрудник месяца: мертвец"
+	quest.22D7D3FBACEBE7FB.title: "Мёртвые на службе"
 	quest.2355A35C8F4C6A30.quest_desc: [
-		"The third ring opens higher rune tiers and the recipes behind them."
+		"Третье кольцо открывает более высокие уровни рун и соответствующие рецепты."
 		""
-		"From here the altar becomes a real factory floor."
+		"Теперь алтарь превращается в настоящую производственную линию."
 	]
-	quest.2355A35C8F4C6A30.quest_subtitle: "Factory floor unlocked"
-	quest.2355A35C8F4C6A30.title: "Tier III: Deeper Runes"
+	quest.2355A35C8F4C6A30.quest_subtitle: "Открыта фабрика"
+	quest.2355A35C8F4C6A30.title: "Уровень III: глубокие руны"
 	quest.24C0619EB4A13CA3.quest_desc: [
-		"&6Routing nodes&r mark inputs and outputs; conduits carry the flow; a &6Master Routing Node&r arbitrates."
+		"&6Узлы маршрутизации&r отмечают входы и выходы, проводники переносят поток, а &6главный узел маршрутизации&r управляет распределением."
 		""
-		"Start small: one producer, one consumer. Optional."
+		"Начните с малого: один источник и один получатель. Необязательно."
 	]
-	quest.24C0619EB4A13CA3.quest_subtitle: "Plumbing, but spooky"
-	quest.24C0619EB4A13CA3.title: "Laying the Veins"
+	quest.24C0619EB4A13CA3.quest_subtitle: "Магическая сантехника"
+	quest.24C0619EB4A13CA3.title: "Прокладываем жилы"
 	quest.2774F4E92DC99642.quest_desc: [
-		"Blessed Sacrifice makes each right-click offering worth far more, then drops you into &lSoul Fray&r, a cooldown that thins what comes next."
+		"Благословенная жертва повышает ценность каждого подношения, сделанного правой кнопкой, но затем накладывает &lистощение души&r — перезарядку, уменьшающую последующие подношения."
 		""
-		"Cycle it: bless, offer, rest. Optional."
+		"Используйте цикл: благословение, подношение, отдых. Необязательно."
 	]
-	quest.2774F4E92DC99642.quest_subtitle: "Smells like victory"
-	quest.2774F4E92DC99642.title: "Soul Fray"
+	quest.2774F4E92DC99642.quest_subtitle: "Пахнет победой"
+	quest.2774F4E92DC99642.title: "Истощение души"
 	quest.298458E916F65407.quest_desc: [
-		"The Aura is &lchunk-based&r: Spiritus burned in one chunk fills only that chunk, capped at 100 per aspect."
+		"Аура привязана к &lчанкам&r: Spiritus, сожжённый в одном чанке, заполняет ауру только там, максимум до 100 единиц каждого аспекта."
 		""
-		"Almost every mid-game machine drinks from the local Aura, not your pack."
+		"Почти все машины середины игры используют местную ауру, а не запас в инвентаре."
 	]
-	quest.298458E916F65407.quest_subtitle: "Local air, haunted"
-	quest.298458E916F65407.title: "The Aura Between Worlds"
+	quest.298458E916F65407.quest_subtitle: "Местный воздух с привидениями"
+	quest.298458E916F65407.title: "Аура между мирами"
 	quest.29953F9E8F0A0D7B.quest_desc: [
-		"A &6Daemonium Cruoris&r stalks the deeper corridors: the blood-hunter, one of the realm's ten."
-		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
+		"&6Daemonium Cruoris&r выслеживает путников в глубоких коридорах. Это охотник крови, один из десяти демонов измерения."
+		"Убейте одного, чтобы записать его в реестр. В глубинных комнатах встречаются более редкие виды."
 	]
-	quest.29953F9E8F0A0D7B.quest_subtitle: "One of the realm's ten"
+	quest.29953F9E8F0A0D7B.quest_subtitle: "Один из десяти демонов"
 	quest.29953F9E8F0A0D7B.title: "Daemonium Cruoris"
 	quest.29B003254299103C.quest_desc: [
-		"Greater and Grand gems compress whole reservoirs into one inventory slot."
+		"Большие и великие самоцветы сжимают целые резервуары в один слот инвентаря."
 		""
-		"The Greater tier wants a Tabula Spiritus, a Weak Blood Shard and a Spiritus Crystal. Optional."
+		"Для большого уровня нужны Tabula Spiritus, слабый осколок крови и кристалл Spiritus. Необязательно."
 	]
-	quest.29B003254299103C.quest_subtitle: "Bigger bottles"
-	quest.29B003254299103C.title: "Up the Ladder"
+	quest.29B003254299103C.quest_subtitle: "Более вместительные сосуды"
+	quest.29B003254299103C.title: "Повышаем уровень"
 	quest.2C0A6D0EC40C766A.quest_desc: [
 		"A &6Daemonium Ignis&r stalks the deeper corridors: the burning one, one of the realm's ten."
 		"Kill one to log it in the ledger. Deeper rooms hold the rarer species."
