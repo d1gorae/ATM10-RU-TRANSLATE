@@ -38,7 +38,7 @@
 	quest.196003E1486ABB31.title: "&9Шаблон улучшения снаряжения Хранителя"
 	quest.1A2EA742FDED54FF.quest_desc: ["&5Эхо-почва&r покрывает землю в &5Эховом лесу&r. \\n\\nВ отличие от обычной &2травы&r и земли, на ней могут расти только &5эховые саженцы&r. \\n\\nОбычные саженцы здесь не растут."]
 	quest.1A2EA742FDED54FF.title: "&5Эхо-почва"
-	quest.1BFE6745F49B4AB0.quest_desc: ["Sculk Gleam has properties of Shroomlights. They don't need a Tool to collect, but break fastest with a Hoe. \\n\\nThey spawn within &5Echoing Trees&r and rarely underground."]
+	quest.1BFE6745F49B4AB0.quest_desc: ["Скалковое свечение обладает свойствами светогрибов. Его можно собрать без инструмента, но быстрее всего — мотыгой. \\n\\nОно растёт внутри &5эхо-деревьев&r и редко встречается под землёй."]
 	quest.201E3E41018F9521.quest_desc: ["&6Мрачные кактусы&r похожи на обычные &2кактусы&r, но растут в &cПасмурных колоннах&r. \\n\\nИм нравится жара, вода для роста не нужна, а прикосновение ранит — почти никаких отличий! Хотя эти кактусы переплавляются в &6оранжевый краситель&r вместо &2зелёного&r."]
 	quest.201E3E41018F9521.title: "&6Мрачные кактусы"
 	quest.21398F45428CD1D1.quest_desc: ["&6Цветущие ягоды&r растут на &bсветящихся лозах&r под потолком &bЦветущих пещер&r. \\n\\nЯгоды иногда появляются на лозах — нажмите по ним правой кнопкой, чтобы собрать. \\n\\nЭто единственный источник пищи в &3&lИном мире&r."]
@@ -113,20 +113,20 @@
 	quest.6BB948F44B0950E8.title: "&3Sculk Stone"
 	quest.6E38CF6E7360E9CA.quest_desc: ["&9&lХранитель&r оставляет несколько предметов, но важнее всего &9сердце глубин&r. \\n\\nИспользуйте его на рамке из &8усиленного глубинного сланца&r, чтобы открыть портал в &3&lИной мир&r. Рамка должна быть свободна от блоков, иначе портал не заработает. \\n\\nТакже Хранитель оставляет &9панцирь Хранителя&r и &9осколки эха&r — они пригодятся для создания других предметов."]
 	quest.6E38CF6E7360E9CA.title: "&9Heart of the Deep"
-	quest.6E901EF1CB411088.quest_desc: ["&9Warden Armor&r is direct upgrade to &cNetherite&r. Just use a &9Warden Upgrade Template&r, a &9Reinforced Echo Shard&r, and a piece of &cNetherite Armor&r to make it. \\n\\nEach piece has 1 more Armor Point and 1 more Armor Protection compared to its &cNetherite&r counterpart. \\n\\nNo more Knockback Resistance though. \\n\\nThey atleast look much cooler than &cNetherite&r though! The &9Helmet&r has giant horns like the &9&lWarden&r and the &9Chestplate&r has a heart spot."]
+	quest.6E901EF1CB411088.quest_desc: ["&9Броня Хранителя&r — прямое улучшение &cнезеритовой&r. Объедините &9шаблон улучшения Хранителя&r, &9усиленный осколок эха&r и часть &cнезеритовой брони&r. \\n\\nКаждая часть даёт на одно очко брони и защиты больше, чем соответствующая незеритовая. \\n\\nНо сопротивления отбрасыванию больше нет. \\n\\nЗато выглядит она гораздо круче! У &9шлема&r огромные рога, как у &9&lХранителя&r, а на &9нагруднике&r изображено сердце."]
 	quest.6E901EF1CB411088.title: "&9Warden&r Armor"
-	quest.716FF64ACF896D50.quest_desc: ["&cGloomslate&r replaces &3Sculk Stone&r in the &cOvercast Columns&r. \\n\\nIt works just like &3Sculk Stone&r, just more Brown."]
+	quest.716FF64ACF896D50.quest_desc: ["&cМрачный сланец&r заменяет &3скалковый камень&r в &cПасмурных колоннах&r. \\n\\nОн работает так же, как &3скалковый камень&r, только коричневее."]
 	quest.716FF64ACF896D50.title: "&cGloomslate"
-	quest.726A627BD7654E0C.quest_desc: ["Not much change from &cNetherite&r to &9Warden&r for these Tools. \\n\\nThe Pickaxe is same Tier and same Speed. Shovels can still make Pathways and again same Speed. Hoes can still make Farmland and also same Speed. \\n\\nOnly real change is higher Attack Damage for all of them. \\n\\nFunny enough that means &9Warden Hoes&r have higher Damage than all &2&lVanilla&r Hoes!"]
+	quest.726A627BD7654E0C.quest_desc: ["Инструменты &9Хранителя&r не так сильно отличаются от &cнезеритовых&r. Кирка имеет тот же уровень и скорость. Лопаты по-прежнему создают дорожки с той же скоростью, а мотыги — пашню. \\n\\nГлавное отличие — более высокий урон в атаке у всех инструментов. Забавно, но &9мотыги Хранителя&r наносят больше урона, чем любые мотыги из &2&lобычного Minecraft&r!"]
 	quest.726A627BD7654E0C.title: "&9Warden&r Tools"
-	quest.72EC845C19645AFC.quest_desc: ["&3Sculk Vines&r are the &3Sculk&r version of &4Weeping Vines&r. \\n\\nThey can spawn within &bBlooming Caverns&r and &9Deeplands&r."]
+	quest.72EC845C19645AFC.quest_desc: ["&3Скалковые лозы&r — версия &4плачущих лоз&r, покрытая скалком. \\n\\nОни могут расти в &bЦветущих пещерах&r и &9Глубинных землях&r."]
 	quest.72EC845C19645AFC.title: "&3Sculk Vines"
 	quest.736F4A43EEBDD7B3.quest_desc: [
 		"&3Sculk Snappers&r are tiny but angry Mobs! \\n\\nI've seen them spawn in &9Deeplands &fand &cBlooming Caverns&r. \\n\\nThey have 6 &4Hearts&r and will drop &3Soul Dust&r on Death."
 		"{image:atm:textures/questpics/deepndark/dnd_snapper.png width:100 height:100 align:center}"
 	]
 	quest.736F4A43EEBDD7B3.title: "&3Sculk Snapper"
-	quest.76F14C2B866B4EAD.quest_desc: ["The &3&lOtherside&r is the birthplace of &3Sculk &fand &3Sculk creatures&r, including the &9&lWarden&r. \\n\\nHere you'll find many of his distant cousins, but don't worry there's also a few plus-sides to the &3&lOtherside&r! \\n\\nThere's plenty of new Building Blocks and Items we can find and &3Sculk&r everywhere for tons of &aXP&r! \\n\\nSo get your Hoe ready and adventure into the &3&lOtherside&r!"]
+	quest.76F14C2B866B4EAD.quest_desc: ["&3&lИной мир&r — родина &3скалка &fи скалковых существ&r, включая &9&lХранителя&r. \\n\\nЗдесь обитают его дальние родственники, но есть и приятные стороны! Вы найдёте множество новых строительных блоков и предметов, а также повсюду &3скалк&r, дающий много &aопыта&r. \\n\\nБерите мотыгу и отправляйтесь исследовать &3&lИной мир&r!"]
 	quest.76F14C2B866B4EAD.quest_subtitle: "Hello from..."
 	quest.76F14C2B866B4EAD.title: "The &3&lOtherside"
 	quest.774D61FEFABEFD9A.quest_desc: [
@@ -134,11 +134,11 @@
 		"{image:atm:textures/questpics/deepndark/dnd_worm.png width:100 height:200 align:center}"
 	]
 	quest.774D61FEFABEFD9A.title: "Shriek Worm"
-	quest.78BCED8699ADEDF4.quest_desc: ["&3Soundproof Glass&r is made by combining &3Soul Dust&r and Glass. \\n\\nThese work at dampening Sound just like Wool! If a &3Sculk Sensor &for &3Shrieker&r has one covering them, they won't hear Sounds. \\n\\nJust these you can see through!"]
+	quest.78BCED8699ADEDF4.quest_desc: ["&3Звукоизоляционное стекло&r создаётся из &3порошка души&r и стекла. \\n\\nОно поглощает звук, как шерсть! Если закрыть им &3скалковый сенсор &fили &3визгун&r, они не услышат звуки. \\n\\nНо сквозь это стекло можно видеть!"]
 	quest.78BCED8699ADEDF4.title: "&3Soundproof Glass"
-	quest.7CBAA67204CC258C.quest_desc: ["No, the &9&lWarden&r doesn't use Swords and Axes. But we can! \\n\\nBoth the &9Warden Sword &fand &9Axe&r are upgrades of their &cNetherite versions&r with a &9Reinforced Echo Shard &fand &9Warden Upgrade Template&r. \\n\\nThey each have 1 &4Heart&r of Damage more and even more Durability! \\n\\nYes, the Axe can still efficiently chop down Trees."]
+	quest.7CBAA67204CC258C.quest_desc: ["&9&lХранитель&r не использует мечи и топоры, но мы можем! &9Меч &fи &9топор Хранителя&r улучшаются из незеритовых версий с помощью &9усиленного осколка эха &fи &9шаблона улучшения Хранителя&r. \\n\\nОба наносят на одно &4сердце&r урона больше и имеют повышенную прочность. \\n\\nДа, топор всё ещё отлично рубит деревья."]
 	quest.7CBAA67204CC258C.title: "&9Warden&r Weapons"
-	quest.7FF3EA602FE7A546.quest_desc: ["The &3Sculk Transmitter&r is a very rare Item we can find within Chests of the &6Ancient Temple&r. \\n\\nOnce you do find one, it'll be your Bestfriend! \\n\\nTo use it, simply Shift Right Click a Block that has a GUI, think of: Chests, Crafting Tables, and Furnaces. Then, the &3Transmitter&r will be bound to that Item. \\n\\nAfter that, we can use the &3Transmitter&r to remotely access that Block from wherever! \\n\\nTo unbind the Block, Shift Right Click the Air with the &3Transmitter&r."]
+	quest.7FF3EA602FE7A546.quest_desc: ["&3Скалковый передатчик&r — очень редкий предмет из сундуков &6Древнего храма&r. Если найдёте его, он станет вашим лучшим другом! \\n\\nЧтобы связать передатчик с блоком с интерфейсом, например сундуком, верстаком или печью, зажмите Shift и щёлкните правой кнопкой по блоку. \\n\\nПосле этого можно удалённо обращаться к этому блоку откуда угодно. Чтобы отвязать его, зажмите Shift и щёлкните передатчиком по воздуху."]
 	quest.7FF3EA602FE7A546.title: "&3Sculk Transmitter"
 	task.5B7FD7C2F05FA64D.title: "AllRightsReserved"
 }
