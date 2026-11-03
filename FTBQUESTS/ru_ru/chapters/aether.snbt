@@ -11,14 +11,14 @@
 		"You can't Hit the &c&lSun Spirit&r, to start a Fight with him you'll need to Right Click him to talk to him. \\n\\nDo it a few more times... then a few more... then after a dozen extra he'll be angered enough to start the fight! \\n\\nThe &c&lSun Spirit&r will begin to wander around the room spreading &cFire&r wherever he goes. \\n\\nHe will also shoot &cFire Crystals&r and &bIce Crystals&r. In order to deal Damage to him you'll need to Hit the &bIce Crystals&r at him to Freeze him! Once Frozen you can finally Hit him. \\n\\nAfter being Frozen he'll also summon &cFire Minions&r to help him. \\n\\nOnce he is put out he'll Drop..."
 		"{image:atm:textures/questpics/aether/aether_gold2.png width:200 height:100 align:center}"
 	]
-	quest.08E4892F96828EC4.title: "&c&lSun Spirit"
+	quest.08E4892F96828EC4.title: "&c&lДух Солнца"
 	quest.0D2BF2C5D784FCBE.quest_desc: ["&eПлащ валькирии&r действует как зелье медленного падения. \\n\\nПригодится в &e&lЭфире&r и &d&lКрае&r!"]
 	quest.0D2BF2C5D784FCBE.title: "&eПлащ валькирии"
 	quest.0D2F07FC0F804223.quest_desc: [
 		"Bring her the 10 &eVictory Medals&r and now you can fight her! \\n\\nThe &e&lQueen&r has 500 &4Hearts&r. She'll dash around the room swinging her Sword at you. \\n\\nSometimes she'll throw Thunders Crystals at you that will summon Lightning which 1. should be impossible because of the roof and 2. is definitely cheating. \\n\\nOnce beaten in Battle she'll give her &eGold Sword&r and..."
 		"{image:atm:textures/questpics/aether/aether_silver2.png width:200 height:100 align:center}"
 	]
-	quest.0D2F07FC0F804223.title: "&e&lValkyrie Queen"
+	quest.0D2F07FC0F804223.title: "&e&lКоролева валькирий"
 	quest.102DD961706E861A.quest_desc: ["&5Растения эхора&r — враждебные живые растения. Хотя все растения живые, у этих целых семь с половиной &4сердец&r! \\n\\nОни стреляют стрелами; при попадании вы получите эффект &5неистовства&r, сочетающий отравление, тошноту и особый эффект. \\n\\nПосле смерти они оставляют &5лепесток&r."]
 	quest.102DD961706E861A.title: "&5Растение эхора"
 	quest.1B7B377CB757867E.quest_desc: ["Любым &dгравититовым инструментом&r можно щёлкнуть правой кнопкой по блоку, который он добывает, чтобы отправить его высоко в небо! \\n\\nЭто также лучшие инструменты, которые может предложить &l&eЭфир&r."]
