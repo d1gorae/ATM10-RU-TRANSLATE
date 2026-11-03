@@ -1,0 +1,5 @@
+{
+  "command.yungsapi.locate.replaced": "Используйте вместо этого %1$s!",
+  "dataPack.yungsapi.locate_replacer.name": "YUNG's API: замена ванильных структур",
+  "dataPack.yungsapi.locate_replacer.description": "Скрывает заменённые ванильные структуры от модов для поиска структур."
+}
