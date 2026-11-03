@@ -13,6 +13,6 @@
   "tooltip.cucumber.item_tags": "Теги предметов:",
   "tooltip.cucumber.fluid_tags": "Теги жидкостей:",
   "tooltip.cucumber.not_yet_implemented": "Пока не реализовано",
-  "message.cucumber.filled_energy": "Этот предмет %s забрал вашу энергию!",
-  "message.cucumber.filled_energy_error": "Этот предмет %s не может забрать вашу энергию."
+  "message.cucumber.filled_energy": "%s забрал вашу энергию!",
+  "message.cucumber.filled_energy_error": "%s не может принять вашу энергию."
 }
