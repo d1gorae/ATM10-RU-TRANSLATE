@@ -7,7 +7,7 @@
   "module.gmut.fix_fov": "Коррекция поля зрения",
   "module.gmut.fly_always": "Всегда игнорировать гравитацию",
   "module.gmut.gravitational_modulating_additional_unit": "Дополнительный гравитационный модуль",
-  "module.gmut.mute_modulating_sound": "Отключить звук модуляции",
+  "module.gmut.mute_modulating_sound": "Отключить звук полёта",
   "module.gmut.stop_immediately": "Немедленная остановка",
   "module.gmut.vertical_speed": "Регулировка вертикальной скорости"
 }
