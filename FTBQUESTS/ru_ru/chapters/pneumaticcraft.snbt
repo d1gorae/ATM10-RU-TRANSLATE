@@ -352,9 +352,9 @@
 	quest.7FB12EC3A5888123.quest_desc: ["&3Соединение трубы&r позволяет лучше контролировать транспортировку давления, давая возможность направлять &3напорные трубы&r в разные стороны."]
 	quest.7FB12EC3A5888123.quest_subtitle: "Нет, иди сюда!"
 	task.0B54EDC9E21F2E77.title: "Логистические фреймы"
-	task.13266875BDB5077D.title: "Все права защищены"
+	task.13266875BDB5077D.title: "AllRightsReserved"
 	task.1EEC7B67E037F766.title: "Понимание давления"
 	task.25FF884779D98BAD.title: "Пластиковые кирпичи™"
-	task.2C268116DA162155.title: "Все права защищены"
+	task.2C268116DA162155.title: "AllRightsReserved"
 	task.49A8320F9EA7F4BD.title: "Автоматизация сжатого железа"
 }
