@@ -38,7 +38,7 @@
 		"{image:atm:textures/questpics/aether/aether_bronze2.png width:200 height:100 align:center}"
 	]
 	quest.24E124F12CFF2A50.title: "&l&7Ползун"
-	quest.26D6FC091B7A8B38.quest_desc: ["The &eSilver Key&r! \\n\\nThe Treasure Chest opens up beneath the &e&lQueen's&r Throne."]
+	quest.26D6FC091B7A8B38.quest_desc: ["&eСеребряный ключ&r! \\n\\nСундук с сокровищами открывается под троном &e&lКоролевы&r."]
 	quest.26D6FC091B7A8B38.title: "&eСеребряный ключ"
 	quest.27F62C4B42B16015.quest_desc: ["Чтобы создать &eпортал Эфира&r, достаточно поставить прямоугольник из &eсветокамня&r размером 4×5, как для &cпортала в Незер&r, и налить внутрь &9воду&r? \\n\\nАга, конечно. Я уже не семилетний ребёнок, второй раз на это не куплюсь!"]
 	quest.27F62C4B42B16015.title: "&eПортал Эфира"
@@ -46,16 +46,16 @@
 	quest.29E6EFC8C19912BD.title: "&7Часовые"
 	quest.2E05F4FB1A1FDE2D.quest_desc: ["У &9синих светов&r 6 &4сердец&r. \\n\\nСами по себе они не наносят урон, а хватают вас и высоко подпрыгивают, унося с собой. Чтобы освободиться, ударьте по ним. \\n\\nПосле смерти они оставляют &9шары света&r и &bсиние аэроклауды&r."]
 	quest.2E05F4FB1A1FDE2D.title: "&9Синий свет"
-	quest.31A2B9C5C0962160.quest_desc: ["Fire Aspect &bDiamond Sword&r."]
+	quest.31A2B9C5C0962160.quest_desc: ["&bАлмазный меч&r с зачарованием «Заговор огня»."]
 	quest.31A2B9C5C0962160.title: "&cПылающий меч"
 	quest.326452FFA7F5C6CA.quest_desc: ["&eЗолотые светы&r похожи на &9синих светов&r: у них столько же здоровья и такой же урон. \\n\\nНо они выдерживают более высокие прыжки, поэтому прыгают чаще и выше. \\n\\nС них выпадает &eсветокамень&r — пригодится для восстановления &eпортала&r."]
 	quest.326452FFA7F5C6CA.title: "&eЗолотой свет"
 	quest.3417FF406CF0479E.quest_desc: ["&2Небесный корень&r — единственное дерево в Эфире, кроме &eзолотого дуба&r. \\n\\nЕсть и кристальные деревья, но они тоже используют &2брёвна небесного корня&r. \\n\\nКак и из обычных брёвен, из них можно делать блоки, инструменты и многое другое."]
 	quest.3417FF406CF0479E.title: "&2Деревья небесного корня"
-	quest.34FBB18ADA647010.quest_desc: ["The Cloud Staff will summon 2 Cloud Minions that orbit you when you Right Click. \\n\\nIf you Left Click after Spawning them they both will shoot Ice Crystals at where you aim. \\n\\nOnce you're tired of them, just Shift Right Click to get rid of them."]
-	quest.362F529D5E7C37A4.quest_desc: ["If you stand in &9Water&r with &6Phoenix Armor&r you'll get &5Obsidian Armor&r. \\n\\n&5Obsidian Armor&r gives up the Fire Protection for an extra 4 Armor Toughness."]
+	quest.34FBB18ADA647010.quest_desc: ["Облачный посох призывает двух облачных прислужников, которые кружат вокруг вас после щелчка правой кнопкой. \\n\\nЕсли после призыва щёлкнуть левой кнопкой, оба выстрелят ледяными кристаллами туда, куда вы целитесь. \\n\\nЧтобы убрать их, нажмите Shift и щёлкните правой кнопкой."]
+	quest.362F529D5E7C37A4.quest_desc: ["Если стоять в &9воде&r в &6броне феникса&r, вы получите &5обсидиановую броню&r. \\n\\n&5Обсидиановая броня&r теряет защиту от огня, но получает дополнительные 4 единицы стойкости брони."]
 	quest.362F529D5E7C37A4.title: "&5Обсидиановая броня"
-	quest.3666C6DA23E15F78.quest_desc: ["A Bow that sets all Arrows on &cFIRE&r!"]
+	quest.3666C6DA23E15F78.quest_desc: ["Лук, поджигающий все стрелы!"]
 	quest.3666C6DA23E15F78.title: "&6Лук феникса"
 	quest.36D9FB96D3557266.quest_desc: ["&9Моа&r — большие дружелюбные птицы. \\n\\nУ них 17 с половиной &4сердец&r, а после смерти выпадают перья. Иногда они оставляют &9яйца моа&r, из которых можно приручить моа. Подробнее — в квесте про &c&lинкубатор&r."]
 	quest.36D9FB96D3557266.title: "&9Моа"
@@ -63,26 +63,26 @@
 	quest.3781DB4807A89375.title: "&5Занитовое оружие"
 	quest.3887FD4B14BB993D.quest_desc: ["&cКамни регенерации&r постоянно лечат вас, пока надеты. \\n\\nМожно держать два камня одновременно — их лечение суммируется!"]
 	quest.3887FD4B14BB993D.title: "&cКамень регенерации"
-	quest.38E3ABEEFCE6A0B9.quest_desc: ["The &9Shield of Repulsion&r, when worn, will deflect Projectiles away from you and back at whoever threw them. \\n\\nIt has Durability though..."]
+	quest.38E3ABEEFCE6A0B9.quest_desc: ["Надетый &9щит отталкивания&r отражает снаряды обратно в того, кто их выпустил. \\n\\nНо у него есть прочность…"]
 	quest.38E3ABEEFCE6A0B9.title: "&9Щит отталкивания"
 	quest.39E1211455224291.quest_desc: ["&bЗефиры&r — сердитые облака. \\n\\nУ них всего два с половиной &4сердца&r, но они стреляют воздушными шарами, словно гаст, запускающий шары бриза. \\n\\nПосле смерти выпадают холодные аэроклауды."]
 	quest.39E1211455224291.title: "&bЗефир"
-	quest.3A8AF52A5AE7C6CB.quest_desc: ["It gives Water Breathing."]
+	quest.3A8AF52A5AE7C6CB.quest_desc: ["Даёт дыхание под водой."]
 	quest.3A8AF52A5AE7C6CB.title: "&7Железный пузырь"
-	quest.3C62EDBB44D83A41.quest_desc: ["The &5Nature Staff&r works with Tamed &9Moas&r. \\n\\nWant them to Sit? Use the &5Staff&r."]
+	quest.3C62EDBB44D83A41.quest_desc: ["&5Посох природы&r работает с прирученными &9моа&r. \\n\\nХотите, чтобы они сели? Используйте &5посох&r."]
 	quest.3C62EDBB44D83A41.title: "&5Посох природы"
-	quest.3DB036804AD70497.quest_desc: ["The &7Bronze Key&r! \\n\\nThe Treasure Chest is below where the &7&lSlider&r was sitting Dormant."]
+	quest.3DB036804AD70497.quest_desc: ["&7Бронзовый ключ&r! \\n\\nСундук с сокровищами находится под местом, где &7&lПолзун&r лежал в ожидании."]
 	quest.3DB036804AD70497.title: "&7Бронзовый ключ"
 	quest.3EE51A812E593135.quest_desc: ["У &c&lинкубатора&r только одна задача — высиживать &9яйца моа&r. \\n\\nВ качестве топлива используются &eфакелы амброзия&r: для каждого яйца нужно два факела. \\n\\nИз яйца вылупится детёныш &9моа&r. Он вырастет за 20 минут, после чего на нём можно ездить с седлом и управлять им с помощью &5посоха природы&r."]
 	quest.3EE51A812E593135.title: "&c&lИнкубатор"
-	quest.3FE994532AF53ABB.quest_desc: ["Unlike its younger brother, the &3Lightning Sword&r acts like a normal Sword. \\n\\nJust anything it Hits will be struck with Lightning!"]
+	quest.3FE994532AF53ABB.quest_desc: ["В отличие от младшего собрата, &3молниеносный меч&r работает как обычный меч. \\n\\nПросто любой, кого он поразит, получит удар молнией!"]
 	quest.3FE994532AF53ABB.title: "&3Молниеносный меч"
-	quest.40AD1851C6851925.quest_desc: ["Haha! Somebody fell! \\n\\nHope you brought something to break your fall. \\n\\nNext time, just use the &ePortal&r!"]
+	quest.40AD1851C6851925.quest_desc: ["Ха! Кто-то упал! \\n\\nНадеюсь, вы взяли что-нибудь, чтобы смягчить падение. \\n\\nВ следующий раз просто воспользуйтесь &eпорталом&r!"]
 	quest.40AD1851C6851925.title: "Упс!"
 	quest.4394AEF0823FB4D2.quest_desc: ["Инструменты имеют тот же уровень, что и деревянные, поэтому не добывают железо или &5занитовую руду&r. \\n\\nНо каждый инструмент из &2небесного корня&r удваивает добычу: кирка — руды, лопата — землю, мотыга — урожай."]
 	quest.4394AEF0823FB4D2.title: "&2Инструменты небесного корня"
-	quest.48530C6C1187F613.quest_desc: ["Aerogel is made by placing down &cLava&r in &l&eThe Aether&r. \\n\\nIt won't break from Explosions and can be made into other decoration!"]
-	quest.4974F265003DAEC9.quest_desc: ["&eValkyrie Tools&r are like normal Tools just with double the Reach!"]
+	quest.48530C6C1187F613.quest_desc: ["Аэрогель получается, если разместить &cлаву&r в &l&eЭфире&r. \\n\\nОн не разрушается взрывами и подходит для создания декоративных блоков!"]
+	quest.4974F265003DAEC9.quest_desc: ["&eИнструменты валькирии&r похожи на обычные инструменты, но имеют вдвое большую дальность действия!"]
 	quest.4974F265003DAEC9.title: "&eИнструменты валькирии"
 	quest.4AED9EF9E0F68483.quest_desc: ["&7Кирка из священного камня&r добывает &5занит&r, но не &dгравитит&r. \\n\\nВсе эти инструменты могут случайно давать &eосколки амброзия&r при разрушении блоков."]
 	quest.4AED9EF9E0F68483.title: "&7Инструменты из священного камня"
@@ -93,8 +93,8 @@
 	quest.4BF7F82F1C8680B9.title: "&7Бронзовое подземелье"
 	quest.4E847B0288265DA3.quest_desc: ["&dКокатрисы&r похожи на &9моа&r, но у них светящиеся глаза и перья. Они появляются только в темноте. \\n\\nОни плюются в игрока, накладывая эффект &5неистовства&r. Подробности об эффекте смотрите в квесте про &5растения эхора&r. У кокатрисов 10 &4единиц здоровья&r, а после смерти выпадают перья."]
 	quest.4E847B0288265DA3.title: "&dКокатрис"
-	quest.4F2DB9CDE2BACB69.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
-	quest.52007C01B52F7295.quest_desc: ["&eValkyries&r spawn in the &eSilver Dungeon&r. \\n\\nYou'll need to beat 10 of them in order to fight the &e&lValkyrie Queen&r. \\n\\nThey have 50 &4Hearts&r each and are Neutral until you Hit them. Thankfully they'll fight one at a time."]
+	quest.4F2DB9CDE2BACB69.quest_desc: ["Этот квест создан &6командой AllTheMods&r или &2участником сообщества&r для сборок AllTheMods. Все сборки &6AllTheMods&r распространяются на условиях &eAll Rights Reserved&r, поэтому без явного разрешения команды этот квест нельзя использовать в публичных сборках, не выпущенных AllTheMods. Квест намеренно скрыт; если вы его видите, значит, включён режим редактирования."]
+	quest.52007C01B52F7295.quest_desc: ["&eВалькирии&r появляются в &eСеребряном подземелье&r. \\n\\nЧтобы сразиться с &e&lКоролевой валькирий&r, нужно победить десять валькирий. \\n\\nУ каждой 50 &4сердец&r; они нейтральны, пока вы не ударите их. К счастью, сражаются они по одной."]
 	quest.52007C01B52F7295.title: "10 &eмедалей победы"
 	quest.57DD886985DBFD97.quest_desc: ["Открывая сундуки в подземельях, вы можете встретить опасную подделку — &4мимика&r. У них 20 &4сердец&r и очень высокий урон. \\n\\nНе переживайте за добычу из сундука: после смерти мимик оставит похожую добычу!"]
 	quest.57DD886985DBFD97.title: "&4Мимик"
@@ -114,7 +114,7 @@
 	quest.5A5D4DFE4175FB42.title: "&cЗолотое подземелье"
 	quest.5BB5EE00BB4F9691.quest_desc: ["&7Летающие коровы&r — это коровы с крыльями! \\n\\nНичего особо нового: 5 &4сердец&r, выпадают сырая говядина и кожа, их можно доить. \\n\\nНо они планируют, поэтому не получают урон от падения."]
 	quest.5BB5EE00BB4F9691.title: "&7Летающая корова"
-	quest.5C6BA6BBEC75EB71.quest_desc: ["The &cGold Key&r! \\n\\nThe Treasure Chest opens up behind the wall opposite of the entrance."]
+	quest.5C6BA6BBEC75EB71.quest_desc: ["&cЗолотой ключ&r! \\n\\nСундук с сокровищами открывается за стеной напротив входа."]
 	quest.5C6BA6BBEC75EB71.title: "&cЗолотой ключ"
 	quest.5F44BF9A1DAE8B99.quest_desc: ["&9Нептуновая броня&r даёт 15 очков брони и 4 стойкости брони. \\n\\nВесь комплект позволяет быстрее плавать в &9воде&r — вот и всё."]
 	quest.5F44BF9A1DAE8B99.title: "&9Нептуновая броня"
@@ -126,9 +126,9 @@
 	quest.63D4621C06BA747C.title: "&2Оружие небесного корня"
 	quest.6797E67E0136D96A.quest_desc: ["&7Священный камень&r встречается повсюду — это камень &e&lЭфира&r. \\n\\nДля добычи нужна кирка; из него можно создавать инструменты и блоки."]
 	quest.6797E67E0136D96A.title: "&7Священный камень"
-	quest.6B3328B6AE8704D2.quest_desc: ["&bLightning Knives&r are thrown projectiles that will summon Lightning wherever they Hit! \\n\\nThey'll be used up when thrown though so use them wisely."]
+	quest.6B3328B6AE8704D2.quest_desc: ["&bМолниеносные ножи&r — метательные снаряды, вызывающие молнию в месте попадания! \\n\\nПри броске нож расходуется, поэтому используйте их с умом."]
 	quest.6B3328B6AE8704D2.title: "&bМолниеносный нож"
-	quest.6C8766679D0AA8F6.quest_desc: ["This Weapon will 1 Hit Pigs, Piglins, and Zombified Piglins. \\n\\n2 Hit Hoglins and Zoglins. \\n\\n3 Hit Piglin Brutes."]
+	quest.6C8766679D0AA8F6.quest_desc: ["Это оружие убивает свиней, пиглинов и зомбифицированных пиглинов с одного удара. \\n\\nХоглинам и зоглинам нужно два удара. \\n\\nПиглинам-брутам — три."]
 	quest.6C8766679D0AA8F6.title: "&dУбийца свиней"
 	quest.6D2425DAEA1FC211.quest_desc: ["&cСолнечный алтарь&r позволяет менять время суток в &e&lЭфире&r. \\n\\nДа, хотя в &l&eЭфире&r нет обычного цикла дня и ночи, этот блок умеет менять время. Просто выберите нужное! \\n\\nЕсли наступит ночь, можно поспать в кровати в &l&eЭфире&r и установить точку возрождения."]
 	quest.6D2425DAEA1FC211.title: "&cСолнечный алтарь"
