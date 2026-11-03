@@ -1,0 +1,19 @@
+{
+  "euphoria_patcher.button.support": "Поддержать EP",
+  "euphoria_patcher.button.update": "Обновить EP!",
+  "euphoria_patcher.tooltip.support": "Поддержать Euphoria Patches!",
+  "euphoria_patcher.tooltip.update": "Обновить Euphoria Patches!",
+  "euphoria_patcher.tooltip.remove": "Убрать кнопку поддержки?",
+  "euphoria_patcher.tooltip.remove.hint": "(Удерживайте SHIFT и нажмите, чтобы убрать)",
+  "euphoria_patcher.donation.line1": "Привет!",
+  "euphoria_patcher.donation.line2": "Рады, что вам нравится %s!",
+  "euphoria_patcher.donation.line2.highlight": "Euphoria Patches",
+  "euphoria_patcher.donation.line3": "Добавление новых настроек, эффектов и возможностей требует %s работы.",
+  "euphoria_patcher.donation.line3.highlight": "бесчисленных часов",
+  "euphoria_patcher.donation.line4": "Если вам нравится дополнительная атмосфера в вашем мире, подумайте о том, чтобы %s.",
+  "euphoria_patcher.donation.line4.highlight": "поддержать проект",
+  "euphoria_patcher.donation.line5": "Спасибо, что используете Euphoria Patches <3",
+  "euphoria_patcher.donation.button": "Поддержать проект",
+  "fml.menu.mods.info.description.euphoria_patcher": "Мод добавляет поддержку дополнения Euphoria Patches для Complementary Shaders.\nВключайте Euphoria Patches и изменяйте их настройки в меню настроек шейдерпака.\nСообщайте о проблемах в Discord!",
+  "modmenu.descriptionTranslation.euphoria_patcher": "Мод добавляет поддержку дополнения Euphoria Patches для Complementary Shaders.\nВключайте Euphoria Patches и изменяйте их настройки в меню настроек шейдерпака.\nСообщайте о проблемах в Discord!"
+}
