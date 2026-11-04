@@ -1,6 +1,6 @@
 {
   "block.simplylight.edge_light": "Динамический краевой свет (Нижний)",
-  "block.simplylight.edge_light.info": "Follows walls around itself,",
+  "block.simplylight.edge_light.info": "Устанавливается вдоль окружающих стен.",
   "block.simplylight.edge_light.info2": "perfect для hallways.",
   "block.simplylight.edge_light.jei.info": "будет morph depending на the Блоки present around itself на placement.\nShape будет persist afterward, letting you make shapes using temporary Блоки.",
   "block.simplylight.edge_light_black": "Динамический Чёрный Edge Свет (Нижний)",
@@ -18,7 +18,7 @@
   "block.simplylight.edge_light_purple": "Динамический Фиолетовый Edge Свет (Нижний)",
   "block.simplylight.edge_light_red": "Динамический Красный Edge Свет (Нижний)",
   "block.simplylight.edge_light_top": "Динамический краевой свет (Верхний)",
-  "block.simplylight.edge_light_top.info": "Follows walls around itself,",
+  "block.simplylight.edge_light_top.info": "Устанавливается вдоль окружающих стен.",
   "block.simplylight.edge_light_top.info2": "perfect для hallways.",
   "block.simplylight.edge_light_top.jei.info": "будет morph depending на the Блоки present around itself на placement.\nShape будет persist afterward, letting you make shapes using temporary Блоки.",
   "block.simplylight.edge_light_top_black": "Динамический Чёрный Edge Свет (Верхний)",
