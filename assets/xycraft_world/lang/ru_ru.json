@@ -293,9 +293,9 @@
   "block.xycraft_world.raw_aluminum_block": "Необработанный алюминиевый блок",
   "block.xycraft_world.smooth_kivi": "Гладкий Киви",
   "block.xycraft_world.xychorium_ore_deepslate_blue": "Глубинная голубая ксикориевая руда",
-  "block.xycraft_world.xychorium_ore_deepslate_dark": "Темная ксикориевая руда Deepslate",
-  "block.xycraft_world.xychorium_ore_deepslate_green": "Зеленая ксикориевая руда Deepslate",
-  "block.xycraft_world.xychorium_ore_deepslate_light": "Легкая ксикориевая руда Deepslate",
+  "block.xycraft_world.xychorium_ore_deepslate_dark": "Тёмная ксикориевая руда в глубинном сланце",
+  "block.xycraft_world.xychorium_ore_deepslate_green": "Зелёная ксикориевая руда в глубинном сланце",
+  "block.xycraft_world.xychorium_ore_deepslate_light": "Светлая ксикориевая руда в глубинном сланце",
   "block.xycraft_world.xychorium_ore_deepslate_red": "Красная ксикориевая руда из глубинного сланца",
   "block.xycraft_world.xychorium_ore_kivi_blue": "Киви Синяя ксикориевая руда",
   "block.xycraft_world.xychorium_ore_kivi_dark": "Киви Темная ксикориевая руда",
@@ -322,5 +322,5 @@
   "item.xycraft_world.xychorium_gem_green": "Зеленые камни ксикория",
   "item.xycraft_world.xychorium_gem_light": "Светлые камни ксикория",
   "item.xycraft_world.xychorium_gem_red": "Красные драгоценные камни ксикория",
-  "itemGroup.xycraft_world_tab": "XyCraft Мир"
+  "itemGroup.xycraft_world_tab": "Мир XyCraft"
 }
