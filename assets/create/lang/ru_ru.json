@@ -2753,7 +2753,7 @@
   "create.schedule.condition.threshold.train_holds": "Поезд содержит %1$s",
   "create.schedule.condition.threshold.x_units_of_item": "%1$s %2$s (%3$s)",
   "create.schedule.condition.time_of_day": "Время суток",
-  "create.schedule.condition.time_of_day.digital_format": "%2$s:%3$s",
+  "create.schedule.condition.time_of_day.digital_format": "%1$s:%3$s %4$s",
   "create.schedule.condition.time_of_day.rotation": "Интервал движения",
   "create.schedule.condition.time_of_day.rotation.every_0_15": "Каждые 15м",
   "create.schedule.condition.time_of_day.rotation.every_0_30": "Каждые 30м",
