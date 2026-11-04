@@ -384,7 +384,7 @@
   "jei.config.client.search.resourceLocationSearchMode.enabled.description": "Находить идентификаторы ингредиентов при обычном поиске.",
   "jei.config.client.search.resourceLocationSearchMode.require_prefix.description": "Находить идентификаторы ингредиентов, только если сначала введён символ &, например &minecraft:stone.",
   "jei.config.client.search.resourceLocationSearchMode.disabled.description": "Не искать по идентификаторам ингредиентов.",
-  "jei.config.client.search.creativeTabSearchMode": "%%Творческая вкладка",
+  "jei.config.client.search.creativeTabSearchMode": "Поиск по вкладкам творческого режима",
   "jei.config.client.search.creativeTabSearchMode.description": "Режим поиска по названиям творческих вкладок (префикс: %).",
   "jei.config.client.search.creativeTabSearchMode.enabled.description": "Искать по названиям вкладок творческого инвентаря в обычных запросах.",
   "jei.config.client.search.creativeTabSearchMode.require_prefix.description": "Искать по названиям вкладок творческого инвентаря только с префиксом %, например %building.",
