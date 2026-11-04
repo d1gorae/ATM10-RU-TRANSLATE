@@ -4,7 +4,7 @@
   "entity.minecraft.villager.sawmill.carpenter": "Плотник",
   "entity.minecraft.villager.carpenter": "Плотник",
   "subtitles.sawmill.entity.villager.work_carpenter": "Плотник работает",
-  "subtitles.sawmill.ui.sawmill.take_result": "Используется пилорама",
+  "subtitles.sawmill.ui.sawmill.take_result": "Работает пилорама",
   "sawmill.category.wood_cutting": "Распиловка древесины",
   "tag.recipe_type.sawmill.whitelist": "Белый список"
 }
