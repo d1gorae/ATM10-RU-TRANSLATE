@@ -1,14 +1,14 @@
 {
   "options.showAll": "Показать все",
   "options.showConflicts": "Показать конфликты",
-  "options.showNone": "Показать клавиши без назначения",
+  "options.showNone": "Показать неназначенные",
   "options.availableKeys": "Доступные клавиши",
   "options.sort": "Сортировка",
-  "options.sortNone": "Без сортировки",
+  "options.sortNone": "Нет",
   "options.sortAZ": "А → Я",
   "options.sortZA": "Я → А",
   "options.sortKeyAZ": "Клавиши: А → Я",
   "options.sortKeyZA": "Клавиши: Я → А",
-  "options.toggleFree": "Показать свободные клавиши",
+  "options.toggleFree": "Переключить свободный режим",
   "options.confirmReset": "Подтвердить?"
 }
