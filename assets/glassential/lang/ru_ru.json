@@ -129,7 +129,7 @@
   "tooltip.glassential.smart.panel": "Один сигнал запотевает всю соединённую панель",
   "tooltip.glassential.smart.hint": "Даже в запотевшем состоянии пропускает свет",
   "tooltip.glassential.clear_fluid": "Убирает ближнюю к поверхности грань воды за стеклом для кристально чистого обзора",
-  "tooltip.glassential.colorable": "Меняйте цвет и свойства с помощью кисти Glassential",
+  "tooltip.glassential.colorable": "Изменяйте цвет и свойства стекла с помощью кисти Glassential.",
   "tooltip.glassential.pane_frameless": "Не имеет рамки при установке между блоками",
   "tooltip.glassential.pane_light": "Излучает свет",
   "tooltip.glassential.pane_collideplayers": "Не является твёрдым для игроков",
