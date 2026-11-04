@@ -8,7 +8,7 @@
   "gui.pylons.blockedMobs": "Добавьте мобов, чтобы запретить их появление:",
   "gui.pylons.effects": "Активные эффекты зелий:",
   "gui.pylons.energyMissing": "Недостаточно энергии.",
-  "gui.pylons.fluxBar": "Redstone Flux:",
+  "gui.pylons.fluxBar": "Энергия Redstone Flux:",
   "gui.pylons.fluxData": "Хранится %d/%d RF",
   "gui.pylons.insideWorldSpawn": "Слишком близко к точке появления мира.",
   "gui.pylons.inventoryFull": "Инвентарь заполнен.",
