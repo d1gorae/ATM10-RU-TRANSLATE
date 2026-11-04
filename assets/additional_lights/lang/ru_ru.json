@@ -148,12 +148,12 @@
   "block.additional_lights.standing_torch_l_sandstone": "Большой напольный факел из песчаника",
   "block.additional_lights.standing_torch_l_cut_sandstone": "Большой напольный факел из резного песчаника",
   "block.additional_lights.standing_torch_l_polished_blackstone": "Большой напольный факел из полированного чернита",
-  "block.additional_lights.fire_for_fire_pit_l": "Fire For Fire Pit L",
-  "block.additional_lights.fire_for_fire_pit_s": "Fire For Fire Pit",
-  "block.additional_lights.fire_for_standing_torch_l": "Fire For Standing Torch L",
-  "block.additional_lights.fire_for_standing_torch_s": "Fire For Standing Torch",
-  "block.additional_lights.soul_fire_for_fire_pit_l": "Soul Fire For Fire Pit L",
-  "block.additional_lights.soul_fire_for_fire_pit_s": "Soul Fire For Fire Pit",
-  "block.additional_lights.soul_fire_for_standing_torch_l": "Soul Fire For Standing Torch L",
-  "block.additional_lights.soul_fire_for_standing_torch_s": "Soul Fire For Standing Torch"
+  "block.additional_lights.fire_for_fire_pit_l": "Огонь для большого очага",
+  "block.additional_lights.fire_for_fire_pit_s": "Огонь для небольшого очага",
+  "block.additional_lights.fire_for_standing_torch_l": "Огонь для большого напольного факела",
+  "block.additional_lights.fire_for_standing_torch_s": "Огонь для небольшого напольного факела",
+  "block.additional_lights.soul_fire_for_fire_pit_l": "Огонь душ для большого очага",
+  "block.additional_lights.soul_fire_for_fire_pit_s": "Огонь душ для небольшого очага",
+  "block.additional_lights.soul_fire_for_standing_torch_l": "Огонь душ для большого напольного факела",
+  "block.additional_lights.soul_fire_for_standing_torch_s": "Огонь душ для небольшого напольного факела"
 }
