@@ -128,7 +128,7 @@
   "material.sgearmetalworks.meat": "Мясо",
   "material.sgearmetalworks.uru_metal": "Металл уру",
   "productivebees.ingredient.description.uru_metal_bee": "Чтобы получить эту пчелу, найди рецепт создания её яйца призыва.",
-  "tooltip.sgearmetalworks.blueprint": "Все металлические и самоцветные детали инструментов необходимо отливать в литейной из мода Productive Metalworks",
+  "tooltip.sgearmetalworks.blueprint": "Все металлические детали и детали из самоцветов для инструментов необходимо отливать в литейной из мода Productive Metalworks.",
   "trait.silentgear.sting_resist": "Устойчивость к укусам",
   "trait.silentgear.sting_resist.desc": "Укусы пчёл больше не причиняют вреда"
 }
