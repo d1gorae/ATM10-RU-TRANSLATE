@@ -250,6 +250,229 @@
 
 Не удалять автоматически. Сначала выяснить, не является ли namespace алиасом, библиотекой, вспомогательным модом или частью другой версии сборки.
 
+## Дополнительная сверка по независимому ATM10 8.5-переводу
+
+Проверен публичный проект [chiba233/atm10-zh-cn](https://github.com/chiba233/atm10-zh-cn). Его README явно указывает поддержку ATM10 **8.5**, а в дереве проекта обнаружено **619** файлов `zh_cn.json` в `src/pack/assets/<namespace>/lang/`. Это не исходники английских строк и не замена проверки JAR, но полезный независимый индикатор того, что namespace действительно обслуживается языковым ресурсом в сборке той же версии.
+
+Из 207 namespace без русского файла:
+- **100** имеют соответствующий `zh_cn.json` в этом ATM10 8.5-проекте. Их следует считать приоритетными кандидатами для получения английского оригинала и подготовки русского файла.
+- **107** не имеют такого китайского файла. Это не доказывает отсутствие английских строк: часть может быть библиотеками, иметь только англоязычный интерфейс или использовать другой namespace. Их нужно проверить по JAR.
+
+Полный список первой группы:
+
+- `securitycraft`
+- `actuallyadditions`
+- `ad_astra`
+- `advancedperipherals`
+- `aether`
+- `allthecompressed`
+- `alltheores`
+- `amendments`
+- `apotheosis`
+- `apothic_enchanting`
+- `ae2`
+- `ars_elemental`
+- `ars_nouveau`
+- `artifacts`
+- `bibliobiomes`
+- `bibliocraft`
+- `bibliowoods`
+- `computercraft`
+- `chipped`
+- `chisel`
+- `create`
+- `createaddition`
+- `deeperdarker`
+- `draconicevolution`
+- `dyenamicsandfriends`
+- `enderio`
+- `eternal_starlight`
+- `everythingcopper`
+- `evilcraft`
+- `extended_industrialization`
+- `bigreactors`
+- `fancymenu`
+- `farmersdelight`
+- `framedblocks`
+- `ftbchunks`
+- `ftbquests`
+- `herbsandharvest`
+- `hostilenetworks`
+- `iceandfire`
+- `immersiveengineering`
+- `industrialforegoing`
+- `integratedcrafting`
+- `integrateddynamics`
+- `integratedscripting`
+- `integratedterminals`
+- `integratedtunnels`
+- `iris`
+- `irons_spellbooks`
+- `jei`
+- `journeymap`
+- `justdirethings`
+- `kubejs`
+- `cataclysm`
+- `little_big_redstone`
+- `logisticsnetworks`
+- `mahoutsukai`
+- `mcwfurnitures`
+- `mcwpaths`
+- `mcwroofs`
+- `mekanism`
+- `mekanismgenerators`
+- `merrymaking`
+- `minecolonies`
+- `modern_industrialization`
+- `modernfix`
+- `modularrouters`
+- `mysticalagriculture`
+- `neovitae`
+- `not_enough_glyphs`
+- `nullscape`
+- `occultism`
+- `oritech`
+- `pamhc2foodextended`
+- `pneumaticcraft`
+- `productivebees`
+- `productivemetalworks`
+- `productivetrees`
+- `railcraft`
+- `rechiseled`
+- `refinedstorage`
+- `refurbished_furniture`
+- `regions_unexplored`
+- `relics`
+- `reliquary`
+- `reliquified_artifacts`
+- `rootsclassic`
+- `silentgear`
+- `sodium`
+- `sophisticatedbackpacks`
+- `sophisticatedcore`
+- `sophisticatedstorage`
+- `stevescarts`
+- `supplementaries`
+- `tempad`
+- `the_bumblezone`
+- `undergarden`
+- `tombstone`
+- `twilightforest`
+- `waystones`
+- `xtonesreworked`
+
+Полный список второй группы:
+
+- `accelerateddecay`
+- `ae2jeiintegration`
+- `aiimprovements`
+- `alltheleaks`
+- `architectury`
+- `astralsorcery`
+- `athena`
+- `atlas_api`
+- `atmcompat`
+- `attributefix`
+- `blueflame`
+- `borderlesswindow`
+- `botanypotsmystical`
+- `botanytrees`
+- `byzantine`
+- `catjammies`
+- `cleanswing`
+- `cloth_config`
+- `clumps`
+- `cobweb`
+- `colorwheel`
+- `colorwheel_patcher`
+- `connectivity`
+- `corgilib`
+- `crash_assistant`
+- `create_enchantment_industry`
+- `cryonicconfig`
+- `cupboard`
+- `deimos`
+- `dungeoncrawl`
+- `edivadlib`
+- `experiencelib`
+- `explorify`
+- `fastfurnace`
+- `fastsuite`
+- `ferritecore`
+- `flickerfix`
+- `formationsnether`
+- `formationsoverworld`
+- `framework`
+- `ftbjeiextras`
+- `ftbranks`
+- `ftbxmodcompat`
+- `fuelgoeshere`
+- `geckolib`
+- `glodium`
+- `hellish_trials`
+- `heyberryshutup`
+- `iceberg`
+- `illagerwarship`
+- `immediatelyfast`
+- `incontrol`
+- `iris_search`
+- `jumpboat`
+- `konkrete`
+- `lithostitched`
+- `lmft`
+- `mekanismtools`
+- `mekmm`
+- `melody`
+- `modelfix`
+- `monolib`
+- `moredragoneggs`
+- `moreredxcctcompat`
+- `mousetweaks`
+- `mysticalcustomization`
+- `netherportalfix`
+- `novillagerdm`
+- `observerlib`
+- `occultism_kubejs`
+- `octolib`
+- `biomeswevegone`
+- `ohthetreesyoullgrow`
+- `omegaconfig`
+- `openloader`
+- `overlapless`
+- `overloadedarmorbar`
+- `playeranimator`
+- `polyeng`
+- `ponderjs`
+- `prickle`
+- `prism`
+- `rebind_narrator`
+- `rechiseled_chipped`
+- `resourcefullib`
+- `rhino`
+- `smartbrainlib`
+- `sodium_extra`
+- `sophisticatedbackpackscreateintegration`
+- `sophisticatedstoragecreateintegration`
+- `spark`
+- `structory`
+- `structory_towers`
+- `stylecolonies`
+- `supermartijn642configlib`
+- `sussysniffers`
+- `t_and_t`
+- `theurgy`
+- `theurgy_kubejs`
+- `towntalk`
+- `underground_villages`
+- `uranus`
+- `valhelsia_core`
+- `villagesandpillages`
+- `wits`
+- `yeetusexperimentus`
+- `yungsextras`
+
+Методика: сравнение namespace в дереве текущей ветки проекта chiba233 с mod ID из официального `config/crash_assistant/modlist.json` ATM10 8.5 и namespace русского репозитория. Наличие китайского файла — подтверждение языкового ресурса для namespace, но не точное число английских ключей.
+
 ## Ограничения точности
 
 Это **инвентаризация namespace**, а не окончательный подсчёт строк к переводу. Для точного объёма нужно получить языковые ресурсы установленных модов и для каждого кандидата проверить:
@@ -259,6 +482,6 @@
 4. Сколько ключей отсутствует в русской локализации и какие строки уже переведены.
 5. Не относятся ли оставшиеся строки к служебным/авторским данным, которые не следует менять.
 
-До этой проверки число 206 означает количество отсутствующих прямых namespace-файлов, а не число модов, которые гарантированно нужно переводить.
+До этой проверки число 207 означает количество отсутствующих прямых namespace-файлов, а не число модов, которые гарантированно нужно переводить.
 
 FTB Quests/SNBT исключён из текущего этапа и остаётся на конец проекта.
