@@ -5,7 +5,7 @@
   "subtitle.mcwdoors.garage": "Открыть Garage Дверь",
   "mcwdoors.metaldoor.desc": "Requires Redstone Энергия to Открыть",
   "mcwdoors.garage.desc": "Установите только одну на потолок — при открытии она будет съезжать вниз.",
-  "item.mcwdoors.garage_remote": "Garage Remote",
+  "item.mcwdoors.garage_remote": "Пульт гаражных ворот",
   "item.mcwdoors.print_oak": "Classic Дверь Print",
   "item.mcwdoors.print_spruce": "Cottage Дверь Print",
   "item.mcwdoors.print_birch": "Paper Дверь Print",
