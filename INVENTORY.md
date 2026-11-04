@@ -1,45 +1,31 @@
 # Инвентаризация локализаций ATM10
 
-Дата сверки: **04.11.2026**  
+Дата сверки: **05.11.2026**  
 Версия официальной сборки: **ATM10 8.5**  
 Источник списка модов: [AllTheMods/ATM-10](https://github.com/AllTheMods/ATM-10), `config/crash_assistant/modlist.json`, ветка `main`.  
-Русские файлы: текущая ветка `main` этого репозитория, пути `assets/<namespace>/lang/ru_ru.json`.
+Русские файлы: текущая ветка `main` репозитория `d1gorae/ATM10-RU-TRANSLATE`, пути `assets/<namespace>/lang/ru_ru.json`.
 
 ## Сводка
 
 | Показатель | Значение |
 |---|---:|
-| Записей в modlist (без NeoForge) | 491 |
-| Уникальных mod ID | 490 |
-| Русских JSON-файлов | 296 |
-| Mod ID с совпадающим русским namespace | 283 |
-| Mod ID без одноимённого русского JSON | 207 |
-| Из них вне FTB Quests | 206 |
+| Записей в официальном modlist | 497 |
+| Уникальных mod ID (без NeoForge) | 490 |
+| Русских JSON-файлов | 383 |
+| Mod ID с одноимённым русским namespace | 370 |
+| Mod ID без одноимённого русского JSON | 120 |
+| Из них вне FTB Quests | 119 |
 | Дополнительных namespace без прямого совпадения | 13 |
+
+Отсутствие одноимённого JSON не доказывает, что мод содержит переводимые строки. Для каждого кандидата нужно сверить фактический `en_us.json` в версии мода из ATM10 8.5. FTB Quests не трогать до самого конца проекта.
 
 ## Mod ID без одноимённого ru_ru.json
 
-Список предназначен для следующей проверки исходных языковых файлов. Он не доказывает, что каждый мод содержит собственные переводимые строки.
-
 - `accelerateddecay`
-- `actuallyadditions`
-- `ad_astra`
-- `advancedperipherals`
-- `ae2`
 - `ae2jeiintegration`
-- `aether`
 - `aiimprovements`
-- `allthecompressed`
 - `alltheleaks`
-- `alltheores`
-- `amendments`
-- `apotheosis`
-- `apothic_enchanting`
 - `architectury`
-- `ars_elemental`
-- `ars_nouveau`
-- `artifacts`
-- `astralsorcery`
 - `athena`
 - `atlas_api`
 - `atmcompat`
@@ -47,14 +33,11 @@
 - `bibliobiomes`
 - `bibliocraft`
 - `bibliowoods`
-- `bigreactors`
-- `biomeswevegone`
 - `blueflame`
 - `borderlesswindow`
 - `botanypotsmystical`
 - `botanytrees`
 - `byzantine`
-- `cataclysm`
 - `catjammies`
 - `chipped`
 - `chisel`
@@ -64,40 +47,26 @@
 - `cobweb`
 - `colorwheel`
 - `colorwheel_patcher`
-- `computercraft`
 - `connectivity`
 - `corgilib`
 - `crash_assistant`
-- `create`
-- `create_enchantment_industry`
-- `createaddition`
 - `cryonicconfig`
 - `cupboard`
-- `deeperdarker`
 - `deimos`
-- `draconicevolution`
 - `dungeoncrawl`
 - `dyenamicsandfriends`
 - `edivadlib`
-- `enderio`
-- `eternal_starlight`
-- `everythingcopper`
-- `evilcraft`
 - `experiencelib`
 - `explorify`
-- `extended_industrialization`
-- `fancymenu`
-- `farmersdelight`
 - `fastfurnace`
 - `fastsuite`
 - `ferritecore`
 - `flickerfix`
 - `formationsnether`
 - `formationsoverworld`
-- `framedblocks`
 - `framework`
-- `ftbchunks`
 - `ftbjeiextras`
+- `ftbquests`
 - `ftbranks`
 - `ftbxmodcompat`
 - `fuelgoeshere`
@@ -106,100 +75,53 @@
 - `hellish_trials`
 - `herbsandharvest`
 - `heyberryshutup`
-- `hostilenetworks`
-- `iceandfire`
 - `iceberg`
 - `illagerwarship`
 - `immediatelyfast`
-- `immersiveengineering`
 - `incontrol`
-- `industrialforegoing`
-- `integratedcrafting`
-- `integrateddynamics`
 - `integratedscripting`
-- `integratedterminals`
-- `integratedtunnels`
 - `iris`
 - `iris_search`
-- `irons_spellbooks`
-- `jei`
-- `journeymap`
 - `jumpboat`
-- `justdirethings`
 - `konkrete`
 - `kubejs`
 - `lithostitched`
-- `little_big_redstone`
 - `lmft`
 - `logisticsnetworks`
-- `mahoutsukai`
-- `mcwfurnitures`
-- `mcwpaths`
-- `mcwroofs`
-- `mekanism`
-- `mekanismgenerators`
-- `mekanismtools`
-- `mekmm`
 - `melody`
-- `merrymaking`
-- `minecolonies`
 - `modelfix`
-- `modern_industrialization`
-- `modernfix`
-- `modularrouters`
 - `monolib`
 - `moredragoneggs`
 - `moreredxcctcompat`
 - `mousetweaks`
-- `mysticalagriculture`
 - `mysticalcustomization`
-- `neovitae`
 - `netherportalfix`
-- `not_enough_glyphs`
 - `novillagerdm`
 - `nullscape`
 - `observerlib`
-- `occultism`
 - `occultism_kubejs`
 - `octolib`
 - `ohthetreesyoullgrow`
 - `omegaconfig`
 - `openloader`
-- `oritech`
 - `overlapless`
 - `overloadedarmorbar`
 - `pamhc2foodextended`
 - `playeranimator`
-- `pneumaticcraft`
 - `polyeng`
 - `ponderjs`
 - `prickle`
 - `prism`
-- `productivebees`
-- `productivemetalworks`
-- `productivetrees`
-- `railcraft`
 - `rebind_narrator`
 - `rechiseled`
 - `rechiseled_chipped`
-- `refinedstorage`
 - `refurbished_furniture`
-- `regions_unexplored`
-- `relics`
-- `reliquary`
-- `reliquified_artifacts`
 - `resourcefullib`
 - `rhino`
-- `rootsclassic`
-- `securitycraft`
-- `silentgear`
 - `smartbrainlib`
 - `sodium`
 - `sodium_extra`
-- `sophisticatedbackpacks`
 - `sophisticatedbackpackscreateintegration`
-- `sophisticatedcore`
-- `sophisticatedstorage`
 - `sophisticatedstoragecreateintegration`
 - `spark`
 - `stevescarts`
@@ -207,32 +129,20 @@
 - `structory_towers`
 - `stylecolonies`
 - `supermartijn642configlib`
-- `supplementaries`
 - `sussysniffers`
 - `t_and_t`
-- `tempad`
-- `the_bumblezone`
-- `theurgy`
 - `theurgy_kubejs`
-- `tombstone`
 - `towntalk`
-- `twilightforest`
-- `undergarden`
 - `underground_villages`
 - `uranus`
 - `valhelsia_core`
 - `villagesandpillages`
-- `waystones`
 - `wits`
 - `xtonesreworked`
 - `yeetusexperimentus`
 - `yungsextras`
 
-## Отдельно отложено
-
-- `ftbquests` — не включать в текущую работу; FTB Quests остаётся на самый последний этап по прямому указанию пользователя.
-
-## Namespace в ресурс-паке без прямого совпадения с mod ID
+## Дополнительные namespace без прямого совпадения с mod ID
 
 - `borderless`
 - `cloth-config2`
@@ -248,240 +158,42 @@
 - `tempad_static`
 - `vulkanmod`
 
-Не удалять автоматически. Сначала выяснить, не является ли namespace алиасом, библиотекой, вспомогательным модом или частью другой версии сборки.
+Не удалять автоматически. Это могут быть алиасы, библиотеки, вспомогательные моды или namespace, предоставляемые другой зависимостью.
 
-## Дополнительная сверка по независимому ATM10 8.5-переводу
+## Сверка Dropbox
 
-Проверен публичный проект [chiba233/atm10-zh-cn](https://github.com/chiba233/atm10-zh-cn). Его README явно указывает поддержку ATM10 **8.5**, а в дереве проекта обнаружено **619** файлов `zh_cn.json` в `src/pack/assets/<namespace>/lang/`. Это не исходники английских строк и не замена проверки JAR, но полезный независимый индикатор того, что namespace действительно обслуживается языковым ресурсом в сборке той же версии.
+Источник: папка `languages_ru_ru`, предоставленная пользователем.
 
-Из 207 namespace без русского файла:
-- **100** имеют соответствующий `zh_cn.json` в этом ATM10 8.5-проекте. Их следует считать приоритетными кандидатами для получения английского оригинала и подготовки русского файла.
-- **107** не имеют такого китайского файла. Это не доказывает отсутствие английских строк: часть может быть библиотеками, иметь только англоязычный интерфейс или использовать другой namespace. Их нужно проверить по JAR.
+- Всего обнаружено **773 элемента**: 512 папок и 261 файл.
+- Среди файлов: **256 JSON** и **5 legacy-файлов `.lang`**.
+- JSON-файлы охватывают **254 namespace**. Два namespace имеют по два файла разных версий: `allthemodium` и `computercraft`.
+- До импорта в GitHub уже присутствовали 229 из 254 namespace; 25 отсутствовали.
+- В репозиторий импортированы **20 существовавших Dropbox-переводов**. При импорте сохранялись только ключи, присутствующие в английском файле именно соответствующей версии, с непустыми значениями и совпадающими форматирующими плейсхолдерами.
+- Всего импортировано **19 844 существующих значения**. Это не означает, что все файлы полностью переведены: отсутствующие ключи намеренно оставлены для последующего перевода, а одинаковые английскому значения требуют смысловой проверки.
+- Для `allthemodium` объединены два Dropbox-файла с общим namespace: добавлены 307 ключей основного мода к существующему файлу; при одном конфликте сохранено значение из GitHub.
+- Для `computercraft` Dropbox содержит две версии. Файл GitHub уже полнее (235 ключей против 181/188 в Dropbox), поэтому замены не делались.
+- Ещё пять namespace из Dropbox не импортированы:
+  - `ftbquests` — отложен до самого конца проекта;
+  - `iris`, `iris_search`, `sodium_extra` — в английском репозитории не найден соответствующий языковой оригинал для безопасной сверки;
+  - `integratedscripting` — Dropbox-файл содержит пустой объект `{}`.
+- Пять файлов `.lang` сохранены в Dropbox как справочные материалы. Они не преобразовывались автоматически в JSON: у части старый формат ключей, а у части ключи не совпадают с текущими английскими ресурсами.
 
-Полный список первой группы:
+## Принцип использования Dropbox
 
-- `securitycraft`
-- `actuallyadditions`
-- `ad_astra`
-- `advancedperipherals`
-- `aether`
-- `allthecompressed`
-- `alltheores`
-- `amendments`
-- `apotheosis`
-- `apothic_enchanting`
-- `ae2`
-- `ars_elemental`
-- `ars_nouveau`
-- `artifacts`
-- `bibliobiomes`
-- `bibliocraft`
-- `bibliowoods`
-- `computercraft`
-- `chipped`
-- `chisel`
-- `create`
-- `createaddition`
-- `deeperdarker`
-- `draconicevolution`
-- `dyenamicsandfriends`
-- `enderio`
-- `eternal_starlight`
-- `everythingcopper`
-- `evilcraft`
-- `extended_industrialization`
-- `bigreactors`
-- `fancymenu`
-- `farmersdelight`
-- `framedblocks`
-- `ftbchunks`
-- `ftbquests`
-- `herbsandharvest`
-- `hostilenetworks`
-- `iceandfire`
-- `immersiveengineering`
-- `industrialforegoing`
-- `integratedcrafting`
-- `integrateddynamics`
-- `integratedscripting`
-- `integratedterminals`
-- `integratedtunnels`
-- `iris`
-- `irons_spellbooks`
-- `jei`
-- `journeymap`
-- `justdirethings`
-- `kubejs`
-- `cataclysm`
-- `little_big_redstone`
-- `logisticsnetworks`
-- `mahoutsukai`
-- `mcwfurnitures`
-- `mcwpaths`
-- `mcwroofs`
-- `mekanism`
-- `mekanismgenerators`
-- `merrymaking`
-- `minecolonies`
-- `modern_industrialization`
-- `modernfix`
-- `modularrouters`
-- `mysticalagriculture`
-- `neovitae`
-- `not_enough_glyphs`
-- `nullscape`
-- `occultism`
-- `oritech`
-- `pamhc2foodextended`
-- `pneumaticcraft`
-- `productivebees`
-- `productivemetalworks`
-- `productivetrees`
-- `railcraft`
-- `rechiseled`
-- `refinedstorage`
-- `refurbished_furniture`
-- `regions_unexplored`
-- `relics`
-- `reliquary`
-- `reliquified_artifacts`
-- `rootsclassic`
-- `silentgear`
-- `sodium`
-- `sophisticatedbackpacks`
-- `sophisticatedcore`
-- `sophisticatedstorage`
-- `stevescarts`
-- `supplementaries`
-- `tempad`
-- `the_bumblezone`
-- `undergarden`
-- `tombstone`
-- `twilightforest`
-- `waystones`
-- `xtonesreworked`
+Dropbox — вспомогательный источник ранее сделанных переводов, а не источник для безусловной замены GitHub. Многие файлы Dropbox старее или неполнее текущих GitHub-файлов. Совпадение количества ключей не гарантирует лучшего перевода; отличающиеся значения нельзя перезаписывать без смысловой проверки.
 
-Полный список второй группы:
+При переносе новых источников:
+1. Проверять соответствие версии мода и namespace.
+2. Сверять ключи с английским оригиналом ATM10 8.5.
+3. Удалять устаревшие ключи, отсутствующие в текущем английском файле.
+4. Не переносить пустые значения и записи с несовпадающими плейсхолдерами.
+5. Сохранять более полные и качественные значения, уже находящиеся в GitHub.
+6. Не менять Dropbox: он остаётся исходным архивом.
 
-- `accelerateddecay`
-- `ae2jeiintegration`
-- `aiimprovements`
-- `alltheleaks`
-- `architectury`
-- `astralsorcery`
-- `athena`
-- `atlas_api`
-- `atmcompat`
-- `attributefix`
-- `blueflame`
-- `borderlesswindow`
-- `botanypotsmystical`
-- `botanytrees`
-- `byzantine`
-- `catjammies`
-- `cleanswing`
-- `cloth_config`
-- `clumps`
-- `cobweb`
-- `colorwheel`
-- `colorwheel_patcher`
-- `connectivity`
-- `corgilib`
-- `crash_assistant`
-- `create_enchantment_industry`
-- `cryonicconfig`
-- `cupboard`
-- `deimos`
-- `dungeoncrawl`
-- `edivadlib`
-- `experiencelib`
-- `explorify`
-- `fastfurnace`
-- `fastsuite`
-- `ferritecore`
-- `flickerfix`
-- `formationsnether`
-- `formationsoverworld`
-- `framework`
-- `ftbjeiextras`
-- `ftbranks`
-- `ftbxmodcompat`
-- `fuelgoeshere`
-- `geckolib`
-- `glodium`
-- `hellish_trials`
-- `heyberryshutup`
-- `iceberg`
-- `illagerwarship`
-- `immediatelyfast`
-- `incontrol`
-- `iris_search`
-- `jumpboat`
-- `konkrete`
-- `lithostitched`
-- `lmft`
-- `mekanismtools`
-- `mekmm`
-- `melody`
-- `modelfix`
-- `monolib`
-- `moredragoneggs`
-- `moreredxcctcompat`
-- `mousetweaks`
-- `mysticalcustomization`
-- `netherportalfix`
-- `novillagerdm`
-- `observerlib`
-- `occultism_kubejs`
-- `octolib`
-- `biomeswevegone`
-- `ohthetreesyoullgrow`
-- `omegaconfig`
-- `openloader`
-- `overlapless`
-- `overloadedarmorbar`
-- `playeranimator`
-- `polyeng`
-- `ponderjs`
-- `prickle`
-- `prism`
-- `rebind_narrator`
-- `rechiseled_chipped`
-- `resourcefullib`
-- `rhino`
-- `smartbrainlib`
-- `sodium_extra`
-- `sophisticatedbackpackscreateintegration`
-- `sophisticatedstoragecreateintegration`
-- `spark`
-- `structory`
-- `structory_towers`
-- `stylecolonies`
-- `supermartijn642configlib`
-- `sussysniffers`
-- `t_and_t`
-- `theurgy`
-- `theurgy_kubejs`
-- `towntalk`
-- `underground_villages`
-- `uranus`
-- `valhelsia_core`
-- `villagesandpillages`
-- `wits`
-- `yeetusexperimentus`
-- `yungsextras`
+## Отдельно отложено
 
-Методика: сравнение namespace в дереве текущей ветки проекта chiba233 с mod ID из официального `config/crash_assistant/modlist.json` ATM10 8.5 и namespace русского репозитория. Наличие китайского файла — подтверждение языкового ресурса для namespace, но не точное число английских ключей.
+- `ftbquests` — не включать в текущую работу; перевод FTB Quests/SNBT остаётся на самый последний этап по прямому указанию пользователя.
 
 ## Ограничения точности
 
-Это **инвентаризация namespace**, а не окончательный подсчёт строк к переводу. Для точного объёма нужно получить языковые ресурсы установленных модов и для каждого кандидата проверить:
-1. Есть ли в моде `assets/<namespace>/lang/en_us.json`.
-2. Есть ли у него реальные строки, видимые игроку.
-3. Не предоставляются ли его строки другим модом или общим namespace.
-4. Сколько ключей отсутствует в русской локализации и какие строки уже переведены.
-5. Не относятся ли оставшиеся строки к служебным/авторским данным, которые не следует менять.
-
-До этой проверки число 207 означает количество отсутствующих прямых namespace-файлов, а не число модов, которые гарантированно нужно переводить.
-
-FTB Quests/SNBT исключён из текущего этапа и остаётся на конец проекта.
+Эта инвентаризация считает файлы и namespace, но не объявляет все 120 отсутствующих namespace обязательными к переводу. Перед созданием нового файла нужно проверить, содержит ли мод собственные пользовательские строки, нет ли общего namespace и не являются ли оставшиеся записи служебными.
