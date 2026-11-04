@@ -69,6 +69,6 @@
   "justzoom.options.spyglass_sounds.spyglass_and_keybind_zoom": "Подзорная труба и приближение клавишей",
   "justzoom.options.spyglass_sounds.never": "Никогда",
   "justzoom.options.toggle.enabled": "Включено",
-  "justzoom.options.toggle.disabled": "Disabled",
+  "justzoom.options.toggle.disabled": "Отключено",
   "justzoom.server.standalone_zoom_disabled": "На этом сервере отключено приближение клавишей. Используйте подзорную трубу."
 }
