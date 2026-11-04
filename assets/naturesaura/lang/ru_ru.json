@@ -165,7 +165,7 @@
   "container.naturesaura:offering.name": "Подношение Богам",
   "container.naturesaura:animal_spawner.name": "Алтарь Зарождения",
   "info.naturesaura.aura_in_area": "Аура вокруг",
-  "info.naturesaura.book.landing": "$(Аура) is a complicated matter, и creating, collecting и making Используйте of it can be difficult.$(br)The $(Предмет)Книга of Natural Аура$() contains all the information one requires to do so.",
+  "info.naturesaura.book.landing": "$(aura) сложная материя, и создавать, собирать и использовать ее может быть трудно.$(br)$(item)Книга природной ауры$() содержит всю информацию, необходимую для этого.",
   "info.naturesaura.book.subtitle": "Руководство по природной ауре",
   "info.naturesaura.stored_pos": "Вы записываете позицию",
   "info.naturesaura.connected": "Вы делаете соединение",
