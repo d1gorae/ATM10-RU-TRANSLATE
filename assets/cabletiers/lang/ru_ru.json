@@ -174,7 +174,7 @@
   "text.autoconfig.cabletiers.option.tieredAutocrafters.creativeSpeed": "Творческая Скорость",
   "text.autoconfig.cabletiers.option.tieredAutocrafters.creativeSpeed.tooltip": "Скорость творческий автокрафтер.",
   "text.autoconfig.cabletiers.option.tieredInterfaces": "Интерфейсы разных уровней",
-  "text.autoconfig.cabletiers.option.tieredInterfaces.tooltip": "Configuration for the tiered Interfaces.",
+  "text.autoconfig.cabletiers.option.tieredInterfaces.tooltip": "Настройки интерфейсов разных уровней.",
   "text.autoconfig.cabletiers.option.tieredInterfaces.eliteEnergyUsage": "Элитная Энергопотребление",
   "text.autoconfig.cabletiers.option.tieredInterfaces.eliteEnergyUsage.tooltip": "Энергопотребление элитный интерфейс.",
   "text.autoconfig.cabletiers.option.tieredInterfaces.ultraEnergyUsage": "Ультра Энергопотребление",
