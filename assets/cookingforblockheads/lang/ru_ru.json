@@ -229,7 +229,7 @@
   "config.jade.plugin_cookingforblockheads.fridge": "Холодильник",
   "config.jade.plugin_cookingforblockheads.sink": "Раковина",
   "config.jade.plugin_cookingforblockheads.preservation_chamber": "Камера хранения",
-  "cookingforblockheads.configuration.cowJarEnabled": "Включить Cow in a Jar",
+  "cookingforblockheads.configuration.cowJarEnabled": "Включить корову в банке",
   "cookingforblockheads.configuration.cowJarEnabled.tooltip": "Если включено, корову можно поместить в банку для молока, сбросив на неё наковальню.",
   "cookingforblockheads.configuration.cowJarMilkPerTick": "Производство молока в банке за тик",
   "cookingforblockheads.configuration.cowJarMilkPerTick.tooltip": "Количество молока, которое корова в банке производит за тик.",
