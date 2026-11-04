@@ -31,7 +31,7 @@
   "chat.sfm.manager.cable_network_rebuild.failed_fallback": "Не удалось перестроить сеть кабелей у менеджера %s; вместо этого удалены все сети кабелей.",
   "chat.sfm.manager.cable_network_rebuild.success": "Сеть кабелей у менеджера %s перестроена.",
   "container.sfm.manager": "Фабрика Менеджер",
-  "container.sfm.test_barrel_tank": "Test Barrel Tank",
+  "container.sfm.test_barrel_tank": "Тестовая бочка-резервуар",
   "gui.jei.category.sfm.falling_anvil": "Падающая наковальня",
   "gui.jei.category.sfm.falling_anvil.consumed": "Расходуется",
   "gui.jei.category.sfm.falling_anvil.not_consumed": "Не расходуется",
