@@ -76,7 +76,7 @@
   "tooltop.mininggadgets.efficiency": "Повышает эффективность шахтёрского гаджета.",
   "tooltop.mininggadgets.empty": "Используется для создания других улучшений.",
   "tooltop.mininggadgets.fortune": "Добавляет шахтёрскому гаджету зачарование «Удача».",
-  "tooltop.mininggadgets.freezing": "Замораживает воду и останавливает лаву, превращая её в обсидиан!",
+  "tooltop.mininggadgets.freezing": "Замораживает воду и останавливает лаву на месте!",
   "tooltop.mininggadgets.light_placer": "Устанавливает факелы, если уровень освещения вокруг ниже 8.",
   "tooltop.mininggadgets.magnet": "Перемещает добытые блоки прямо в ваш инвентарь.",
   "tooltop.mininggadgets.paver": "Прокладывает дорожку по мере того, как вы копаете.",
