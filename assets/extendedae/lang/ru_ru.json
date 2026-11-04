@@ -233,7 +233,7 @@
   "gui.extendedae.vacuum_interface.set_work_area": "Настройка области",
   "gui.extendedae.vacuum_interface.size_config": "Рабочий радиус (X Y Z)",
   "gui.extendedae.vacuum_interface.offset_config": "Смещение (X Y Z)",
-  "gui.extendedae.network_status.highlight_hint": "Shift+Щёлкните to highlight",
+  "gui.extendedae.network_status.highlight_hint": "Shift+клик, чтобы подсветить",
   "chat.ex_pattern_access_terminal.pos": "The Шаблон provider is now highlighted at: %s, Dim: %s (%s blocks away)",
   "chat.wireless_connect.out_of_range": "The Беспроводной Node is too far",
   "chat.wireless_connect.self_reference": "Can't connect to itself",
