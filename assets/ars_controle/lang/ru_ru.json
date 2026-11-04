@@ -12,7 +12,7 @@
   "ars_controle.config.warping_spell_prism.dimension_cost": "Стоимость перехода между измерениями",
   "ars_controle.config.warping_spell_prism.load_time": "Время загрузки",
   "ars_controle.config.warping_spell_prism.max_cost": "Максимальная стоимость",
-  "ars_controle.glyph.error.generic.error_at_position": "В позиции %2$d произошла ошибка: %1$s.",
+  "ars_controle.glyph.error.generic.error_at_position": "Сообщение %s вызвало ошибку в позиции %d.",
   "ars_controle.glyph_desc.glyph_filter_above": "Заклинание срабатывает только выше заклинателя.",
   "ars_controle.glyph_desc.glyph_filter_below": "Заклинание срабатывает только ниже заклинателя.",
   "ars_controle.glyph_desc.glyph_filter_level": "Заклинание срабатывает только на высоте заклинателя.",
