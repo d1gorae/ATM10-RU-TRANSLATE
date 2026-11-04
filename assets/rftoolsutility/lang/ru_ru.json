@@ -155,7 +155,7 @@
   "message.rftoolsutility.syringe.header": "Шприцем можно воздействовать на мобов, чтобы захватить их эссенцию. Затем эссенцию можно использовать в рассаднике монстров. Учтите, что шприц должен быть полным",
   "message.rftoolsutility.syringe.level": "Уровень: ",
   "message.rftoolsutility.syringe.mob": "Цель: ",
-  "message.rftoolsutility.dialing_device.header": "With the dialing device you can 'dial-up' any nearby matter transmitter to any matter receiver in the Minecraft universe. This requires Энергия. If a Destination Analyzer is adjacent to this Блок you will also be able to check if the destination has enough Энергия to be safe",
+  "message.rftoolsutility.dialing_device.header": "С помощью устройства набора можно «набрать» любой передатчик материи поблизости на любой приёмник материи во вселенной Minecraft. Для этого нужна энергия. Если рядом с этим блоком стоит анализатор пункта назначения, вы сможете проверить, достаточно ли в пункте назначения энергии для безопасной телепортации",
   "message.rftoolsutility.dialing_device.gold": "Бонус инфузии: снижено потребление энергии",
   "message.rftoolsutility.matter_receiver.header": "Если поставить этот блок в любом месте мира, с помощью устройства набора на него можно будет «набрать» связь. Перед телепортацией на этот блок обязательно дайте ему энергию!",
   "message.rftoolsutility.matter_receiver.gold": "Бонус инфузии: снижено потребление энергии",
