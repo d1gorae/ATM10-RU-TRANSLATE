@@ -41,7 +41,7 @@
   "config.bridgingmod.option.supportedBridgeAxes.description.0": "Хотите устанавливать блоки только по горизонтали, как в Bedrock Edition? Эта настройка ограничивает направления установки.",
   "config.bridgingmod.option.supportedBridgeAxesWhenCrouched": "Ось установки в приседе",
   "config.bridgingmod.option.supportedBridgeAxesWhenCrouched.description.0": "См. «Ось установки», но эта настройка переопределяет её поведение, когда вы крадётесь.\n",
-  "config.bridgingmod.option.supportedBridgeAxesWhenCrouched.description.1": "'Same as Usual' copies whatever 'Bridging Axis' is set to.",
+  "config.bridgingmod.option.supportedBridgeAxesWhenCrouched.description.1": "«Как обычно» использует значение настройки «Ось установки».",
   "enum.bridgingmod.placement_axis.horizontal": "Только по горизонтали",
   "enum.bridgingmod.placement_axis.vertical": "Только по вертикали",
   "enum.bridgingmod.placement_axis.both": "Любая ось",
