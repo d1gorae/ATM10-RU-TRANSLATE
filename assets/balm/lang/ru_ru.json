@@ -32,7 +32,7 @@
   "tag.item.c.rods.wooden": "Деревянные стержни",
   "balm.configuration.exampleCategory": "Пример категории",
   "disconnect.balm.mod_missing_on_server": "На сервере не установлен мод %s. Удалите его из своей игры или установите этот мод и на сервер.",
-  "disconnect.balm.mod_missing_on_client": "У вас не установлен мод %s. Установите версию %s этого мода, чтобы играть на сервере.",
+  "disconnect.balm.mod_missing_on_client": "У вас не установлен мод %s. Установите мод %s версии %s, чтобы играть на этом сервере.",
   "disconnect.balm.mod_version_mismatch": "Версии мода %s не совпадают. На сервере требуется версия %s, а у вас установлена %s. Установите правильную версию.",
   "config.jade.plugin_balm.jade": "Balm"
 }
