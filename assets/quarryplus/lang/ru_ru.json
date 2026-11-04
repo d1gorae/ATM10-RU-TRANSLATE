@@ -148,7 +148,7 @@
   "quarryplus.gui.mover.next": "Следующий",
   "quarryplus.gui.mover.previous": "Предыдущий",
   "quarryplus.gui.new_entry": "Новая запись",
-  "quarryplus.gui.of": "%1$s of %2$s",
+  "quarryplus.gui.of": "%1$s из %2$s",
   "quarryplus.gui.whitelist": "Белый список",
   "quarryplus.machines.tooltip": "Механизмы",
   "quarryplus.status.enchantment": "Зачарования",
