@@ -1,0 +1,12 @@
+{
+  "block.allthemodium.allthemodium_source_jar": "Банка источника необтаниума",
+  "conduit.allthemodium.allthemodium_energy": "Энергетический проводник аллмодиума",
+  "conduit.allthemodium.allthemodium_fluid": "Жидкостный проводник аллмодиума",
+  "conduit.allthemodium.allthemodium_item": "Предметный проводник аллмодиума",
+  "item.allthemodium.allthemodium_capacitor": "Модиальный конденсатор",
+  "item.allthemodium.allthemodium_grinding_ball": "Шар для измельчения модиума",
+  "item.allthemodium.unobtainium_capacitor": "Конденсатор необтаниума",
+  "item.allthemodium.unobtainium_grinding_ball": "Шар для измельчения необтаниума",
+  "item.allthemodium.vibranium_capacitor": "Вибраниевый конденсатор",
+  "item.allthemodium.vibranium_grinding_ball": "Шар для измельчения вибраниума"
+}
