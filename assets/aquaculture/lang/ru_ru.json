@@ -194,7 +194,7 @@
   "aquaculture.message22": "Дорогой Shadowclaimer, ну так когда же выйдет версия 1.X? С уважением, все.",
   "aquaculture.message23": "Дорогие поклонники, привет! С уважением, Shadowclaimer.",
   "aquaculture.message24": "Тунавёрс — поистине невероятное место.",
-  "aquaculture.message25": "Исключение Null Pointer: Aquaculture.MessageInABottle (String) не может иметь значение null.",
+  "aquaculture.message25": "Ошибка нулевого указателя: параметр Aquaculture.MessageInABottle (String) не может иметь значение null.",
   "aquaculture.message26": "Я каждое утро перемалываю алмазную броню и ем её на завтрак. — mDiyo",
   "aquaculture.message27": "— Послание волшебным образом исчезает у вас в руке. —",
   "aquaculture.message28": "Посмотри на меня, теперь на свой инвентарь, снова на меня. Это послание теперь — АЛМАЗЫ! Ладно, шучу, это всё ещё бумага.",
