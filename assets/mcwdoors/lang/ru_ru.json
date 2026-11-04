@@ -4,7 +4,7 @@
   "subtitle.mcwdoors.shoji": "Открыть Shoji Дверь",
   "subtitle.mcwdoors.garage": "Открыть Garage Дверь",
   "mcwdoors.metaldoor.desc": "Requires Redstone Энергия to Открыть",
-  "mcwdoors.garage.desc": "Установите only one on the ceiling и when opened it will roll down",
+  "mcwdoors.garage.desc": "Установите только одну на потолок — при открытии она будет съезжать вниз.",
   "item.mcwdoors.garage_remote": "Garage Remote",
   "item.mcwdoors.print_oak": "Classic Дверь Print",
   "item.mcwdoors.print_spruce": "Cottage Дверь Print",
