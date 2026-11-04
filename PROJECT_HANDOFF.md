@@ -105,3 +105,145 @@
 Сначала прочитай этот файл целиком, затем `README.md`, `INVENTORY.md` и при необходимости `GLOSSARY.md`. После этого проверь текущее состояние GitHub и последние коммиты. Используй английский репозиторий только для чтения оригиналов.
 
 Соблюдай правила выше: работай партиями по 10, не спрашивай «продолжать?» после уже данной команды, не присылай промежуточные статусы и не выдавай частичную работу за завершённую. В отчёте сообщай только фактически выполненное.
+
+
+---
+
+# Дополнение: полный срез проекта по GitHub (05.11.2026)
+
+Этот раздел добавлен после повторного анализа дерева обоих репозиториев, документации, глоссария, FTBQUESTS и последних 100 коммитов. При расхождениях с более ранними историческими цифрами ориентироваться на дату и методику измерения.
+
+## 10. Фактическая структура репозитория на момент проверки
+
+Ветка: `main`. Последний HEAD на момент среза: `86678c8dffba37639a660d32c3dee220323ef49f` (коммит создания этого файла).
+
+Корень репозитория:
+- `assets/` — ресурс-пак с русскими языковыми файлами;
+- `FTBQUESTS/` — отдельный перевод конфигурации заданий в формате SNBT;
+- `README.md` — назначение и установка;
+- `INVENTORY.md` — покрытие и источники;
+- `GLOSSARY.md` — единая терминология;
+- `PROJECT_HANDOFF.md` — передача контекста;
+- `pack.mcmeta` — метаданные ресурс-пака.
+
+Проверка Git tree подтвердила:
+- 383 файла `assets/<namespace>/lang/ru_ru.json`;
+- 383 уникальных русских namespace;
+- ни одного повторяющегося русского namespace;
+- все 383 русских namespace присутствуют среди английских namespace;
+- ни одного русского namespace, отсутствующего в текущем английском дереве.
+
+## 11. Английские оригиналы: уточнённая статистика
+
+В актуальном на момент проверки дереве `d1gorae/beamng-road-reference`, `ATM/LANGUAGES_EN_US`:
+- найдено 408 JSON-языковых файлов;
+- они соответствуют 403 уникальным namespace;
+- 5 namespace имеют по два файла: `create_dragons_plus`, `draconicevolution`, `allthemodium`, `computercraft`, `forbidden_arcanus`. Это разные варианты/версии/резервные файлы; перед сравнением нужно выбирать актуальный оригинал ATM10, а не брать первый попавшийся файл.
+
+Сопоставление текущих деревьев:
+- 383 из 403 английских namespace имеют русский файл;
+- 20 английских namespace не имеют русского файла;
+- все 383 русских namespace сопоставляются с английскими.
+
+**Важное различие:** `INVENTORY.md` указывает 120 mod ID без одноимённого русского JSON из 490 mod ID сборки. Это не 120 отсутствующих переводов. Список mod ID и список namespace языковых файлов — разные множества. По текущему дереву английских языковых ресурсов отсутствуют русские файлы только для 20 namespace ниже; для каждого всё равно нужно проверить актуальность, наличие пользовательских строк и необходимость отдельной локализации.
+
+20 английских namespace без русского JSON:
+- `accelerateddecay`
+- `bibliobiomes`
+- `bibliocraft`
+- `bibliowoods`
+- `chipped`
+- `chisel`
+- `dyenamicsandfriends`
+- `ftbjeiextras`
+- `ftbquests`
+- `ftbxmodcompat`
+- `herbsandharvest`
+- `illagerwarship`
+- `integratedscripting`
+- `logisticsnetworks`
+- `pamhc2foodextended`
+- `rechiseled`
+- `rechiseled_chipped`
+- `refurbished_furniture`
+- `stevescarts`
+- `xtonesreworked`
+
+Этот список — результат прямого сопоставления деревьев на дату среза, а не окончательное утверждение, что все 20 нужно переводить. `ftbquests` оставить на самый конец.
+
+## 12. Границы проекта и отдельный FTB Quests
+
+Обычная локализация модов находится в `assets/<namespace>/lang/ru_ru.json` и входит в ресурс-пак с `pack.mcmeta` (pack_format 34).
+
+FTB Quests — отдельная подсистема:
+- файлы расположены в `FTBQUESTS/ru_ru/`;
+- формат — SNBT, не JSON;
+- в дереве репозитория на момент среза обнаружено 69 SNBT-файлов в папке FTBQUESTS;
+- README FTBQUESTS (состояние от 03.11.2026) сообщает о 61 русской главе из 67 английских;
+- на тот момент отсутствовали главы: `aether`, `apotheosis_gear`, `create_addons`, `deeper_and_darker`, `extended__advanced_ae`, `neo_vitae`;
+- общие файлы `chapter.snbt` и `reward_table.snbt` присутствуют; README фиксирует три дополнительных поля в `chapter.snbt`, актуальность которых требует отдельной проверки;
+- README описывает техническую сверку ключей, маркеров изображений, разрывов страниц, процентов, скобок, строк и дубликатов. Это не равнозначно полноценному смысловому аудиту или тесту в игре.
+
+Несмотря на то, что FTBQUESTS уже содержит значительный объём старой/частичной работы, по прямому указанию пользователя **не продолжать и не редактировать эту часть до самого конца проекта**. Не считать её полностью переведённой.
+
+## 13. Подтверждённые по истории GitHub локализационные работы
+
+Последние коммиты содержат отдельные добавления и исправления файлов. Ниже перечислены результаты, которые явно обозначены в сообщениях коммитов как завершённые, проверенные, исправленные или добавленные. Само сообщение коммита не заменяет повторную проверку файла и не является гарантией безупречного качества.
+
+### Последняя отчётливо выделяемая партия из 10 модов
+
+В истории присутствует последовательность из 10 отдельных коммитов:
+1. Waystones — [6c17102](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6c17102d22d49be3c41e9601709c64325ec88065)
+2. Reliquified Artifacts — [ada6324](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ada63246191e85f775b8a2abc527df343eb87e59)
+3. MineColonies — [2063cb4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2063cb4a5a0de2ac73dcbcd1f6cd21ee0777cf0c)
+4. Theurgy — [4f259b1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f259b105cb2fe3b500d12f1117a4a44a409f74d)
+5. Occultism — [caefd3e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/caefd3e8b2cbd0c06724538add131487c701ba73)
+6. Applied Energistics 2 — [50d5f99](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/50d5f99798f7ab128503f15ea3344cd78eff9f84)
+7. Eternal Starlight — [6fea6b6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6fea6b628baa3b0f521326d5294ff806673c6df6)
+8. Railcraft — [d43131b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d43131be1d3e02a5502f76aea0ae69f3db5bafa8)
+9. The Bumblezone — [5866953](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5866953f48c754f9cd2cd5c683741dfd1113fe93)
+10. FancyMenu — [ea20eef](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ea20eef3384bb34433263bc88329f994af6c62cc)
+
+Эти 10 коммитов подтверждают наличие отдельных файлов и их добавление. Текущий файл/коммит следует считать источником истины; не создавать их повторно.
+
+### Другие важные работы, явно видимые в истории коммитов
+
+- Immersive Engineering — [47dd2e3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/47dd2e3d32da07867f07be9dad08de32f4c488c7); ранее в рабочем отчёте фигурировало 1952 ключа.
+- Modular Routers — [7288b98](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7288b98fead782bb72a318841f033abd6d26e9ce).
+- Integrated Tunnels — [fde53c5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fde53c5d727ebadcffa05ca020509438887bf73b).
+- Deeper and Darker — [4db7d4d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4db7d4d8a9ccb495c38f3cd8e0f8743c63957f70), перед финализацией были отдельные правки терминов и названий.
+- Tombstone, Ars Elemental, Extended Industrialization, Integrated Terminals, Create Addition, Sophisticated Core, ComputerCraft, Create Enchantment Industry, Sophisticated Backpacks, Productive Metalworks, Ender IO, Mystical Agriculture, Undergarden, Biomes Weve Gone, SecurityCraft, FramedBlocks, Actually Additions, Just Dire Things, Artifacts и Roots Classic имеют отдельные коммиты добавления/завершения в истории.
+- Cataclysm — [4dd6032](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4dd6032942d29000ae6a0bc058a09995856c710c).
+- Oritech — [cc85b65](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cc85b6567ff9a6974b21859f36c61c1fe7722768).
+- Productive Bees — [e5bb3c8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5bb3c89f6544647971045059f90ec9cc704e88b), затем были отдельные переводы оставшихся строк и полировка названий.
+- Mahou Tsukai — [a0536a3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a0536a3f005d06bd261ba10ac3cc222c145d641e), затем отдельное исправление описаний и плейсхолдеров [9a045f3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9a045f306df46ee43951eacbb62f8cd0450a63e9).
+- Modern Industrialization — [881c625](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/881c6254b79d75a150c138b1ff51240fba272a71), затем просмотр оставшихся строк [c1a0caf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c1a0cafc35aa51f4dd04b023c4bca9ec96ef71f3).
+
+Ранее история также показывает добавление/исправление Create, JEI, JourneyMap и Refined Storage, а также исправления плейсхолдеров для Create, JEI и JourneyMap. JourneyMap отдельно получил исправление ключа и плейсхолдера. Не считать эти моды автоматически полностью завершёнными только по факту наличия коммита.
+
+## 14. Терминология и редакционные правила
+
+`GLOSSARY.md` — обязательный единый источник терминологии. Среди зафиксированных терминов:
+- ME Network — «МЭ-сеть»;
+- ME Storage Cell — «МЭ-ячейка хранения»;
+- P2P Tunnel — «P2P-туннель»;
+- Tick — «тик»;
+- Glyph — «глиф»;
+- Gear — «шестерня» в контексте механической детали;
+- Salvaging — «разбор на материалы»;
+- Cover — «облицовка» в контексте Mekanism;
+- Trial Vault — «хранилище испытаний»;
+- Allthemodium — «всемодий», Vibranium — «вибраниум», Unobtainium — «унобтаниум»;
+- Paxel — «мульти-инструмент».
+
+При новых переводах проверять и при необходимости пополнять глоссарий, не вводить конкурирующие варианты одного термина без причины.
+
+## 15. Текущая точка продолжения — что известно и что не установлено
+
+- Последний коммит в ветке `main` на момент создания дополнения — создание `PROJECT_HANDOFF.md`; до него последним был коммит про импорт переводов Apotheosis smithing templates.
+- Последовательность последних коммитов перед Dropbox посвящена импорту из Dropbox и обновлению документации; этап Dropbox завершён.
+- В истории после этого видны исправления Mahou Tsukai, Productive Bees и Modern Industrialization, затем импорт Dropbox.
+- Текущий репозиторий содержит 383 JSON; по одному лишь числу файлов нельзя определить, сколько модов полностью вычитано семантически.
+- История последних 100 коммитов показывает множество завершённых и исправленных файлов, но не содержит надёжной явной записи, какой мод пользователь считает следующим в очереди после всех этих операций.
+- Поэтому **следующий мод не назначать наугад**. Сначала проверить актуальный `INVENTORY.md`, последние коммиты и фактические ключи в кандидатах, затем выбрать следующий реальный пробел по согласованному приоритету.
+- Не путать дату/порядок коммитов с порядком пользовательской очереди: некоторые моды получали повторные исправления после первоначального добавления.
