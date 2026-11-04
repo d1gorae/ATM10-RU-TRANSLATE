@@ -6,5 +6,5 @@
   "enderstorage.command.no_freq": "Недопустимая частота",
   "block.enderstorage.ender_tank": "Эндер-резервуар",
   "enderstorage.command.no_arguments": "Неверное количество аргументов",
-  "enderstorage.serverop": "Оператор"
+  "enderstorage.serverop": "Оператор сервера"
 }
