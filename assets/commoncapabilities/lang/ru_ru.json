@@ -6,6 +6,6 @@
   "capability.commoncapabilities.inventoryState": "Состояние инвентаря",
   "capability.commoncapabilities.temperature": "Температура",
   "capability.commoncapabilities.worker": "Работник",
-  "capability.commoncapabilities.worldNameable": "Именуемый мир",
+  "capability.commoncapabilities.worldNameable": "Мир с задаваемым именем",
   "capability.commoncapabilities.wrench": "Гаечный ключ"
 }
