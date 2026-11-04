@@ -74,7 +74,7 @@
   "com.ldtteam.structurize.gui.tagtool.notag": "Сначала введите допустимый тег для применения к блоку!",
   "com.ldtteam.structurize.gui.tagtool.removed": "Тег %s удалён из %s.",
   "com.ldtteam.structurize.gui.tagtool.save": "Данные тега успешно применены к якорю",
-  "com.ldtteam.structurize.gui.selectres.count": "Amount",
+  "com.ldtteam.structurize.gui.selectres.count": "Количество",
   "com.ldtteam.structurize.gui.replaceblock.info": "Select the replacement Блок",
   "com.ldtteam.structurize.network.messages.schematicsavemassage.toobig": "Слишком большой размер схемы, он не может превышать %s байт!",
   "com.structurize.command.playernotfound": "Не удалось найти игрока для сохранения скана!",
@@ -232,7 +232,7 @@
   "com.ldtteam.structurize.gui.tagoptions.title": "Зарегистрированные теги:",
   "com.ldtteam.tag.tooltip.groundlevel": "Используется Инструментом строительства для размещения чертежа на полу",
   "com.ldtteam.tag.tooltip.invisible": "Скрыть чертёж в Инструменте строительства, как интегрированные постройки или шахты",
-  "com.ldtteam.structurize.gui.switchpack.authors": "Authors: %s",
+  "com.ldtteam.structurize.gui.switchpack.authors": "Авторы: %s",
   "com.ldtteam.structurize.gui.switchpack.list.empty": "There are no Структура packs found, please install some",
   "com.ldtteam.structurize.gui.switchpack.pack_disabled.hover_text": "This pack is Отключено because it only exists on the client. In order to use this pack, the server must Включить the Конфигурация Параметр '%s' on the server."
 }
