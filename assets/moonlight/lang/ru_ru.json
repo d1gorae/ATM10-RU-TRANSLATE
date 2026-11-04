@@ -98,7 +98,7 @@
   "commands.moonlight.registry.element": "%s : %s",
   "commands.moonlight.registry.elements_count": "Записей: %s",
   "commands.moonlight.registry.error.unknown_registry": "Неизвестный реестр «%s»",
-  "commands.moonlight.registry.page_info": "%s <page %s / %s>",
+  "commands.moonlight.registry.page_info": "%s <страница %s из %s>",
   "commands.moonlight.registry.registry_key": "%s",
   "commands.moonlight.registry.dump.success": "Содержимое реестра выгружено в %s",
   "commands.moonlight.section_path.on": "Пути секций показаны",
