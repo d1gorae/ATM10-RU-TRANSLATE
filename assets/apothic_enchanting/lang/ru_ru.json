@@ -80,7 +80,7 @@
   "info.apothic_enchanting.quanta_growth": "Потенциал увеличения: %s%%",
   "info.apothic_enchanting.ench_bonus": "Бонус к зачаровываемости: %s%%",
   "info.apothic_enchanting.rel_weights": "Относительные веса",
-  "info.apothic_enchanting.weight": "%s: %s",
+  "info.apothic_enchanting.weight": "Вес «%s»: %s",
   "info.apothic_enchanting.eterna_at_least": "Требуется не менее: %s/%s",
   "info.apothic_enchanting.percent_at_least": "Требуется не менее: %s%%",
   "info.apothic_enchanting.eterna_at_most": "Но не более: %s/%s",
