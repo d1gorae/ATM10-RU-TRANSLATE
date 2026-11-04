@@ -579,7 +579,7 @@
   "jm.common.waypoint.select_all.tooltip": "Selects all displayed Waypoints",
   "jm.common.webserver_and_mapgui_disabled": "JourneyMap выключен в файле настроек",
   "jm.common.webserver_and_mapgui_ready": "Нажмите [§b%1$s§f] или откройте в браузере адрес §b§nhttp://localhost%2$s§f",
-  "jm.common.webserver_only_ready": "Откройте в браузере адрес §b§nhttp://localhost%2$s§f. (Внутриигровая карта выключена)",
+  "jm.common.webserver_only_ready": "Откройте в браузере адрес §b§nhttp://localhost%1$s §f. (Внутриигровая карта выключена)",
   "jm.common.website": "Статьи, справки и инструкции по использованию JourneyMap",
   "jm.config.category.advanced": "Расширенные настройки",
   "jm.config.category.advanced.rendering": "Advanced Map Rendering Options",
@@ -1396,6 +1396,5 @@
   "waypoint.icon.set.all.name.tooltip": "All Icons",
   "waypoint.icon.set.journeymap.name.tooltip": "Original JourneyMap Icons",
   "waypoint.icon.set.mapdeco.name.tooltip": "Minecraft Map Decoration Icons",
-  "waypoint.icon.set.minecraft.name.tooltip": "Minecraft Item Icons",
-  "jm.webserver_only_ready": "Откройте в браузере адрес §b§nhttp://localhost%1$s §f. (Внутриигровая карта выключена)"
+  "waypoint.icon.set.minecraft.name.tooltip": "Minecraft Item Icons"
 }
