@@ -25,7 +25,7 @@
   "block.redstonepen.control_box.error.missing_closing_parenthesis": "Ожидалась закрывающая скобка ')'",
   "block.redstonepen.control_box.error.missing_function_arguments": "Ожидались аргументы функции (включая скобки)",
   "block.redstonepen.control_box.error.parse_error": "Ошибка разбора",
-  "block.redstonepen.control_box.error.symbol_readonly": "Symbol/variable — readonly",
+  "block.redstonepen.control_box.error.symbol_readonly": "Символ или переменная доступны только для чтения",
   "block.redstonepen.control_box.error.unexpected_character": "Неожиданный символ",
   "block.redstonepen.control_box.error.unknown_function": "Неизвестная функция",
   "block.redstonepen.control_box.help": "Simplified PLC-like Контроллер.",
