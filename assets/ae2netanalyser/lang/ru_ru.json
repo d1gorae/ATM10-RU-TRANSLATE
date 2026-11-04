@@ -1,7 +1,7 @@
 {
   "itemGroup.ae2netanalyser": "Анализатор сети AE2",
   "item.ae2netanalyser.network_analyser": "Анализатор МЭ-сети",
-  "item.ae2netanalyser.tick_analyser": "Профилировщик тиков МЭ",
+  "item.ae2netanalyser.tick_analyser": "Профилировщик тиков",
   "gui.ae2netanalyser.network_analyser.mode": "Режим",
   "gui.ae2netanalyser.network_analyser.node_size": "Размер",
   "gui.ae2netanalyser.network_analyser.reset": "Сбросить цвета",
