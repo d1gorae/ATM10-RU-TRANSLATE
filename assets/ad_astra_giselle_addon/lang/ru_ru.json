@@ -3,7 +3,7 @@
   "block.ad_astra_giselle_addon.automation_nasa_workbench": "Автоматизированный верстак NASA",
   "block.ad_astra_giselle_addon.gravity_normalizer": "Нормализатор гравитации (устаревший)",
   "block.ad_astra_giselle_addon.rocket_sensor": "Датчик ракеты",
-  "item.ad_astra_giselle_addon.oxygen_can": "Кислород Can",
+  "item.ad_astra_giselle_addon.oxygen_can": "Канистра с кислородом",
   "item.ad_astra_giselle_addon.netherite_oxygen_can": "Незеритовый кислородный баллон",
   "item.ad_astra_giselle_addon.creative_oxygen_can": "Творческий кислородный баллон",
   "item.ad_astra_giselle_addon.fuel_loader.tooltip": "Передаёт топливо ближайшему роверу или ракете.",
