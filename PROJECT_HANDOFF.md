@@ -431,3 +431,12 @@ NeoVitae **не завершён** и изменения не переносил
 Основные коммиты этой партии: [0d3b823](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0d3b8236c58eacb4cd47ec717a928caac0cb75c4), [f8cabc2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f8cabc2e2a7ddf20f49afe5c6675eab05fcc2c7b), [bd264dd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bd264ddc85c2220e355efcb8d450641004ca190b). Дополнительно опубликованы названия 196 предметов и 177 строк интерфейса: [c9a3acb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c9a3acba8f10211c1a4bdd87f36d982b212b00fe), [2c96267](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2c96267a3b0def84e5a8bf5edd5d12adbcdb8bd3). `INVENTORY.md` обновлён: [fc43d05](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fc43d055f004f478f50d3eb219435b110e63481c).
 
 NeoVitae ещё не завершён; в `main` ничего не переносилось. Следующая точка продолжения — **2 835/3 652** в ветке `work/neovitae-ru`. Продолжать этот мод, пока не будут переведены и проверены все ключи.
+
+
+## Продолжение NeoVitae — 05.11.2026
+
+От контрольной точки 2 835/3 652 добавлено 20 новых переводов. Проектный счётчик: **2 855/3 652**, осталось 797. Обновлены заряды Explosive Charges, разделы Hellfire Forge, Lex Vitae, Node Router и часть Ore Processing. Проверены все 20 новых строк: плейсхолдеры, цветовые маркеры и экранированные переносы соответствуют EN. Актуальная RU-структура: 2 898 записей, missing keys 754, extra 0, duplicates 0, JSON корректен. Разница между missing keys и проектным остатком — 43 уже существующих ключа, требующих проверки значений, а не добавления новых ключей.
+
+Коммиты переводов: [2aac1c5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2aac1c5736292c8e4eea53be9385e7ce72ab5f5d), [5b40181](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5b401816eb57dccc4378dfd14090f5e2bd5a2d20), [9f0a2ff](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f0a2ff95f5685aac32dcf1f42d8e9e48f9ddb7a).
+
+Следующая точка продолжения — 2 855/3 652 в `work/neovitae-ru`. В `main` ничего не переносить до полного завершения и проверки NeoVitae.
