@@ -725,5 +725,21 @@
   "config.ad_astra.steelTier": "Уровень стали",
   "config.ad_astra.title": "Ad Astra",
   "config.ad_astra.waterPumpEnergyPerTick": "Расход энергии водяным насосом за тик",
-  "config.ad_astra.waterPumpFluidGenerationPerTick": "Выработка жидкости водяным насосом за тик"
+  "config.ad_astra.waterPumpFluidGenerationPerTick": "Выработка жидкости водяным насосом за тик",
+  "dimension.ad_astra.earth_orbit": "Орбита Земли",
+  "dimension.ad_astra.glacio": "Гласио",
+  "dimension.ad_astra.glacio_orbit": "Орбита Гласио",
+  "dimension.ad_astra.mars": "Марс",
+  "dimension.ad_astra.mars_orbit": "Орбита Марса",
+  "dimension.ad_astra.mercury": "Меркурий",
+  "dimension.ad_astra.mercury_orbit": "Орбита Меркурия",
+  "dimension.ad_astra.moon": "Луна",
+  "dimension.ad_astra.moon_orbit": "Орбита Луны",
+  "dimension.ad_astra.venus": "Венера",
+  "dimension.ad_astra.venus_orbit": "Орбита Венеры",
+  "fluid_type.ad_astra.flowing_cryo_fuel": "Текучее криогенное топливо",
+  "fluid_type.ad_astra.flowing_fuel": "Текучее топливо",
+  "fluid_type.ad_astra.flowing_hydrogen": "Текучий водород",
+  "fluid_type.ad_astra.flowing_oil": "Текущая нефть",
+  "fluid_type.ad_astra.flowing_oxygen": "Текучий кислород"
 }
