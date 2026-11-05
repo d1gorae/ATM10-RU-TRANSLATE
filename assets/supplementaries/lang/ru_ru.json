@@ -1101,5 +1101,11 @@
   "supplementaries.configuration.piston_tweaks": "Настройки поршней",
   "supplementaries.configuration.piston_tweaks.push_block_entities": "Перемещение блоков с блок-сущностями",
   "supplementaries.configuration.piston_tweaks.cooperative_pistons": "Совместная работа поршней",
-  "supplementaries.configuration.piston_tweaks.moved_cauldron_filling": "Наполнение перемещаемых котлов"
+  "supplementaries.configuration.piston_tweaks.moved_cauldron_filling": "Наполнение перемещаемых котлов",
+  "supplementaries.configuration.blocks": "Блоки",
+  "supplementaries.configuration.globe.random_world": "Случайный мир",
+  "supplementaries.configuration.globe.random_world.description": "Включает случайную текстуру глобуса для каждого мира",
+  "supplementaries.configuration.notice_board.centered_text": "Выравнивание текста по центру",
+  "supplementaries.configuration.notice_board.centered_text.description": "Позволяет выравнивать текст на доске объявлений по центру, а не по левому краю",
+  "supplementaries.configuration.bunting": "Флажные гирлянды"
 }
