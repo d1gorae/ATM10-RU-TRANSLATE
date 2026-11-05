@@ -882,3 +882,15 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты: Redstone Pen [15732cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/15732cdd82eda464e288e88f0c7905afffeea311); Refined Storage [d42aa73](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d42aa738c30c9e9000cb5379299e9d68985c6df8), [4274337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4274337b955cae44af83dd53b21477cdc3e529c1); глоссарий [edb01da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/edb01dae26cac69495c4635a5ea354f065584f13).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rsinsertexportupgrade, reliquified_artifacts, repeatable_trial_vaults, repurposed_structures, resourcefulconfig, restrictions, rftoolsbase, rftoolsbuilder, rftoolspower, rftoolsstorage. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать четвёртая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** RS Insert Export Upgrade, Reliquified Artifacts, Repeatable Trial Vaults, Repurposed Structures, Resourceful Config, Restrictions, RFTools Base, RFTools Builder, RFTools Power и RFTools Storage. Всего **1 078 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. Пять совпадений RU=EN — названия модов/категорий и техническая подпись UUID.
+
+В Reliquified Artifacts исправлен порядок %2$s и %3$s в описании Shock Pendant: теперь дальность и количество перескоков соответствуют EN-оригиналу.
+
+Коммит: Reliquified Artifacts [b5f8ba3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b5f8ba34bc9d8f47bbf172129806dc4945b6d43e).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rftoolsutility, rootsclassic, sawmill, searchables, sgearmetalworks, shiny, shrink, silentlib, silentgems и simplebackups. Silent Gear уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
