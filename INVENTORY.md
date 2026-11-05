@@ -1018,3 +1018,39 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий [8f098d5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f098d567b89e46220b4e04fb5b5250faf73965c).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после pamhc2foodextended: pamhc2trees, patchouli, pipez, placebo, pocketstorage, polylib, polymorph, potionsmaster, productivebees и productivemetalworks. Productive Bees ранее уже переводился; не перезаписывать существующие значения, только сверить и исправить подтверждённые ошибки. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Pam's HarvestCraft Food Extended (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 899 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| pamhc2trees | 158/158 | 0 | 0 | 0 | 0 | 0 |
+| patchouli | 92/92 | 0 | 0 | 0 | 0 | 0 |
+| pipez | 83/83 | 0 | 0 | 0 | 0 | 0 |
+| placebo | 6/6 | 0 | 0 | 0 | 0 | 0 |
+| pocketstorage | 28/28 | 0 | 0 | 0 | 0 | 0 |
+| polylib | 13/13 | 0 | 0 | 0 | 0 | 0 |
+| polymorph | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| potionsmaster | 15/15 | 0 | 0 | 0 | 0 | 0 |
+| productivebees | 1 125/1 125 | 0 | 0 | 0 | 0 | 0 |
+| productivemetalworks | 376/376 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 899/1 899** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. 16 совпадений RU=EN — названия модов, технические идентификаторы, клавиши и плейсхолдеры.
+
+Смысловые и технические исправления:
+- Productive Bees: полностью локализованы названия 117 продвинутых ульев и 117 расширителей ульев, включая породы древесины из BYG, Regions Unexplored и других интеграций; исправлены инструкции Shift, названия достижений и подсказки.
+- Pipez: согласованы названия пяти уровней улучшения труб и инструмента задания назначения фильтра.
+- Placebo: Supporter Trails/Wings переведены как спонсорские косметические эффекты.
+- Pam's HarvestCraft Trees: восстановлены три завершающих пробела в названиях саженцев.
+- Глоссарий дополнен терминами Productive Bees, Pipez и Placebo.
+
+Коммиты:
+- Productive Bees [f7fa64c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f7fa64c66fa40d78093fbfba148858696dfff573), [c62cb6b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c62cb6bbf267d04e5d09cf28079a9963f18730b5).
+- Pipez [311aae7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/311aae7c4f7b55de5814a4ca12684191b33d2411).
+- Placebo [a10a081](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a10a0816e7d7f525b9062b6ea8535b6a8149e5e4).
+- Pam's HarvestCraft Trees [cd33c14](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cd33c14c752157f1dc910c211c7115c0b8462255).
+- Глоссарий [d0c2ecd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d0c2ecdd5cd4a246db21d4c025a1ac9de8de648a), [6ed7ef1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ed7ef1066ba364d91882c2265e95831d3257cbf).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после productivemetalworks: rangedpumps, rechiseledcreate, redstonepen, refinedtypes, refinedfluidsubstitution, refinedstorage_curios_integration, refinedstorage_jei_integration, refinedstorage_mekanism_integration, refinedstorage, refinedstorage_quartz_arsenal. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
