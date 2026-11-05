@@ -343,3 +343,8 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 ### FTB Quests — третья партия SNBT, 05.11.2026
 
 Проверены главы: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`. EN-ключей 1477, RU-записей 1501, дополнительных RU-полей 24; все дополнительные поля ссылаются на quest ID, присутствующие в базовых SNBT. Удалено 20 устаревших записей. Missing 0, stale extra 0, duplicates 0, placeholders 0, image mismatches 0, SNBT balance OK. Всего проверено 30/67 глав; осталось 37. Следующая партия: `generators`, `hostile_neural_networks`, `ice__fire`, `immersive_engineering`, `industrial_foregoing`, `integrated_dynamics`, `iron_spells_and_spellbooks`, `justdirethings`, `mahou_tsukai`, `mainquestline_part_1`.
+
+
+### FTB Quests — четвёртая партия SNBT, 05.11.2026
+
+Проверены главы: `generators`, `hostile_neural_networks`, `ice__fire`, `immersive_engineering`, `industrial_foregoing`, `integrated_dynamics`, `iron_spells_and_spellbooks`, `justdirethings`, `mahou_tsukai`, `mainquestline_part_1`. EN-ключей 1220, RU-записей 1245, дополнительных RU-полей 25; все дополнительные поля ссылаются на quest ID в базовых SNBT. Удалена одна устаревшая запись с отсутствующим ID. Missing 0, stale extra 0, duplicates 0, placeholders 0, image mismatches 0, SNBT balance OK. Всего проверено 40/67 глав; осталось 27. Следующая партия: `mekanism`, `mekanism_reactors`, `mi_digital`, `mi_electric`, `mi_endgame`, `mi_steam`, `modular_router`, `natures_aura`, `neo_vitae`, `occultism`.
