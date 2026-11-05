@@ -448,9 +448,4 @@ Dropbox использован только для чтения; файлы в �
 
 ### Актуальная контрольная точка NeoVitae — 05.11.2026
 
-В рабочей ветке `work/neovitae-ru` локализация содержит **1 541 из 3 652 ключей**; отсутствует 2 111. Это на 660 ключей больше контрольной точки 881/3652: 600 ключей предыдущей партии и ещё 60 ключей ритуального руководства. Проверка актуального EN 1.1.51: JSON корректен, extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Перевод не завершён и не опубликован в `main`.
-
-
-### Контрольная точка NeoVitae — 05.11.2026
-
-Текущее состояние рабочей ветки `work/neovitae-ru`: **1 601/3 652 ключей**, missing 2 051. После точки 881/3 652 добавлено 720 новых переводов. Последние 60 строк закрывают Crystallum Fractura и часть руководства по Предсказателю ритуалов. Сверка с актуальным EN 1.1.51: JSON корректен; extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Перевод не завершён и не опубликован в `main`.
+Текущее состояние рабочей ветки `work/neovitae-ru`: **1 481/3 652 ключей**, missing 2 171. После подтверждённой точки 881/3 652 добавлено 600 новых ключей. Сверка с актуальным EN 1.1.51: JSON корректен; extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Перевод не завершён и не опубликован в `main`.
