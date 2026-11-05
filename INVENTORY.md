@@ -764,3 +764,14 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Исправлены лишние переносы и неточности в Hostile Neural Networks, восстановлен завершающий перенос в описании Gate Pearl, удалён лишний пробел и уточнено название сегмента шахматного куба в FramedBlocks. Глоссарий дополнен терминами Gateway, Gate Pearl, Data Model, Simulation, Framed Block и Checkered Cube.
 
 Коммиты исправлений: FramedBlocks [36b1d42](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/36b1d42ae10035a07b52e11c230bd2a2295ad7cb), [fb74887](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb74887bbcd2a0702285445d9b0b0c0bf35e8fe2); Gateways [d190753](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d190753758117d33ab676f3e3b51c36a5fc6b676); Hostile Neural Networks [f214cbc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f214cbc8bfed1dafd265a06ccf20249d8d912e0a), [87494d1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87494d1a7e9214b92587bd7e650181d74dc601be), [8dafd63](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8dafd6385d8f0b43fa16bacb9dcdc1adadea0d06); глоссарий [a805b60](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a805b6080e5371cfa054e7b76f1f8723e7c26a57).
+
+
+## JSON-аудит — партия после Immersive Energistics (06.11.2026)
+
+Проверены 10 namespace: `immersiveengineering` (1 952), `ironjetpacks` (42), `jade` (410), `jei_mekanism_multiblocks` (103), `justenoughprofessions` (1), `keybindspurger` (4), `cataclysm` (735), `measurements` (15), `moderndynamics` (72), `modern_industrialization` (1 863). Итого **5 197 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Два пустых значения (Immersive Engineering `immersiveengineering.config.title` и Cataclysm `entity.cataclysm.rage_meter`) совпадают с EN. В EN Cataclysm дважды объявлен `maledictus_hurt.sub`: первое значение `Maledictus hurts`, последнее и фактически используемое — `Maledictus dies`; RU корректно переводит последнее значение как «Маледиктус умирает». В EN Measurements повторяется только служебный `_comment` (3 объявления). Других дубликатов нет.
+
+В Cataclysm удалён лишний завершающий пробел в названии Abyss Portal. Глоссарий дополнен термином Abyss Portal.
+
+Коммиты: Cataclysm [903d7cc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/903d7cc3cce5dccb858f7a79bb49c14460f6c897); глоссарий [2897448](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2897448949ff6b2a8582f8b818099b190fb678ce).
