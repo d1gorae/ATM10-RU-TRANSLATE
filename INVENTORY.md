@@ -358,3 +358,27 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 ### FTB Quests — продолжение аудита, 05.11.2026
 
 Начата следующая десятка глав: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`. Выполняется сверка с EN-оригиналами и базовыми SNBT. Партия не засчитана как завершённая до повторной проверки всех результатов. Подтверждённый прогресс: 50/67 глав; осталось 17.
+
+
+## Заключительный аудит JSON — подтверждённые пропуски, 05.11.2026
+
+Повторная сверка актуальных EN-файлов и текущих RU JSON подтвердила 7 неполных переводов (8000 отсутствующих ключей суммарно):
+
+| Namespace | EN | RU | Missing |
+|---|---:|---:|---:|
+| `neovitae` | 3652 | 256 | 3396 |
+| `mekanism` | 3239 | 1605 | 1634 |
+| `iceandfire` | 1809 | 1193 | 616 |
+| `mekanismtools` | 800 | 185 | 615 |
+| `silentgear` | 1191 | 616 | 575 |
+| `supplementaries` | 1394 | 708 | 686 |
+| `regions_unexplored` | 933 | 455 | 478 |
+| **Итого** | **13018** | **5018** | **8000** |
+
+По каждому из семи файлов: extra 0, пустых переводов 0, обнаруженных расхождений плейсхолдеров 0. Отсутствующие ключи требуют перевода.
+
+### Дополнительные завершённые проверки
+
+- `create_dragons_plus`: 356/356; удалён один лишний RU-only ключ. Missing 0, extra 0, placeholder mismatches 0, empty 0. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3a92c07d5c00d3a1ddd1d4c0272a17854ebf814d
+- `sophisticatedstorage`: 425/425; missing 0, extra 0, placeholder mismatches 0, empty 0. Актуальное количество ключей — 425.
+- `mekanismgenerators`: 364/364; missing 0, extra 0. Процент в значении `100%` не является плейсхолдером. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/513a0091918e9bfe9d232c1ea9d17bbabd61be3a
