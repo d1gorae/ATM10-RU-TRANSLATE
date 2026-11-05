@@ -1229,5 +1229,17 @@
   "supplementaries.configuration.altimeter.extra_dimension_textures": "Дополнительные текстуры измерений",
   "supplementaries.configuration.altimeter.extra_dimension_textures.description": "Позволяет использовать уникальные текстуры измерителя глубины для каждого измерения. Добавьте ID измерений и соответствующую текстуру по нужному пути, заменив ':' на '_'",
   "supplementaries.configuration.altimeter.texture_precision_multiplier": "Множитель точности текстуры",
-  "supplementaries.configuration.altimeter.texture_precision_multiplier.description": "При значении выше 1 изображение измерителя глубины будет отображаться с дробными значениями вместо точного соответствия пикселям"
+  "supplementaries.configuration.altimeter.texture_precision_multiplier.description": "При значении выше 1 изображение измерителя глубины будет отображаться с дробными значениями вместо точного соответствия пикселям",
+  "supplementaries.configuration.cannonball.3d_model": "Трёхмерная модель",
+  "supplementaries.configuration.cannonball.3d_model.description": "Отображать пушечные ядра в виде трёхмерных моделей",
+  "supplementaries.configuration.quiver.armor_render_offset": "Смещение колчана относительно брони",
+  "supplementaries.configuration.quiver.armor_render_offset.description": "Смещение колчана по оси Z при ношении брони. Полезно для пользовательской брони, которая крупнее ванильной, чтобы избежать пересечения моделей. Оставьте -1 для автоматического смещения",
+  "supplementaries.configuration.quiver.render_mode": "Режим отображения",
+  "supplementaries.configuration.quiver.render_mode.description": "Способ отображения колчанов на игроках",
+  "supplementaries.configuration.quiver.skeleton_render_mode": "Режим отображения у скелетов",
+  "supplementaries.configuration.quiver.skeleton_render_mode.description": "Способ отображения колчана на скелете",
+  "supplementaries.configuration.quiver.overlay": "Индикатор",
+  "supplementaries.configuration.quiver.overlay.description": "Добавляет в интерфейс колчана индикатор выбранной стрелы",
+  "supplementaries.configuration.quiver.mouse_movement_in_gui": "Выбор мышью в интерфейсе",
+  "supplementaries.configuration.quiver.mouse_movement_in_gui.description": "Позволяет выбирать стрелу в интерфейсе колчана с помощью мыши"
 }
