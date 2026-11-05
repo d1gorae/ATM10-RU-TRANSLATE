@@ -244,7 +244,7 @@ FTB Quests — отдельная подсистема:
 - Согласованная партия из десяти модов завершена и опубликована; точные SHA, коммиты и результаты проверок приведены в разделе 17 и в INVENTORY.md.
 - Новые переводы: Logistics Networks, Pam's HarvestCraft 2 Food Extended, BiblioCraft, Chisel, Dyenamics and Friends.
 - Повторно вычитаны и проверены: Herbs & Harvest, Refurbished Furniture, Steve's Carts, Integrated Scripting, Xtones Reworked.
-- Следующий кандидат: Bibliobiomes. Его EN-файл содержит 9577 ключей в namespace bibliocraft, SHA 5e0f1c9b49566cb0353cc4e24869cb9f12f31a76. Текущий русский assets/bibliocraft/lang/ru_ru.json содержит 2021 ключ BiblioCraft; все 9577 ключей Bibliobiomes отсутствуют. Их нужно перевести и добавить в тот же файл, не затирая существующие значения.
+- Bibliobiomes завершён и объединён в assets/bibliocraft/lang/ru_ru.json: 9577 ключей добавлены к 2021 существующему BiblioCraft. Все 2021 старых значения сохранены без изменений. EN SHA 5e0f1c9b49566cb0353cc4e24869cb9f12f31a76; RU blob SHA d6ff8512a9cc4f67163131f79958afc607a52148; commit [3d6fa0f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d6fa0f4a5d43d7d8eff60d5bed70d566f4935f6). Проверки: 9577/9577 ключей, missing 0, placeholders 0, formatting 0, duplicates 0, прежние значения BiblioCraft не изменены.
 - bibliowoods и accelerateddecay имеют пустые EN-файлы (0 ключей); atmcompat содержит 10 ключей namespace allthemodium, и все они уже присутствуют в русском allthemodium.
 - GLOSSARY.md дополнен терминами новой партии; коммит: [e52bb18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e52bb18ebc6b54beba0bd26085b7b714314f25bb).
 - FTB Quests и SNBT остаются строго на самый конец проекта.
