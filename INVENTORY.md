@@ -408,9 +408,12 @@ Dropbox использован только для чтения; файлы в �
 | Silent Gear | 1191 | 1191 | 0 |
 | Supplementaries | 1394 | 1394 | 0 |
 | Regions Unexplored | 933 | 933 | 0 |
-| **Итого** | **13018** | **13018** | **0** |
+| Explorer's Compass | 68 | 68 | 0 |
+| Measurements | 15 | 15 | 0 |
+| Nature's Compass | 44 | 44 | 0 |
+| **Итого** | **13145** | **13145** | **0** |
 
-Семь модов из этой очереди полностью переведены и проверены: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear, Supplementaries и Regions Unexplored. Это ещё не партия из десяти модов; следующие три мода необходимо выбрать по актуальному списку незавершённых локализаций.
+Десять модов текущей партии полностью сверены: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear, Supplementaries, Regions Unexplored, Explorer's Compass, Measurements и Nature's Compass. В последних трёх восстановлены только отсутствовавшие служебные поля _comment; пользовательские переводы уже были полными.
 
 
 
@@ -524,3 +527,14 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Коммиты перевода: [304a42e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/304a42eed4878f680ad633c7df2ea002efb7550d), [7e9600f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7e9600f6b696407b6766cb0fde91297e73813928), [c8addb0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c8addb0b2e17a9f14892d3a493a34c6922876091), [dc83b6e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dc83b6e4bd9a3b0d64952173dce57458a3ff9dd5), [f2a1036](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f2a10366f25d03b02c33d38f393f8ef0363c0281), [7affad8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7affad8265968599924b64d9fff82e25b42208c9).
 
 Глоссарий дополнен терминами Regions Unexplored: [c844fe5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c844fe56b5115795d82fc4c9b59793f7b80fe7d5). Следующая точка — выбрать три следующих незавершённых мода после проверки INVENTORY.md и актуального дерева английских источников. Работа опубликована только в рабочей ветке; `main` не изменялся. FTB Quests/SNBT остаются на финальном этапе.
+
+
+## Завершение партии из десяти локализаций — 05.11.2026
+
+Партия закрыта: 10/10 модов. Семь крупных локализаций доведены до полного EN/RU-покрытия; ещё в трёх ранее переведённых файлах восстановлены отсутствовавшие служебные поля _comment для точного совпадения с EN.
+
+- Explorer's Compass: 68/68, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [9cfe773](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9cfe773670b156ea801e8a53c2a9feeb6fcbc1e8).
+- Measurements: 15/15, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [9c6c48a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c6c48a3a76b66b7827d2871525da9ec2e08870a).
+- Nature's Compass: 44/44, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [1b1cb11](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1b1cb114c2a8fd8bd22212e99fe9e9f445c5451d).
+
+Следующий кандидат в новой партии — Ad Astra: 831 EN-ключ, 685 RU-ключей, 146 отсутствующих, extra 0. В ходе дополнительной проверки также найден один отсутствующий служебный ключ ZeroCore (EN/RU 50/49); он остаётся в очереди.
