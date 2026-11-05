@@ -810,3 +810,15 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 - Остальные восемь namespace проверены; исправления не требовались.
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: mcwroofs, mcwtrpdoors, megacells, mekanismcovers, mekanisticrouters, memorysettings, merequester, merrymaking, mffs, mifa. Уже завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Восемнадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Macaw's Roofs, Macaw's Trapdoors, MegaCells, Mekanism Covers, Mekanistic Routers, Memory Settings, ME Requester, Merrymaking, MFFS и MIFA. Всего **1 657 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты RU 0; несовпадения плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов — 0. В EN Merrymaking один ключ повторён с тем же значением; RU содержит его один раз. Единственное пустое значение Merrymaking совпадает с EN. Совпадения RU=EN в Merrymaking/MFFS — пустая строка и технические обозначения.
+
+Исправлены терминология и форматирование в MegaCells, Mekanistic Routers, Memory Settings, ME Requester, Merrymaking и MFFS. Глоссарий дополнен соответствующими терминами. В Macaw's Roofs, Macaw's Trapdoors, Mekanism Covers и MIFA исправления не потребовались.
+
+Коммиты переводов: MegaCells [addd475](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/addd475bab0bc2a977eeaffb379d5607cefb5bb6); Mekanistic Routers [e597e87](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e597e8712f611a7cd413d249f6db5477d1f6a10b), [e85eb01](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e85eb01d30e3b97970f542338617d3f8ab32331c); Memory Settings [9e329e4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9e329e4d04764ec4642d158bbc4a93eff6e4d496); ME Requester [9120c52](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9120c52c6fe50f0ada44ae0a400e03834508be03); Merrymaking [38a53dc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/38a53dcff5f807841a720556a84ae799c245e813), [b20f1cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b20f1cd2f088287097996a8a84928e6ae623d8c9), [cc3ad21](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cc3ad21ca85ee3123cb92a405c64642d6b198c18); MFFS [a8eb5f8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a8eb5f8cecc96ab7a954912c2f4bef354729dc60), [988d6a8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/988d6a8975ffaeaac16d35b8a2206e9d51915f5e). Глоссарий [5fb453b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5fb453b56630d2d1343e9b50b1e4a7a6d20c984f), [6704118](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67041181eda9efeed639cbf98770896bd6437039).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: minecolonies, mininggadgets, mob_grinding_utils, modernfix, modonomicon, modularrouters, modularbees, mes, mns, mss. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
