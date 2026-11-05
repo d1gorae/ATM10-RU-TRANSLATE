@@ -1304,5 +1304,20 @@
   "supplementaries.configuration.general.red_merchant_spawn_multiplier.description": "Немного увеличьте или уменьшите значение, чтобы изменить шанс появления Красного торговца. При 0 он не появляется, а при 2 появляется вдвое чаще",
   "supplementaries.configuration.tweaks": "Дополнительные настройки",
   "supplementaries.configuration.tweaks.dragon_banner_pattern": "Узор знамени с драконом",
-  "supplementaries.configuration.tweaks.dragon_banner_pattern.description": "Добавляет узор знамени с драконом, создаваемый из головы дракона"
+  "supplementaries.configuration.tweaks.dragon_banner_pattern.description": "Добавляет узор знамени с драконом, создаваемый из головы дракона",
+  "supplementaries.configuration.ai_tweaks": "Настройки ИИ",
+  "supplementaries.configuration.ai_tweaks.pillagers_use_cannon_boats": "Разбойники используют лодки с пушками",
+  "supplementaries.configuration.ai_tweaks.pillagers_use_cannon_boats.description": "Позволяет разбойникам использовать лодки с пушками. Добавьте другие сущности в тег supplementaries:can_use_cannon_boat, чтобы разрешить им использовать такие лодки",
+  "supplementaries.configuration.ai_tweaks.smart_boat_dismount": "Умное высаживание из лодок",
+  "supplementaries.configuration.ai_tweaks.smart_boat_dismount.description": "Позволяет мобам, например разбойникам и эндерменам, высаживаться из лодок на суше. Добавьте другие сущности в тег supplementaries:can_dismount_boats, чтобы разрешить им делать то же самое",
+  "supplementaries.configuration.ai_tweaks.traders_open_doors": "Торговцы открывают двери",
+  "supplementaries.configuration.ai_tweaks.traders_open_doors.description": "Позволяет торговцам открывать двери (поскольку, как выяснилось, раньше они этого не умели)",
+  "supplementaries.configuration.ai_tweaks.noteblock_scare": "Отпугивание нотными блоками",
+  "supplementaries.configuration.ai_tweaks.noteblock_scare.description": "Нотные блоки с головой зомби отпугивают жителей",
+  "supplementaries.configuration.tweaks.golden_apple_disenchant": "Снятие зачарования с золотого яблока",
+  "supplementaries.configuration.dispenser_tweaks": "Настройки раздатчиков",
+  "supplementaries.configuration.dispenser_tweaks.axe_strip": "Обработка топором",
+  "supplementaries.configuration.dispenser_tweaks.axe_strip.description": "Позволяет раздатчикам использовать топоры на блоках: снимать кору с брёвен, удалять окисление меди и воск",
+  "supplementaries.configuration.dispenser_tweaks.shoot_ender_pearls": "Выстрел жемчугом Эндера",
+  "supplementaries.configuration.dispenser_tweaks.shoot_ender_pearls.description": "Позволяет раздатчикам запускать жемчуг Эндера"
 }
