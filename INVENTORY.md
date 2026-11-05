@@ -563,3 +563,13 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Проверка Mekanism Tools дополнительно исправила последнее пустое значение; оно теперь «Шанс появления нескольких частей брони». Восьмёрка переводов из PR #4 была ранее полностью сверена в рабочей ветке и теперь опубликована в `main`.
 
 Следующие подтверждённо неполные namespace: `ars_nouveau`, `evilcraft`, `irons_spellbooks`, `pneumaticcraft`, `twilightforest`, `industrialforegoing`, `integrateddynamics`, `reliquary`. Для `actuallyadditions` требуется отдельная смысловая проверка 82 значений, совпадающих с EN; пустое значение ключа `info.actuallyadditions.gui.the` может быть языковой особенностью (в русском нет артикля), поэтому не заменять его механически. Перед следующей партией проверить дополнительные неполные namespace и выбрать десять фактических целей.
+
+
+## Дополнение текущей рабочей сессии — 05.11.2026
+
+- `actuallyadditions`: 1026/1026, missing 0, extra 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Переведены 62 пользовательские строки, ранее совпадавшие с EN. Пустое `info.actuallyadditions.gui.the` сохранено намеренно: русский язык не использует артикль. Бренд, CF/NBT/ESD и служебные комментарии оставлены без перевода.
+- `industrialforegoing`: 683/683, missing 0, extra 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Оставшиеся совпадения EN/RU относятся к названию мода, FE и служебным комментариям.
+
+Коммиты Actually Additions: [6146656](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/61466567329721c466729420646696fb7504c3b2), [c74229a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c74229a20476239869f02082311d8d99b8fafc61). Коммиты Industrial Foregoing: [23032f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23032f0d5ad06fcb3afefa9b560b702b82f552bd), [7a3f978](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7a3f97825e6b1a29346d171fd553e3772edb27a8).
+
+Текущая партия не завершена: 2/10. Следующий мод — `irons_spellbooks` (1128/1315; missing 187). Upstream RU не использовать как замену: файл неполный; допустимо переносить только отдельные значения после проверки ключей и плейсхолдеров.
