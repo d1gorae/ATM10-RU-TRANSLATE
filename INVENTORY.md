@@ -605,3 +605,12 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 
 Коммиты перевода: [f83e2ed](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f83e2ed07c312f5376dd783ae727cb34fb210d1c), [fb749b5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb749b5e45ed4d48f6ae0e34e2d23a0a2309a8c4), [59dc0f2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/59dc0f279846eb0155b8ee085275696427a8853b), [2d8c0bf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2d8c0bf2e3d618587c857fbcab924ea0bf206eb0).
 - Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d238d3fb1ccda22a2ade88d74d2f1eb59aead27e).
+
+## Завершение локализации Twilight Forest — 05.11.2026
+
+`twilightforest` (`4.8.3345`) полностью локализован: **2 061/2 061 ключ**. В исходном RU-файле было 1 475 ключей; добавлено 586 переводов. Существовавшие значения сохранены; исправлены только точечные расхождения порядка плейсхолдеров и лишние пробелы в нескольких старых строках.
+
+Сверка с read-only EN-файлом `twilightforest-1.21.1-4.8.3345-universal/twilightforest/en_us.json` (blob SHA `d378c0a02c7d95983b998781f792071bd612cdb5`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; несовпадения плейсхолдеров и их порядка 0; переносов строк 0; кодов форматирования 0; переменных `${...}` 0; расхождений завершающих пробелов 0. 18 совпадений RU=EN оставлены намеренно: названия композиций и авторов, командный шаблон, служебные обозначения, форматные символы и отступ.
+
+Коммиты перевода: [4ee350b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ee350b29b217ed85f5466fcf8feebfddd8a5d79), [4095f18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4095f18ce3a0e6da8acf3317910a3f1e5fd1da32), [137ddde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/137ddde891f3c955df1b068b61a536e656ef82e9), [0776c50](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0776c50e2722cc7b821964adc43435d59fbf2eae), [3b83005](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3b83005dac8dbd9483775837ce6d56ea9c9c26d1), [2cc21eb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cc21eb25c39707c087e23f405e6576c94fb02d1), [c95129b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c95129bd7029aea85842c0d015bb4d1996e5c43b).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/60e4b6dd6f2923b90903cc8d516057d01eafa808).
