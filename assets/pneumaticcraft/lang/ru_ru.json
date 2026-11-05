@@ -1357,7 +1357,7 @@
   "pneumaticcraft.gui.tab.info.elevator.floorNumber": "Этаж %d / %d",
   "pneumaticcraft.gui.tab.info.elevator.maxExtension": "Макс растяжение: %sM",
   "pneumaticcraft.gui.tab.info.elevator.noCallers": "Не найдено ни одного вызывателя лифта",
-  "pneumaticcraft.gui.tab.info.ghostSlotInteraction": "\n§fПравая кнопка мыши: §e+1 / +1000 мБ \n§fЛевая кнопка мыши: §e−1 / −1000 мБ \n§fShift + правая кнопка мыши: §e×2 \n§fShift + левая кнопка мыши: §e÷2 \n§fСредняя кнопка мыши: §eочистить\n§fКолёсико мыши: §e±1 / ±1000 мБ \n§fShift + колёсико: §e×2/÷2 / ±100 мБ",
+  "pneumaticcraft.gui.tab.info.ghostSlotInteraction": "\n§fПКМ: §e+1 / +1000 мБ \n§fЛКМ: §e−1 / −1000 мБ \n§fShift + ПКМ: §e×2 \n§fShift + ЛКМ: §e÷2 \n§fСКМ: §eочистить\n§fПрокрутка: §e±1 / ±1000 мБ \n§fShift + прокрутка: §e×2/÷2 / ±100 мБ",
   "pneumaticcraft.gui.tab.info.ghostSlotInteraction.title": "Взаимодействие со слотами",
   "pneumaticcraft.gui.tab.info.heat": "Эта машина требует или выделяет тепло. Тепло можно применить, поместив рядом с машиной горячий блок. Используйте вихревую трубу (быструю, но требует энергии), а также лаву (быстрая, но затвердевает) и факелы (очень медленно). Чтобы охладить машину, удалите источники тепла. Или ускорьте процесс, поставив радиаторы или холодные блоки, например лед/плотный лед, снег/синий снег.",
   "pneumaticcraft.gui.tab.info.heat.title": "Нагрев",
