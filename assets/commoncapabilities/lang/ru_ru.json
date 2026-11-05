@@ -7,5 +7,6 @@
   "capability.commoncapabilities.temperature": "Температура",
   "capability.commoncapabilities.worker": "Работник",
   "capability.commoncapabilities.worldNameable": "Мир с задаваемым именем",
-  "capability.commoncapabilities.wrench": "Гаечный ключ"
+  "capability.commoncapabilities.wrench": "Гаечный ключ",
+  "_comment": "# Capability settings"
 }
