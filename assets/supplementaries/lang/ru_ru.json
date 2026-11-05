@@ -1061,5 +1061,21 @@
   "supplementaries.configuration.flute.unbound_radius": "Радиус поиска питомцев",
   "supplementaries.configuration.flute.unbound_radius.description": "Радиус поиска питомцев непривязанной флейтой",
   "supplementaries.configuration.flute.bound_distance": "Дальность привязанной флейты",
-  "supplementaries.configuration.flute.bound_distance.description": "Максимальное расстояние, на котором привязанная флейта может телепортировать питомца"
+  "supplementaries.configuration.flute.bound_distance.description": "Максимальное расстояние, на котором привязанная флейта может телепортировать питомца",
+  "supplementaries.configuration.bomb": "Бомба",
+  "supplementaries.configuration.bomb.explosion_radius": "Радиус взрыва",
+  "supplementaries.configuration.bomb.explosion_radius.description": "Радиус взрыва бомбы; от него зависит наносимый урон",
+  "supplementaries.configuration.bomb.break_blocks": "Разрушать блоки",
+  "supplementaries.configuration.bomb.break_blocks.description": "Разрушают ли бомбы блоки, как динамит?",
+  "supplementaries.configuration.bomb.bomb_fuse": "Запал бомбы",
+  "supplementaries.configuration.bomb.bomb_fuse.description": "Укажите значение, отличное от 0, чтобы бомба взрывалась через заданное количество тиков, а не при столкновении",
+  "supplementaries.configuration.bomb.cooldown": "Перезарядка",
+  "supplementaries.configuration.bomb.cooldown.description": "Включает время перезарядки предмета-бомбы",
+  "supplementaries.configuration.blue_bomb": "Синяя бомба",
+  "supplementaries.configuration.blue_bomb.explosion_radius": "Радиус взрыва",
+  "supplementaries.configuration.blue_bomb.explosion_radius.description": "Радиус взрыва синей бомбы. Взрыв такой же, как у обычной, но немного мощнее",
+  "supplementaries.configuration.blue_bomb.break_blocks": "Разрушать блоки",
+  "supplementaries.configuration.blue_bomb.break_blocks.description": "Разрушают ли синие бомбы блоки, как динамит?",
+  "supplementaries.configuration.blue_bomb.split_count": "Количество маленьких бомб",
+  "supplementaries.configuration.blue_bomb.split_count.description": "Количество маленьких бомб, на которые распадается синяя бомба при взрыве. Установите 0, чтобы получить одну большую бомбу"
 }
