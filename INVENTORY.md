@@ -106,16 +106,16 @@
 - `prism`
 - `rebind_narrator`
 - `rechiseled_chipped` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `resourcefullib`
-- `rhino`
-- `smartbrainlib`
-- `sodium`
-- `sodium_extra`
-- `sophisticatedbackpackscreateintegration`
-- `sophisticatedstoragecreateintegration`
-- `spark`
-- `structory`
-- `structory_towers`
+- `resourcefullib` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `rhino` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `smartbrainlib` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `sodium` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `sodium_extra` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `sophisticatedbackpackscreateintegration` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `sophisticatedstoragecreateintegration` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `spark` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `structory` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `structory_towers` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `stylecolonies`
 - `supermartijn642configlib`
 - `sussysniffers`
@@ -275,3 +275,21 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 - Интеграционные файлы AE2/Cobblemon из архива не включены в эту локализацию: их версии и полные наборы EN-ключей отдельно не сверялись.
 
 Следующая рабочая точка определяется по актуальному `INVENTORY.md`; FTB Quests/SNBT остаются на самом конце проекта.
+
+
+### Проверка следующих 10 mod ID — 05.11.2026
+
+Проверены по полному дереву `ATM/LANGUAGES_EN_US` актуальной ветки `main` репозитория английских источников (406 файлов `en_us.json`, 403 уникальных namespace). Для следующих десяти mod ID отдельные английские языковые файлы в источнике не обнаружены; переводимые ключи по предоставленному источнику отсутствуют, отдельные русские JSON-файлы не создавались:
+
+- `resourcefullib`
+- `rhino`
+- `smartbrainlib`
+- `sodium`
+- `sodium_extra`
+- `sophisticatedbackpackscreateintegration`
+- `sophisticatedstoragecreateintegration`
+- `spark`
+- `structory`
+- `structory_towers`
+
+Это означает отсутствие отдельного языкового источника в репозитории, а не подтверждение отсутствия строк внутри самих JAR. Если появится соответствующий EN-файл, эти позиции нужно перепроверить.
