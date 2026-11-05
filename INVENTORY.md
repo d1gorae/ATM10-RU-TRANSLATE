@@ -791,3 +791,12 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 
 Для всех файлов JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Пять совпадений RU=EN относятся к названию Chisel, обозначению RF и техническому шаблону с плейсхолдером. Переводы не требовали изменений.
 
+
+
+## JSON-аудит — партия после Common Storage Lib (06.11.2026)
+
+Проверены 10 namespace: `commoncapabilities` (10), `compactmachines` (58), `connectedglass` (120), `constructionstick` (142), `controlling` (12), `cookingforblockheads` (260), `copycats` (67), `cosmeticarmorreworked` (5), `crafting_on_a_stick` (14), `craftingtweaks` (40). Итого **728 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В EN Common Capabilities три объявления служебного `_comment`, иных повторов нет. Три пустых значения Compact Machines, Construction Sticks и Crafting on a Stick совпадают с EN. В Cooking for Blockheads исправлены два значения: восстановлены экранированные последовательности `\\n` вместо обычных переносов строк, как в оригинале. Остальные совпадения RU=EN относятся к метаданным, плейсхолдерам и служебному обозначению `???`.
+
+Коммит исправления Cooking for Blockheads: [5223759](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/522375983dbeb003719b937ad7ec01759c712396).
