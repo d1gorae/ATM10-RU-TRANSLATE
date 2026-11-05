@@ -846,3 +846,15 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты: Mystical Agradditions [00dfc30](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/00dfc300d95d2ed3095374efadef68107d307bc9); Mystical Agriculture [c975d3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c975d3a0b00d21a8d78517bda1e39131f1b5cb6e), [795fd3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/795fd3a54db0c6f7700600ee510f89b01ce3aec4); Nature's Aura [a959245](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a9592457d1a721de736a1dccefa61b09be3a9fd2); глоссарий [dbadc93](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dbadc93e7ffb574d9bfe6f21590a14785a45360c).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: neo_auth, nochatreports, notenoughanimations, not_enough_glyphs, observable, oracle_index, owo, pamhc2crops, pamhc2foodcore, pamhc2foodextended. Nature's Compass, NeoVitae, Occultism, Biomes We've Gone, Oritech и PneumaticCraft уже завершены и пропускаются. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать первая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** NeoAuth, No Chat Reports, Not Enough Animations, Not Enough Glyphs, Observable, Oracle Index, owo-lib, Pam's HarvestCraft 2 Crops, Food Core и Food Extended. Всего **2 030 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты верхнего уровня 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. В OWO сохранена структура JSON-компонентов и индексные плейсхолдеры. Единственное пустое значение Not Enough Glyphs совпадает с EN. 17 совпадений RU=EN — бренды/названия модов, технические идентификаторы, клавиши, алгоритмы и числовые/структурные шаблоны.
+
+В No Chat Reports исправлены 12 буквальных последовательностей \\n, которые вместо переносов строк отображались как текст. Глоссарий дополнен терминами Pam's HarvestCraft.
+
+Коммиты: No Chat Reports [d07da48](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d07da48559be4f0b4e7e064d31674aa87d6dd9bc); глоссарий [8f098d5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f098d567b89e46220b4e04fb5b5250faf73965c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: pamhc2trees, patchouli, pipez, placebo, pocketstorage, polylib, polymorph, potionsmaster, productivebees и productivemetalworks. Productive Bees ранее уже переводился; не перезаписывать существующие значения, только сверить и исправить подтверждённые ошибки. FTB Quests/SNBT оставить на заключительный этап.
