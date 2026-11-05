@@ -278,7 +278,8 @@
 	task.51A3E013D2B3D744.title: "Улучшение приборов"
 	task.64FADC78A8AD3FE4.title: "Семена"
 	task.773CA1FDC4CEFCEF.title: "AllRightsReserved"
-	task.7D9A58EBADE91F54.title: "Инфериевые инструменты"	quest.19065F9DB95FE9C0.quest_subtitle: ["Уровень: &b4"]
+	task.7D9A58EBADE91F54.title: "Инфериевые инструменты"
+	quest.19065F9DB95FE9C0.quest_subtitle: ["Уровень: &b4"]
 	quest.310236F1631C6F7D.quest_subtitle: ["Уровень: &63"]
 	quest.3D2B4BF905CB606F.quest_desc: ["Для роста семян пробуждённого дракония под ними необходимо разместить ядро пробуждённого дракония."]
 	quest.3D2B4BF905CB606F.quest_subtitle: ["Уровень: &56"]
@@ -287,4 +288,5 @@
 	quest.544BF7E113635C8F.quest_subtitle: ["Уровень: &c5"]
 	quest.600388EAB96609E4.quest_subtitle: ["Уровень: &a2"]
 	quest.7B7F7626FB6813FA.quest_subtitle: ["Уровень: &63"]
+	quest.49E3C40B3C24C36A.quest_subtitle: "Уровень: &c5"
 }
