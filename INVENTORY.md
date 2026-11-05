@@ -3,7 +3,7 @@
 Дата сверки: **05.11.2026**  
 Версия официальной сборки: **ATM10 8.5**  
 Источник списка модов: [AllTheMods/ATM-10](https://github.com/AllTheMods/ATM-10), `config/crash_assistant/modlist.json`, ветка `main`.  
-Русские файлы: текущая ветка `main` репозитория `d1gorae/ATM10-RU-TRANSLATE`, пути `assets/<namespace>/lang/ru_ru.json`.
+Базовый снимок русских файлов: ветка `main` репозитория `d1gorae/ATM10-RU-TRANSLATE`, пути `assets/<namespace>/lang/ru_ru.json`. Дополнения текущей рабочей партии отмечены отдельными разделами ниже и находятся в `work/productivetrees-ru`.
 
 ## Сводка
 
