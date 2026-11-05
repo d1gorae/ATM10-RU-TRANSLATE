@@ -333,3 +333,8 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 - Во всех 10 файлах: дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, SNBT-структура сбалансирована.
 - Исправлены устаревшие описания двух мультиблочных квестов ATM Star и повреждённые кавычки вокруг двух изображений в массиве SNBT.
 - Остальные 57 глав, общие `chapter.snbt` и `reward_table.snbt`, а также глобальные языковые SNBT-файлы ещё требуют проверки. FTB Quests не завершён.
+
+
+### FTB Quests — вторая партия SNBT, 05.11.2026
+
+Проверены главы: `basic_armor`, `basic_logistics`, `basic_power`, `basic_tools`, `bounty_board`, `building_tips`, `bumblezone`, `cataclysm`, `chapter_2_the_star`, `create`. Всего 1793 EN-ключей и 1823 RU-записей, включая 30 дополнительных RU-полей для quest ID, присутствующих в базовых SNBT. Missing 0, stale extra 0, duplicates 0, placeholders 0, image mismatches 0, все SNBT-файлы структурно сбалансированы. Удалено 14 устаревших записей с отсутствующими в базовых главах ID. Всего проверено 20/67 глав; осталось 47. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
