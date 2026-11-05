@@ -129,7 +129,6 @@
 	]
 	quest.29EE878BC8D3A742.title: "Ловим пчёл!"
 	quest.2BE538246C672689.quest_desc: ["В литейной залейте &#F2EB2Eяйцо призыва вибраниумной пчелы&r расплавленным &#9332D9унобтаниумом&r."]
-	quest.2BE538246C672689.quest_subtitle: "Олдемодиевая + вибраниум"
 	quest.2BE538246C672689.title: "Пчела из унобтания"
 	quest.2CA3707BEE2E3C0D.quest_subtitle: "Скорми алмазной пчеле незеритовый блок"
 	quest.2CA3707BEE2E3C0D.title: "Незеритовая пчела"
@@ -272,10 +271,8 @@
 	quest.6E4C3B87FABE9EFA.quest_subtitle: "Медная + оловянная"
 	quest.6E4C3B87FABE9EFA.title: "Бронзовая пчела"
 	quest.6E819CCD57B15D54.quest_desc: ["В литейной залейте &#F2EB2Eяйцо призыва пчелы из всемодия&r расплавленным &#4CE688вибраниумом&r."]
-	quest.6E819CCD57B15D54.quest_subtitle: "Незеритовая + драконовая"
 	quest.6E819CCD57B15D54.title: "Пчела из вибраниума"
 	quest.6EFFF0DC80C1C8A3.quest_desc: ["В литейной залейте &#944A12яйцо призыва древней пчелы&r расплавленным &#F2EB2Eвсемодием&r."]
-	quest.6EFFF0DC80C1C8A3.quest_subtitle: "Незеритовая + пчела-визер"
 	quest.6EFFF0DC80C1C8A3.title: "Пчела из всемодия"
 	quest.6F7AC41B703028CC.quest_subtitle: "Серебряная + медная"
 	quest.6F7AC41B703028CC.title: "Сигналовая пчела"
