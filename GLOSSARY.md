@@ -96,3 +96,8 @@
 | Utheric Crystal | кристалл утерита | Ресурс The Undergarden |
 | Rogdorium | рогдориум | Материал The Undergarden; сохранять транслитерацию |
 | Rot | Гниль | Название группы монстров The Undergarden; в сочетаниях «мобы Гнили» |
+| Depths (The Undergarden) | Глубины | Область The Undergarden ниже уровня Y=0 |
+| Dreadrock | ужасный камень | Блок The Undergarden; добывается киркой нужного уровня |
+| Gronglet | гронглет | Существо/боеприпас The Undergarden |
+| Stoneborn | камнерождённый | Мирный народ The Undergarden |
+| Denizen | обитатель | Существо The Undergarden |
