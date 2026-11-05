@@ -41,5 +41,6 @@
   "string.naturescompass.temperature": "Температура",
   "string.naturescompass.topBlock": "Верхний блок",
   "string.naturescompass.snow": "Снег",
-  "string.naturescompass.rain": "Дождь"
+  "string.naturescompass.rain": "Дождь",
+  "_comment": "STRINGS - PRECIPITATION"
 }
