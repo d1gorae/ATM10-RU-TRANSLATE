@@ -1603,5 +1603,8 @@
   "upgrade.mekanism.stone_generator": "Генератор камня",
   "upgrade.mekanism.stone_generator.description": "Генерирует камень или булыжник по мере необходимости.",
   "waste_barrel.mekanism.decay_rate": "Скорость распада: %1$s mB/t",
-  "waste_barrel.mekanism.decay_rate.actual": "Текущая скорость распада: %1$s mB / %2$s ticks"
+  "waste_barrel.mekanism.decay_rate.actual": "Текущая скорость распада: %1$s mB / %2$s ticks",
+  "_mekanism_force_utf8": " ",
+  "description.mekanism.chemical_injection_chamber": "Элитный механизм, способный перерабатывать руды в четыре осколка, выступающие в качестве начальной стадии 400% переработки руды.",
+  "description.mekanism.purification_chamber": "Продвинутый механизм, способный перерабатывать руды в три глыбы, выступающий в качестве начальной стадии 300% переработки руды."
 }
