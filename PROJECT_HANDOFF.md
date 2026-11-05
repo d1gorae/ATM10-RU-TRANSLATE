@@ -147,3 +147,32 @@ FTB Quests и SNBT остаются последним этапом проект
 - [Глоссарий — термины Oritech, Productive Trees и Relics](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5261c98569c2b53cf4d277b001d06f4ac25b03cf)
 
 **Итого подтверждено: 60/67 глав. Осталось 7 глав.** Следующая точка продолжения — последние 7 глав, затем общие `chapter.snbt`, `reward_table.snbt` и глобальные языковые SNBT-файлы. Не считать FTB Quests завершённым до финальной общей проверки.
+
+
+## Результаты заключительной партии глав FTB Quests — 05.11.2026
+
+Завершены последние 7 глав: `storage`, `theurgy`, `tips_and_tricks`, `twilight_forest`, `undergarden`, `welcome`, `xycraft`.
+
+В английских оригиналах — **654 ключа**, в русских файлах — 654. Проверки: missing 0, extra 0, duplicates 0, placeholder mismatches 0, пустых переводов 0. Для всех 14 overlay-файлов проверены кавычки и баланс скобок; расхождений по двойному экранированию переносов строк не осталось.
+
+Исправления:
+- `storage`: заполнено пустое описание фильтра рюкзака.
+- `tips_and_tricks`: восстановлена информация о подключении Building Gadgets к сети AE2; исправлено экранирование переносов строк и цвет Steam Drill.
+- `twilight_forest`: исправлено двойное экранирование переносов строк.
+- `undergarden`: восстановлено полное описание получения кристалла утерита, исправлены названия/форматирование отдельных существ и нормализованы переносы строк.
+- `welcome`: удалена посторонняя рекламная вставка, отсутствующая в английском оригинале; естественнее переведено описание kitchen-sink pack.
+- В глоссарий добавлены термины The Undergarden, включая Utheric, Rogdorium, Rot, Depths, Dreadrock, Gronglet, Stoneborn и Denizen.
+- `theurgy` и `xycraft` прошли сверку без необходимости менять текст.
+
+Коммиты:
+- [Storage — заполнить описание фильтра](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c3bbb96f3d6a337ebbbf2e58816980fe4a7d5f29)
+- [Tips and Tricks — восстановить описание AE2 и исправить переносы](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8d7f7d08eeed9d0981bce112cb5f406b82d91f33)
+- [Tips and Tricks — сохранить цвет Steam Drill](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f8b57468af203020e8d5c101fa58b93d991e63a0)
+- [Twilight Forest — исправить экранирование](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/532c8f2515858c950392aa929d7c115f587c7da7)
+- [Undergarden — восстановить описание утеритового кристалла](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/be50d9ec1a60f8bdc65c5977b7067a81e08c6707)
+- [Undergarden — исправить Gronglet](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2f28c3dc8cbcf1f3882089843c22dbe2c1831e6a)
+- [Undergarden — сохранить цвет Stoneborn и Mog](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/959ce011e4063e945cd26137cd3453aa595145ea)
+- [Welcome — исправить вступительное описание](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ea8d0ec8f2b8a2625d6cff232817b87fa3cc77a3)
+- [Глоссарий — термины The Undergarden](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/769924f8cded0a6adc3265f1fa0e4175b94a0c9b)
+
+**Итого: все 67/67 глав FTB Quests сверены с EN overlay.** Суммарно по 67 главам — 10 816 EN-ключей. Это не означает завершение всего FTB Quests: остаются общие `chapter.snbt`, `reward_table.snbt` и глобальные языковые SNBT-файлы. Их проверка — следующая точка продолжения.
