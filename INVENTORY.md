@@ -1147,3 +1147,19 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Roots Classic [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после simplebackups: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics, starbunclemania. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Сверка альтернативной партии work/atm10-batch-nov05 — 06.11.2026
+
+Пять JSON-файлов сравнивались с актуальными EN-оригиналами и текущим main. Все ключи покрыты полностью; альтернативная ветка не содержит дополнительных ключей. В main оставлены более точные текущие формулировки, а подтверждённые улучшения из batch перенесены выборочно. Само слияние batch целиком не выполнялось.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Placeholder mismatch | Format-token mismatch |
+|---|---:|---:|---:|---:|---:|---:|
+| evilcraft | 629/629 | 0 | 0 | 0 | 0 | 0 |
+| integrateddynamics | 1854/1854 | 0 | 0 | 0 | 0 | 0 |
+| irons_spellbooks | 1315/1315 | 0 | 0 | 0 | 0 | 0 |
+| pneumaticcraft | 2274/2274 | 0 | 0 | 0 | 0 | 0 |
+| reliquary | 551/551 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **6623/6623** | **0** | **0** | **0** | **0** | **0** |
+
+Отобранные смысловые и терминологические улучшения зафиксированы в `PROJECT_HANDOFF.md`. Все пять JSON успешно разобраны; повторная проверка ключей, плейсхолдеров и форматирующих токенов прошла без расхождений.
