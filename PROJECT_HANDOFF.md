@@ -1,340 +1,74 @@
-# Инвентаризация локализаций ATM10
-
-Дата сверки: **05.11.2026**  
-Версия официальной сборки: **ATM10 8.5**  
-Источник списка модов: [AllTheMods/ATM-10](https://github.com/AllTheMods/ATM-10), `config/crash_assistant/modlist.json`, ветка `main`.  
-Русские файлы: текущая ветка `main` репозитория `d1gorae/ATM10-RU-TRANSLATE`, пути `assets/<namespace>/lang/ru_ru.json`.
-
-## Сводка
-
-| Показатель | Значение |
-|---|---:|
-| Записей в официальном modlist | 497 |
-| Уникальных mod ID (без NeoForge) | 490 |
-| Русских JSON-файлов | 394 |
-| Mod ID с одноимённым русским namespace | 381 |
-| Mod ID без одноимённого русского JSON | 109 |
-| Из них вне FTB Quests | 109 |
-| Дополнительных namespace без прямого совпадения | 13 |
-
-Отсутствие одноимённого JSON не доказывает, что мод содержит переводимые строки. Для каждого кандидата нужно сверить фактический `en_us.json` в версии мода из ATM10 8.5. FTB Quests не трогать до самого конца проекта.
-
-## Mod ID без одноимённого ru_ru.json
-
-- `accelerateddecay` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `ae2jeiintegration`
-- `aiimprovements`
-- `alltheleaks`
-- `architectury`
-- `athena`
-- `atlas_api`
-- `atmcompat` — все 10 ключей уже есть в `assets/allthemodium/lang/ru_ru.json`.
-- `attributefix`
-- `bibliobiomes` — переведён, ключи объединены в `assets/bibliocraft/lang/ru_ru.json` (9577 ключей); отдельный namespace не создавать.
-- `bibliowoods` — переведён, ключи объединены в `assets/bibliocraft/lang/ru_ru.json` (11461 ключ); отдельный namespace не создавать.
-- `blueflame`
-- `borderlesswindow`
-- `botanypotsmystical`
-- `botanytrees`
-- `byzantine`
-- `catjammies`
-- `cleanswing`
-- `cloth_config`
-- `clumps`
-- `cobweb`
-- `colorwheel`
-- `colorwheel_patcher`
-- `connectivity`
-- `corgilib`
-- `crash_assistant`
-- `cryonicconfig`
-- `cupboard`
-- `deimos`
-- `dungeoncrawl`
-- `edivadlib`
-- `experiencelib`
-- `explorify`
-- `fastfurnace`
-- `fastsuite`
-- `ferritecore`
-- `flickerfix`
-- `formationsnether`
-- `formationsoverworld`
-- `framework`
-- `ftbjeiextras` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `ftbquests`
-- `ftbranks`
-- `ftbxmodcompat` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `fuelgoeshere`
-- `geckolib`
-- `glodium`
-- `hellish_trials`
-- `heyberryshutup`
-- `iceberg`
-- `illagerwarship` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `immediatelyfast`
-- `incontrol`
-- `iris`
-- `iris_search`
-- `jumpboat`
-- `konkrete`
-- `kubejs`
-- `lithostitched`
-- `lmft`
-- `melody`
-- `modelfix`
-- `monolib`
-- `moredragoneggs`
-- `moreredxcctcompat`
-- `mousetweaks`
-- `mysticalcustomization`
-- `netherportalfix`
-- `novillagerdm`
-- `nullscape`
-- `observerlib`
-- `occultism_kubejs`
-- `octolib`
-- `ohthetreesyoullgrow`
-- `omegaconfig`
-- `openloader`
-- `overlapless`
-- `overloadedarmorbar`
-- `playeranimator`
-- `polyeng`
-- `ponderjs`
-- `prickle`
-- `prism`
-- `rebind_narrator`
-- `rechiseled`
-- `rechiseled_chipped` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `resourcefullib`
-- `rhino`
-- `smartbrainlib`
-- `sodium`
-- `sodium_extra`
-- `sophisticatedbackpackscreateintegration`
-- `sophisticatedstoragecreateintegration`
-- `spark`
-- `structory`
-- `structory_towers`
-- `stylecolonies`
-- `supermartijn642configlib`
-- `sussysniffers`
-- `t_and_t`
-- `theurgy_kubejs`
-- `towntalk`
-- `underground_villages`
-- `uranus`
-- `valhelsia_core`
-- `villagesandpillages`
-- `wits`
-- `yeetusexperimentus`
-- `yungsextras`
-
-## Дополнительные namespace без прямого совпадения с mod ID
-
-- `borderless`
-- `cloth-config2`
-- `dynamic_fps`
-- `entityculling`
-- `evilcraftcompat`
-- `integrateddynamicscompat`
-- `integratedterminalscompat`
-- `irons_patreon_lib`
-- `lambdynlights`
-- `lollipop`
-- `moreculling`
-- `tempad_static`
-- `vulkanmod`
-
-Не удалять автоматически. Это могут быть алиасы, библиотеки, вспомогательные моды или namespace, предоставляемые другой зависимостью.
-
-## Сверка Dropbox
-
-Источник: папка `languages_ru_ru`, предоставленная пользователем.
-
-- Всего обнаружено **773 элемента**: 512 папок и 261 файл.
-- Среди файлов: **256 JSON** и **5 legacy-файлов `.lang`**.
-- JSON-файлы охватывают **254 namespace**. Два namespace имеют по два файла разных версий: `allthemodium` и `computercraft`.
-- До импорта в GitHub уже присутствовали 229 из 254 namespace; 25 отсутствовали.
-- В репозиторий импортированы **20 существовавших Dropbox-переводов**. При импорте сохранялись только ключи, присутствующие в английском файле именно соответствующей версии, с непустыми значениями и совпадающими форматирующими плейсхолдерами.
-- Всего импортировано **19 844 существующих значения**. Это не означает, что все файлы полностью переведены: отсутствующие ключи намеренно оставлены для последующего перевода, а одинаковые английскому значения требуют смысловой проверки.
-- Для `allthemodium` объединены два Dropbox-файла с общим namespace: добавлены 307 ключей основного мода к существующему файлу; при одном конфликте сохранено значение из GitHub.
-- Для `computercraft` Dropbox содержит две версии. Файл GitHub уже полнее (235 ключей против 181/188 в Dropbox), поэтому замены не делались.
-- Ещё пять namespace из Dropbox не импортированы:
-  - `ftbquests` — отложен до самого конца проекта;
-  - `iris`, `iris_search`, `sodium_extra` — в английском репозитории не найден соответствующий языковой оригинал для безопасной сверки;
-  - `integratedscripting` — Dropbox-файл содержит пустой объект `{}`.
-- Пять файлов `.lang` сохранены в Dropbox как справочные материалы. Они не преобразовывались автоматически в JSON: у части старый формат ключей, а у части ключи не совпадают с текущими английскими ресурсами.
-
-## Импортированные из Dropbox файлы
-
-В рамках первого прохода до этой сверки уже были добавлены `advancedperipherals`, `mekmm` и `relics` (1 391 значение). В текущем проходе добавлены ещё 20 файлов (19 844 значения). Итого из Dropbox перенесены **23 файла и 21 235 существующих значений**. Это импорт уже имевшегося текста, а не завершённый перевод.
-
-| Namespace | Импортировано ключей | Ключей в английском оригинале |
-|---|---:|---:|
-| `advancedperipherals` | 140 | 140 |
-| `mekmm` | 704 | 704 |
-| `relics` | 547 | 547 |
-| `evilcraft` | 376 | 629 |
-| `ars_nouveau` | 1 296 | 2 323 |
-| `mekanism` | 1 605 | 3 239 |
-| `iceandfire` | 1 193 | 1 809 |
-| `sophisticatedstorage` | 256 | 425 |
-| `irons_spellbooks` | 1 128 | 1 315 |
-| `silentgear` | 616 | 1 191 |
-| `mekanismgenerators` | 200 | 364 |
-| `neovitae` | 256 | 3 652 |
-| `productivetrees` | 3 832 | 4 149 |
-| `pneumaticcraft` | 1 987 | 2 274 |
-| `mekanismtools` | 185 | 800 |
-| `twilightforest` | 1 475 | 2 061 |
-| `industrialforegoing` | 584 | 683 |
-| `aether` | 1 071 | 1 238 |
-| `integrateddynamics` | 1 629 | 1 854 |
-| `supplementaries` | 708 | 1 394 |
-| `reliquary` | 307 | 551 |
-| `ad_astra` | 685 | 831 |
-| `regions_unexplored` | 455 | 933 |
-
-Для импортированных файлов ключи, которых нет в английском оригинале, пустые значения и записи с несовпадающими форматирующими плейсхолдерами не переносились. Недостающие ключи не заполнялись автоматически: их перевод — отдельная будущая работа.
-
-## Принцип использования Dropbox
-
-Dropbox — вспомогательный источник ранее сделанных переводов, а не источник для безусловной замены GitHub. Многие файлы Dropbox старее или неполнее текущих GitHub-файлов. Совпадение количества ключей не гарантирует лучшего перевода; отличающиеся значения нельзя перезаписывать без смысловой проверки.
-
-При переносе новых источников:
-1. Проверять соответствие версии мода и namespace.
-2. Сверять ключи с английским оригиналом ATM10 8.5.
-3. Удалять устаревшие ключи, отсутствующие в текущем английском файле.
-4. Не переносить пустые значения и записи с несовпадающими плейсхолдерами.
-5. Сохранять более полные и качественные значения, уже находящиеся в GitHub.
-6. Не менять Dropbox: он остаётся исходным архивом.
-
-## Отдельно отложено
-
-- `ftbquests` — не включать в текущую работу; перевод FTB Quests/SNBT остаётся на самый последний этап по прямому указанию пользователя.
-
-## Ограничения точности
-
-Эта инвентаризация считает файлы и namespace, но не объявляет все 120 отсутствующих namespace обязательными к переводу. Перед созданием нового файла нужно проверить, содержит ли мод собственные пользовательские строки, нет ли общего namespace и не являются ли оставшиеся записи служебными.
-
-
-## Добавлено после инвентаризации
-
-### Пять новых локализаций, опубликованных 05.11.2026
-
-| Namespace | Ключей | EN SHA | RU SHA | Коммит |
-|---|---:|---|---|---|
-| logisticsnetworks | 729 | `5237f7fd5d6846951375993fa781c4b9b06dd2d4` | `5da3d204799c23d4feab9fa773b397c56a0ca2ab` | [781e6d4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/781e6d45645533a15311dac05a6d615659f61642) |
-| pamhc2foodextended | 872 | `aba87691a39599c72e488efd456c59c947a43694` | `a9686a0129c819f9d63e68cd671e82f9c9b5f9c9` | [b66ad57](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b66ad571e7381562e57683b247f6f83e36844a86) |
-| bibliocraft | 2021 | `d07816ab738feebeca49447e6de17540cdb2c392` | `fcc810c00974131f9586b6ce46f03c383a83935c` | [9510851](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/95108517bd67bb6599fa935a54fccd8d118ba5ec) |
-| chisel | 2774 | `7651fb2f601fe28b4799a902ce1a3fea81f6f0fc` | `c02df7d373234fddbcb0796a7f53c5bc5074bf52` | [e5a1408](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5a14083c03e079a730a253aee9145100e2661f8) |
-| dyenamicsandfriends | 2090 | `dc59a3530285256bd5cc8f2db1e350d8fdaae7a5` | `9848e3d3a0cc4b32f0351e7a51ec61897c33e072` | [ae1effb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1effb1a0d2d6deb690b3362b7c9c8154ee7d11) |
-
-### Пять ранее опубликованных локализаций, прошедших повторную проверку
-
-| Namespace | Ключей | EN SHA | RU SHA | Последние исправления |
-|---|---:|---|---|---|
-| herbsandharvest | 879 | `f45325eafcccea6ff336954362d9666f6b9c5f17` | `25e01bb5b88018d2407df8cbd55b73a8e9bb4506` | [5563f70](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5563f70aeaedae92ae6751f69dd98e74ea8fd218), [975b08d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/975b08d226ecd3e6ba7c7bac1dd58d6b59c34155) |
-| refurbished_furniture | 654 | `94f97e020cbcdc6afc60fea7e873f994ea565628` | `777c238a1551705ed4f185aab0d0d33e8be98c27` | [322c0c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/322c0c756e8dfe8ae6bbc7cb3ede3c11749ac3b4), [247d997](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/247d997db7f09f32b032d05a0fc34f9dee67a07b) |
-| stevescarts | 709 | `37289cc36ea1ed3e42ed0bcb84479bd3fe4a70ce` | `db0c443e1c37bdc24699473780f8c7fb6d3d51c3` | [9cedcec](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9cedcec761bd8452f9f56e75ce9d6b30b98f1e1d) |
-| integratedscripting | 210 | `7ea575fac87c3e8613653010bf57fa9e1b7af210` | `8a4b2f8d0fcb3ed257d50f99fd45fc6059513390` | [49d802f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/49d802fe2a9e36062efbe74c61c468fe30af4752) |
-| xtonesreworked | 547 | `9bf94d41801d263b90e7f6eae7ca527ccb562da0` | `bd04b55fb7cf1b11105a81e90fc9a5da907b682c` | Проверен повторно, исправления не потребовались |
-
-Итого по завершённой десятке: **11 485 ключей**. Во всех десяти файлах подтверждены корректный JSON, полное совпадение наборов ключей, отсутствие лишних/пропущенных ключей, дубликатов JSON-ключей и расхождений плейсхолдеров. Проверка форматирования § и переносов строк также не выявила расхождений.
-
-### Выявленные особенности очереди
-
-- bibliobiomes: локализация завершена и объединена с assets/bibliocraft/lang/ru_ru.json. EN: 9577 ключей; итоговый RU-файл содержит 11 598 ключей (2021 BiblioCraft + 9577 Bibliobiomes). Все прежние 2021 значения BiblioCraft сохранены без изменений. EN SHA: `5e0f1c9b49566cb0353cc4e24869cb9f12f31a76`; итоговый RU blob SHA: `d6ff8512a9cc4f67163131f79958afc607a52148`; commit: [3d6fa0f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d6fa0f4a5d43d7d8eff60d5bed70d566f4935f6). Проверки: missing 0, прежние значения BiblioCraft не изменены, дубликаты 0, placeholders 0, formatting 0, нижний регистр в названиях блоков/предметов не найден, непредусмотренных латинских строк не найдено.
-- bibliowoods: EN-файл найден, но пуст (0 ключей).
-- atmcompat: EN-файл содержит 10 ключей namespace allthemodium; все 10 уже присутствуют в опубликованном русском файле allthemodium.
-- accelerateddecay: EN-файл найден, но пуст (0 ключей).
-- ftbquests остаётся отложенным до самого конца проекта.
-
-Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 ключей, missing 0, extra 0, placeholders 0, formatting 0, непереведённых английских пользовательских строк 0. Коммит: [3d2ddac](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d2ddac65d0dd725f1b8f31420f1680d58bf9bde). Следующая рабочая точка: `rechiseled` (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`).
-
-## Проверка языковых источников — 05.11.2026
-
-- BiblioCraft, Bibliobiomes и BiblioWoods используют общий namespace `bibliocraft`. Файл `assets/bibliocraft/lang/ru_ru.json` содержит 23 059 ключей (2021 + 9577 + 11461). Коммиты добавления дополнений: [3d6fa0f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d6fa0f4a5d43d7d8eff60d5bed70d566f4935f6), [a3f3b0d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a3f3b0db5c5a5efb5ebc91330d0e5b097b5b4012). Общий blob SHA: `78e3da9f8afcc82ac062093b46bb4b9503bd01e6`.
-- BiblioCraft base: 2021/2021 ключей, missing 0, placeholders 0; 12 EN/RU совпадений сохранены намеренно.
-- Bibliobiomes: 9577/9577, missing 0, placeholders 0, formatting 0, duplicates 0, exact English matches 0.
-- BiblioWoods: 11461/11461, missing 0, placeholders 0, formatting 0, duplicates 0, exact English matches 0.
-- KubeJS Tweaks: исправлен файл `assets/kubejstweaks/lang/ru_ru.json`; теперь 4/4 ключа, missing 0, extra 0, placeholders 0. Коммит: [9ab2fda](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9ab2fdaf634bd81a22a10e45148e3af748540d50).
-- ATM Compat: 10/10 ключей уже присутствуют в `assets/allthemodium/lang/ru_ru.json`; файл не менялся.
-- Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped: английские файлы пусты (0 ключей); отдельные пустые русские файлы не создавались.
-- Rechiseled завершён и опубликован (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`; коммит `02cb14f`). Следующий кандидат по алфавитному списку `INVENTORY.md` — `resourcefullib`; перед работой проверить фактический EN-файл и наличие переводимых ключей. FTB Quests/SNBT — самый последний этап.
-
-
-## 23. Rechiseled — завершённая локализация, 05.11.2026
-
-**Мод:** Rechiseled 1.2.6 для NeoForge / Minecraft 1.21.1.  
-**Файл:** `assets/rechiseled/lang/ru_ru.json`  
-**Английский оригинал:** `ATM/LANGUAGES_EN_US/rechiseled-1.2.6-neoforge-mc1.21/rechiseled/en_us.json`  
-**EN blob SHA:** `ed99e24fab965e740dcdcad021a76e7c7787c84e`.
-
-Перевод основан на основном JSON из архива ReRT-v3.zip, полученного по предоставленной пользователем Dropbox-ссылке. Из 3770 записей архива сохранены только 3656 ключей, существующих в текущем английском оригинале ATM10; 114 дополнительных ключей исключены. Несколько UI-формулировок уточнены, а термины Rechiseled добавлены в глоссарий.
-
-Результат опубликован в `main`: [коммит 02cb14f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/02cb14fd9d433fbe8dd04f2c1bea8c78af669997). Глоссарий обновлён: [коммит 4638e86](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4638e866d1b3c0fa9c644af6fa4ae6e339011ba4).
-
-Проверки опубликованного JSON:
-- 3656/3656 ключей; missing 0, extra 0.
-- Дубликатов ключей — 0.
-- Несоответствий плейсхолдеров — 0.
-- Несоответствий форматирования Minecraft (§) и количества переносов строк — 0.
-- Точных совпадений пользовательских значений с английским оригиналом — 0.
-
-Интеграционные файлы Rechiseled: AE2 (73 ключа в архиве) и Cobblemon присутствуют в ZIP, но не опубликованы: их версии и соответствующие английские оригиналы отдельно не сверялись; извлечённый текст Cobblemon был неполным. Следующий мод выбирается по актуальному INVENTORY.md. FTB Quests/SNBT — самый последний этап.
-
-
-## 24. Проверка десяти следующих mod ID — 05.11.2026
-
-После Rechiseled проверены следующие десять позиций инвентаризации: `resourcefullib`, `rhino`, `smartbrainlib`, `sodium`, `sodium_extra`, `sophisticatedbackpackscreateintegration`, `sophisticatedstoragecreateintegration`, `spark`, `structory`, `structory_towers`.
-
-Проверка выполнена по полному дереву английских языковых источников в текущей ветке `main` репозитория `d1gorae/beamng-road-reference`: 406 файлов `en_us.json`, 403 уникальных namespace. Отдельных английских JSON-файлов для перечисленных namespace не найдено. Поэтому переводимые ключи по доступному источнику не подтверждены, новые RU-файлы не создавались. Это не доказывает отсутствия строк внутри JAR; при появлении соответствующих EN-источников позиции следует проверить повторно.
-
-Для следующего прохода продолжить с `stylecolonies` в `INVENTORY.md`. FTB Quests/SNBT остаются на самом конце проекта.
-
-
-## 25. Проверка следующих десяти mod ID — 05.11.2026
-
-Проверены: `stylecolonies`, `supermartijn642configlib`, `sussysniffers`, `t_and_t`, `theurgy_kubejs`, `towntalk`, `underground_villages`, `uranus`, `valhelsia_core`, `villagesandpillages`. По полному дереву `ATM/LANGUAGES_EN_US` отдельные EN JSON для этих namespace не найдены. Переводы не создавались, так как подтверждённых ключей нет. Отсутствие файлов в репозитории источников не доказывает отсутствие строк внутри JAR.
-
-Следующая точка продолжения — `wits` в `INVENTORY.md`. FTB Quests/SNBT — самый последний этап.
-
-
-## 26. Проверка трёх mod ID и семи дополнительных namespace — 05.11.2026
-
-Проверены три оставшиеся позиции списка без прямого namespace: `wits`, `yeetusexperimentus`, `yungsextras`. Отдельные EN JSON с этими namespace в источнике не обнаружены. Для YUNG's в источнике присутствуют отдельные языковые файлы YUNG's API и отдельных модулей; их нельзя автоматически приписывать namespace `yungsextras`.
-
-Также полностью сверены семь уже существующих дополнительных RU namespace с EN-оригиналами:
-- `borderless`: 21/21;
-- `cloth-config2`: 49/49;
-- `dynamic_fps`: 85/85;
-- `entityculling`: 27/27;
-- `evilcraftcompat`: 29/29;
-- `integrateddynamicscompat`: 213/213;
-- `integratedterminalscompat`: 19/19.
-
-Итого 443 ключа. После исправлений: missing 0, extra 0, placeholders 0, formatting 0, duplicates 0. Исправлено название бренда `Baubles`, подпись `Is RS Network` и добавлен служебный ключ `_comment` в Integrated Terminals Compat.
-
-Коммиты исправлений: [27299fb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/27299fb2826343f425f38adc7ab471bc8f7daf0d), [42e7851](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/42e7851c0d07bf8909b305b0dbb3e3f0a6e5e226), [40608a7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/40608a74b3a7eb4ff96fdffd6f7874463c5c7b27).
-
-Следующая точка — оставшиеся дополнительные namespace: `irons_patreon_lib`, `lambdynlights`, `lollipop`, `moreculling`, `tempad_static`, `vulkanmod`. После проверки оставшихся источников — FTB Quests/SNBT как финальный этап.
-
-
-## 27. Проверка оставшихся дополнительных namespace и четырёх модулей YUNG's — 05.11.2026
-
-Проверены шесть оставшихся дополнительных namespace:
-- `irons_patreon_lib`: 2/2;
-- `lambdynlights`: 63/63;
-- `lollipop`: 50/50;
-- `moreculling`: 55/55;
-- `tempad_static`: 84/84;
-- `vulkanmod`: 89/89.
-
-Также повторно сверены четыре YUNG-модуля: Better Desert Temples 13/13, Better Dungeons 86/86, Better End Island 13/13, Better Jungle Temples 11/11. Суммарно 466 ключей в десяти файлах. Во всех файлах: missing 0, extra 0, placeholders 0, formatting 0, duplicates 0 (для Tempad — дубликаты ключей верхнего уровня 0; вложенные компоненты проверены рекурсивно). В Better Dungeons исправлено обращение «Установи» → «Установите».
-
-Коммит исправления Better Dungeons: [e34a8fc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e34a8fcac70cd8c0ed93dce66a53178105ff69f8).
-
-Все 13 дополнительных namespace из раздела инвентаризации теперь сверены с EN-оригиналами. Следующий этап — финальная локализация FTB Quests/SNBT; перед началом перечитать соответствующие актуальные источники и текущие файлы.
+# PROJECT HANDOFF — ATM10 RU TRANSLATE
+
+Обновлено: **05.11.2026**
+
+## Проект
+
+Полная русская локализация All the Mods 10 для Minecraft 1.21.1 / NeoForge.
+
+- Репозиторий переводов: https://github.com/d1gorae/ATM10-RU-TRANSLATE
+- Английские источники (только чтение): https://github.com/d1gorae/beamng-road-reference/tree/main/ATM/LANGUAGES_EN_US
+
+## Правила продолжения
+
+- Работать партиями по 10 модов; каждый перевод полностью сверять, проверять и публиковать до перехода дальше.
+- Не повторять качественные существующие переводы и не затирать их без причины.
+- Английские источники не изменять; Dropbox не изменять и ничего из него не удалять.
+- Использовать `GLOSSARY.md`; сохранять бренды, API, идентификаторы и специальные обозначения.
+- Проверять ключи, дубликаты, плейсхолдеры, форматирование, переносы строк, специальные символы и корректность JSON/SNBT.
+- Не объявлять партию завершённой, если фактически не завершено 10 модов. FTB Quests/SNBT — финальный этап.
+- После каждой партии обновлять этот файл и `INVENTORY.md` только фактическими результатами.
+
+## Последние опубликованные переводы
+
+- **Chipped** — 7265/7265 ключей, missing 0, extra 0, placeholders 0, formatting 0. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d2ddac65d0dd725f1b8f31420f1680d58bf9bde
+- **Rechiseled** — 3656/3656 ключей, missing 0, extra 0, duplicates 0, placeholders 0, formatting 0. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/02cb14fd9d433fbe8dd04f2c1bea8c78af669997
+- Глоссарий Rechiseled: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4638e866d1b3c0fa9c644af6fa4ae6e339011ba4
+
+## Проверка дополнительных namespace
+
+Все 13 дополнительных namespace из соответствующего раздела `INVENTORY.md` сверены с английскими оригиналами. Проверки структуры, ключей, плейсхолдеров и форматирования пройдены. Также проверены четыре файла YUNG's Better: Desert Temples, Dungeons, End Island и Jungle Temples. В Better Dungeons исправлено обращение на единый вежливый стиль. Подробные количества ключей и результаты находятся в `INVENTORY.md`.
+
+Следующие позиции без прямого языкового namespace проверены по полному дереву английских источников: для них отдельные `en_us.json` не найдены; это не доказывает отсутствия строк внутри JAR, поэтому при появлении оригиналов нужна повторная проверка.
+
+## FTB Quests / SNBT — финальный этап
+
+В источнике английских оригиналов найдено 67 файлов в `ATM/FTBQUESTS/en_us/chapters/`; в переводном репозитории присутствуют соответствующие 67 файлов в `FTBQUESTS/ru_ru/chapters/`. Имена файлов совпадают.
+
+### Проверено
+
+Первые 10 глав:
+
+1. `achapter_2r_6the_atm_star`
+2. `aether`
+3. `allthemodium`
+4. `apotheosis_2`
+5. `apotheosis_gear`
+6. `apothic_enchanting`
+7. `applied_energistics_2`
+8. `ars_nouveau`
+9. `artifacts`
+10. `auroral`
+
+Итог сверки: 1068 EN-ключей и 1072 RU-записи. Четыре дополнительных RU-поля оставлены, потому что соответствующие quest ID существуют в базовых файлах глав, хотя полей нет в EN overlay. Пропусков EN-ключей нет; 15 устаревших записей с ID, отсутствующими в актуальных базовых файлах, удалены. Дубликаты, ошибки плейсхолдеров и расхождения ссылок на изображения — 0; все 10 SNBT-файлов имеют сбалансированную структуру.
+
+Исправлены два устаревших описания мультиблочных квестов ATM Star и кавычки вокруг двух изображений. Основной файл: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ff343e1b59c02a6baff3d2a24efc3c6ca11f968
+
+### Следующая точка продолжения
+
+Следующие 10 глав по алфавиту:
+
+1. `basic_armor`
+2. `basic_logistics`
+3. `basic_power`
+4. `basic_tools`
+5. `bounty_board`
+6. `building_tips`
+7. `bumblezone`
+8. `cataclysm`
+9. `chapter_2_the_star`
+10. `create`
+
+После них продолжить следующие главы партиями по 10. Затем сверить общие `chapter.snbt` и `reward_table.snbt`, а также проверить глобальные языковые файлы. Не считать FTB Quests завершённым до проверки всех 67 глав и общих файлов.
+
+FTB Quests и SNBT остаются последним этапом проекта.
