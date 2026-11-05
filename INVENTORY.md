@@ -614,3 +614,12 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 
 Коммиты перевода: [4ee350b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ee350b29b217ed85f5466fcf8feebfddd8a5d79), [4095f18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4095f18ce3a0e6da8acf3317910a3f1e5fd1da32), [137ddde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/137ddde891f3c955df1b068b61a536e656ef82e9), [0776c50](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0776c50e2722cc7b821964adc43435d59fbf2eae), [3b83005](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3b83005dac8dbd9483775837ce6d56ea9c9c26d1), [2cc21eb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cc21eb25c39707c087e23f405e6576c94fb02d1), [c95129b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c95129bd7029aea85842c0d015bb4d1996e5c43b).
 - Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/60e4b6dd6f2923b90903cc8d516057d01eafa808).
+
+## Завершение локализации Integrated Dynamics — 05.11.2026
+
+`integrateddynamics` (`1.38.2`) полностью локализован: **1 854/1 854 ключа**. В исходном RU-файле было 1 629 ключей; добавлено 225 переводов. Также выровнены старые строки справочника по форматирующим кодам и исправлены некоторые формулировки учебника.
+
+Сверка с read-only EN-файлом `integrateddynamics-1.21.1-neoforge-1.38.2/integrateddynamics/en_us.json` (blob SHA `9ed96bd78177b0786a0a9ff3a6b488cb335c1f6b`): JSON корректен; missing 0; extra 0; дубликаты RU-ключей 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; кодов форматирования (§ и &) 0; интерполяций 0; расхождений завершающих пробелов 0. В EN-файле два повторных объявления (`_comment` и `aspect.aspecttypes.integrateddynamics.integer.range`); в RU повторов нет. 10 совпадений RU=EN оставлены намеренно: RF, NBT, TPS, название мода и техническая строка ID.
+
+Коммиты перевода: [d65e0f7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d65e0f74aba6fea851920893f4ad18151d97ddaf), [2882337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2882337cf799a7ad8d4e0d913c9880ee65d6f0ce), [c0be297](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0be297cb38fdd9a0d2f51c4263ca00a4c204a0a), [aa16aa2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/aa16aa2f4a35f3b49b6632c93a137a121b76c5d4), [eb47cde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/eb47cdeff037a1afac580b0be98bbe63cea128c0).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cdf0da7423c155537729248edda11519142b280a).
