@@ -1319,5 +1319,17 @@
   "supplementaries.configuration.dispenser_tweaks.axe_strip": "Обработка топором",
   "supplementaries.configuration.dispenser_tweaks.axe_strip.description": "Позволяет раздатчикам использовать топоры на блоках: снимать кору с брёвен, удалять окисление меди и воск",
   "supplementaries.configuration.dispenser_tweaks.shoot_ender_pearls": "Выстрел жемчугом Эндера",
-  "supplementaries.configuration.dispenser_tweaks.shoot_ender_pearls.description": "Позволяет раздатчикам запускать жемчуг Эндера"
+  "supplementaries.configuration.dispenser_tweaks.shoot_ender_pearls.description": "Позволяет раздатчикам запускать жемчуг Эндера",
+  "supplementaries.configuration.dispenser_tweaks.extract_from_bundles": "Извлечение из мешочков",
+  "supplementaries.configuration.dispenser_tweaks.extract_from_bundles.description": "Позволяет раздатчикам извлекать предметы из мешочков",
+  "supplementaries.configuration.throwable_bricks": "Бросаемые кирпичи",
+  "supplementaries.configuration.throwable_bricks.enabled.description": "Бросайте кирпичи во врагов! При этом могут разбиться стеклянные блоки",
+  "supplementaries.configuration.placeable_sticks": "Размещаемые палки",
+  "supplementaries.configuration.placeable_sticks.sticks": "Палки",
+  "supplementaries.configuration.placeable_sticks.sticks.description": "Разрешает размещать палки в мире",
+  "supplementaries.configuration.placeable_sticks.blaze_rods": "Огненные стержни",
+  "supplementaries.configuration.placeable_sticks.blaze_rods.description": "Разрешает размещать огненные стержни и стержни бриза",
+  "supplementaries.configuration.placeable_gunpowder": "Размещаемый порох",
+  "supplementaries.configuration.placeable_gunpowder.speed": "Скорость",
+  "supplementaries.configuration.placeable_gunpowder.speed.description": "Количество тиков, за которое порох сгорает на одну стадию из восьми. Увеличьте значение, чтобы замедлить горение"
 }
