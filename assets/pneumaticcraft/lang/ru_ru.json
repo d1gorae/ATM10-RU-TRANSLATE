@@ -2044,7 +2044,7 @@
   "pneumaticcraft.config.client.armor.wire_path": "Показывать линию маршрута отслеживателя координат?",
   "pneumaticcraft.config.client.armor.xray_enabled": "Включить рентген отслеживателя координат?",
   "pneumaticcraft.config.client.general.always_show_pressure_durability_bar": "Всегда показывать давление на полосах прочности?",
-  "pneumaticcraft.config.client.general.aphorism_drama": "Драматическое отображение на табличке с афоризмами?",
+  "pneumaticcraft.config.client.general.aphorism_drama": "Анимация таблички с афоризмами?",
   "pneumaticcraft.config.client.general.gui_bevel": "Скос боковой панели интерфейса?",
   "pneumaticcraft.config.client.general.gui_remote_grid_snap": "Привязка сетки удалённого интерфейса?",
   "pneumaticcraft.config.client.general.jackhammer_hud": "Всегда показывать индикатор отбойного молотка?",
