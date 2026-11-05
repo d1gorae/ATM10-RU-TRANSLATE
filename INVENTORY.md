@@ -184,7 +184,7 @@
 | `neovitae` | 256 | 3 652 |
 | `productivetrees` | 3 832 | 4 149 |
 | `pneumaticcraft` | 1 987 | 2 274 |
-| `mekanismtools` | 185 | 800 |
+| `mekanismtools` | 800 | 800 |
 | `twilightforest` | 1 475 | 2 061 |
 | `industrialforegoing` | 584 | 683 |
 | `aether` | 1 071 | 1 238 |
@@ -367,7 +367,7 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 | `neovitae` | 3652 | 256 | 3396 |
 | `mekanism` | 3239 | 1605 | 1634 |
 | `iceandfire` | 1809 | 1193 | 616 |
-| `mekanismtools` | 800 | 185 | 615 |
+| `mekanismtools` | 800 | 800 | 0 |
 | `silentgear` | 1191 | 616 | 575 |
 | `supplementaries` | 1394 | 708 | 686 |
 | `regions_unexplored` | 933 | 455 | 478 |
@@ -404,7 +404,7 @@ Dropbox использован только для чтения; файлы в �
 | NeoVitae | 3652 | 256 | 3396 |
 | Mekanism | 3239 | 1608 | 1631 |
 | Ice and Fire | 1809 | 1194 | 615 |
-| Mekanism Tools | 800 | 185 | 615 |
+| Mekanism Tools | 800 | 800 | 0 |
 | Silent Gear | 1191 | 617 | 574 |
 | Supplementaries | 1394 | 708 | 686 |
 | Regions Unexplored | 933 | 455 | 478 |
