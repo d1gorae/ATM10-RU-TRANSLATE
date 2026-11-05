@@ -1113,5 +1113,12 @@
   "supplementaries.configuration.clock_block": "Блок-часы",
   "supplementaries.configuration.clock_block.24h_format": "24-часовой формат",
   "supplementaries.configuration.clock_block.24h_format.description": "Отображать время в 24-часовом формате. При отключении используется 12-часовой формат",
-  "supplementaries.configuration.pedestal.spin": "Вращение"
+  "supplementaries.configuration.pedestal.spin": "Вращение",
+  "supplementaries.configuration.pedestal.spin.description": "Включает вращение отображаемого предмета",
+  "supplementaries.configuration.pedestal.speed": "Скорость",
+  "supplementaries.configuration.pedestal.speed.description": "Скорость вращения",
+  "supplementaries.configuration.pedestal.fancy_renderers": "Улучшенное отображение",
+  "supplementaries.configuration.pedestal.fancy_renderers.description": "Включает особые варианты отображения предметов, например мечей, трезубцев и кристаллов Энда",
+  "supplementaries.configuration.bubble_block.wobble": "Колебание",
+  "supplementaries.configuration.bubble_block.wobble.description": "Интенсивность колебаний. Установите 0, чтобы отключить"
 }
