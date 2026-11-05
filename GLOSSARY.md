@@ -101,3 +101,11 @@
 | Gronglet | гронглет | Существо/боеприпас The Undergarden |
 | Stoneborn | камнерождённый | Мирный народ The Undergarden |
 | Denizen | обитатель | Существо The Undergarden |
+| Powah: Starter | начальный | Уровень энергии Powah |
+| Powah: Basic | базовый | Уровень энергии Powah |
+| Powah: Hardened | закалённый | Уровень энергии Powah |
+| Powah: Blazing | пылающий | Уровень энергии Powah |
+| Powah: Niotic | ниотический | Уровень энергии Powah |
+| Powah: Spirited | одухотворённый | Уровень энергии Powah |
+| Powah: Nitro | нитро | Уровень энергии Powah |
+| Seed Bag | мешочек с семенами | Награда Mystical Agriculture; содержит семена |
