@@ -800,3 +800,14 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В EN Common Capabilities три объявления служебного `_comment`, иных повторов нет. Три пустых значения Compact Machines, Construction Sticks и Crafting on a Stick совпадают с EN. В Cooking for Blockheads исправлены два значения: восстановлены экранированные последовательности `\\n` вместо обычных переносов строк, как в оригинале. Остальные совпадения RU=EN относятся к метаданным, плейсхолдерам и служебному обозначению `???`.
 
 Коммит исправления Cooking for Blockheads: [5223759](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/522375983dbeb003719b937ad7ec01759c712396).
+
+
+## JSON-аудит — партия после Crafting Tweaks (06.11.2026)
+
+Проверены 10 namespace: `crashutilities` (4), `create` (3 639), `create_aquatic_ambitions` (39), `create_enchantment_industry` (593), `create_hypertube` (64), `createaddition` (292), `creeperoverhaul` (62), `cristellib` (4), `crystalix` (60), `curios` (48). Итого **4 805 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Семь пустых значений Create совпадают с EN. Проверка последовательности плейсхолдеров выполнена отдельно: несовпадений нет.
+
+В `create_enchantment_industry` переведены **332 значения**, ранее полностью совпадавшие с EN; оставшиеся 4 совпадения — только технические шаблоны `%1$s: %2$s` и ` - %1$s`. В Create исправлены три расхождения пробелов в значениях. В Curios исправлен порядок непозиционных аргументов в двух сообщениях команд (число слотов, тип, получатель).
+
+Коммиты: Create Enchantment Industry — [7d38e4d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7d38e4d82718b5ec9d5fd2293840b0429c5053ec), [3c14002](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3c140029e8da5a6c3ed52c948819f8cfc10deafc), [2399885](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2399885320e7d9d41773e62a95d92fdc3ae35f80), [7cd1d6c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7cd1d6c611f9e3bfb7f54d7b7a09dedda96bdfd5), [bdb5ac4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bdb5ac47418f5b86983e225dd6a1b4a301334550), [23759ee](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23759eeabfb0f3119424de610551fe5d6fcfd9ce); Create [ebce9d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebce9d7983f266e5eefb388ba62f5ad5fec83133); Curios [f2563b5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f2563b5cb0230a8e56c8534c6df9ecac3b0bbbf3), [9921f5d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9921f5d7c878ca73eecf959d42845002f123d6da); глоссарий [9f96cd8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f96cd8fcd9b490e71de53c87fc963029bb6e1a4).
