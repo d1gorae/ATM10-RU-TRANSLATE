@@ -66,8 +66,6 @@
   "pack.iris.list.label": "+ Перетащите наборы шейдеров для добавления",
   "label.iris.true": "Вкл",
   "label.iris.false": "Выкл",
-  "modmenu.summaryTranslation.iris": "Современный графический мод для загрузки существующих наборов шейдеров Optifine.",
-  "modmenu.descriptionTranslation.iris": "Современный графический мод для Minecraft, предназначенный для загрузки существующих наборов шейдеров формата Optifine.",
   "iris.shaders.debug.restartNoDebug": "Отладка шейдеров включена, но отладка OpenGL не поддерживается в NeoForge.",
   "iris.load.failure.shader": "Не удалось загрузить набор шейдеров! Сообщите об ошибке разработчику набора.",
   "iris.load.failure.generic": "При загрузке шейдера в Iris возникла ошибка. Сообщите о ней разработчикам Iris.",
