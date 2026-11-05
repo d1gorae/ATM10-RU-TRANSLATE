@@ -68,4 +68,29 @@
 
 Все 30 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах, поэтому сохранены как дополнительные локализованные поля. Удалено 14 устаревших записей с ID, отсутствующими в актуальных базовых главах. Пропущенных EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все файлы имеют сбалансированную SNBT-структуру.
 
-Итого проверено 20 из 67 глав; осталось 47. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
+Итого проверено 30 из 67 глав; осталось 37. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
+
+
+## Третья партия проверки — 05.11.2026
+
+Проверены главы: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
+
+| Глава | EN-ключи | RU-записи | Дополнительные RU-поля |
+|---|---:|---:|---:|
+| `create_addons` | 112 | 114 | 2 |
+| `deeper_and_darker` | 91 | 91 | 0 |
+| `draconic_evolution` | 254 | 254 | 0 |
+| `elmystical_agriculturerr` | 267 | 272 | 5 |
+| `eternal_starlight` | 299 | 299 | 0 |
+| `evilcraft` | 78 | 94 | 16 |
+| `extended__advanced_ae` | 91 | 91 | 0 |
+| `extreme_reactors` | 70 | 70 | 0 |
+| `food_and_farming` | 92 | 92 | 0 |
+| `forbidden__arcanus` | 123 | 124 | 1 |
+| **Итого** | **1477** | **1501** | **24** |
+
+Все 24 дополнительных RU-поля относятся к существующим quest ID в базовых SNBT-файлах. Удалено 20 устаревших записей с отсутствующими ID. Пропусков EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все 10 файлов имеют сбалансированную SNBT-структуру.
+
+В Deeper and Darker восстановлены две пропущенные иллюстрации и уточнено описание моба. В Mystical Agriculture добавлен отсутствовавший подзаголовок. В Eternal Starlight термины приведены к существующему переводу мода, исправлены устаревшие описания и восстановлены две иллюстрации. В Forbidden Arcanus унифицирован термин «Исток», исправлены грамматика и оставшаяся английская вставка.
+
+Итого проверено 30 из 67 глав; осталось 37. Следующая партия: `generators`, `hostile_neural_networks`, `ice__fire`, `immersive_engineering`, `industrial_foregoing`, `integrated_dynamics`, `iron_spells_and_spellbooks`, `justdirethings`, `mahou_tsukai`, `mainquestline_part_1`.
