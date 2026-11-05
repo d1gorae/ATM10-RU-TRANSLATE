@@ -1178,5 +1178,15 @@
   "supplementaries.configuration.general.configs_button_opens_mod_list": "Кнопка настроек открывает список модов",
   "supplementaries.configuration.general.configs_button_opens_mod_list.description": "Открывает по нажатию кнопки настроек список модов Moonlight, где доступны настройки каждого установленного мода, вместо непосредственного открытия настроек Supplementaries",
   "supplementaries.configuration.general.configs_button_y_offset": "Смещение кнопки настроек по Y",
-  "supplementaries.configuration.general.configs_button_y_offset.description": "Смещение кнопки настроек по вертикали"
+  "supplementaries.configuration.general.configs_button_y_offset.description": "Смещение кнопки настроек по вертикали",
+  "supplementaries.configuration.general.configs_button_rainbow_outline": "Радужная рамка кнопки настроек",
+  "supplementaries.configuration.general.configs_button_rainbow_outline.description": "Обводит кнопку настроек радужной рамкой при наведении курсора",
+  "supplementaries.configuration.general.tooltip_hints": "Подсказки",
+  "supplementaries.configuration.general.tooltip_hints.description": "Показывает подсказки, помогающие разобраться в моде",
+  "supplementaries.configuration.general.placeable_tooltips": "Подсказки для размещаемых предметов",
+  "supplementaries.configuration.general.placeable_tooltips.description": "Показывает подсказки для предметов, которые можно размещать в мире",
+  "supplementaries.configuration.general.I am very boring and I don't want any Easter Egg": "Я очень скучный и не хочу никаких пасхалок",
+  "supplementaries.configuration.general.I am very boring and I don't want any Easter Egg.description": "не смешно",
+  "supplementaries.configuration.tweaks.projectile_weapon_overlay": "Индикатор боеприпасов оружия",
+  "supplementaries.configuration.tweaks.projectile_weapon_overlay.description": "Добавляет в интерфейс оружия дальнего боя индикатор выбранных боеприпасов"
 }
