@@ -678,3 +678,16 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты: Advanced Peripherals [585f167](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/585f167ee7e7e2a2cbbacbb9647a9d60ab4d7ea4), [e26d9bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e26d9bb351e0558a7fadd43857d3396f7d3e5274); Applied Energistics 2 [d9d7687](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d9d768712dd2f5cd0e9b0d70a2d1baf26918dee2); Advanced AE [475187a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/475187a9e7bf4ea5f4ebc6b1ceb54b3e158ed3ac); глоссарий [2f0416a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2f0416adfd15844ba2994f4be858c848a2905548); INVENTORY [1d0c960](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1d0c9600b239288aaaa96bbaa2bc511d7076e614).
 
 В двух последних партиях подтверждено **20/20 модов**, суммарно **15 289 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву английских источников и инвентаризации после `aeinfinitybooster`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Третья партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Akashic Tome, All The Arcanist Gear, AllTheCompressed, Allthemodium, AllTheOres, All The Tweaks, All the Wizard Gear, Almost Unified, Amendments и Apotheosis.
+
+Итог: **3 851/3 851 ключ**. Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates 0; empty 0; placeholder mismatches 0; formatting mismatches 0; newline mismatches 0; interpolation mismatches 0; whitespace mismatches 0. 27 совпадений RU=EN оставлены намеренно: названия модов/брендов, авторы картин, шаблоны плейсхолдеров, кнопка X и цветовое значение. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+В Apotheosis унифицировано обращение на «вы» в обучении, подсказках, описаниях аффиксов и достижениях; исправлена формулировка подсказки достижения и сохранены 20 завершающих пробелов в названии достижения по EN-оригиналу. В All The Tweaks переведены два предупреждения о косметических функциях Valhelsia. Глоссарий дополнен терминами Apotheosis.
+
+Коммиты: Apotheosis [423a2bd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/423a2bdbdab7c3a2ddfb130a64277193210fc10a), [65f0248](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/65f024888f80249bc5d54ce7a0bcef22cb58731c), [a758e5d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a758e5d9aa4ec6c0b5c1c2d7f9605edf43a6de8e); All The Tweaks [cf5c28c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cf5c28c31bf2364f8bf00dd2c24be2bcbe84d671); глоссарий [77d202e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/77d202e7eb82a6bece3317421472bdb1ee616463); INVENTORY [c9b4a8f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c9b4a8fc144672058337c1bd70d840e423664c18).
+
+В трёх последних партиях подтверждено **30/30 модов**, суммарно **19 140 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву EN-источников и инвентаризации после `apotheosis`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
