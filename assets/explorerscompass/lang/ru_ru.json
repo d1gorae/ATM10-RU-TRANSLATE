@@ -65,5 +65,6 @@
   "structure.minecraft.village_plains": "Равнинная деревня",
   "structure.minecraft.village_savanna": "Деревня в саванне",
   "structure.minecraft.village_snowy": "Снежная деревня",
-  "structure.minecraft.village_taiga": "Деревня в тайге"
+  "structure.minecraft.village_taiga": "Деревня в тайге",
+  "_comment": "STRINGS - STRUCTURES"
 }

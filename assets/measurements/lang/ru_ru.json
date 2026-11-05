@@ -12,5 +12,6 @@
   "measurements.configuration.textColor": "Цвет текста",
   "measurements.configuration.textSize": "Размер текста",
   "measurements.configuration.lineWidth": "Толщина линии",
-  "measurements.configuration.lineWidthMax": "Максимальная толщина линии"
+  "measurements.configuration.lineWidthMax": "Максимальная толщина линии",
+  "_comment": "NeoForge Config"
 }

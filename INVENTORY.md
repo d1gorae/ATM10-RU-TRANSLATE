@@ -3,7 +3,7 @@
 Дата сверки: **05.11.2026**  
 Версия официальной сборки: **ATM10 8.5**  
 Источник списка модов: [AllTheMods/ATM-10](https://github.com/AllTheMods/ATM-10), `config/crash_assistant/modlist.json`, ветка `main`.  
-Русские файлы: текущая ветка `main` репозитория `d1gorae/ATM10-RU-TRANSLATE`, пути `assets/<namespace>/lang/ru_ru.json`.
+Базовый снимок русских файлов: ветка `main` репозитория `d1gorae/ATM10-RU-TRANSLATE`, пути `assets/<namespace>/lang/ru_ru.json`. Дополнения текущей рабочей партии отмечены отдельными разделами ниже и находятся в `work/productivetrees-ru`.
 
 ## Сводка
 
@@ -175,14 +175,14 @@
 | `relics` | 547 | 547 |
 | `evilcraft` | 376 | 629 |
 | `ars_nouveau` | 1 296 | 2 323 |
-| `mekanism` | 1 605 | 3 239 |
-| `iceandfire` | 1 193 | 1 809 |
+| `mekanism` | 3 239 | 3 239 |
+| `iceandfire` | 1 809 | 1 809 |
 | `sophisticatedstorage` | 256 | 425 |
 | `irons_spellbooks` | 1 128 | 1 315 |
 | `silentgear` | 616 | 1 191 |
 | `mekanismgenerators` | 200 | 364 |
-| `neovitae` | 256 | 3 652 |
-| `productivetrees` | 3 832 | 4 149 |
+| `neovitae` | 3 652 | 3 652 |
+| `productivetrees` | 4 149 | 4 149 |
 | `pneumaticcraft` | 1 987 | 2 274 |
 | `mekanismtools` | 800 | 800 |
 | `twilightforest` | 1 475 | 2 061 |
@@ -360,18 +360,18 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 
 ## Заключительный аудит JSON — подтверждённые пропуски, 05.11.2026
 
-Повторная сверка актуальных EN-файлов и текущих RU JSON подтвердила 7 неполных переводов (8000 отсутствующих ключей суммарно):
+Повторная сверка актуальных EN-файлов и текущих RU JSON подтвердила 3 неполных перевода (5750 отсутствующих ключей суммарно):
 
 | Namespace | EN | RU | Missing |
 |---|---:|---:|---:|
-| `neovitae` | 3652 | 256 | 3396 |
-| `mekanism` | 3239 | 1605 | 1634 |
-| `iceandfire` | 1809 | 1193 | 616 |
+| `neovitae` | 3652 | 3652 | 0 |
+| `mekanism` | 3239 | 3239 | 0 |
+| `iceandfire` | 1809 | 1809 | 0 |
 | `mekanismtools` | 800 | 800 | 0 |
 | `silentgear` | 1191 | 616 | 575 |
 | `supplementaries` | 1394 | 708 | 686 |
 | `regions_unexplored` | 933 | 455 | 478 |
-| **Итого** | **13018** | **5018** | **8000** |
+| **Итого** | **13018** | **7268** | **5750** |
 
 По каждому из семи файлов: extra 0, пустых переводов 0, обнаруженных расхождений плейсхолдеров 0. Отсутствующие ключи требуют перевода.
 
@@ -397,20 +397,23 @@ Dropbox использован только для чтения; файлы в �
 - Supplementaries: найденные Dropbox-значения для `item.supplementaries.bamboo_spikes_tipped.effect` и `message.supplementaries.cannon.maneuver` не сохраняют параметры EN.
 - Ключи Dropbox, отсутствующие в актуальном EN, не импортировались.
 
-### Актуальный остаток после восстановления пяти ключей
+### Актуальное состояние семи локализаций после завершения Silent Gear
 
 | Мод | EN | RU | Missing |
 |---|---:|---:|---:|
-| NeoVitae | 3652 | 256 | 3396 |
-| Mekanism | 3239 | 1608 | 1631 |
-| Ice and Fire | 1809 | 1194 | 615 |
+| NeoVitae | 3652 | 3652 | 0 |
+| Mekanism | 3239 | 3239 | 0 |
+| Ice and Fire | 1809 | 1809 | 0 |
 | Mekanism Tools | 800 | 800 | 0 |
-| Silent Gear | 1191 | 617 | 574 |
-| Supplementaries | 1394 | 708 | 686 |
-| Regions Unexplored | 933 | 455 | 478 |
-| **Итого** | **13018** | **5023** | **7995** |
+| Silent Gear | 1191 | 1191 | 0 |
+| Supplementaries | 1394 | 1394 | 0 |
+| Regions Unexplored | 933 | 933 | 0 |
+| Explorer's Compass | 68 | 68 | 0 |
+| Measurements | 15 | 15 | 0 |
+| Nature's Compass | 44 | 44 | 0 |
+| **Итого** | **13145** | **13145** | **0** |
 
-Повторная проверка всех семи файлов после изменений: extra 0, empty 0, placeholder mismatches 0. Ни один из семи переводов пока не считается завершённым.
+Десять модов текущей партии полностью сверены: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear, Supplementaries, Regions Unexplored, Explorer's Compass, Measurements и Nature's Compass. В последних трёх восстановлены только отсутствовавшие служебные поля _comment; пользовательские переводы уже были полными.
 
 
 
@@ -429,3 +432,109 @@ Dropbox использован только для чтения; файлы в �
 - По всем шести модам из очереди локализации проверены ключи, лишние записи, пустые значения и плейсхолдеры: пропусков и ошибок плейсхолдеров нет.
 
 Все шесть модов из очереди аудита локализованы; 108-кандидатный список больше не является незакрытой очередью работ. FTB Quests/SNBT остаётся отложенным на конец проекта.
+
+
+## Контрольная точка NeoVitae — 05.11.2026
+
+В рабочей ветке `work/neovitae-ru` добавлено 600 новых переводов к ранее имевшимся 281 ключу. Текущее покрытие: **881/3652**, отсутствует 2771 ключ. Проверка актуального EN 1.1.51: extra 0, duplicates 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0; JSON корректен. Перевод не завершён и не опубликован в `main`.
+
+
+## Контрольная точка NeoVitae — 05.11.2026 (вторая партия)
+
+В ветке `work/neovitae-ru` добавлено ещё **600 новых ключей** к подтверждённому состоянию 881/3652. Текущее покрытие: **1 481/3 652**, отсутствует 2 171 ключ. Проверка актуального `neovitae-1.21.1-1.1.51`: JSON корректен; extra 0, duplicates 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Работа продолжается; в `main` не опубликована.
+
+
+### Актуальная контрольная точка NeoVitae — 05.11.2026
+
+В рабочей ветке `work/neovitae-ru` добавлено **600 новых ключей** к подтверждённому состоянию 881/3652. Текущее покрытие: **1 481/3 652**, отсутствует 2 171 ключ. Проверка актуального `neovitae-1.21.1-1.1.51`: JSON корректен; extra 0, duplicates 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Перевод продолжается; в `main` не опубликован.
+
+
+### Актуальная контрольная точка NeoVitae — 05.11.2026
+
+Текущее состояние рабочей ветки `work/neovitae-ru`: **1 481/3 652 ключей**, missing 2 171. После подтверждённой точки 881/3 652 добавлено 600 новых ключей. Сверка с актуальным EN 1.1.51: JSON корректен; extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Перевод не завершён и не опубликован в `main`.
+
+
+### Актуальная контрольная точка NeoVitae — 05.11.2026
+
+Текущее состояние рабочей ветки `work/neovitae-ru`: **1 541/3 652 ключей**, missing 2 111. После контрольной точки 881/3 652 добавлено 660 новых ключей. Сверка с актуальным EN 1.1.51: JSON корректен; extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. Перевод не завершён и не опубликован в `main`.
+
+
+### NeoVitae — продолжение от 2 835 ключей (05.11.2026)
+
+В рабочей ветке `work/neovitae-ru` переведено ещё **20 ключей** руководства: заряды для валки деревьев и грибов, Адское горнило, Lex Vitae, маршрутизатор узлов и начальные страницы переработки руды. По проектному счётчику: **2 855/3 652**, осталось **797** значений.
+
+Техническая сверка JSON с EN 1.1.51: RU-записей 2 898; missing keys 754, extra 0, duplicates 0. Для 20 новых строк проверены цветовые маркеры, экранированные переносы и плейсхолдеры — расхождений 0. Разница между проектным остатком (797) и отсутствующими ключами (754) связана с уже существующими RU-ключами, значения которых ещё требуют отдельной смысловой проверки на совпадение с английским текстом.
+
+Коммиты переводов: [2aac1c5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2aac1c5736292c8e4eea53be9385e7ce72ab5f5d), [5b40181](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5b401816eb57dccc4378dfd14090f5e2bd5a2d20), [9f0a2ff](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f0a2ff95f5685aac32dcf1f42d8e9e48f9ddb7a).
+
+NeoVitae не завершён и в `main` не переносился. Продолжать в `work/neovitae-ru`.
+
+
+## Завершение локализации NeoVitae — 05.11.2026
+
+В ветке `work/neovitae-ru` переведены все **3 652 из 3 652** ключей актуального английского файла `neovitae-1.21.1-1.1.51`. Дополнительно проверены ранее существовавшие совпадения с EN: оставлены без изменений только названия собственных сущностей, латинские названия аспектов/ритуалов и технические значения; обычные подписи интерфейса и термины исправлены.
+
+Финальная сверка:
+- EN/RU: 3 652 / 3 652; missing 0; extra 0.
+- Дубликаты ключей: 0; пустые значения: 0.
+- Ошибки плейсхолдеров: 0; несовпадения переносов строк: 0; несовпадения форматирующих кодов Minecraft (§): 0.
+- JSON корректен.
+
+NeoVitae полностью переведён и проверен в рабочей ветке. До отдельного решения о публикации партии изменения в `main` не переносить.
+
+
+## Productive Trees — завершение локализации (05.11.2026)
+
+Актуальный английский оригинал: `productivetrees-1.21.1-1.1.1/productivetrees/en_us.json`.
+
+- EN: 4 149 ключей.
+- RU до работы: 3 832 ключа; missing 317; extra 0.
+- Добавлено: 317 переводов.
+- RU после работы: 4 149 ключей; missing 0; extra 0.
+- Дубликаты ключей: 0.
+- Ошибки плейсхолдеров: 0.
+- Несовпадения переносов строк и кодов форматирования Minecraft (§): 0.
+- JSON корректен.
+- Четыре совпадения RU=EN оставлены обоснованно: два латинских ботанических названия (`Laurus nobilis`, `Maclura pomifera`), пустое значение исходного ключа `thunder_bolt.latin` и технический плейсхолдер `%s`.
+
+Перевод опубликован в рабочей ветке `work/productivetrees-ru`; `main` не изменялся. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c314b46f925358fdc01d66945f14bb88b482deb.
+
+
+## Завершение локализации Silent Gear — 05.11.2026
+
+Silent Gear для ATM10 8.5 полностью переведён в ветке `work/productivetrees-ru`: **1 191/1 191 ключ**. В исходном RU-файле было 617 ключей; добавлено 574 перевода. Существовавшие 617 значений сохранены. Переведены достижения, блоки, команды, интерфейсы машин, типы снаряжения, предметы и детали, JEI, материалы, характеристики, конфигурация и свойства.
+
+Финальная сверка с read-only EN-файлом `silent-gear-1.21.1-neoforge-4.2.1.1/silentgear/en_us.json` (SHA `458a50aed74a049d099ab97bf14723b0fb91dc1b`): JSON корректен; EN/RU 1 191/1 191; missing 0; extra 0; дубликаты ключей 0; несовпадения плейсхолдеров 0; несовпадения кодов форматирования Minecraft (§) 0; несовпадения количества переносов строк 0. Три ранее совпадавших с EN описания достижений дополнительно переведены после смысловой проверки. Оставшиеся совпадения RU=EN — технические подписи, плейсхолдеры, название мода и буквенные/ранговые обозначения grade (A–E, S–SSS, MAX). Внутриигровое тестирование не проводилось.
+
+Коммиты перевода: [4ae2a83](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ae2a83cde5048aea1fc242a42b03adbd30ae04f), [5269ad8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5269ad88435aae15f3035ecd3aec35515e5fd185), [eaa0f20](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/eaa0f204c8d59459a3933f3ea5e4163135e8fc02), [e135d5b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e135d5b417c92e23b69414837ed8a21effd11f0e), [fa0a4f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fa0a4f092ffb0414554c66329d7e621e1a729665), [d80af99](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d80af9995dfb5d98442ca28ac25391bf684332b3), [0a44d35](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0a44d3596f2bcb55d8d0ab41fa8b0e25610cd67c), [28e31bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/28e31bb921f5dc0bda0762c7ba309005e9645391), [bd843c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bd843c72bd123a157d4b03a2fc9c383e45651544), [0ca79f8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0ca79f848316918b55707c608135fec1195274cd) — финальная смысловая правка трёх достижений.
+
+Работа опубликована только в рабочей ветке; `main` не изменялся. Следующая точка очереди — Supplementaries, затем Regions Unexplored. FTB Quests/SNBT остаются на финальном этапе.
+
+
+## Завершение локализации Supplementaries — 05.11.2026
+
+Supplementaries `4.0.2` полностью локализован в ветке `work/productivetrees-ru`: **1 394/1 394 ключа**. Исходный RU-файл содержал 708 ключей; добавлено 686 переводов. Сверка с read-only EN-файлом `supplementaries-1.21.1-4.0.2-neoforge/supplementaries/en_us.json`: missing 0, extra 0, duplicates 0, пустых значений 0, несовпадений плейсхолдеров 0, кодов форматирования Minecraft (§) 0, переносов строк 0; JSON корректен. 10 совпадений RU=EN оставлены как технические подписи/плейсхолдеры, название мода и имена авторов картин.
+
+Коммиты перевода: [1162f92](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1162f92d8b1e1ff563eb40c024464b2e533f68b1), [1c25611](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1c25611518aa94613cc31055a05dc19812d1a1eb), [5d3b00b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5d3b00ba4aaa600ac2e309a70d5cac8facc980e7), [467d558](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/467d558dc9f34d8a374f82d8a001895aaf8ddb58), [77b513c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/77b513cdce529c84312404a43c07a6f5a5f9ded1), [c2bde08](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c2bde08bb7af919ea4b540ee705a57b2806a26ba), [a7d2542](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a7d2542ba9706c5574b0a918c4597630606fba1e), [1e570c4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1e570c403fc3d6c5ab69eb0703b7e83287ff61dd), [28163da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/28163dae789f5c7d759f13869993a7acb28fb6ad), [4f7685d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f7685dc0a944d97bafe22aee69c4aa6e65fae7c), [ebedc5b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebedc5ba3e944667319a9cfdd612b2c49904e15f), [17ed953](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/17ed9539adb2fe53fa5cc2ff6d3492eb4eb0ebe6), [67ec6db](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67ec6dbfd75c42231aba1aeec39edecb8a181399), [94a68e7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/94a68e77c3de2467656bfd63f05a38ec6516c491), [c4c83c6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c4c83c66ca8cec569e91325114b376514ed1b997), [0e0edb5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0e0edb5445c73d543f148f55a32f9cd5a84b9b39), [b9f4314](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b9f431460a1a477891e20dc7bf0f1006f0a051dd), [7fd79ec](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7fd79ec80befe0580832671348ba0403112b9cd8), [0715ec2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0715ec213a6f0a35793105ec6c75dd2fee7a3c4e), [2868ee7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2868ee73895dab557bdfeb1f8f7540d1291d9e77), [1c1d74e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1c1d74eced833a03982bc04fb62b8499b18c4eee), [7b52763](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7b52763403483dccd692d3608e0c19a97545b889), [3a8a44b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3a8a44be2dd79efbee8c5a2e6065502400593748), [7e140dc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7e140dc0380765fdc274d9a71eb9722c6a2e5b42), [b89ab14](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b89ab1451140aa9f95dc6bbbe9101552f9fc2077), [c398256](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c398256d1a6311da13a7c788d147612ccd68ed5a), [d80a2b7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d80a2b7d2f5321e4d48cdc5987d1e1bd7ba81230), [ed92d28](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ed92d280a2d0c80910f3355ee00a78e56f08ef95), [1ccf560](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1ccf5608ddd77c0db0786b9b54f29e088cf9c66c), [fb3cc1a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb3cc1a5771aad3d507777d12894099f33cd92da), [cfc8c1e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cfc8c1ef209cc3f137b80ed8f90e9dc4312bdcd9), [cd31c72](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cd31c72d9f4d7b1fe9fa9e2487267c22d754d60e), [4a23617](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4a23617062e8661ce6ae4bc7916b8b3fc1db260d), [88460c3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/88460c3d98d2349d906e7ebab4341710e2f6f291), [33eccc1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/33eccc11a45bad94e7b07db4370c60767127d1bd), [0ea5de0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0ea5de0904068c96aa80c8d872a493fa8cc0c3a9), [f4a62cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f4a62cd267624d846e216cedad68b0a43585f030), [4bbf087](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4bbf08765b82536b5ba5c118c0a2b6fce76601e7), [1170514](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/11705141a247c56fcb01c9bfd7a5185ee490a13b), [101fe88](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/101fe88efa79d29e707ede439903dc325fde543a), [16ba9ee](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/16ba9eeb304aa51385cf23e0d28f44cbf41f9d9d), [3a009e3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3a009e3fccf1c678e13a62a538319e6de1557138), [35ac622](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/35ac622e39c36ccc43e76ac4154ea3524a3e8616), [aa595b8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/aa595b8161785cd8eaf7e4d3a6b6ae78567e449a), [a736155](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a736155f1cbad2e2f0ea0ab45287fe43b5f719e1), [8c37d03](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c37d033347b8c1798a144ad1a5f9466ed774ae5), [f6cc74f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f6cc74ff97bb21863025693b7d45aace5051ce0d), [ddd4cad](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ddd4cad47326a72a97f05fc851f00961338047f4), [756e1f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/756e1f0e2c1b6fca49a3b658b5c4e4f993cbd23c), [0d135b6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0d135b6f85d886e2c41c31bdbbd2a5fde75099f5), [e86223b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e86223bcd60c6ce714a05dd6c75b80a5911a4397).
+
+Глоссарий Supplementaries дополнен отдельными терминами. Следующая точка очереди — Regions Unexplored. Работа опубликована только в рабочей ветке; `main` не изменялся. Партия из десяти модов пока не завершена.
+
+
+## Завершение локализации Regions Unexplored — 05.11.2026
+
+Regions Unexplored `0.6.3-neoforge-21.1` полностью локализован в ветке `work/productivetrees-ru`: **933/933 ключа**. Исходный RU-файл содержал 455 ключей; добавлено 478 переводов. Сверка с read-only EN-файлом `regions-unexplored-0.6.3-neoforge-21.1/regions_unexplored/en_us.json`: missing 0, extra 0, duplicates 0, пустых значений 0, несовпадений плейсхолдеров 0, кодов форматирования Minecraft (§) 0, переносов строк 0; JSON корректен. Единственное совпадение RU=EN — название мода в творческой вкладке, оставленное без перевода намеренно.
+
+Коммиты перевода: [304a42e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/304a42eed4878f680ad633c7df2ea002efb7550d), [7e9600f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7e9600f6b696407b6766cb0fde91297e73813928), [c8addb0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c8addb0b2e17a9f14892d3a493a34c6922876091), [dc83b6e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dc83b6e4bd9a3b0d64952173dce57458a3ff9dd5), [f2a1036](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f2a10366f25d03b02c33d38f393f8ef0363c0281), [7affad8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7affad8265968599924b64d9fff82e25b42208c9).
+
+Глоссарий дополнен терминами Regions Unexplored: [c844fe5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c844fe56b5115795d82fc4c9b59793f7b80fe7d5). Следующая точка — выбрать три следующих незавершённых мода после проверки INVENTORY.md и актуального дерева английских источников. Работа опубликована только в рабочей ветке; `main` не изменялся. FTB Quests/SNBT остаются на финальном этапе.
+
+
+## Завершение партии из десяти локализаций — 05.11.2026
+
+Партия закрыта: 10/10 модов. Семь крупных локализаций доведены до полного EN/RU-покрытия; ещё в трёх ранее переведённых файлах восстановлены отсутствовавшие служебные поля _comment для точного совпадения с EN.
+
+- Explorer's Compass: 68/68, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [9cfe773](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9cfe773670b156ea801e8a53c2a9feeb6fcbc1e8).
+- Measurements: 15/15, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [9c6c48a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c6c48a3a76b66b7827d2871525da9ec2e08870a).
+- Nature's Compass: 44/44, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [1b1cb11](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1b1cb114c2a8fd8bd22212e99fe9e9f445c5451d).
+
+Следующий кандидат в новой партии — Ad Astra: 831 EN-ключ, 685 RU-ключей, 146 отсутствующих, extra 0. В ходе дополнительной проверки также найден один отсутствующий служебный ключ ZeroCore (EN/RU 50/49); он остаётся в очереди.
