@@ -1114,3 +1114,31 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Reliquified Artifacts [b5f8ba3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b5f8ba34bc9d8f47bbf172129806dc4945b6d43e).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после rftoolsstorage: rftoolsutility, rootsclassic, sawmill, searchables, sgearmetalworks, shiny, shrink, silentlib, silentgems и simplebackups. Silent Gear уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после RFTools Storage (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 178 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| rftoolsutility | 242/242 | 0 | 0 | 0 | 0 | 0 |
+| rootsclassic | 483/483 | 0 | 0 | 0 | 2 (совпадают с EN) | 0 |
+| sawmill | 8/8 | 0 | 0 | 0 | 0 | 0 |
+| searchables | 1/1 | 0 | 0 | 0 | 0 | 0 |
+| sgearmetalworks | 132/132 | 0 | 0 | 0 | 0 | 0 |
+| shiny | 137/137 | 0 | 0 | 0 | 0 | 0 |
+| shrink | 12/12 | 0 | 0 | 0 | 0 | 0 |
+| silentlib | 5/5 | 0 | 0 | 0 | 0 | 0 |
+| silentgems | 118/118 | 0 | 0 | 0 | 0 | 0 |
+| simplebackups | 40/40 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 178/1 178** | **0** | **0** | **0** | **2 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и пробелов нет. Два пустых значения Roots Classic совпадают с EN. Шесть совпадений RU=EN — название Roots Classic, плейсхолдер, save-all/Mc2Discord и технические обозначения.
+
+Исправление:
+- Roots Classic: удалён лишний начальный пробел в заголовке страницы Wildwood Boots.
+
+Коммит:
+- Roots Classic [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после simplebackups: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
