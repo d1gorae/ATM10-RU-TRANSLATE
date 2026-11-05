@@ -11,10 +11,10 @@
 |---|---:|
 | Записей в официальном modlist | 497 |
 | Уникальных mod ID (без NeoForge) | 490 |
-| Русских JSON-файлов | 384 |
-| Mod ID с одноимённым русским namespace | 371 |
-| Mod ID без одноимённого русского JSON | 119 |
-| Из них вне FTB Quests | 118 |
+| Русских JSON-файлов | 393 |
+| Mod ID с одноимённым русским namespace | 380 |
+| Mod ID без одноимённого русского JSON | 110 |
+| Из них вне FTB Quests | 109 |
 | Дополнительных namespace без прямого совпадения | 13 |
 
 Отсутствие одноимённого JSON не доказывает, что мод содержит переводимые строки. Для каждого кандидата нужно сверить фактический `en_us.json` в версии мода из ATM10 8.5. FTB Quests не трогать до самого конца проекта.
@@ -31,7 +31,6 @@
 - `atmcompat`
 - `attributefix`
 - `bibliobiomes`
-- `bibliocraft`
 - `bibliowoods`
 - `blueflame`
 - `borderlesswindow`
@@ -40,7 +39,6 @@
 - `byzantine`
 - `catjammies`
 - `chipped`
-- `chisel`
 - `cleanswing`
 - `cloth_config`
 - `clumps`
@@ -54,7 +52,6 @@
 - `cupboard`
 - `deimos`
 - `dungeoncrawl`
-- `dyenamicsandfriends`
 - `edivadlib`
 - `experiencelib`
 - `explorify`
@@ -78,7 +75,6 @@
 - `illagerwarship`
 - `immediatelyfast`
 - `incontrol`
-- `integratedscripting`
 - `iris`
 - `iris_search`
 - `jumpboat`
@@ -86,7 +82,6 @@
 - `kubejs`
 - `lithostitched`
 - `lmft`
-- `logisticsnetworks`
 - `melody`
 - `modelfix`
 - `monolib`
@@ -105,7 +100,6 @@
 - `openloader`
 - `overlapless`
 - `overloadedarmorbar`
-- `pamhc2foodextended`
 - `playeranimator`
 - `polyeng`
 - `ponderjs`
@@ -114,7 +108,6 @@
 - `rebind_narrator`
 - `rechiseled`
 - `rechiseled_chipped`
-- `refurbished_furniture`
 - `resourcefullib`
 - `rhino`
 - `smartbrainlib`
@@ -123,7 +116,6 @@
 - `sophisticatedbackpackscreateintegration`
 - `sophisticatedstoragecreateintegration`
 - `spark`
-- `stevescarts`
 - `structory`
 - `structory_towers`
 - `stylecolonies`
@@ -137,7 +129,6 @@
 - `valhelsia_core`
 - `villagesandpillages`
 - `wits`
-- `xtonesreworked`
 - `yeetusexperimentus`
 - `yungsextras`
 
@@ -232,4 +223,34 @@ Dropbox — вспомогательный источник ранее сдел�
 
 ## Добавлено после инвентаризации
 
-- `herbsandharvest` — опубликован `assets/herbsandharvest/lang/ru_ru.json`, 879/879 ключей; структурная проверка пройдена (пропусков, лишних ключей, дубликатов и расхождений плейсхолдеров нет). Коммиты: [8592704](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/859270470677ea8781c5cb8b0bdd1864e80af393), [876778b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/876778bc2c116dd0b5b1bc45f3f8bc03f88f477a). Полная редакторская вычитка всех значений ещё требует подтверждения.
+### Пять новых локализаций, опубликованных 05.11.2026
+
+| Namespace | Ключей | EN SHA | RU SHA | Коммит |
+|---|---:|---|---|---|
+| logisticsnetworks | 729 | `5237f7fd5d6846951375993fa781c4b9b06dd2d4` | `5da3d204799c23d4feab9fa773b397c56a0ca2ab` | [781e6d4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/781e6d45645533a15311dac05a6d615659f61642) |
+| pamhc2foodextended | 872 | `aba87691a39599c72e488efd456c59c947a43694` | `a9686a0129c819f9d63e68cd671e82f9c9b5f9c9` | [b66ad57](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b66ad571e7381562e57683b247f6f83e36844a86) |
+| bibliocraft | 2021 | `d07816ab738feebeca49447e6de17540cdb2c392` | `fcc810c00974131f9586b6ce46f03c383a83935c` | [9510851](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/95108517bd67bb6599fa935a54fccd8d118ba5ec) |
+| chisel | 2774 | `7651fb2f601fe28b4799a902ce1a3fea81f6f0fc` | `c02df7d373234fddbcb0796a7f53c5bc5074bf52` | [e5a1408](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5a14083c03e079a730a253aee9145100e2661f8) |
+| dyenamicsandfriends | 2090 | `dc59a3530285256bd5cc8f2db1e350d8fdaae7a5` | `9848e3d3a0cc4b32f0351e7a51ec61897c33e072` | [ae1effb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1effb1a0d2d6deb690b3362b7c9c8154ee7d11) |
+
+### Пять ранее опубликованных локализаций, прошедших повторную проверку
+
+| Namespace | Ключей | EN SHA | RU SHA | Последние исправления |
+|---|---:|---|---|---|
+| herbsandharvest | 879 | `f45325eafcccea6ff336954362d9666f6b9c5f17` | `25e01bb5b88018d2407df8cbd55b73a8e9bb4506` | [5563f70](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5563f70aeaedae92ae6751f69dd98e74ea8fd218), [975b08d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/975b08d226ecd3e6ba7c7bac1dd58d6b59c34155) |
+| refurbished_furniture | 654 | `94f97e020cbcdc6afc60fea7e873f994ea565628` | `777c238a1551705ed4f185aab0d0d33e8be98c27` | [322c0c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/322c0c756e8dfe8ae6bbc7cb3ede3c11749ac3b4), [247d997](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/247d997db7f09f32b032d05a0fc34f9dee67a07b) |
+| stevescarts | 709 | `37289cc36ea1ed3e42ed0bcb84479bd3fe4a70ce` | `db0c443e1c37bdc24699473780f8c7fb6d3d51c3` | [9cedcec](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9cedcec761bd8452f9f56e75ce9d6b30b98f1e1d) |
+| integratedscripting | 210 | `7ea575fac87c3e8613653010bf57fa9e1b7af210` | `8a4b2f8d0fcb3ed257d50f99fd45fc6059513390` | [49d802f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/49d802fe2a9e36062efbe74c61c468fe30af4752) |
+| xtonesreworked | 547 | `9bf94d41801d263b90e7f6eae7ca527ccb562da0` | `bd04b55fb7cf1b11105a81e90fc9a5da907b682c` | Проверен повторно, исправления не потребовались |
+
+Итого по завершённой десятке: **11 485 ключей**. Во всех десяти файлах подтверждены корректный JSON, полное совпадение наборов ключей, отсутствие лишних/пропущенных ключей, дубликатов JSON-ключей и расхождений плейсхолдеров. Проверка форматирования § и переносов строк также не выявила расхождений.
+
+### Выявленные особенности очереди
+
+- bibliobiomes: EN-файл содержит 9577 ключей, но использует namespace bibliocraft. В текущем assets/bibliocraft/lang/ru_ru.json пока 2021 ключ; все 9577 ключей Bibliobiomes отсутствуют. Перевод дополнения нужно добавить в существующий файл bibliocraft, не создавая отдельный namespace и не затирая уже опубликованные значения.
+- bibliowoods: EN-файл найден, но пуст (0 ключей).
+- atmcompat: EN-файл содержит 10 ключей namespace allthemodium; все 10 уже присутствуют в опубликованном русском файле allthemodium.
+- accelerateddecay: EN-файл найден, но пуст (0 ключей).
+- ftbquests остаётся отложенным до самого конца проекта.
+
+Следующая рабочая точка: bibliobiomes (9577 ключей, namespace bibliocraft, EN SHA 5e0f1c9b49566cb0353cc4e24869cb9f12f31a76). Перед переводом проверить актуальный русский файл и объединять только отсутствующие ключи.
