@@ -241,12 +241,12 @@ FTB Quests — отдельная подсистема:
 ## 15. Текущая точка продолжения — 05.11.2026
 
 - Актуальный срез ATM10 8.5: 497 записей modlist, 490 уникальных mod ID, 393 русских JSON-файла, 380 прямых совпадений mod ID/namespace, 110 mod ID без одноимённого namespace и 13 дополнительных namespace.
-- Согласованная партия из десяти модов завершена и опубликована; точные SHA, коммиты и результаты проверок приведены в разделе 17 и в INVENTORY.md.
-- Новые переводы: Logistics Networks, Pam's HarvestCraft 2 Food Extended, BiblioCraft, Chisel, Dyenamics and Friends.
-- Повторно вычитаны и проверены: Herbs & Harvest, Refurbished Furniture, Steve's Carts, Integrated Scripting, Xtones Reworked.
-- Bibliobiomes завершён и объединён в assets/bibliocraft/lang/ru_ru.json: 9577 ключей добавлены к 2021 существующему BiblioCraft. Все 2021 старых значения сохранены без изменений. EN SHA 5e0f1c9b49566cb0353cc4e24869cb9f12f31a76; RU blob SHA d6ff8512a9cc4f67163131f79958afc607a52148; commit [3d6fa0f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d6fa0f4a5d43d7d8eff60d5bed70d566f4935f6). Проверки: 9577/9577 ключей, missing 0, placeholders 0, formatting 0, duplicates 0, прежние значения BiblioCraft не изменены.
-- bibliowoods и accelerateddecay имеют пустые EN-файлы (0 ключей); atmcompat содержит 10 ключей namespace allthemodium, и все они уже присутствуют в русском allthemodium.
-- GLOSSARY.md дополнен терминами новой партии; коммит: [e52bb18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e52bb18ebc6b54beba0bd26085b7b714314f25bb).
+- Проверены десять языковых источников: BiblioCraft, Bibliobiomes, BiblioWoods, KubeJS Tweaks, ATM Compat, Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped.
+- Новые строки Bibliobiomes и BiblioWoods добавлены в общий namespace BiblioCraft. Итоговый `assets/bibliocraft/lang/ru_ru.json` содержит 23 059 ключей: 2021 BiblioCraft + 9577 Bibliobiomes + 11 461 BiblioWoods.
+- В KubeJS Tweaks добавлена отсутствовавшая строка ошибки рецептов; файл теперь содержит все 4 ключа.
+- ATM Compat полностью покрывается существующими 10 ключами в `assets/allthemodium/lang/ru_ru.json`.
+- Пять источников имеют пустой английский JSON (0 ключей): Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped. Отдельные пустые русские файлы не создавались.
+- Следующая рабочая точка: Chipped (7265 ключей, EN SHA `0fc8d0d50956a43db4bb0b626af2184689814e6b`), затем Rechiseled (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`). Оба требуют полноценного контекстного перевода.
 - FTB Quests и SNBT остаются строго на самый конец проекта.
 
 ## 16. Steve's Carts — повторная вычитка и исправления — 05.11.2026
@@ -314,3 +314,23 @@ FTB Quests — отдельная подсистема:
 
 Итоговая проверка: 879/879 ключей, missing 0, extra 0, дубликаты 0, расхождения плейсхолдеров 0, форматирования 0. Точные совпадения: название Herbs & Harvest, название сыра Caravane (два вхождения) и две пустые строки, которые пусты и в английском оригинале. Остаточных непереведённых латинских пользовательских фраз не обнаружено.
 
+## 21. Проверка десяти языковых источников и расширение BiblioCraft — 05.11.2026
+
+Проверены десять источников. В двух дополнениях BiblioCraft выполнен перевод и добавление в общий namespace; в KubeJS Tweaks восстановлен пропущенный ключ; ATM Compat уже полностью покрывался имеющимся файлом; пять английских файлов оказались пустыми.
+
+| Источник | EN ключей | Результат | Источник / коммит |
+|---|---:|---|---|
+| BiblioCraft | 2021 | Все ключи присутствуют в общем RU-файле; missing 0, placeholders 0. 12 точных EN/RU совпадений оставлены как технические/устоявшиеся обозначения. | EN SHA `d07816ab738feebeca49447e6de17540cdb2c392` |
+| Bibliobiomes | 9577 | Добавлено в `assets/bibliocraft/lang/ru_ru.json`; missing 0, placeholders 0, formatting 0, duplicates 0, lower-case object names 0, exact English matches 0. | EN SHA `5e0f1c9b49566cb0353cc4e24869cb9f12f31a76`; [3d6fa0f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d6fa0f4a5d43d7d8eff60d5bed70d566f4935f6) |
+| BiblioWoods | 11461 | Добавлено в тот же namespace; missing 0, placeholders 0, formatting 0, duplicates 0, lower-case object names 0, exact English matches 0. | EN SHA `51faf43bb7442dca86f479c99ccfdd35fc9b0561`; [a3f3b0d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a3f3b0db5c5a5efb5ebc91330d0e5b097b5b4012) |
+| KubeJS Tweaks | 4 | Добавлен отсутствовавший ключ `kubejstweaks.debug.erroring_recipes_summary`; теперь 4/4, missing 0, extra 0, placeholders 0. | EN SHA `97e70a3bd9446c1b47b4ccae93643f4ea704633b`; [9ab2fda](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9ab2fdaf634bd81a22a10e45148e3af748540d50) |
+| ATM Compat | 10 | Все 10 ключей уже присутствуют в `assets/allthemodium/lang/ru_ru.json`; missing 0, placeholders 0. | EN SHA `aba?` |
+| Accelerated Decay | 0 | EN-файл пуст; переводимых строк нет, RU-файл не требуется. | EN SHA `0967ef424bce6791893e9a57bb952f80fd536e93` |
+| FTB JEI Extras | 0 | EN-файл пуст; переводимых строк нет, RU-файл не требуется. | EN SHA `2c63c0851048d8f7bff41ecf0f8cee05f52fd120` |
+| FTB XMod Compat | 0 | EN-файл пуст; переводимых строк нет, RU-файл не требуется. | EN SHA `7a73a41bfdf76d6f793599? ` |
+| Illager Warship | 0 | EN-файл пуст; переводимых строк нет, RU-файл не требуется. | EN SHA `9e26dfeeb6e641a33dae4961196235bdb965b21b` |
+| Rechiseled Chipped | 0 | EN-файл пуст; переводимых строк нет, RU-файл не требуется. | EN SHA `9e26dfeeb6e641a33dae4961196235bdb965b21b` |
+
+Итоговый общий файл BiblioCraft содержит 23 059 ключей. В нём сохранены 2021 исходный ключ BiblioCraft и добавлены 21 038 ключей двух дополнений. Проверка объединённого файла: дубликатов JSON-ключей 0. Blob SHA: `78e3da9f8afcc82ac062093b46bb4b9503bd01e6`.
+
+Примечание к инвентаризации: ранее BiblioWoods был ошибочно отмечен как пустой из-за ограничения обычного чтения крупного файла. Фактический EN blob был прочитан через Git blob API; в нём 11 461 ключ. Этот статус исправлен.
