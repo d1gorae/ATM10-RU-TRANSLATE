@@ -761,5 +761,13 @@
   "painting.ad_astra.pluto.author": "Facu",
   "painting.ad_astra.pluto.title": "Плутон",
   "painting.ad_astra.saturn.author": "Facu",
-  "painting.ad_astra.saturn.title": "Сатурн"
+  "painting.ad_astra.saturn.title": "Сатурн",
+  "painting.ad_astra.sun.author": "Facu",
+  "painting.ad_astra.sun.title": "Солнце",
+  "painting.ad_astra.the_milky_way.author": "Facu",
+  "painting.ad_astra.the_milky_way.title": "Млечный Путь",
+  "painting.ad_astra.uranus.author": "Facu",
+  "painting.ad_astra.uranus.title": "Уран",
+  "painting.ad_astra.venus.author": "Facu",
+  "painting.ad_astra.venus.title": "Венера"
 }
