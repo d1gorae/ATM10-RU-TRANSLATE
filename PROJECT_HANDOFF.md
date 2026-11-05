@@ -834,3 +834,15 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты: Modular Routers [c400bd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c400bd551ce455078c04e8cdb54e23b3629394ce), [4f2964c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f2964c75f47603c2b773f253f053df76ca55aa0); MineColonies [87d8bf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87d8bf6dfcfdd74cf933795f3320ff2a85ba0a38); Mob Grinding Utils [2cb4b64](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cb4b64ac6f62d14e2528f23d84d7013e554249f); ModernFix [788024a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/788024ac9fede2b6bec4117cda97378ec8f3a277); глоссарий [6b5515c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b5515c3074bddf54f656e18575040010730a61b), [8c1ad18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c1ad185cc02d9d1548a43eea93e97d9838d1403), [ae1ab43](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1ab43b0222a30682fa605904021ecf0cf4b241).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: moogs_structures, mvs, moonlight, moreoverlays, morered, mostructures, multipiston, mysticalagradditions, mysticalagriculture, naturesaura. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Moog's Structure Lib, Moog's Voyager Structures, Moonlight, More Overlays Updated, More Red, Mo' Structures, Multi-Piston, Mystical Agradditions, Mystical Agriculture и Nature's Aura. Всего **1 497 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. 21 совпадение RU=EN — названия модов/сервисов, координатные обозначения, числовые уровни и технические шаблоны.
+
+Исправлены термины ресурсных уровней Mystical Agriculture, согласование названий трёх предметов и Ancient Log в Nature's Aura. Глоссарий дополнен.
+
+Коммиты: Mystical Agradditions [00dfc30](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/00dfc300d95d2ed3095374efadef68107d307bc9); Mystical Agriculture [c975d3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c975d3a0b00d21a8d78517bda1e39131f1b5cb6e), [795fd3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/795fd3a54db0c6f7700600ee510f89b01ce3aec4); Nature's Aura [a959245](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a9592457d1a721de736a1dccefa61b09be3a9fd2); глоссарий [dbadc93](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dbadc93e7ffb574d9bfe6f21590a14785a45360c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: neo_auth, nochatreports, notenoughanimations, not_enough_glyphs, observable, oracle_index, owo, pamhc2crops, pamhc2foodcore, pamhc2foodextended. Nature's Compass, NeoVitae, Occultism, Biomes We've Gone, Oritech и PneumaticCraft уже завершены и пропускаются. FTB Quests/SNBT оставить на заключительный этап.
