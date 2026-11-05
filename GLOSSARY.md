@@ -109,3 +109,4 @@
 | Powah: Spirited | одухотворённый | Уровень энергии Powah |
 | Powah: Nitro | нитро | Уровень энергии Powah |
 | Seed Bag | мешочек с семенами | Награда Mystical Agriculture; содержит семена |
+| Mauve wood | мальвовое дерево | Порода дерева Regions Unexplored; в названиях мебели BiblioCraft использовать «из мальвового дерева» |
