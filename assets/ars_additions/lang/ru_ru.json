@@ -140,7 +140,7 @@
   "item.ars_additions.wayfinder": "Путеводитель",
   "item.ars_additions.wither_protection_charm": "Чары Конца Угасания",
   "item.ars_additions.xp_jar": "Банка Мудрости Шахтера",
-  "itemGroup.ars_additions": "Дополнения Ars",
+  "itemGroup.ars_additions": "Ars Additions",
   "key.ars_additions.open_lectern": "[Ars Additions] Активировать индекс перемещения",
   "memory_handler.ars_additions.detail": "  %s",
   "memory_handler.ars_additions.item_detector": "Детектор предметов",
