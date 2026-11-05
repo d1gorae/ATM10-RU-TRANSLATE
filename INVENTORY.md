@@ -126,19 +126,19 @@
 - `uranus` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `valhelsia_core` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `villagesandpillages` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
-- `wits`
-- `yeetusexperimentus`
-- `yungsextras`
+- `wits` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `yeetusexperimentus` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `yungsextras` — отдельный `en_us.json` с таким namespace не найден; в источнике YUNG's API и отдельные модули YUNG представлены самостоятельными namespace.
 
 ## Дополнительные namespace без прямого совпадения с mod ID
 
-- `borderless`
-- `cloth-config2`
-- `dynamic_fps`
-- `entityculling`
-- `evilcraftcompat`
-- `integrateddynamicscompat`
-- `integratedterminalscompat`
+- `borderless` — проверен: 21/21 ключ, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `cloth-config2` — проверен: 49/49 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; клавиши Alt/Ctrl/Shift оставлены без перевода.
+- `dynamic_fps` — проверен: 85/85 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `entityculling` — проверен: 27/27 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; название мода сохранено.
+- `evilcraftcompat` — проверен: 29/29 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; исправлено написание бренда Baubles.
+- `integrateddynamicscompat` — проверен: 213/213 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; исправлено `Is RS Сеть` → `Сеть RS`.
+- `integratedterminalscompat` — проверен: 19/19 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; восстановлен отсутствовавший служебный ключ `_comment`.
 - `irons_patreon_lib`
 - `lambdynlights`
 - `lollipop`
@@ -311,3 +311,8 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 - `villagesandpillages`
 
 Отсутствие файла в репозитории источников не доказывает отсутствие строк внутри JAR; при появлении оригиналов позиции подлежат повторной проверке.
+
+
+### Проверка десяти позиций — 05.11.2026
+
+Три mod ID без отдельного языкового источника: `wits`, `yeetusexperimentus`, `yungsextras` (для YUNG's в источнике представлены отдельные namespace модулей). Семь дополнительных namespace, уже имеющих русские файлы, сверены с английскими оригиналами: `borderless` 21, `cloth-config2` 49, `dynamic_fps` 85, `entityculling` 27, `evilcraftcompat` 29, `integrateddynamicscompat` 213, `integratedterminalscompat` 19 ключей. Всего 443 ключа; после исправлений во всех семи файлах missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
