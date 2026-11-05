@@ -50,7 +50,7 @@
 9. `artifacts`
 10. `auroral`
 
-Итог сверки: 1068 EN-ключей и 1072 RU-записи. Четыре дополнительных RU-поля оставлены, потому что соответствующие quest ID существуют в базовых файлах глав, хотя полей нет в EN overlay. Пропусков EN-ключей нет; 15 устаревших записей с ID, отсутствующими в актуальных базовых файлах, удалены. Дубликаты, ошибки плейсхолдеров и расхождения ссылок на изображения — 0; все 10 SNBT-файлов имеют сбалансированную структуру.
+Итог сверки первых 20 глав: 2861 EN-ключей и 2895 RU-записей. 34 дополнительных RU-полей оставлены, поскольку соответствующие quest ID присутствуют в базовых файлах глав, хотя полей нет в EN overlay. Пропусков EN-ключей нет; 29 устаревших записей с ID, отсутствующими в актуальных базовых файлах, удалены. Дубликаты, ошибки плейсхолдеров и расхождения ссылок на изображения — 0; все 20 SNBT-файлов имеют сбалансированную структуру.
 
 Исправлены два устаревших описания мультиблочных квестов ATM Star и кавычки вокруг двух изображений. Основной файл: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ff343e1b59c02a6baff3d2a24efc3c6ca11f968
 
@@ -58,17 +58,24 @@
 
 Следующие 10 глав по алфавиту:
 
-1. `basic_armor`
-2. `basic_logistics`
-3. `basic_power`
-4. `basic_tools`
-5. `bounty_board`
-6. `building_tips`
-7. `bumblezone`
-8. `cataclysm`
-9. `chapter_2_the_star`
-10. `create`
+1. `create_addons`
+2. `deeper_and_darker`
+3. `draconic_evolution`
+4. `elmystical_agriculturerr`
+5. `eternal_starlight`
+6. `evilcraft`
+7. `extended__advanced_ae`
+8. `extreme_reactors`
+9. `food_and_farming`
+10. `forbidden__arcanus`
 
 После них продолжить следующие главы партиями по 10. Затем сверить общие `chapter.snbt` и `reward_table.snbt`, а также проверить глобальные языковые файлы. Не считать FTB Quests завершённым до проверки всех 67 глав и общих файлов.
 
 FTB Quests и SNBT остаются последним этапом проекта.
+
+
+## Результаты второй партии FTB Quests — 05.11.2026
+
+Проверены главы: `basic_armor`, `basic_logistics`, `basic_power`, `basic_tools`, `bounty_board`, `building_tips`, `bumblezone`, `cataclysm`, `chapter_2_the_star`, `create`. EN-ключей 1793, RU-записей 1823, дополнительных полей 30. Все дополнительные поля относятся к существующим quest ID в базовых SNBT и сохранены. Удалено 14 устаревших записей, ссылавшихся на отсутствующие ID. Missing 0, duplicates 0, placeholders 0, image-reference mismatches 0, SNBT balance OK.
+
+Коммиты очистки устаревших ключей: [basic_power](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bacb6eb774d68ec16cad766d858a9e6abb24d5fd), [basic_tools](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6d681feb92e3e38069efe28cf6c3dcfe6ce8a820), [bounty_board](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3952593ced937c8badecd8beb391f024e43deb6f), [chapter_2_the_star](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7d11b485d15ad932f517ec57de8b0d623317def6), [create](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/45c5ff1a75ba4e2727585964aca9c64c811fa7f7).
