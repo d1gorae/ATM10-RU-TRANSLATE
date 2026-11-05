@@ -775,3 +775,11 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 В Cataclysm удалён лишний завершающий пробел в названии Abyss Portal. Глоссарий дополнен термином Abyss Portal.
 
 Коммиты: Cataclysm [903d7cc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/903d7cc3cce5dccb858f7a79bb49c14460f6c897); глоссарий [2897448](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2897448949ff6b2a8582f8b818099b190fb678ce).
+
+
+## JSON-аудит — партия после Big Reactors: пропущенный блок B–C (06.11.2026)
+
+Проверены 10 namespace: `biomeswevegone` (1 169), `blockui` (8), `bookshelf` (208), `botanypots` (238), `brandonscore` (102), `bridgingmod` (96), `buildinggadgets2` (112), `bwncr` (18), `cabletiers` (190), `caelus` (2). Итого **2 143 ключа**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов EN/RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Семь пустых значений Bookshelf/Botany Pots совпадают с EN; это служебные разделители/метаданные и сохранены. Совпадения RU=EN относятся к названиям модов и музыкальных композиций, служебным комментариям, шаблонам форматирования и техническим идентификаторам. Переводы не требовали изменений.
+
