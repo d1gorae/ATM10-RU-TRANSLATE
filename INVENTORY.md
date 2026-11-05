@@ -182,7 +182,7 @@
 | `silentgear` | 616 | 1 191 |
 | `mekanismgenerators` | 200 | 364 |
 | `neovitae` | 3 652 | 3 652 |
-| `productivetrees` | 3 832 | 4 149 |
+| `productivetrees` | 4 149 | 4 149 |
 | `pneumaticcraft` | 1 987 | 2 274 |
 | `mekanismtools` | 800 | 800 |
 | `twilightforest` | 1 475 | 2 061 |
