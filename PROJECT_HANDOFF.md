@@ -546,3 +546,12 @@ Supplementaries `4.0.2` полностью переведён в `work/productiv
 Последний коммит перевода: [e86223b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e86223bcd60c6ce714a05dd6c75b80a5911a4397). Обновлены `INVENTORY.md` и `GLOSSARY.md`; финальный коммит инвентаризации: [2d4beb5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2d4beb5a20053a9f7ab38174014bbbf48315ff71), глоссария: [4048672](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4048672d84d0009daebf60467cf64cb0883cc492).
 
 Шесть из семи модов текущей очереди завершены: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear и Supplementaries. Следующая точка продолжения — Regions Unexplored. Это ещё не партия из десяти модов; после Regions Unexplored выбрать следующие незавершённые моды по актуальному репозиторию. `main` не изменялся. FTB Quests/SNBT остаются на финальном этапе.
+
+
+## Regions Unexplored завершён — 05.11.2026
+
+Regions Unexplored 0.6.3-neoforge-21.1: **933/933 ключа**. Исходный RU-файл содержал 455 ключей; добавлено 478 переводов. EN/RU сверка: missing 0, extra 0, duplicates 0, empty 0, placeholder mismatches 0, formatting mismatches 0, newline mismatches 0; JSON корректен. Единственное RU=EN совпадение — название мода в творческой вкладке.
+
+Перевод: [7affad8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7affad8265968599924b64d9fff82e25b42208c9). Глоссарий: [c844fe5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c844fe56b5115795d82fc4c9b59793f7b80fe7d5). Инвентаризация: [b80e87b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b80e87ba53ff7aaf70c0483858d16361b6654b8e).
+
+Завершены 7 модов текущей очереди: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear, Supplementaries и Regions Unexplored. Партия из десяти ещё не завершена. Следующий шаг — определить три следующих незавершённых мода по актуальным INVENTORY.md и EN-источникам. main не изменялся. FTB Quests/SNBT оставить на самый конец.
