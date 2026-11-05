@@ -538,3 +538,28 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Nature's Compass: 44/44, missing 0, extra 0, placeholders 0, formatting 0, newlines 0; commit [1b1cb11](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1b1cb114c2a8fd8bd22212e99fe9e9f445c5451d).
 
 Следующий кандидат в новой партии — Ad Astra: 831 EN-ключ, 685 RU-ключей, 146 отсутствующих, extra 0. В ходе дополнительной проверки также найден один отсутствующий служебный ключ ZeroCore (EN/RU 50/49); он остаётся в очереди.
+
+
+## Актуальная контрольная точка — 05.11.2026
+
+Ветка `main` содержит завершённую партию из 10 JSON-локализаций (сверка с EN ATM10 8.5):
+
+| Namespace | EN/RU | Missing | Extra | Placeholder mismatches |
+|---|---:|---:|---:|---:|
+| `ad_astra` | 831/831 | 0 | 0 | 0 |
+| `mekanism` | 3239/3239 | 0 | 0 | 0 |
+| `iceandfire` | 1809/1809 | 0 | 0 | 0 |
+| `neovitae` | 3652/3652 | 0 | 0 | 0 |
+| `productivetrees` | 4149/4149 | 0 | 0 | 0 |
+| `silentgear` | 1191/1191 | 0 | 0 | 0 |
+| `supplementaries` | 1394/1394 | 0 | 0 | 0 |
+| `regions_unexplored` | 933/933 | 0 | 0 | 0 |
+| `aether` | 1238/1238 | 0 | 0 | 0 |
+| `mekanismtools` | 800/800 | 0 | 0 | 0 |
+| **Итого** | **19236/19236** | **0** | **0** | **0** |
+
+Публикация: merge commit [a49e765](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a49e7659d0c8eded7295a92b95d3a8c5f5087a46), Aether [30bbf0d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/30bbf0d4b3f4386cf846d45d458fffe0b94bd185), Mekanism Tools [cb90493](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cb9049377678f3ed0479f6fe922ae25e5398cc32).
+
+Проверка Mekanism Tools дополнительно исправила последнее пустое значение; оно теперь «Шанс появления нескольких частей брони». Восьмёрка переводов из PR #4 была ранее полностью сверена в рабочей ветке и теперь опубликована в `main`.
+
+Следующие подтверждённо неполные namespace: `ars_nouveau`, `evilcraft`, `irons_spellbooks`, `pneumaticcraft`, `twilightforest`, `industrialforegoing`, `integrateddynamics`, `reliquary`. Для `actuallyadditions` требуется отдельная смысловая проверка 82 значений, совпадающих с EN; пустое значение ключа `info.actuallyadditions.gui.the` может быть языковой особенностью (в русском нет артикля), поэтому не заменять его механически. Перед следующей партией проверить дополнительные неполные namespace и выбрать десять фактических целей.
