@@ -918,3 +918,39 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий [5fb453b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5fb453b56630d2d1343e9b50b1e4a7a6d20c984f), [6704118](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67041181eda9efeed639cbf98770896bd6437039).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: minecolonies, mininggadgets, mob_grinding_utils, modernfix, modonomicon, modularrouters, modularbees, mes, mns, mss. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Mifa, продолжение (06.11.2026)
+
+Проверены **10/10 namespace**, всего **4 994 ключа**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| minecolonies | 3 925/3 925 | 0 | 0 | 0 | 0 | 0 |
+| mininggadgets | 85/85 | 0 | 0 | 0 | 0 | 0 |
+| mob_grinding_utils | 146/146 | 0 | 0 | 0 | 0 | 0 |
+| modernfix | 155/155 | 0 | 0 | 0 | 2 (совпадают с EN) | 0 |
+| modonomicon | 232/232 | 0 | 0 | 0 | 1 (совпадает с EN) | 0 |
+| modularrouters | 371/371 | 0 | 0 | 0 | 2 (совпадают с EN) | 0 |
+| modularbees | 59/59 | 0 | 0 | 0 | 0 | 0 |
+| mes | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| mns | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| mss | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **4 994/4 994** | **0** | **0** | **0** | **5 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов RU, несовпадений плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов нет. В EN Mob Grinding Utils повторяется служебный ключ _comment (10 объявлений); эффективное последнее значение — Item Tool tips, RU содержит его перевод «Подсказки предметов». Пять пустых значений ModernFix/Modonomicon/Modular Routers совпадают с EN. Совпадения RU=EN в остальных файлах — бренды, технические шаблоны, единицы, символы операторов и смайлик.
+
+Смысловые и технические исправления:
+- Modular Routers: переведены оставшиеся пользовательские строки модулей энергии, фильтров, регуляторов и защиты; допереведены подсказки принудительного слива, защиты и вакуумного модуля; восстановлены все исходные переносы строк и форматирование.
+- MineColonies: исправлены шесть расхождений начальных/конечных пробелов в сообщениях и длинных подсказках.
+- Mob Grinding Utils: переведён служебный комментарий, соответствующий последнему повторяющемуся _comment в EN.
+- ModernFix: переписано описание кэширования состояний блоков и восстановлен пропущенный абзац.
+- Глоссарий дополнен терминами Modular Routers и Blockstate.
+
+Коммиты:
+- Modular Routers: [c400bd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c400bd551ce455078c04e8cdb54e23b3629394ce), [4f2964c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f2964c75f47603c2b773f253f053df76ca55aa0).
+- MineColonies: [87d8bf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87d8bf6dfcfdd74cf933795f3320ff2a85ba0a38).
+- Mob Grinding Utils: [2cb4b64](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cb4b64ac6f62d14e2528f23d84d7013e554249f).
+- ModernFix: [788024a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/788024ac9fede2b6bec4117cda97378ec8f3a277).
+- Глоссарий: [6b5515c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b5515c3074bddf54f656e18575040010730a61b), [8c1ad18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c1ad185cc02d9d1548a43eea93e97d9838d1403), [ae1ab43](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1ab43b0222a30682fa605904021ecf0cf4b241).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после mss: moogs_structures, mvs, moonlight, moreoverlays, morered, mostructures, multipiston, mysticalagradditions, mysticalagriculture, naturesaura. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
