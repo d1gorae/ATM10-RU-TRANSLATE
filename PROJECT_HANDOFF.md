@@ -368,3 +368,12 @@ Dropbox использован только для чтения; файлы в �
 - Проверки актуального EN `neovitae-1.21.1-1.1.51`: JSON корректен; missing 2 171, extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0.
 - Коммит с переводами партии: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/caefcc90c6d795b1a5e6c5ea0721a0c68ea55cb3. Последняя корректировка: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a071849f23746b49884813c3dd6f0a467185f888.
 - NeoVitae не завершён и не опубликован в `main`. Продолжать в `work/neovitae-ru`; следующая партия — не менее 600 новых ключей. Не переходить к следующему моду до полного перевода и публикации NeoVitae.
+
+
+### Актуальная точка продолжения NeoVitae — 05.11.2026
+
+- Текущее состояние `assets/neovitae/lang/ru_ru.json`: **1 541/3 652 ключей**, отсутствует 2 111.
+- После контрольной точки 881/3 652 добавлено 660 новых ключей: 600 ключей предыдущей партии и ещё 60 строк о ритуалах Deus, Якоре ритуала, основных ритуалах и Crystallum Fractura.
+- Проверки актуального EN `neovitae-1.21.1-1.1.51`: JSON корректен; missing 2 111, extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0.
+- Переводческий коммит последней порции: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1511d56ad647c1775190212599c8bcfde6397450.
+- Инвентаризация обновлена до 1 541 ключа. NeoVitae не завершён и не опубликован в `main`. Продолжать только в `work/neovitae-ru`; следующая партия — не менее 600 новых ключей.
