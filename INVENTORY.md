@@ -846,3 +846,35 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 
 Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Совпадения RU=EN относятся к названиям модов, техническим сокращениям и идентификаторам, плейсхолдерам, числовым/логическим символам и обозначениям интеграций (AE2, RS, NBT). Переводы не требовали изменений.
 
+## JSON-аудит — партия после Luminax (06.11.2026)
+
+Проверены **10/10 namespace**, всего **3 918 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| mahoutsukai | 1 931/1 931 | 0 | 0 | 0 | 81 (совпадают с EN) | 0 |
+| mcjtylib | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| mcwbridges | 156/156 | 0 | 0 | 0 | 0 | 0 |
+| mcwdoors | 288/288 | 0 | 0 | 0 | 0 | 0 |
+| mcwholidays | 338/338 | 0 | 0 | 0 | 0 | 0 |
+| mcwlights | 146/146 | 0 | 0 | 0 | 0 | 0 |
+| mcwfences | 184/184 | 0 | 0 | 0 | 0 | 0 |
+| mcwpaths | 318/318 | 0 | 0 | 0 | 0 | 0 |
+| mcwstairs | 228/228 | 0 | 0 | 0 | 0 | 0 |
+| mcwwindows | 326/326 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **3 918/3 918** | **0** | **0** | **0** | **81 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; ключи, дубликаты, плейсхолдеры, коды форматирования (§ и &), переносы строк, экранированные переносы и начальные/конечные пробелы проверены. В Mahou Tsukai осталось 14 непустых совпадений RU=EN: название мода, имена/обозначения, пунктуация и буквенные подписи цветовых каналов; пользовательских английских строк не осталось. В McJtyLib два совпадения — служебный _comment и название библиотеки. В остальных восьми namespace точных совпадений с EN нет.
+
+Смысловые исправления:
+- Mahou Tsukai: удалён лишний ключ emi.category.mahoutsukai; исправлены два лишних плейсхолдера в Fame/Style; согласованы Caliburn, Borrowed Authority, Rho Aias и названия нескольких техник/эффектов.
+- Macaw's Windows: Window Key исправлено на «Ключ для окна» по описанию предмета — он запирает окна.
+- Глоссарий дополнен терминологией Mahou Tsukai и Macaw's mods.
+
+Коммиты:
+- Mahou Tsukai: перевод [26f8fc0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/26f8fc007bfebe544363e5d9782ff20da8cc6a8b), глоссарий [9859cc3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9859cc3ccbbb9d14fc22b1b90fbd37c76100e484).
+- Macaw's Windows: перевод [c0b64dd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0b64ddd06df2eb03c8870189a739d709734ab82), глоссарий [58b2e98](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/58b2e980a733ef98ba606e5a40d2262543206db4).
+
+Примечание по Mahou Tsukai: в исходном архиве также присутствует legacy-файл en_us.lang с 678 уникальными ключами, отсутствующими в актуальном en_us.json. В ru_ru.json эти записи не переносились; использование legacy-файла в версии ATM10 1.21.1 отдельно не подтверждено.
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия начинается после mcwwindows: mcwroofs, mcwtrpdoors, megacells, mekanismcovers, mekanisticrouters, memorysettings, merequester, merrymaking, mffs, mifa. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
