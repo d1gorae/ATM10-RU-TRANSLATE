@@ -1045,5 +1045,6 @@
   "supplementaries.configuration.slice_map": "Карта-срез",
   "supplementaries.configuration.slice_map.range_multiplier": "Множитель дальности",
   "supplementaries.configuration.slice_map.range_multiplier.description": "Множитель, уменьшающий дальность карт-срезов по сравнению с обычными картами",
-  "supplementaries.configuration.bubble_blower": "Генератор пузырей"
+  "supplementaries.configuration.bubble_blower": "Генератор пузырей",
+  "supplementaries.configuration.bubble_block": "Пузырьковый блок"
 }
