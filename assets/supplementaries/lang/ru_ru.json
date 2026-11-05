@@ -1284,5 +1284,15 @@
   "supplementaries.configuration.slingshot.allow_fire_charges": "Разрешить огненные заряды",
   "supplementaries.configuration.slingshot.allow_fire_charges.description": "Позволяет запускать огненные заряды из рогатки",
   "supplementaries.configuration.slingshot.allow_snowballs": "Разрешить снежки",
-  "supplementaries.configuration.slingshot.allow_snowballs.description": "Позволяет запускать снежки из рогатки"
+  "supplementaries.configuration.slingshot.allow_snowballs.description": "Позволяет запускать снежки из рогатки",
+  "supplementaries.configuration.slingshot.allow_enderpearls": "Разрешить жемчуг Эндера",
+  "supplementaries.configuration.slingshot.allow_enderpearls.description": "Позволяет запускать жемчуг Эндера из рогатки",
+  "supplementaries.configuration.antique_ink": "Старинные чернила",
+  "supplementaries.configuration.tools.candy": "Конфеты",
+  "supplementaries.configuration.tools.stasis": "Стазис",
+  "supplementaries.configuration.tools.altimeter": "Высотомер",
+  "supplementaries.configuration.tools.confetti_popper": "Хлопушка с конфетти",
+  "supplementaries.configuration.general": "Общие настройки",
+  "supplementaries.configuration.general.dynamic_assets_generation_mode": "Режим генерации динамических ресурсов",
+  "supplementaries.configuration.general.creative_tab": "Вкладка творческого режима"
 }
