@@ -1198,5 +1198,16 @@
   "supplementaries.configuration.tweaks.sherds_tooltip": "Подсказка черепков",
   "supplementaries.configuration.tweaks.sherds_tooltip.description": "Включает предварительный просмотр изображения черепков в подсказке",
   "supplementaries.configuration.tweaks.tooltip_image_size": "Размер изображения в подсказке",
-  "supplementaries.configuration.tweaks.tooltip_image_size.description": "Размер изображения в подсказках для черепков, школьных досок, узоров знамён и картин"
+  "supplementaries.configuration.tweaks.tooltip_image_size.description": "Размер изображения в подсказках для черепков, школьных досок, узоров знамён и картин",
+  "supplementaries.configuration.tweaks.mob_head_shaders": "Шейдеры голов мобов",
+  "supplementaries.configuration.tweaks.mob_head_shaders.description": "Ношение голов мобов включает постобработку изображения",
+  "supplementaries.configuration.tweaks.enderman_and_spider_head_texture_pack_support": "Поддержка ресурспаков для голов эндерменов и пауков",
+  "supplementaries.configuration.tweaks.enderman_and_spider_head_texture_pack_support.description": "Заставляет головы эндерменов и пауков использовать ванильные текстуры. Включите для поддержки ресурспаков",
+  "supplementaries.configuration.tweaks.slime_effect_overlay": "Наложение эффекта слизи",
+  "supplementaries.configuration.tweaks.slime_effect_overlay.description": "Показывает наложение слизи, когда вы попадаете по сущности снежком из слизи",
+  "supplementaries.configuration.colored_maps": "Цветные карты",
+  "supplementaries.configuration.colored_maps.tinted_blocks_on_maps": "Окрашенные блоки на картах",
+  "supplementaries.configuration.colored_maps.tinted_blocks_on_maps.description": "Требует включённой серверной настройки с таким же названием. Если включено здесь, серверная настройка игнорируется и используются ванильные цвета",
+  "supplementaries.configuration.colored_maps.tall_grass_color": "Цвет высокой травы",
+  "supplementaries.configuration.colored_maps.tall_grass_color.description": "Окрашивает высокую траву в тот же цвет, что и обычную траву"
 }
