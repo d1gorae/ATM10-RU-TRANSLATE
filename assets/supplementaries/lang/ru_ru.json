@@ -1123,5 +1123,11 @@
   "supplementaries.configuration.bubble_block.wobble.description": "Интенсивность колебаний. Установите 0, чтобы отключить",
   "supplementaries.configuration.bubble_block.grow_speed": "Скорость роста",
   "supplementaries.configuration.bubble_block.grow_speed.description": "Скорость роста блока после создания. Значение 1 означает мгновенный рост",
-  "supplementaries.configuration.item_shelf.supported_blocks": "Поддерживаемые блоки"
+  "supplementaries.configuration.item_shelf.supported_blocks": "Поддерживаемые блоки",
+  "supplementaries.configuration.item_shelf.supported_blocks.description": "Сдвигает отображаемые трёхмерные блоки вниз, чтобы они касались полки. При таком отображении они не будут выровнены по вертикальному центру",
+  "supplementaries.configuration.wind_vane": "Флюгер",
+  "supplementaries.configuration.wind_vane.power_scaling": "Масштабирование от сигнала",
+  "supplementaries.configuration.wind_vane.max_angle_1": "Максимальный угол 1",
+  "supplementaries.configuration.wind_vane.max_angle_1.description": "Амплитуда (максимальный угол отклонения) первой синусоидальной волны",
+  "supplementaries.configuration.wind_vane.max_angle_2": "Максимальный угол 2"
 }
