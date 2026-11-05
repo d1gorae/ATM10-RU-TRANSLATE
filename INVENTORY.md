@@ -12,10 +12,10 @@
 | Записей в официальном modlist | 497 |
 | Уникальных mod ID (без NeoForge) | 490 |
 | Русских JSON-файлов | 399 |
-| Mod ID с одноимённым русским namespace | 386 |
-| Mod ID без одноимённого русского JSON | 104 |
-| Из них вне FTB Quests | 104 |
-| Дополнительных namespace без прямого совпадения | 13 |
+| Mod ID с одноимённым русским namespace | 385 |
+| Mod ID без одноимённого русского JSON | 105 |
+| Из них вне FTB Quests | 105 |
+| Дополнительных namespace без прямого совпадения | 14 |
 
 Отсутствие одноимённого JSON не доказывает, что мод содержит переводимые строки. Для каждого кандидата нужно сверить фактический `en_us.json` в версии мода из ATM10 8.5. FTB Quests не трогать до самого конца проекта.
 
@@ -114,6 +114,7 @@
 - `structory_towers` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `stylecolonies` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `supermartijn642configlib` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
+- `sodium_extra` — переведён, 418/418 ключей в `assets/sodium-extra/lang/ru_ru.json`; в namespace используется дефис вместо подчёркивания, поэтому файл указан как дополнительный namespace.
 - `sussysniffers` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `t_and_t` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
 - `theurgy_kubejs` — в актуальном дереве английских источников отдельный `en_us.json` для namespace не найден; отдельный RU-файл пока не требуется.
@@ -139,6 +140,7 @@
 - `lambdynlights` — проверен: 63/63 ключа, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
 - `lollipop` — проверен: 50/50 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
 - `moreculling` — проверен: 55/55 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `sodium-extra` — проверен: 418/418 ключей, missing 0, extra 0, placeholders 0, пустых значений 0; namespace мода Sodium Extra использует дефис.
 - `tempad_static` — проверен: 84/84 ключа, missing 0, extra 0, placeholders 0, formatting 0, дубликатов ключей верхнего уровня 0; вложенные JSON-массивы и компоненты проверены рекурсивно.
 - `vulkanmod` — проверен: 89/89 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
 
