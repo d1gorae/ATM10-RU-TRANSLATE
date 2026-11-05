@@ -1331,5 +1331,10 @@
   "supplementaries.configuration.placeable_sticks.blaze_rods.description": "Разрешает размещать огненные стержни и стержни бриза",
   "supplementaries.configuration.placeable_gunpowder": "Размещаемый порох",
   "supplementaries.configuration.placeable_gunpowder.speed": "Скорость",
-  "supplementaries.configuration.placeable_gunpowder.speed.description": "Количество тиков, за которое порох сгорает на одну стадию из восьми. Увеличьте значение, чтобы замедлить горение"
+  "supplementaries.configuration.placeable_gunpowder.speed.description": "Количество тиков, за которое порох сгорает на одну стадию из восьми. Увеличьте значение, чтобы замедлить горение",
+  "supplementaries.configuration.placeable_gunpowder.spread_age": "Возраст распространения",
+  "supplementaries.configuration.placeable_gunpowder.spread_age.description": "Возраст, при котором порох распространяется на следующий блок пороха. Также влияет на скорость",
+  "supplementaries.configuration.tweaks.raked_gravel": "Разравнивание гравия",
+  "supplementaries.configuration.tweaks.raked_gravel.description": "Позволяет разравнивать гравий мотыгой",
+  "supplementaries.configuration.bottle_xp": "Бутылка опыта"
 }
