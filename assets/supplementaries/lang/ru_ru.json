@@ -1354,5 +1354,15 @@
   "supplementaries.configuration.map_tweaks.death_marker": "Метка смерти",
   "supplementaries.configuration.map_tweaks.death_marker.description": "Показывает на карте место вашей смерти. Требуется компас восстановления или аналогичный предмет в инвентаре игрока",
   "supplementaries.configuration.map_tweaks.tinted_blocks_on_maps": "Окрашенные блоки на картах",
-  "supplementaries.configuration.map_tweaks.tinted_blocks_on_maps.description": "Блоки с тегом tinted_on_map используют свой цветовой оттенок. Это позволяет точно отображать цвета биомов, например цвет воды и травы, а также оттенки других пользовательских блоков"
+  "supplementaries.configuration.map_tweaks.tinted_blocks_on_maps.description": "Блоки с тегом tinted_on_map используют свой цветовой оттенок. Это позволяет точно отображать цвета биомов, например цвет воды и травы, а также оттенки других пользовательских блоков",
+  "supplementaries.configuration.placeable_books": "Размещаемые книги",
+  "supplementaries.configuration.placeable_books.enabled.description": "Позволяет размещать книги и зачарованные книги на земле",
+  "supplementaries.configuration.placeable_books.mixed_books": "Книги в любом положении",
+  "supplementaries.configuration.placeable_books.mixed_books.description": "Позволяет размещать любые книги как вертикально, так и горизонтально",
+  "supplementaries.configuration.zombie_horse": "Лошадь-зомби",
+  "supplementaries.configuration.zombie_horse.zombie_horse_conversion": "Превращение в лошадь-зомби",
+  "supplementaries.configuration.zombie_horse.zombie_horse_conversion.description": "Накормите скелетную лошадь стопкой гнилой плоти, чтобы превратить её в лошадь-зомби",
+  "supplementaries.configuration.zombie_horse.rotten_flesh": "Гнилая плоть",
+  "supplementaries.configuration.zombie_horse.rotten_flesh.description": "Необходимое количество гнилой плоти",
+  "supplementaries.configuration.zombie_horse.rideable_underwater": "Возможность ездить под водой"
 }
