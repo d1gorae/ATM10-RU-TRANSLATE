@@ -463,7 +463,7 @@
   "connector.mekmm.chain_result": "Цепочка направлена к стороне %2$s блока %1$s; подключено: %3$s, отключено: %4$s, ошибок: %5$s",
   "connector.mekmm.chain_fail": "Не удалось направить цепочку к стороне %2$s блока %1$s",
 
-  "general.item_replicator.recipes": "\"Рецепт для репликатора предметов \"",
+  "general.item_replicator.recipes": "\"Рецепт для Репликатора предметов \"",
   "general.fluid_replicator.recipes": "Рецепт для Жидкостного репликатора",
   "general.chemical_replicator.recipes": "Рецепт для Химического репликатора",
 
