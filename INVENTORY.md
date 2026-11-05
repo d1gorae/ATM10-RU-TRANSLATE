@@ -596,3 +596,12 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 
 Коммиты перевода: [4427380](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/44273800b06b8b7c692e2495a50ef16039243333), [1929218](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/192921836e3b2959eac96f3d4d5f58d2dd77a31c), [676c20e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/676c20e82fd9a2b2e64bd1ef6ac293e95ac06c8b), [afd8bcf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afd8bcfdce25aae5e5a06d4d2eaa6b21c9f89444), [29f0a59](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/29f0a5934ee0ab3246d2441c365be9943bbf7754), [2be1727](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2be1727a45f1b1313608b62ef122c07c2b1751d7).
 - Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5d976621540f09f7e4cca77d1c77237643807602).
+
+## Завершение локализации PneumaticCraft: Repressurized — 05.11.2026
+
+`pneumaticcraft` (`8.2.24`) полностью локализован: **2 274/2 274 ключа**. В исходном RU-файле было 1 987 ключей; добавлено 287 переводов. Также исправлены ранее существовавшие пользовательские ошибки в подсказках GPS-инструментов, справке фильтра существ, редакторе таблички, сообщениях Амадрона, описании улучшения дальности брони и нескольких строках форматирования.
+
+Сверка с read-only EN-файлом `pneumaticcraft-repressurized-8.2.24-mc1.21.1/pneumaticcraft/en_us.json` (blob SHA `ca0b980ce454e782d23cdb8b4821faad90febfa3`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; несовпадения кодов Minecraft (§) 0. 22 совпадения RU=EN оставлены намеренно: названия/бренды, FE/RF/µI/CF, координатные оси, единицы измерения, шаблоны вывода и внутренние идентификаторы Jade.
+
+Коммиты перевода: [f83e2ed](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f83e2ed07c312f5376dd783ae727cb34fb210d1c), [fb749b5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb749b5e45ed4d48f6ae0e34e2d23a0a2309a8c4), [59dc0f2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/59dc0f279846eb0155b8ee085275696427a8853b), [2d8c0bf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2d8c0bf2e3d618587c857fbcab924ea0bf206eb0).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d238d3fb1ccda22a2ade88d74d2f1eb59aead27e).
