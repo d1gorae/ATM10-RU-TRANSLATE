@@ -117,3 +117,33 @@ FTB Quests и SNBT остаются последним этапом проект
 Дополнительно зафиксированы выполненные ранее исправления пятой партии: восстановление RGB-кодов в `mi_electric` и цветовых обозначений в `occultism`, а также удаление устаревших записей Modern Industrialization.
 
 **Статус:** официально подтверждённый прогресс остаётся 50/67 глав. Следующая десятка пока не засчитывается как завершённая партия: перед обновлением счётчика требуется повторно получить сводные результаты всех десяти файлов, проверить каждую правку и записать точные коммиты. Осталось 17 глав по последнему полностью зафиксированному состоянию. Следующая точка продолжения — завершить и перепроверить текущую десятку, затем обработать последние 7 глав.
+
+
+## Результаты шестой партии FTB Quests — 05.11.2026
+
+Проверены и завершены 10 глав: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`.
+
+Сверка с актуальными EN overlay: **1583 ключа** в английских оригиналах и 1583 в русских файлах. По всем десяти главам: missing 0, extra 0, duplicates 0, placeholder mismatches 0. Проверка баланса кавычек и фигурных/квадратных скобок пройдена для всех 20 файлов.
+
+Дополнительно сверены image ID с базовыми SNBT:
+- Удалён устаревший RU image key Productive Trees.
+- Удалены 21 устаревший RU image key Railcraft.
+- В Relics заменены 10 старых image ID на актуальные ID из базового файла; подписи переведены по соответствующим EN изображениям.
+- В Relics исправлены названия Roller Skate и Ring of the Seven Deadly Sins, описание мест появления реликвий и названия измерений.
+- В Productive Bees восстановлено предложение о необходимости блоков расширения для поддержки улучшений.
+- В Oritech уточнён маршрут получения малой плутониевой пыли; в Railcraft исправлено форматирование описаний раздатчиков.
+- В глоссарий добавлены термины Nether, The End, Overworld, Stronghold и Nether Fortress.
+
+Коммиты:
+- [Oritech — маршрут плутониевой пыли](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b1e1109d1e33da591524131a5b765c9099c98da6)
+- [Railcraft — восстановление форматирования](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8a28034bae042e43514fb1aab3a6f74895c15084)
+- [Productive Trees — удаление устаревшего image key](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cf4c98aa880b8c36a3765eb2a90ee04958f7643b)
+- [Railcraft — удаление устаревших image keys](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6f8c4db8edb0ba50181691f91c6210fa908b27e3)
+- [Relics — исправление названий реликвий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e6ecc40bfc900d580348e30039201cbeedd36d28)
+- [Relics — синхронизация image ID](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/69aa06cbcfac8d5f2a8246daaaeae43e90677b36)
+- [Relics — описание мест появления и измерения](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/119c9ff9525d52e94c1e532710433b0530e02af1)
+- [Productive Bees — дополнение описания блоков расширения](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f106b09ed342d41d426c18a1e2a5bc55dbb2c06)
+- [Глоссарий — термины измерений и структур](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/231f910182c81a4dc5e52e60fda7b2bb31e171fd)
+- [Глоссарий — термины Oritech, Productive Trees и Relics](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5261c98569c2b53cf4d277b001d06f4ac25b03cf)
+
+**Итого подтверждено: 60/67 глав. Осталось 7 глав.** Следующая точка продолжения — последние 7 глав, затем общие `chapter.snbt`, `reward_table.snbt` и глобальные языковые SNBT-файлы. Не считать FTB Quests завершённым до финальной общей проверки.
