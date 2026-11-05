@@ -73,3 +73,7 @@
 | Thioquartz | Тиокварц | Материал Eternal Starlight |
 | Lunaris Cactus Fruit | Лунная опунция | Предмет Eternal Starlight |
 | Aetherstrike Rocket | Эфирная ударная ракета | Предмет Eternal Starlight |
+| Source (Ars Nouveau) | Исток | Магический ресурс Ars Nouveau; не путать с общим «источник» |
+| Source Jar | Кувшин Истока | Сосуд для хранения Истока |
+| Source Condenser | Конденсатор Истока | Устройство для получения сжиженного Истока |
+| Soul Looting | Добыча душ | Зачарование; в тексте квестов оформлять как «Добыча душ» |
