@@ -707,3 +707,32 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий дополнен терминологией Apotheosis.
 
 Коммиты: Apotheosis [423a2bd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/423a2bdbdab7c3a2ddfb130a64277193210fc10a), [65f0248](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/65f024888f80249bc5d54ce7a0bcef22cb58731c), [a758e5d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a758e5d9aa4ec6c0b5c1c2d7f9605edf43a6de8e); All The Tweaks [cf5c28c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cf5c28c31bf2364f8bf00dd2c24be2bcbe84d671); глоссарий [77d202e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/77d202e7eb82a6bece3317421472bdb1ee616463).
+
+
+## Партия аудита JSON — 06.11.2026: Apothic и Ars addons
+
+Проверены и завершены следующие 10 namespace. Для всех сверены EN/RU ключи и выполнены проверки JSON, missing/extra, дубликатов, пустых значений, плейсхолдеров, кодов форматирования (§ и &), переносов строк, интерполяций и начальных/конечных пробелов.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|
+| `apothic_attributes` | 161/161 | 0 | 0 | 0 | 0 |
+| `apothic_enchanting` | 425/425 | 0 | 0 | 0 | 0 |
+| `apothic_spawners` | 89/89 | 0 | 0 | 0 | 0 |
+| `appflux` | 59/59 | 0 | 0 | 0 | 0 |
+| `appleskin` | 22/22 | 0 | 0 | 0 | 0 |
+| `appmek` | 15/15 | 0 | 0 | 0 | 0 |
+| `aquaculture` | 291/291 | 0 | 0 | 0 | 0 |
+| `ars_additions` | 235/235 | 0 | 0 | 0 | 0 |
+| `ars_controle` | 83/83 | 0 | 0 | 0 | 0 |
+| `ars_creo` | 18/18 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 398/1 398** | **0** | **0** | **0** | **0** |
+
+144 совпадения RU=EN сохранены намеренно: названия и бренды, имена авторов и музыкальные композиции, римские обозначения уровней зачарования, FE/QIO, Shift/Ctrl, XNOR/XOR, служебный комментарий EMI и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+Смысловые правки:
+- Ars Additions: полностью переведены смешанные англо-русские описания Memory Crystal и Source Spawner, подсказка сохранения/загрузки, исправлен перевод Warp Index; название мода в группе предметов приведено к официальному написанию.
+- Apothic Spawners: исправлено название корневого достижения, чтобы не показывать внутренний namespace.
+- Ars Controle: описание пульта переписано естественно, термин radial menu согласован с глоссарием как «круговое меню».
+- Глоссарий дополнен терминами Ars Additions, Ars Controle, Ars Creo, Memory Crystal, Source Spawner, Mob Jar и Warp Index.
+
+Коммиты: Ars Additions [982b74b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/982b74b5d993da0c3d33b091c657e976c5daf587), [4257af8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4257af80ac6c60cf53cc8d096c4801a6fee2a843); Apothic Spawners [e57660d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e57660d082537663e188d6aca2495608cc491701); Ars Controle [afcf57c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afcf57c68abbf6632e043af2605c199bfb23fe66); глоссарий [b6ed8fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b6ed8fd7090f7ba478406ccc82dd13566d524df9), [f890452](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f890452656f803a89b5ee472bbb64ae9956b953a).
