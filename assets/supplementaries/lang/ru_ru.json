@@ -1133,5 +1133,9 @@
   "supplementaries.configuration.wind_vane.period_1": "Период 1",
   "supplementaries.configuration.wind_vane.period_1.description": "Базовый период первой синусоидальной волны в тиках при нулевой мощности",
   "supplementaries.configuration.wind_vane.period_2": "Период 2",
-  "supplementaries.configuration.wind_vane.period_2.description": "Для симметричной анимации рекомендуется установить значение period_1/3"
+  "supplementaries.configuration.wind_vane.period_2.description": "Для симметричной анимации рекомендуется установить значение period_1/3",
+  "supplementaries.configuration.flag.slowness": "Период колебания",
+  "supplementaries.configuration.flag.slowness.description": "Продолжительность одного колебания флага. Меньшее значение означает более быстрое колебание",
+  "supplementaries.configuration.flag.wavyness": "Волнистость",
+  "supplementaries.configuration.flag.wavyness.description": "Выраженность волн в анимации, в пикселях (длина волны)"
 }
