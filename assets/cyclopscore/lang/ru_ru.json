@@ -39,5 +39,6 @@
   "multiblock.cyclopscore.error.blockCount.max": "Ожидалось не более %s блоков типа %s, найдено %s.",
   "multiblock.cyclopscore.error.blockCount.min": "Ожидалось не менее %s блоков типа %s, найдено %s.",
   "multiblock.cyclopscore.error.hollow.air": "Позиция %s должна быть пустой.",
-  "block.air": "Воздух"
+  "block.air": "Воздух",
+  "_comment": "Vanilla additions"
 }
