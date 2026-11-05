@@ -40,3 +40,19 @@
 | Unobtainium | унобтаниум | Ресурс из Allthemodium |
 | Paxel | мульти-инструмент | Инструмент, совмещающий функции нескольких инструментов |
 | Digging Claws | когти землекопа | Артефакт, повышающий уровень добычи голыми руками |
+| BiblioCraft | BiblioCraft | Название мода; не переводить |
+| Bibliobiomes | Bibliobiomes | Название дополнения; не переводить |
+| Chisel | Chisel | Название мода; не переводить |
+| Dyenamics | Dyenamics | Название мода/бренда; не переводить |
+| Dyenamics and Friends | Dyenamics and Friends | Название сборки дополнений; не переводить |
+| Luminax | Luminax | Название материала/линейки блоков; не переводить |
+| Botany Pot | горшок для растений | Предмет/блок для выращивания растений |
+| Hopper Botany Pot | горшок для растений с воронкой | Вариант Botany Pot с автосбором |
+| Bookcase | книжный шкаф | BiblioCraft |
+| Display Case | витрина | BiblioCraft |
+| Seat Back | спинка сиденья | BiblioCraft |
+| Fancy Armor Stand | изысканная стойка для брони | BiblioCraft |
+| Grandfather Clock | напольные часы | BiblioCraft |
+| Potion Shelf | полка для зелий | BiblioCraft |
+| Tool Rack | стойка для инструментов | BiblioCraft |
+| Typewriter | печатная машинка | BiblioCraft |
