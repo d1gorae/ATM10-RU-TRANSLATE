@@ -726,3 +726,12 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 В Hostile Neural Networks исправлены переносы, формулировки и неточности описаний мобов; в Gateways восстановлен завершающий перенос; в FramedBlocks удалён лишний пробел и уточнено название блока. Глоссарий дополнен терминологией трёх модов. Коммиты: [FramedBlocks](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb74887bbcd2a0702285445d9b0b0c0bf35e8fe2), [Gateways](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d190753758117d33ab676f3e3b51c36a5fc6b676), [Hostile Neural Networks](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8dafd6385d8f0b43fa16bacb9dcdc1adadea0d06), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a805b6080e5371cfa054e7b76f1f8723e7c26a57).
 
 **Итого за три партии после Ars Creo: 30/30 namespace, 4 107 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — сверка следующих namespace после `immeng` с актуальным EN-деревом и INVENTORY, исключая уже проверенные локализации. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Восьмая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `immersiveengineering`, `ironjetpacks`, `jade`, `jei_mekanism_multiblocks`, `justenoughprofessions`, `keybindspurger`, `cataclysm`, `measurements`, `moderndynamics`, `modern_industrialization`. Всего **5 197 ключей**. JSON корректен; missing 0, extra 0, duplicates RU 0, placeholder/format/newline/whitespace mismatches 0. Два пустых значения совпадают с EN. В EN Cataclysm повторяется `maledictus_hurt.sub`; корректным является последнее значение `Maledictus dies`, и RU содержит его перевод. В EN Measurements трижды встречается только служебный `_comment`.
+
+В Cataclysm удалён лишний завершающий пробел в названии Abyss Portal; термин добавлен в глоссарий. Коммиты: [Cataclysm](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/903d7cc3cce5dccb858f7a79bb49c14460f6c897), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2897448949ff6b2a8582f8b818099b190fb678ce).
+
+**Итого за четыре партии после Ars Creo: 40/40 namespace, 9 304 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — после `modern_industrialization` сверить следующий блок EN namespaces, исключая ранее завершённые переводы и отдельные уже проверенные дополнения. FTB Quests/SNBT не затрагивать до заключительного этапа.
