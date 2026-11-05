@@ -573,3 +573,15 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Коммиты Actually Additions: [6146656](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/61466567329721c466729420646696fb7504c3b2), [c74229a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c74229a20476239869f02082311d8d99b8fafc61). Коммиты Industrial Foregoing: [23032f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23032f0d5ad06fcb3afefa9b560b702b82f552bd), [7a3f978](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7a3f97825e6b1a29346d171fd553e3772edb27a8).
 
 Текущая партия не завершена: 2/10. Следующий мод — `irons_spellbooks` (1128/1315; missing 187). Upstream RU не использовать как замену: файл неполный; допустимо переносить только отдельные значения после проверки ключей и плейсхолдеров.
+
+## Завершение локализации Iron's Spells 'n Spellbooks — 05.11.2026
+
+`irons_spellbooks` (`3.16.3`) полностью локализован: **1 315/1 315 уникальных ключей**. В исходном RU-файле было 1 128 ключей; добавлено 187 переводов. Существовавшие RU-значения сохранены.
+
+Сверка с read-only EN-файлом `irons_spellbooks-1.21.1-3.16.3/irons_spellbooks/en_us.json` (blob SHA `beadca863ebede25d55c7615f1a99c12b4b7249c`): JSON корректен; missing 0; extra 0; дубликаты RU-ключей 0; пустых значений 0; несовпадения плейсхолдеров 0; несовпадения кодов Minecraft (§) 0; несовпадения количества переносов строк 0. 14 совпадений RU=EN оставлены намеренно: технические шаблоны, название мода и римские обозначения уровней. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+**Особенность английского оригинала:** в EN-файле дважды объявлен ключ `death.attack.blood_magic` (строки 760 и 778); при разборе JSON действует последнее значение. В RU оставлен один ключ с переводом последнего, полного английского значения. Сам EN-файл не изменялся.
+
+Коммиты:
+- Перевод: [2ecbb4e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2ecbb4e10d59353fb6b76e97f2c8f5f213c3540b), [330c4c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/330c4c78a480ddcf7e9ba2ae8e852f6f3931fde2), [6843521](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/68435214d97db7ae1b63b22440cef70268e77e99), [2567c09](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2567c09603df9b2b68f66450ce3990b33effc69f).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/02c7633734f452e66d64b6f139b631c4b4f2f7a9).
