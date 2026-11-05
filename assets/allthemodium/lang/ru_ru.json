@@ -315,5 +315,8 @@
   "dimension.allthemodium.the_other": "Другое измерение",
   "dimension.allthemodium.the_beyond": "Запределье",
   "tooltip.allthemodium.teleport_pad": "Присядьте и нажмите ПКМ с пустыми руками для телепортации",
-  "entity.allthemodium.alloy_trident": "Всемодиево-вибраниево-унобтаниевый трезубец"
+  "entity.allthemodium.alloy_trident": "Всемодиево-вибраниево-унобтаниевый трезубец",
+  "item.allthemodium.unobtainium_brush": "Кисть из унобтаниума",
+  "item.allthemodium.allthemodium_brush": "Кисть из всемодия",
+  "item.allthemodium.vibranium_brush": "Кисть из вибраниума"
 }
