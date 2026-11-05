@@ -3216,5 +3216,21 @@
   "tooltip.neovitae.sigil.suppression.desc": "Отталкивает ближайшие жидкости",
   "tooltip.neovitae.sigil.upkeep": "Содержание: %s EV / %s с",
   "tooltip.neovitae.sigil.void.desc": "Уничтожает жидкости перед вами",
-  "tooltip.neovitae.sigil.water.desc": "Создаёт источники воды"
+  "tooltip.neovitae.sigil.water.desc": "Создаёт источники воды",
+  "tooltip.neovitae.anointment.bow_power.desc": "Увеличивает урон стрел",
+  "tooltip.neovitae.anointment.bow_velocity.desc": "Увеличивает скорость полёта стрел",
+  "tooltip.neovitae.anointment.fortune.desc": "Увеличивает количество выпадающих блоков (Удача)",
+  "tooltip.neovitae.anointment.hidden_knowledge.desc": "Увеличивает количество опыта за добычу блоков",
+  "tooltip.neovitae.anointment.holy_water.desc": "Наносит дополнительный урон нежити",
+  "tooltip.neovitae.anointment.level": "Уровень: %s",
+  "tooltip.neovitae.anointment.looting.desc": "Увеличивает количество добычи с мобов (Добыча)",
+  "tooltip.neovitae.anointment.melee_damage.desc": "Увеличивает урон в ближнем бою",
+  "tooltip.neovitae.anointment.quick_draw.desc": "Сокращает время натяжения лука",
+  "tooltip.neovitae.anointment.repairing.desc": "Чинит оружие за счёт опыта при попадании",
+  "tooltip.neovitae.anointment.shift_for_details": "Удерживайте Shift, чтобы увидеть подробности",
+  "tooltip.neovitae.anointment.silk_touch.desc": "Позволяет добывать блоки с зачарованием «Шёлковое касание»",
+  "tooltip.neovitae.anointment.smelting.desc": "Автоматически переплавляет добытые ресурсы",
+  "tooltip.neovitae.anointment.spiritus_drain.desc": "Стрелы высасывают Spiritus при попадании",
+  "tooltip.neovitae.anointment.uses": "Использований: %s",
+  "tooltip.neovitae.anointment.voiding.desc": "Уничтожает ненужные предметы, выпадающие при добыче"
 }
