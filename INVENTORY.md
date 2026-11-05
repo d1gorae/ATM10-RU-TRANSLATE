@@ -353,3 +353,8 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 ### FTB Quests — пятая партия SNBT, 05.11.2026
 
 Проверены главы: `mekanism`, `mekanism_reactors`, `mi_digital`, `mi_electric`, `mi_endgame`, `mi_steam`, `modular_router`, `natures_aura`, `neo_vitae`, `occultism`. EN-ключей 1228, RU-записей 1250, дополнительных RU-полей 22; все дополнительные поля ссылаются на quest ID в базовых SNBT. Удалены 4 устаревшие записи с отсутствующими ID. Missing 0, stale extra 0, duplicates 0, placeholders 0, image mismatches 0, RGB mismatches 0, SNBT balance OK. Всего проверено 50/67 глав; осталось 17. Следующая партия: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`.
+
+
+### FTB Quests — продолжение аудита, 05.11.2026
+
+Начата следующая десятка глав: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`. Выполняется сверка с EN-оригиналами и базовыми SNBT. Партия не засчитана как завершённая до повторной проверки всех результатов. Подтверждённый прогресс: 50/67 глав; осталось 17.
