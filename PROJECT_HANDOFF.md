@@ -263,7 +263,7 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 - KubeJS Tweaks: исправлен файл `assets/kubejstweaks/lang/ru_ru.json`; теперь 4/4 ключа, missing 0, extra 0, placeholders 0. Коммит: [9ab2fda](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9ab2fdaf634bd81a22a10e45148e3af748540d50).
 - ATM Compat: 10/10 ключей уже присутствуют в `assets/allthemodium/lang/ru_ru.json`; файл не менялся.
 - Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped: английские файлы пусты (0 ключей); отдельные пустые русские файлы не создавались.
-- Следующий реальный перевод: Rechiseled (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`). Chipped завершён и опубликован. FTB Quests/SNBT — самый последний этап.
+- Rechiseled завершён и опубликован (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`; коммит `02cb14f`). Следующий кандидат по алфавитному списку `INVENTORY.md` — `resourcefullib`; перед работой проверить фактический EN-файл и наличие переводимых ключей. FTB Quests/SNBT — самый последний этап.
 
 
 ## 23. Rechiseled — завершённая локализация, 05.11.2026
