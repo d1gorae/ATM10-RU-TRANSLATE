@@ -1129,5 +1129,9 @@
   "supplementaries.configuration.wind_vane.power_scaling": "Масштабирование от сигнала",
   "supplementaries.configuration.wind_vane.max_angle_1": "Максимальный угол 1",
   "supplementaries.configuration.wind_vane.max_angle_1.description": "Амплитуда (максимальный угол отклонения) первой синусоидальной волны",
-  "supplementaries.configuration.wind_vane.max_angle_2": "Максимальный угол 2"
+  "supplementaries.configuration.wind_vane.max_angle_2": "Максимальный угол 2",
+  "supplementaries.configuration.wind_vane.period_1": "Период 1",
+  "supplementaries.configuration.wind_vane.period_1.description": "Базовый период первой синусоидальной волны в тиках при нулевой мощности",
+  "supplementaries.configuration.wind_vane.period_2": "Период 2",
+  "supplementaries.configuration.wind_vane.period_2.description": "Для симметричной анимации рекомендуется установить значение period_1/3"
 }
