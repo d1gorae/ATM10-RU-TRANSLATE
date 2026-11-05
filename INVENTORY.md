@@ -139,12 +139,12 @@
 - `evilcraftcompat` — проверен: 29/29 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; исправлено написание бренда Baubles.
 - `integrateddynamicscompat` — проверен: 213/213 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; исправлено `Is RS Сеть` → `Сеть RS`.
 - `integratedterminalscompat` — проверен: 19/19 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0; восстановлен отсутствовавший служебный ключ `_comment`.
-- `irons_patreon_lib`
-- `lambdynlights`
-- `lollipop`
-- `moreculling`
-- `tempad_static`
-- `vulkanmod`
+- `irons_patreon_lib` — проверен: 2/2 ключа, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `lambdynlights` — проверен: 63/63 ключа, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `lollipop` — проверен: 50/50 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `moreculling` — проверен: 55/55 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+- `tempad_static` — проверен: 84/84 ключа, missing 0, extra 0, placeholders 0, formatting 0, дубликатов ключей верхнего уровня 0; вложенные JSON-массивы и компоненты проверены рекурсивно.
+- `vulkanmod` — проверен: 89/89 ключей, missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
 
 Не удалять автоматически. Это могут быть алиасы, библиотеки, вспомогательные моды или namespace, предоставляемые другой зависимостью.
 
@@ -316,3 +316,10 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 ### Проверка десяти позиций — 05.11.2026
 
 Три mod ID без отдельного языкового источника: `wits`, `yeetusexperimentus`, `yungsextras` (для YUNG's в источнике представлены отдельные namespace модулей). Семь дополнительных namespace, уже имеющих русские файлы, сверены с английскими оригиналами: `borderless` 21, `cloth-config2` 49, `dynamic_fps` 85, `entityculling` 27, `evilcraftcompat` 29, `integrateddynamicscompat` 213, `integratedterminalscompat` 19 ключей. Всего 443 ключа; после исправлений во всех семи файлах missing 0, extra 0, placeholders 0, formatting 0, duplicates 0.
+
+
+### Завершение проверки дополнительных namespace — 05.11.2026
+
+Сверены оставшиеся шесть дополнительных namespace: `irons_patreon_lib` (2), `lambdynlights` (63), `lollipop` (50), `moreculling` (55), `tempad_static` (84), `vulkanmod` (89). Все ключи соответствуют EN-оригиналам; пропусков, лишних ключей, ошибок плейсхолдеров и форматирования нет. Для Tempad проверены вложенные массивы/компоненты JSON; дубликатов ключей верхнего уровня нет.
+
+Дополнительно проверены уже существующие переводы четырёх модулей YUNG's: `betterdeserttemples` (13), `betterdungeons` (86), `betterendisland` (13), `betterjungletemples` (11). Во всех четырёх файлах совпадают ключи, плейсхолдеры и форматирование. В Better Dungeons исправлено обращение «Установи» на единый вежливый стиль «Установите».
