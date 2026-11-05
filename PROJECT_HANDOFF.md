@@ -749,3 +749,10 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Проверены **10/10 namespace**: `camol`, `charginggadgets`, `chisel`, `chromacarvings`, `cloudglass`, `cobblegengalore`, `codechickenlib`, `colorfulhearts`, `comforts`, `common_storage_lib`. Всего **2 999 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. Пять совпадений RU=EN — название Chisel, обозначение RF и технический шаблон. Изменения переводов не потребовались.
 
 **Итого за шесть партий после Ars Creo: 60/60 namespace, 14 446 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `common_storage_lib`; продолжить с `commoncapabilities`, исключая ранее проверенные namespace. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Одиннадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `commoncapabilities`, `compactmachines`, `connectedglass`, `constructionstick`, `controlling`, `cookingforblockheads`, `copycats`, `cosmeticarmorreworked`, `crafting_on_a_stick`, `craftingtweaks`. Всего **728 ключей**. JSON корректен; missing 0, extra 0, duplicates RU 0, placeholder/format/newline/whitespace mismatches 0. Три пустых значения совпадают с EN. В EN Common Capabilities повторяется только служебный `_comment` (3 объявления). В Cooking for Blockheads восстановлены две экранированные последовательности `\\n` из оригинала; коммит [5223759](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/522375983dbeb003719b937ad7ec01759c712396).
+
+**Итого за семь партий после Ars Creo: 70/70 namespace, 15 174 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `craftingtweaks`; продолжить с `crashutilities`, пропуская ранее проверенные namespace. FTB Quests/SNBT не затрагивать до заключительного этапа.
