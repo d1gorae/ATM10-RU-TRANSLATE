@@ -68,7 +68,7 @@
 
 Все 30 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах, поэтому сохранены как дополнительные локализованные поля. Удалено 14 устаревших записей с ID, отсутствующими в актуальных базовых главах. Пропущенных EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все файлы имеют сбалансированную SNBT-структуру.
 
-Итого проверено 30 из 67 глав; осталось 37. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
+Итого проверено 40 из 67 глав; осталось 27. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
 
 
 ## Третья партия проверки — 05.11.2026
@@ -94,3 +94,26 @@
 В Deeper and Darker восстановлены две пропущенные иллюстрации и уточнено описание моба. В Mystical Agriculture добавлен отсутствовавший подзаголовок. В Eternal Starlight термины приведены к существующему переводу мода, исправлены устаревшие описания и восстановлены две иллюстрации. В Forbidden Arcanus унифицирован термин «Исток», исправлены грамматика и оставшаяся английская вставка.
 
 Итого проверено 30 из 67 глав; осталось 37. Следующая партия: `generators`, `hostile_neural_networks`, `ice__fire`, `immersive_engineering`, `industrial_foregoing`, `integrated_dynamics`, `iron_spells_and_spellbooks`, `justdirethings`, `mahou_tsukai`, `mainquestline_part_1`.
+
+
+## Четвёртая партия проверки — 05.11.2026
+
+Проверены главы: `generators`, `hostile_neural_networks`, `ice__fire`, `immersive_engineering`, `industrial_foregoing`, `integrated_dynamics`, `iron_spells_and_spellbooks`, `justdirethings`, `mahou_tsukai`, `mainquestline_part_1`.
+
+| Глава | EN-ключи | RU-записи | Дополнительные RU-поля |
+|---|---:|---:|---:|
+| `generators` | 95 | 100 | 5 |
+| `hostile_neural_networks` | 28 | 29 | 1 |
+| `ice__fire` | 173 | 178 | 5 |
+| `immersive_engineering` | 245 | 246 | 1 |
+| `industrial_foregoing` | 106 | 107 | 1 |
+| `integrated_dynamics` | 54 | 54 | 0 |
+| `iron_spells_and_spellbooks` | 197 | 197 | 0 |
+| `justdirethings` | 164 | 175 | 11 |
+| `mahou_tsukai` | 71 | 71 | 0 |
+| `mainquestline_part_1` | 87 | 88 | 1 |
+| **Итого** | **1220** | **1245** | **25** |
+
+Все 25 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах. Удалена одна устаревшая запись Mahou Tsukai с отсутствующим ID. Пропусков EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все 10 файлов имеют сбалансированную SNBT-структуру.
+
+Итого проверено 40 из 67 глав; осталось 27. Следующая партия: `mekanism`, `mekanism_reactors`, `mi_digital`, `mi_electric`, `mi_endgame`, `mi_steam`, `modular_router`, `natures_aura`, `neo_vitae`, `occultism`.
