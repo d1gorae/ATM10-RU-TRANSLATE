@@ -734,4 +734,11 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 
 В Cataclysm удалён лишний завершающий пробел в названии Abyss Portal; термин добавлен в глоссарий. Коммиты: [Cataclysm](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/903d7cc3cce5dccb858f7a79bb49c14460f6c897), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2897448949ff6b2a8582f8b818099b190fb678ce).
 
-**Итого за четыре партии после Ars Creo: 40/40 namespace, 9 304 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — после `modern_industrialization` сверить следующий блок EN namespaces, исключая ранее завершённые переводы и отдельные уже проверенные дополнения. FTB Quests/SNBT не затрагивать до заключительного этапа.
+**Итого за четыре партии после Ars Creo: 40/40 namespace, 9 304 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Позже при сверке порядка EN-дерева обнаружен пропущенный блок B–C перед `extremesoundmuffler`; он проверен в девятой партии ниже. Актуальная точка продолжения после `caelus`. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Девятая партия JSON-аудита завершена — 06.11.2026
+
+После повторной проверки порядка namespace по EN-дереву выявлен пропущенный блок B–C между `bigreactors` и ранее обработанным `extremesoundmuffler`. Проверены **10/10 namespace**: `biomeswevegone`, `blockui`, `bookshelf`, `botanypots`, `brandonscore`, `bridgingmod`, `buildinggadgets2`, `bwncr`, `cabletiers`, `caelus`. Всего **2 143 ключа**. JSON корректен; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Семь пустых значений Bookshelf/Botany Pots совпадают с EN и относятся к служебным разделителям/метаданным. Необоснованных совпадений пользовательского текста RU=EN не обнаружено. Изменения переводов не потребовались.
+
+**Итого за пять партий после Ars Creo: 50/50 namespace, 11 447 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `caelus`; продолжить сверку EN/RU namespace по порядку, пропуская только те файлы, которые уже документально проверены. Ранее обработанные `extremesoundmuffler`–`modern_industrialization` остаются завершёнными и не требуют повторной работы. FTB Quests/SNBT не затрагивать до заключительного этапа.
