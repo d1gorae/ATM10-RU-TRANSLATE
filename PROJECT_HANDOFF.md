@@ -929,3 +929,8 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты main: EvilCraft [8c4e205](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c4e2058b3b89b6ec2d890fddb58c772bc0e8159); GLOSSARY [48766e3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/48766e3d69eb25ab7eb32d82fe782caac4b23955).
 
 Сверка 638 отличий ещё не завершена. Ветки `main` и `work/atm10-batch-nov05` сохранены; batch не сливать целиком. Следующий шаг — продолжить ручную сверку оставшихся отличий в EvilCraft, затем Integrated Dynamics, Iron's Spells 'n Spellbooks, PneumaticCraft и Reliquary, перенося в main только подтверждённые улучшения.
+
+
+Дополнительно в `assets/pneumaticcraft/lang/ru_ru.json` переработаны подсказки GPS Tool и GPS Area Tool: инструкции сокращены до компактных пошаговых команд ПКМ/ЛКМ и SHIFT + прокрутка колёсика, при этом сохранены все действия из английского оригинала.
+
+Коммит main: PneumaticCraft [a488a1d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a488a1d95ed6ee91b1047d880bcdc51ae022f52f).
