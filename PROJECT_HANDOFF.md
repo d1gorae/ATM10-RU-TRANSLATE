@@ -440,3 +440,28 @@ NeoVitae ещё не завершён; в `main` ничего не перено�
 Коммиты переводов: [2aac1c5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2aac1c5736292c8e4eea53be9385e7ce72ab5f5d), [5b40181](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5b401816eb57dccc4378dfd14090f5e2bd5a2d20), [9f0a2ff](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f0a2ff95f5685aac32dcf1f42d8e9e48f9ddb7a).
 
 Следующая точка продолжения — 2 855/3 652 в `work/neovitae-ru`. В `main` ничего не переносить до полного завершения и проверки NeoVitae.
+
+
+## Завершение NeoVitae — 05.11.2026
+
+В рабочей ветке `work/neovitae-ru` завершён перевод актуального `neovitae-1.21.1-1.1.51`: **3 652/3 652 ключа**. После контрольного состояния 3 383 ключа добавлены и опубликованы ещё 269 переводов, включая описания ритуалов, улучшения разумной брони, подсказки, аспекты Spiritus и оставшиеся записи книги.
+
+Все ранее существовавшие совпадения RU=EN проверены отдельно. Сохранены только собственные имена, латинские названия аспектов/ритуалов, идентификаторы и технические строки; переведены обычные подписи интерфейса и термины, которые должны соответствовать GLOSSARY.md.
+
+Финальная техническая сверка:
+- JSON корректен.
+- EN/RU: 3 652/3 652; missing 0; extra 0.
+- Дубликаты ключей: 0; пустые значения: 0.
+- Несовпадения плейсхолдеров: 0.
+- Несовпадения переносов строк: 0.
+- Несовпадения форматирующих кодов Minecraft (§): 0.
+
+Последние коммиты переводов:
+- [a862037](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a8620372d07b7d41b052347ed8ce3d36903d51d2) — 76 ключей.
+- [1bec32b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1bec32b5c041812aba65078bba06c809e8dd1e44) — 99 ключей.
+- [b2d7df3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b2d7df3a4c0e27b08a6bffb4a48681937b24174a) — 90 ключей.
+- [407a3ef](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/407a3efdb1b1d41a83e4b6c4d80ddc06a5894205) — последние 4 ключа.
+- [806e239](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/806e239fe80e7b576d034d7cf2e90390ce3b6313) — терминологическая правка 7 значений.
+- [a3d1069](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a3d1069eaa33aceee4f1ce1ca8b1a5a83f1748e1) — обновление INVENTORY.md.
+
+`INVENTORY.md` отражает полное покрытие 3 652/3 652. NeoVitae завершён в `work/neovitae-ru`; в `main` ничего не переносилось. Перед началом следующего мода проверить текущие ветки, PROJECT_HANDOFF.md, INVENTORY.md и GLOSSARY.md. FTB Quests и SNBT остаются на самый конец проекта.
