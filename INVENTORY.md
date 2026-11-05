@@ -820,3 +820,12 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В Ender IO переведены три оставшиеся пользовательские подписи слотов фильтров: Fluid Filter Slot, Item Filter Slot и Redstone Filter Slot. Оставшиеся совпадения RU=EN относятся к именам авторов, брендам, плейсхолдерам, числовым значениям и названиям собственных сущностей.
 
 Коммиты: Ender IO [4f1d56b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f1d56b283223434b20c2ef7541572db199ac09e); глоссарий [c3e9a24](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c3e9a24a11d2c1c1aa72ee553d71beea0ba08389).
+
+
+## JSON-аудит — партия после Ender IO (06.11.2026)
+
+Проверены 10 namespace: `farmingforblockheads` (55), `ftbchunks` (349), `ftbessentials` (94), `ftbfiltersystem` (65), `ftblibrary` (113), `ftbteams` (112), `ftbultimine` (89), `functionalstorage` (162), `fusion` (8), `mcwfurnitures` (661). Итого **1 708 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В FTB Ultimine исправлен перенос строки в описании настройки обязательного инструмента. Два дополнительных английских файла `ftbjeiextras` и `ftbxmodcompat` содержат пустые JSON-объекты без языковых ключей и в десятку не включались. FTB Quests не затрагивался.
+
+Коммит исправления FTB Ultimine: [e3dbc2e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e3dbc2e3e1d133526319528848c437519f0023e6).
