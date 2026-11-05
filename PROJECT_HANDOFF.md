@@ -918,3 +918,14 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 В Roots Classic удалён лишний начальный пробел в заголовке Wildwood Boots. Коммит: [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics, starbunclemania. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Точечная сверка альтернативных формулировок batch — 06.11.2026
+
+Начата ручная сверка альтернативных значений из сохранённой ветки `work/atm10-batch-nov05` с текущими переводами `main` и английскими оригиналами. В пяти файлах обнаружено 638 отличающихся значений; различия не являются пропущенными ключами. Автоматическое массовое копирование не выполнялось: выбор делается только там, где альтернативная формулировка действительно лучше и сохраняет смысл оригинала.
+
+В `assets/evilcraft/lang/ru_ru.json` улучшены две формулировки по результатам сравнения: Bare Rod переведён как «заготовка стержня» вместо буквального «голый стержень»; описание Булавы искажения переформулировано для естественного описания накопления сферы. Термины Bare Rod, Brush и Cap добавлены в `GLOSSARY.md`.
+
+Коммиты main: EvilCraft [8c4e205](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c4e2058b3b89b6ec2d890fddb58c772bc0e8159); GLOSSARY [48766e3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/48766e3d69eb25ab7eb32d82fe782caac4b23955).
+
+Сверка 638 отличий ещё не завершена. Ветки `main` и `work/atm10-batch-nov05` сохранены; batch не сливать целиком. Следующий шаг — продолжить ручную сверку оставшихся отличий в EvilCraft, затем Integrated Dynamics, Iron's Spells 'n Spellbooks, PneumaticCraft и Reliquary, перенося в main только подтверждённые улучшения.
