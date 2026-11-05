@@ -1375,5 +1375,13 @@
   "supplementaries.configuration.extra_crafting.item_lore": "Описание предмета",
   "supplementaries.configuration.extra_crafting.item_lore.description": "Добавляет рецепт для записи описания предмета: объедините его с биркой с именем",
   "supplementaries.configuration.extra_crafting.sus_recipes": "Подозрительные рецепты",
-  "supplementaries.configuration.extra_crafting.sus_recipes.description": "Добавляет рецепты подозрительного гравия и подозрительного песка"
+  "supplementaries.configuration.extra_crafting.sus_recipes.description": "Добавляет рецепты подозрительного гравия и подозрительного песка",
+  "supplementaries.configuration.slimed_effect": "Эффект слизи",
+  "supplementaries.configuration.slimed_effect.throwable_slimeballs": "Бросаемые снежки из слизи",
+  "supplementaries.configuration.slimed_effect.throwable_slimeballs.description": "Позволяет бросать снежки из слизи",
+  "supplementaries.configuration.slimed_effect.hinders_jump": "Ухудшение прыжка",
+  "supplementaries.configuration.slimed_effect.hinders_jump.description": "Брошенные снежки из слизи ненадолго уменьшают высоту прыжка игрока. Отключите, если эффект кажется слишком сильным",
+  "supplementaries.configuration.grouper": "Сортировщик",
+  "supplementaries.configuration.grouper.compare_entities": "Сравнивать сущности",
+  "supplementaries.configuration.grouper.compare_entities.description": "Позволяет сортировщикам сравнивать сущности по бокам, если с обеих сторон воздух или жидкость. Одинаковый тип сущности даёт слабый сигнал. Для полной мощности требуется точное совпадение: тот же выброшенный предмет или предмет в рамке, тот же вариант моба, профессия жителя или бирка с именем"
 }
