@@ -614,5 +614,6 @@
   "trait.silentgear.venom": "Яд",
   "trait.silentgear.venom.desc": "Отравляет противника, когда атакован",
   "trait.silentgear.vulcan": "Вулкан",
-  "trait.silentgear.vulcan.desc": "Ставит Обсидиан в обмен на большое количество прочности"
+  "trait.silentgear.vulcan.desc": "Ставит Обсидиан в обмен на большое количество прочности",
+  "trait.silentgear.rustic.desc": "Увеличивает синергию, если она составляет 100% или меньше"
 }
