@@ -11,9 +11,9 @@
 |---|---:|
 | Записей в официальном modlist | 497 |
 | Уникальных mod ID (без NeoForge) | 490 |
-| Русских JSON-файлов | 393 |
-| Mod ID с одноимённым русским namespace | 380 |
-| Mod ID без одноимённого русского JSON | 110 |
+| Русских JSON-файлов | 394 |
+| Mod ID с одноимённым русским namespace | 381 |
+| Mod ID без одноимённого русского JSON | 109 |
 | Из них вне FTB Quests | 109 |
 | Дополнительных namespace без прямого совпадения | 13 |
 
@@ -38,7 +38,6 @@
 - `botanytrees`
 - `byzantine`
 - `catjammies`
-- `chipped`
 - `cleanswing`
 - `cloth_config`
 - `clumps`
@@ -253,7 +252,7 @@ Dropbox — вспомогательный источник ранее сдел�
 - accelerateddecay: EN-файл найден, но пуст (0 ключей).
 - ftbquests остаётся отложенным до самого конца проекта.
 
-Следующая рабочая точка: `chipped` (7265 ключей, EN SHA `0fc8d0d50956a43db4bb0b626af2184689814e6b`). Русского файла пока нет. Это большой набор декоративных названий; требуется контекстный перевод, а не буквальная подстановка слов.
+Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 ключей, missing 0, extra 0, placeholders 0, formatting 0, непереведённых английских пользовательских строк 0. Коммит: [3d2ddac](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d2ddac65d0dd725f1b8f31420f1680d58bf9bde). Следующая рабочая точка: `rechiseled` (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`).
 
 ## Проверка языковых источников — 05.11.2026
 
