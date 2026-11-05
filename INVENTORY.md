@@ -11,9 +11,9 @@
 |---|---:|
 | Записей в официальном modlist | 497 |
 | Уникальных mod ID (без NeoForge) | 490 |
-| Русских JSON-файлов | 394 |
-| Mod ID с одноимённым русским namespace | 381 |
-| Mod ID без одноимённого русского JSON | 109 |
+| Русских JSON-файлов | 395 |
+| Mod ID с одноимённым русским namespace | 382 |
+| Mod ID без одноимённого русского JSON | 108 |
 | Из них вне FTB Quests | 109 |
 | Дополнительных namespace без прямого совпадения | 13 |
 
@@ -105,7 +105,6 @@
 - `prickle`
 - `prism`
 - `rebind_narrator`
-- `rechiseled`
 - `rechiseled_chipped` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `resourcefullib`
 - `rhino`
@@ -264,3 +263,15 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 - ATM Compat: 10/10 ключей уже присутствуют в `assets/allthemodium/lang/ru_ru.json`; файл не менялся.
 - Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped: английские файлы пусты (0 ключей); отдельные пустые русские файлы не создавались.
 - Следующий реальный перевод: Rechiseled (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`). Chipped завершён и опубликован. FTB Quests/SNBT — самый последний этап.
+
+
+### Rechiseled — завершён 05.11.2026
+
+- Файл: `assets/rechiseled/lang/ru_ru.json`, опубликован в [коммите 02cb14f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/02cb14fd9d433fbe8dd04f2c1bea8c78af669997).
+- Английский оригинал: `ATM/LANGUAGES_EN_US/rechiseled-1.2.6-neoforge-mc1.21/rechiseled/en_us.json`, SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`.
+- 3656/3656 ключей; missing 0, extra 0, дубликаты 0, placeholders 0, форматирование § и переносы строк 0.
+- Использован ReRT-v3.zip из Dropbox. Из 3770 ключей основного JSON оставлены только 3656 ключей текущего EN-оригинала; 114 дополнительных ключей (в основном Pale Oak и несколько Quartz connecting) исключены как отсутствующие в версии ATM10.
+- Исправлены отдельные UI-термины; терминология Rechiseled добавлена в `GLOSSARY.md` (коммит [4638e86](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4638e866d1b3c0fa9c644af6fa4ae6e339011ba4)).
+- Интеграционные файлы AE2/Cobblemon из архива не включены в эту локализацию: их версии и полные наборы EN-ключей отдельно не сверялись.
+
+Следующая рабочая точка определяется по актуальному `INVENTORY.md`; FTB Quests/SNBT остаются на самом конце проекта.
