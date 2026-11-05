@@ -257,3 +257,14 @@
 | Bayou | байу | Тип болотистой местности; не заменять обычным «болото» в названиях биомов |
 | Snowbelle Flower | цветок снежноцвета | Не смешивать с обычным снегом |
 | Crystal Flux | Кристаллический поток | Энергетическая система Actually Additions; сокращение CF сохранять |
+| Biofuel | биотопливо | Топливо Industrial Foregoing |
+| Pink Slime | розовая слизь | Ресурс Industrial Foregoing |
+| Dissolution Chamber | камера растворения | Машина Industrial Foregoing |
+| Hydroponic Bed | гидропонная грядка | Машина для выращивания культур Industrial Foregoing |
+| Simulated Hydroponic Bed | симуляционная гидропонная грядка | Машина для имитации выращивания культур |
+| Laser Drill | лазерный бур | Установка добычи ресурсов Industrial Foregoing |
+| Latex Processing Unit | установка обработки латекса | Машина Industrial Foregoing |
+| Machine Frame | рама машины | Корпусной компонент машин Industrial Foregoing |
+| Machine Hull | корпус машины | Компонент Industrial Foregoing |
+| Sludge | шлам | Побочный продукт машин Industrial Foregoing |
+| Animal Stock Increaser | увеличитель поголовья | Устройство кормления и разведения животных |
