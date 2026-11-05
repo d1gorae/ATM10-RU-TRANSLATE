@@ -188,7 +188,7 @@
   "operator.operators.integrateddynamics.itemstack.ic2eucapacity.info": "Максимальное количество EU, которое может храниться в этом предмете.",
   "aspect.aspecttypes.integrateddynamics.boolean.refinedstorage.skipstorage": "Пропустить, если есть в хранилище",
   "aspect.aspecttypes.integrateddynamics.integer.refinedstorage.craftcount": "Количество для крафта",
-  "aspect.integrateddynamics.read.boolean.refinedstorage.network.applicable": "Is RS Сеть",
+  "aspect.integrateddynamics.read.boolean.refinedstorage.network.applicable": "Сеть RS",
   "aspect.integrateddynamics.read.boolean.refinedstorage.network.applicable.info": "Есть ли у цели сеть Refined Storage.",
   "aspect.integrateddynamics.read.list.refinedstorage.inventory.itemstacks": "Предметы сети RS",
   "aspect.integrateddynamics.read.list.refinedstorage.inventory.itemstacks.info": "Список всех предметов в сети RS.",
