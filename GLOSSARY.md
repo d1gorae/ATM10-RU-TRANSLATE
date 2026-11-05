@@ -292,6 +292,10 @@
 
 ## EvilCraft
 
+| Bare Rod | заготовка стержня | Основа метлы EvilCraft; деталь, из которой собирается стержень метлы |
+| Brush (EvilCraft Broom) | щётка | Деталь метлы EvilCraft |
+| Cap (EvilCraft Broom) | колпачок | Деталь метлы EvilCraft, уравновешивающая конструкцию |
+
 | English | Русский | Примечание |
 |---|---|---|
 | Dark Gem | тёмный самоцвет | Основной ресурс EvilCraft |
