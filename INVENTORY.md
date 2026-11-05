@@ -623,3 +623,12 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 
 Коммиты перевода: [d65e0f7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d65e0f74aba6fea851920893f4ad18151d97ddaf), [2882337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2882337cf799a7ad8d4e0d913c9880ee65d6f0ce), [c0be297](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0be297cb38fdd9a0d2f51c4263ca00a4c204a0a), [aa16aa2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/aa16aa2f4a35f3b49b6632c93a137a121b76c5d4), [eb47cde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/eb47cdeff037a1afac580b0be98bbe63cea128c0).
 - Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cdf0da7423c155537729248edda11519142b280a).
+
+## Завершение локализации Reliquary — 05.11.2026
+
+`reliquary` (`2.0.81.1579`) полностью локализован: **551/551 ключ**. В исходном RU-файле было 307 ключей; добавлено 244 перевода. Дополнительно исправлены старые ручные переносы строк в подсказках и описаниях, чтобы их количество точно совпадало с EN.
+
+Сверка с read-only EN-файлом `reliquary-1.21.1-2.0.81.1579/reliquary/en_us.json` (blob SHA `d746dca920f938a59e80dffe9e4c5f6374fbfdb1`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; кодов форматирования 0; расхождений завершающих пробелов 0. 12 совпадений RU=EN оставлены намеренно: бренд мода, Shift, римские цифры, служебные шаблоны и обозначения.
+
+Коммиты перевода: [af1e379](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/af1e37920f13865a8fe6742cf139a0782f9ba79c), [e715c2c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e715c2c290a43059bc4f71ceadb8e80a4b8c4b0e), [4df0756](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4df0756a43456af1bdf1267326fc08a44f526905), [318476b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/318476b356d0dbbabb8712997d579161acb00ebb), [b408fb1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b408fb151c36ffd3333d208f0aafda5bb1f09047), [fff4284](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fff4284c96f785496544bfba6f627b1d3b5024dc).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cb774ff61bfb4c8b4a04022de7bbfc43912d8891).
