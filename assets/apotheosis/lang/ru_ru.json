@@ -20,7 +20,7 @@
   "button.apotheosis.summit": "Вершина",
   "button.apotheosis.pinnacle": "Апогей",
   "button.apotheosis.tier_locked": "%s (заблокировано)",
-  "button.apotheosis.tier_advancement": "Выполни достижение «%s», чтобы открыть этот уровень.",
+  "button.apotheosis.tier_advancement": "Выполните достижение «%s», чтобы открыть этот уровень.",
   "button.apotheosis.tier_advancement_criteria": "Требования для открытия",
   "button.apotheosis.activate_tier": "Активировать уровень мира: %s",
   "button.apotheosis.already_activated": "Этот уровень мира уже активен",
