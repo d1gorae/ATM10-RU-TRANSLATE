@@ -1077,5 +1077,13 @@
   "supplementaries.configuration.blue_bomb.break_blocks": "Разрушать блоки",
   "supplementaries.configuration.blue_bomb.break_blocks.description": "Разрушают ли синие бомбы блоки, как динамит?",
   "supplementaries.configuration.blue_bomb.split_count": "Количество маленьких бомб",
-  "supplementaries.configuration.blue_bomb.split_count.description": "Количество маленьких бомб, на которые распадается синяя бомба при взрыве. Установите 0, чтобы получить одну большую бомбу"
+  "supplementaries.configuration.blue_bomb.split_count.description": "Количество маленьких бомб, на которые распадается синяя бомба при взрыве. Установите 0, чтобы получить одну большую бомбу",
+  "supplementaries.configuration.blue_bomb.baby_explosion_radius": "Радиус взрыва маленьких бомб",
+  "supplementaries.configuration.blue_bomb.baby_explosion_radius.description": "Радиус взрыва маленьких бомб, разлетающихся после взрыва синей бомбы",
+  "supplementaries.configuration.blue_bomb.baby_fire_duration": "Длительность поджога маленькими бомбами",
+  "supplementaries.configuration.blue_bomb.baby_fire_duration.description": "На сколько секунд маленькие бомбы поджигают ближайших сущностей. Установите 0, чтобы отключить",
+  "supplementaries.configuration.slingshot": "Рогатка",
+  "supplementaries.configuration.slingshot.range_multiplier": "Множитель дальности",
+  "supplementaries.configuration.slingshot.range_multiplier.description": "Множитель дальности рогатки. Влияет на начальную скорость снаряда",
+  "supplementaries.configuration.slingshot.charge_time": "Время натяжения"
 }
