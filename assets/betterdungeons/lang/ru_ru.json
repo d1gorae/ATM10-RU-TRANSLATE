@@ -56,7 +56,7 @@
   "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks": "Разрешить блоки Нижнего мира в подземельях",
   "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks.@Tooltip[0]": "В некоторых подземельях могут редко появляться блоки Нижнего мира, например песок душ, костры душ и фонари душ.",
   "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks.@Tooltip[1]": "Эти блоки будут исключительно декоративными — ничего нарушающего прогрессию, вроде древних обломков.",
-  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks.@Tooltip[2]": "Установи значение false, чтобы запретить появление любых блоков Нижнего мира в подземельях.",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks.@Tooltip[2]": "Установите значение false, чтобы запретить появление любых блоков Нижнего мира в подземельях.",
   "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks.@Tooltip[3]": "Эта настройка может быть полезна некоторым создателям сборок.",
   "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.general.enableNetherBlocks.@Tooltip[4]": "По умолчанию: да",
   "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.zombieDungeon.zombieDungeonMaxSurfaceStaircaseLength": "Максимальная длина лестницы на поверхность из подземелья зомби",
