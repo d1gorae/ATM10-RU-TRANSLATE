@@ -1107,5 +1107,11 @@
   "supplementaries.configuration.globe.random_world.description": "Включает случайную текстуру глобуса для каждого мира",
   "supplementaries.configuration.notice_board.centered_text": "Выравнивание текста по центру",
   "supplementaries.configuration.notice_board.centered_text.description": "Позволяет выравнивать текст на доске объявлений по центру, а не по левому краю",
-  "supplementaries.configuration.bunting": "Флажные гирлянды"
+  "supplementaries.configuration.bunting": "Флажные гирлянды",
+  "supplementaries.configuration.bunting.fast_buntings": "Упрощённые флажные гирлянды",
+  "supplementaries.configuration.bunting.fast_buntings.description": "Для повышения производительности использует обычные модели блоков без анимации. При отключении упрощённые модели используются только на расстоянии",
+  "supplementaries.configuration.clock_block": "Блок-часы",
+  "supplementaries.configuration.clock_block.24h_format": "24-часовой формат",
+  "supplementaries.configuration.clock_block.24h_format.description": "Отображать время в 24-часовом формате. При отключении используется 12-часовой формат",
+  "supplementaries.configuration.pedestal.spin": "Вращение"
 }
