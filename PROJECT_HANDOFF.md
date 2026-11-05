@@ -934,3 +934,37 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Дополнительно в `assets/pneumaticcraft/lang/ru_ru.json` переработаны подсказки GPS Tool и GPS Area Tool: инструкции сокращены до компактных пошаговых команд ПКМ/ЛКМ и SHIFT + прокрутка колёсика, при этом сохранены все действия из английского оригинала.
 
 Коммит main: PneumaticCraft [a488a1d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a488a1d95ed6ee91b1047d880bcdc51ae022f52f).
+
+
+## Завершение отбора улучшений из work/atm10-batch-nov05 — 06.11.2026
+
+Сопоставлены альтернативные формулировки пяти RU-файлов из `work/atm10-batch-nov05` с актуальными EN-оригиналами и текущими версиями `main`. Batch не объединялся целиком: в нём много более ранних формулировок с неточностями, лишними пояснениями, неестественными кальками и несогласованной капитализацией. В `main` перенесены только выбранные улучшения; остальные альтернативы не дают оснований заменять более точные текущие значения.
+
+Внесённые улучшения:
+- **EvilCraft:** уточнено описание Булавы искажения; унифицированы краткие подсказки управления через ПКМ; улучшено описание Колоссального кровавого сундука.
+- **Integrated Dynamics:** `Logic Programmer` последовательно переименован в «Программатор логики» (включая портативный вариант и записи книги); улучшены описание вычитания составных NBT-тегов, подсказки копирования настроек/аспектов гаечным ключом и инструкция по смещениям.
+- **Iron's Spells 'n Spellbooks:** исправлена формулировка сообщения о смерти от брошенного предмета.
+- **PneumaticCraft:** сокращены обозначения кнопок в подсказке Ghost Slot; уточнено название настройки анимации таблички с афоризмами.
+- **Reliquary:** уточнены названия Rending Gale («Раздирающий вихрь») и Mob Charm («Оберег от мобов»).
+- **GLOSSARY.md:** добавлены 31 термин из альтернативной партии; уточнены Logic Programmer, Rending Gale и Mob Charm.
+
+Контроль актуальных файлов в main после изменений: JSON корректен; ключи EN/RU совпадают полностью; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров 0; несовпадения токенов форматирования Minecraft 0.
+
+| Файл | Ключей EN/RU | Missing | Extra | Дубликаты | Placeholders | Format tokens |
+|---|---:|---:|---:|---:|---:|---:|
+| EvilCraft | 629/629 | 0 | 0 | 0 | 0 | 0 |
+| Integrated Dynamics | 1854/1854 | 0 | 0 | 0 | 0 | 0 |
+| Iron's Spells 'n Spellbooks | 1315/1315 | 0 | 0 | 0 | 0 | 0 |
+| PneumaticCraft | 2274/2274 | 0 | 0 | 0 | 0 | 0 |
+| Reliquary | 551/551 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **6623/6623** | **0** | **0** | **0** | **0** | **0** |
+
+Коммиты main:
+- EvilCraft: [8c4e205](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c4e2058b3b89b6ec2d890fddb58c772bc0e8159), [e04fb9e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e04fb9e863769cf26c8dfe5b870c039a30825e0c), [74c3f66](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/74c3f66b2f7f9acebe5c3af78fec4d389042257e).
+- Integrated Dynamics: [c2c0fc8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c2c0fc870ab3760880bdae14956e07f5b86b2e9a), [27bc693](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/27bc6932a5bac813034f94f583c91fc25f1353a6).
+- Iron's Spells 'n Spellbooks: [5b9b269](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5b9b2694410bac0c9f46f0d8b8130d4e142047b9).
+- PneumaticCraft: [f02d276](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f02d27612dd1add368a67462e9980874fa1be4c3), [1357e48](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1357e48a0b399a8536002ea050e06e8ab7d6d178).
+- Reliquary: [681a1df](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/681a1df4137be362a99d312146a1acc398641874).
+- GLOSSARY: [caf1bdd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/caf1bdd2c4455f67be8d15a64e0886ed15dd512e).
+
+Ветка `work/atm10-batch-nov05` больше не нужна для дальнейшей работы: её полезные терминологические дополнения и отобранные формулировки перенесены в main; неперенесённые варианты не содержат недостающих ключей и не должны автоматически заменять текущие переводы. После удаления ветки продолжать работу только в `main`.
