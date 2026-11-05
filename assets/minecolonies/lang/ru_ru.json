@@ -2713,7 +2713,7 @@
   "com.minecolonies.core.colonyconnection.nocolony": "Попытка подключения к другой колонии не удалась, так как колония не существует.",
   "com.minecolonies.core.colonyconnection.path.pending": "Не так быстро, предыдущий знак еще не закончил своё подключение!",
   "com.minecolonies.core.colonyconnection.broken": "При попытке подключения к другой колонии, соединение было разорвано в %s",
-  "com.minecolonies.core.colonyconnection.nogatehouse": "Попытка подключения к другой колонии не удалась: %s",
+  "com.minecolonies.core.colonyconnection.nogatehouse": "Попытка подключения к другой колонии, но…",
   "com.minecolonies.core.previous": "Предыдущий",
   "com.minecolonies.core.next": "Следующий",
   "com.minecolonies.core.colonyconnection.success": "Успешные подключения %s к %s",
