@@ -1213,7 +1213,7 @@
   "death.attack.irons_spellbooks.summon_swords.item": "%1$s был убит %2$s с помощью %3$s",
   "death.attack.irons_spellbooks.volt_strike.item": "%1$s был поражён электрическим разрядом %2$s с помощью %3$s",
   "death.attack.irons_spellbooks.shadow_slash.item": "%1$s был рассечён %2$s с помощью %3$s",
-  "death.attack.irons_spellbooks.throw.item": "%1$s был убит брошенным предметом %3$s от %2$s",
+  "death.attack.irons_spellbooks.throw.item": "%1$s был убит предметом %3$s, брошенным %2$s",
   "effect.irons_spellbooks.ice_spider_lure": "Приманка для ледяных пауков",
   "effect.irons_spellbooks.soul_burn": "Сожжение души",
   "effect.irons_spellbooks.sacrificial_mark": "Жертвенная метка",
