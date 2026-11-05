@@ -271,7 +271,7 @@
   "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.helmet.tooltip": "Вероятность появления мобов с шлемом из очищенного светящегося камня.",
   "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.leggings": "Шанс поножей",
   "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.leggings.tooltip": "Вероятность появления мобов с обувью из очищенного светящегося камня.",
-  "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.multiple_piece": "",
+  "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.multiple_piece": "Шанс появления нескольких частей брони",
   "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.multiple_piece.hard": "Шанс появления нескольких предметов (Hard)",
   "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.multiple_piece.hard.tooltip": "Вероятность в сложном режиме того, что после каждой части брони из очищенного светящегося камня моб больше не получит дополнительные части. Порядок проверки частей: ботинки, поножи, нагрудник, шлем.",
   "configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.multiple_piece.tooltip": "Вероятность того, что после каждой части брони из очищенного светящегося камня моб больше не получит дополнительные части. Порядок проверки частей: ботинки, поножи, нагрудник, шлем.",
