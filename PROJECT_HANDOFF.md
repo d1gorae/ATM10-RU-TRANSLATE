@@ -1,6 +1,6 @@
 # PROJECT HANDOFF — ATM10 RU TRANSLATE
 
-Обновлено: **05.11.2026**
+Обновлено: **06.11.2026**
 
 ## Проект
 
@@ -8,6 +8,20 @@
 
 - Репозиторий переводов: https://github.com/d1gorae/ATM10-RU-TRANSLATE
 - Английские источники (только чтение): https://github.com/d1gorae/beamng-road-reference/tree/main/ATM/LANGUAGES_EN_US
+
+
+## Сведение рабочих веток в main — 06.11.2026
+
+Основная рабочая ветка `work/irons-spells-nov05` объединена в `main` через [PR #5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/pull/5). Перенесены все её 254 коммита поверх прежнего `main`, включая переводы, 25 партий JSON-аудита, `GLOSSARY.md`, `INVENTORY.md` и историю работы. Merge commit: [126db7b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/126db7b92aad3a9051427a565ff3e37517169dee).
+
+Дополнительно заполнен ранее пустой файл `assets/bibliocraft/lang/ru_ru.json` содержимым из `work/bibliocraft-ru`: 2 021 ключ. В INVENTORY уже зафиксировано полное покрытие BiblioCraft base 2021/2021; после переноса файл присутствует в `main`. Коммит: [d4ac036](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d4ac0366b5dffe245c83506f350d3cef52575865).
+
+Остальные старые ветки сверены по затронутым переводным файлам: Aether, Chisel, Dyenamics and Friends, Logistics Networks, Pam's HarvestCraft Food Extended и Chipped совпадают с файлами `main`; в ветке Mekanism Tools обнаружено одно пустое значение вместо непустого значения в `main`, поэтому её версия не переносилась. В `work/chipped-ru-ru` находятся временные файлы-разбиения, а итоговый Chipped JSON уже совпадает с `main`; временные части не добавлялись.
+
+Ветка `work/atm10-batch-nov05` не объединялась поверх основной: в пяти общих JSON-файлах совпадают все наборы ключей и их количество, но есть 638 различий значений. Это альтернативные формулировки, а не недостающие ключи; автоматическое слияние перезаписало бы более поздние версии из основной рабочей ветки. Эту ветку сохранить как источник для точечной сверки при полировке, не сливать целиком.
+
+**Текущая основная точка работы — `main`.** Следующая партия аудита остаётся прежней: `simplemagnets`, `simple_weather`, `simplylight`, `smithingtemplateviewer`, `solcarrot`, `sophisticatedbackpacks`, `sophisticatedcore`, `sophisticatedstorageinmotion`, `soulplied_energistics`, `starbunclemania`. Перед обработкой сверить их актуальные EN/RU файлы непосредственно в `main`.
+
 
 ## Правила продолжения
 
