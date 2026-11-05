@@ -1,5 +1,6 @@
 {
   "kubejstweaks.chat.click_here": "[нажмите здесь]",
   "kubejstweaks.chat.click_to_open_markdown": "Нажмите, чтобы открыть Markdown",
-  "kubejstweaks.chat.mod_id": "[KubeJS Tweaks] %s"
+  "kubejstweaks.chat.mod_id": "[KubeJS Tweaks] %s",
+  "kubejstweaks.debug.erroring_recipes_summary": "Создан файл Markdown со списком рецептов, вызывающих ошибки: %s"
 }
