@@ -60,3 +60,16 @@
 | Chisel | резец | Инструмент для обработки блоков в Rechiseled |
 | Chiseling | обработка резцом | Действие обработки блоков в Rechiseled |
 | Connecting textures | соединяемые текстуры | Текстуры блоков, которые визуально соединяются друг с другом |
+| Eternal Starlight | Вечное Звездосветье | Название мода и измерения |
+| Starlight | Звездосветье | Измерение Eternal Starlight |
+| Aethersent | Эфиросцент | Ресурс и материал Eternal Starlight |
+| Glacite | Леднит | Материал Eternal Starlight |
+| Creteor | Метеорипер | Существо Eternal Starlight |
+| Tiny Creteor | Маленький метеорипер | Существо Eternal Starlight |
+| Ent | Энт | Существо Eternal Starlight |
+| Soulit | Душелит | Материал/название; Soulit Spectator — «Душелитовый наблюдатель» |
+| Flowglaze | Глазутёк | Материал Eternal Starlight |
+| Starlit Diamond | Звёздный алмаз | Материал Eternal Starlight |
+| Thioquartz | Тиокварц | Материал Eternal Starlight |
+| Lunaris Cactus Fruit | Лунная опунция | Предмет Eternal Starlight |
+| Aetherstrike Rocket | Эфирная ударная ракета | Предмет Eternal Starlight |
