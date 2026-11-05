@@ -1276,5 +1276,13 @@
   "supplementaries.configuration.slingshot.allow_buckets": "Разрешить вёдра",
   "supplementaries.configuration.slingshot.allow_buckets.description": "Позволяет запускать вёдра из рогатки. Брошенные вёдра выливают содержимое при приземлении",
   "supplementaries.configuration.slingshot.damageable_damage": "Урон разрушаемых предметов",
-  "supplementaries.configuration.slingshot.damageable_damage.description": "Урон, наносимый предметами из тега supplementaries:slingshot_damageable. Зависит от скорости броска. По умолчанию тег пуст"
+  "supplementaries.configuration.slingshot.damageable_damage.description": "Урон, наносимый предметами из тега supplementaries:slingshot_damageable. Зависит от скорости броска. По умолчанию тег пуст",
+  "supplementaries.configuration.slingshot.allow_splash_potions": "Разрешить взрывные зелья",
+  "supplementaries.configuration.slingshot.allow_splash_potions.description": "Позволяет запускать взрывные зелья из рогатки",
+  "supplementaries.configuration.slingshot.allow_bombs": "Разрешить бомбы",
+  "supplementaries.configuration.slingshot.allow_bombs.description": "Позволяет запускать бомбы из рогатки",
+  "supplementaries.configuration.slingshot.allow_fire_charges": "Разрешить огненные заряды",
+  "supplementaries.configuration.slingshot.allow_fire_charges.description": "Позволяет запускать огненные заряды из рогатки",
+  "supplementaries.configuration.slingshot.allow_snowballs": "Разрешить снежки",
+  "supplementaries.configuration.slingshot.allow_snowballs.description": "Позволяет запускать снежки из рогатки"
 }
