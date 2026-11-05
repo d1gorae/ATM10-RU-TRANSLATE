@@ -1348,5 +1348,11 @@
   "supplementaries.configuration.random_adventurer_maps.max_search_radius": "Максимальный радиус поиска",
   "supplementaries.configuration.random_adventurer_maps.max_search_radius.description": "Максимальное количество типов структур из тега, которые дорожные указатели проверяют за один поиск. Уменьшение значения ускоряет поиск, но указатели могут перестать находить ближайшую структуру. Слишком низкое значение иногда замедляет поиск, если выбирается редко появляющаяся структура",
   "supplementaries.configuration.random_adventurer_maps.max_structures_searches": "Максимум типов структур для поиска",
-  "supplementaries.configuration.random_adventurer_maps.max_structures_searches.description": "Выбирает случайную структуру для поиска вместо перебора всех структур из тега с выбором ближайшей. При включении чаще будут встречаться карты, ведущие к разным структурам, например к разным разрушенным порталам. Значение выше 1 позволяет выбирать несколько случайных структур и может ускорить поиск, уменьшая вероятность выбора далёкой структуры"
+  "supplementaries.configuration.random_adventurer_maps.max_structures_searches.description": "Выбирает случайную структуру для поиска вместо перебора всех структур из тега с выбором ближайшей. При включении чаще будут встречаться карты, ведущие к разным структурам, например к разным разрушенным порталам. Значение выше 1 позволяет выбирать несколько случайных структур и может ускорить поиск, уменьшая вероятность выбора далёкой структуры",
+  "supplementaries.configuration.map_tweaks.block_map_markers": "Метки блоков на картах",
+  "supplementaries.configuration.map_tweaks.block_map_markers.description": "Позволяет отображать на картах маяки, магнетиты, якоря возрождения, кровати, проводники и порталы. Для этого нажмите картой по одному из таких блоков",
+  "supplementaries.configuration.map_tweaks.death_marker": "Метка смерти",
+  "supplementaries.configuration.map_tweaks.death_marker.description": "Показывает на карте место вашей смерти. Требуется компас восстановления или аналогичный предмет в инвентаре игрока",
+  "supplementaries.configuration.map_tweaks.tinted_blocks_on_maps": "Окрашенные блоки на картах",
+  "supplementaries.configuration.map_tweaks.tinted_blocks_on_maps.description": "Блоки с тегом tinted_on_map используют свой цветовой оттенок. Это позволяет точно отображать цвета биомов, например цвет воды и травы, а также оттенки других пользовательских блоков"
 }
