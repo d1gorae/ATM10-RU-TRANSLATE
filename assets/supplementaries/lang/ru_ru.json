@@ -1241,5 +1241,15 @@
   "supplementaries.configuration.quiver.overlay": "Индикатор",
   "supplementaries.configuration.quiver.overlay.description": "Добавляет в интерфейс колчана индикатор выбранной стрелы",
   "supplementaries.configuration.quiver.mouse_movement_in_gui": "Выбор мышью в интерфейсе",
-  "supplementaries.configuration.quiver.mouse_movement_in_gui.description": "Позволяет выбирать стрелу в интерфейсе колчана с помощью мыши"
+  "supplementaries.configuration.quiver.mouse_movement_in_gui.description": "Позволяет выбирать стрелу в интерфейсе колчана с помощью мыши",
+  "supplementaries.configuration.quiver.gui_x_offset": "Смещение интерфейса по X",
+  "supplementaries.configuration.quiver.gui_x_offset.description": "Горизонтальное смещение интерфейса колчана относительно стандартного положения",
+  "supplementaries.configuration.quiver.gui_y_offset": "Смещение интерфейса по Y",
+  "supplementaries.configuration.quiver.gui_y_offset.description": "Вертикальное смещение интерфейса колчана относительно стандартного положения",
+  "supplementaries.configuration.wrench.turn_particles": "Частицы при повороте",
+  "supplementaries.configuration.wrench.turn_particles.description": "Отображать визуальные частицы при повороте блока",
+  "supplementaries.configuration.flute.note_particles": "Частицы нот",
+  "supplementaries.configuration.flute.note_particles.description": "Отображать визуальные частицы при игре на флейте",
+  "supplementaries.configuration.plunderer.galleon.description": "Галеоны автоматически отключаются, если функция «Верёвки» выключена",
+  "supplementaries.configuration.globe.sepia_globe.description": "Глобусы в оттенках сепии автоматически отключаются, если функция «Старинные чернила» выключена"
 }
