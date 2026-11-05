@@ -3176,5 +3176,22 @@
   "tooltip.neovitae.reader.state.information": "Информация",
   "tooltip.neovitae.reader.state.link_anchor": "Связать ритуальный якорь",
   "tooltip.neovitae.reader.state.set_area_corner_1": "Установить первый угол области",
-  "tooltip.neovitae.reader.state.set_area_corner_2": "Установить второй угол области"
+  "tooltip.neovitae.reader.state.set_area_corner_2": "Установить второй угол области",
+  "tooltip.neovitae.diviner.airRune": "Руны воздуха: %d",
+  "tooltip.neovitae.diviner.blankRune": "Пустые руны: %d",
+  "tooltip.neovitae.diviner.currentDirection": "Текущее направление: %s",
+  "tooltip.neovitae.diviner.currentRitual": "Текущий ритуал: %s",
+  "tooltip.neovitae.diviner.cycleHint": "Щёлкните правой кнопкой мыши по воздуху, чтобы выбрать ритуал",
+  "tooltip.neovitae.diviner.desc": "Используется для построения ритуалов.",
+  "tooltip.neovitae.diviner.earthRune": "Руны земли: %d",
+  "tooltip.neovitae.diviner.extraExtraInfo": "-Удерживайте Shift + Alt, чтобы увидеть информацию об усилениях-",
+  "tooltip.neovitae.diviner.extraInfo": "Нажмите Shift, чтобы увидеть дополнительную информацию.",
+  "tooltip.neovitae.diviner.fireRune": "Руны огня: %d",
+  "tooltip.neovitae.diviner.noRitual": "Ритуал не выбран",
+  "tooltip.neovitae.diviner.stat.activation": "Пробуждение: %s EV",
+  "tooltip.neovitae.diviner.stat.crystal": "Требуется: %s",
+  "tooltip.neovitae.diviner.stat.cycle": "Цикл: каждые %s тиков",
+  "tooltip.neovitae.diviner.stat.upkeep": "Содержание: %s EV за цикл",
+  "tooltip.neovitae.diviner.totalRune": "Всего рун: %d",
+  "tooltip.neovitae.diviner.waterRune": "Руны воды: %d"
 }
