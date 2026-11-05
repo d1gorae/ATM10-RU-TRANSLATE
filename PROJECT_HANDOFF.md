@@ -564,3 +564,35 @@ Regions Unexplored 0.6.3-neoforge-21.1: **933/933 ключа**. Исходный
 Explorer's Compass: 68/68, commit [9cfe773](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9cfe773670b156ea801e8a53c2a9feeb6fcbc1e8). Measurements: 15/15, commit [9c6c48a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c6c48a3a76b66b7827d2871525da9ec2e08870a). Nature's Compass: 44/44, commit [1b1cb11](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1b1cb114c2a8fd8bd22212e99fe9e9f445c5451d). Во всех трёх файлах missing 0, extra 0, duplicates 0, placeholder mismatches 0, formatting mismatches 0, newline mismatches 0.
 
 Обновлена инвентаризация: [4ea2fd3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ea2fd3bf85c437d8572734dbd0cbaa976730c40). Следующая партия начинается с Ad Astra: EN 831, RU 685, missing 146, extra 0. Также обнаружен недостающий служебный ключ ZeroCore: EN 50, RU 49. Перед следующими модами сверить свежие состояния репозиториев и определить следующую очередь по INVENTORY.md. `main` не изменялся. FTB Quests/SNBT оставить на самый конец.
+
+
+## Актуальная точка проекта — 05.11.2026
+
+### Завершённая партия JSON-локализаций: 10/10
+
+После интеграции PR #4 и завершения Aether и Mekanism Tools в `main` подтверждены следующие полные локализации:
+
+| Мод | EN/RU | Missing | Extra | Плейсхолдеры |
+|---|---:|---:|---:|---:|
+| Ad Astra | 831/831 | 0 | 0 | 0 |
+| Mekanism | 3239/3239 | 0 | 0 | 0 |
+| Ice and Fire | 1809/1809 | 0 | 0 | 0 |
+| NeoVitae | 3652/3652 | 0 | 0 | 0 |
+| Productive Trees | 4149/4149 | 0 | 0 | 0 |
+| Silent Gear | 1191/1191 | 0 | 0 | 0 |
+| Supplementaries | 1394/1394 | 0 | 0 | 0 |
+| Regions Unexplored | 933/933 | 0 | 0 | 0 |
+| Aether | 1238/1238 | 0 | 0 | 0 |
+| Mekanism Tools | 800/800 | 0 | 0 | 0 |
+| **Итого** | **19236/19236** | **0** | **0** | **0** |
+
+Для файлов проверены корректность JSON, наборы ключей и плейсхолдеры. Для ранее завершённых в рабочей ветке файлов также были проверены дубликаты, форматирование Minecraft (§) и переносы строк. В Mekanism Tools заполнено последнее пустое значение `configuration.mekanismtools.server.gear_spawn_chance.refined_glowstone.chance.multiple_piece` — «Шанс появления нескольких частей брони».
+
+Публикация:
+- PR #4, объединение восьми локализаций и документации: https://github.com/d1gorae/ATM10-RU-TRANSLATE/pull/4 ; merge commit `a49e7659d0c8eded7295a92b95d3a8c5f5087a46`.
+- Aether 1238/1238: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/30bbf0d4b3f4386cf846d45d458fffe0b94bd185.
+- Mekanism Tools — устранено последнее пустое значение, 800/800: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cb9049377678f3ed0479f6fe922ae25e5398cc32.
+
+**Следующая очередь по актуальным данным:** Ars Nouveau, EvilCraft, Iron's Spellbooks, PneumaticCraft, Twilight Forest, Industrial Foregoing, Integrated Dynamics и Reliquary имеют подтверждённые отсутствующие EN-ключи. Дополнительно требуется смысловой аудит совпадений с английским в Actually Additions. Перед началом следующей партии проверить ещё незакрытые namespace по текущему EN-дереву, чтобы выбрать ровно десять действительно нуждающихся в работе модов.
+
+FTB Quests/SNBT не затрагивать до заключительного этапа. Dropbox и английский репозиторий остаются read-only.
