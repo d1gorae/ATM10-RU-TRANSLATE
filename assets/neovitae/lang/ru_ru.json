@@ -3164,5 +3164,17 @@
   "tooltip.neovitae.lexVitae.radius": "Радиус: %s×%s",
   "tooltip.neovitae.lexVitae.rider.nihilum": "Сокрушительный урон и бонусы к добыче",
   "tooltip.neovitae.lexVitae.rider.raw": "Все действия усиливаются запасённым сырым Spiritus",
-  "tooltip.neovitae.lexVitae.rider.vindicta": "Более быстрые взмахи и зарядка луча"
+  "tooltip.neovitae.lexVitae.rider.vindicta": "Более быстрые взмахи и зарядка луча",
+  "tooltip.neovitae.reader.currentRange": "Дальность: %s",
+  "tooltip.neovitae.reader.currentState": "Режим: %s",
+  "tooltip.neovitae.reader.desc": "Используется для настройки областей ритуалов.",
+  "tooltip.neovitae.reader.help.1": "Щёлкните правой кнопкой мыши по главному ритуальному камню, чтобы открыть конфигуратор",
+  "tooltip.neovitae.reader.help.2": "Выберите рабочую область или слот сундука, затем нажмите «Изменить область в мире»",
+  "tooltip.neovitae.reader.help.3": "Щёлкните по двум углам, чтобы задать область, или по одному блоку, чтобы выбрать одиночный слот",
+  "tooltip.neovitae.reader.help.4": "Присядьте и щёлкните правой кнопкой мыши, чтобы отменить изменение области или привязку якоря",
+  "tooltip.neovitae.reader.help.5": "Щёлкните правой кнопкой мыши по ритуальному якорю, а затем по главному ритуальному камню, чтобы связать или разорвать связь",
+  "tooltip.neovitae.reader.state.information": "Информация",
+  "tooltip.neovitae.reader.state.link_anchor": "Связать ритуальный якорь",
+  "tooltip.neovitae.reader.state.set_area_corner_1": "Установить первый угол области",
+  "tooltip.neovitae.reader.state.set_area_corner_2": "Установить второй угол области"
 }
