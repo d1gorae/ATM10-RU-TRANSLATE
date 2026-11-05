@@ -988,3 +988,33 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий [dbadc93](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dbadc93e7ffb574d9bfe6f21590a14785a45360c).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после naturesaura: neo_auth, nochatreports, notenoughanimations, not_enough_glyphs, observable, oracle_index, owo, pamhc2crops, pamhc2foodcore, pamhc2foodextended. Nature's Compass, NeoVitae, Occultism, Biomes We've Gone, Oritech и PneumaticCraft уже завершены и пропускаются. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Nature's Aura (06.11.2026)
+
+Проверены **10/10 namespace**, всего **2 030 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| neo_auth | 45/45 | 0 | 0 | 0 | 0 | 0 |
+| nochatreports | 129/129 | 0 | 0 | 0 | 0 | 0 |
+| notenoughanimations | 107/107 | 0 | 0 | 0 | 0 | 0 |
+| not_enough_glyphs | 249/249 | 0 | 0 | 0 | 1 (совпадает с EN) | 0 |
+| observable | 34/34 | 0 | 0 | 0 | 0 | 0 |
+| oracle_index | 46/46 | 0 | 0 | 0 | 0 | 0 |
+| owo | 25/25 | 0 | 0 | 0 | 0 | 0 |
+| pamhc2crops | 320/320 | 0 | 0 | 0 | 0 | 0 |
+| pamhc2foodcore | 203/203 | 0 | 0 | 0 | 0 | 0 |
+| pamhc2foodextended | 872/872 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **2 030/2 030** | **0** | **0** | **0** | **1 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов верхнего уровня, несовпадений плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов нет. В OWO сохранена структура JSON-компонентов и индексные плейсхолдеры. Единственное пустое значение Not Enough Glyphs совпадает с EN. 17 совпадений RU=EN — названия брендов/модов, технические идентификаторы, клавиши, алгоритмы, числовые/структурные шаблоны.
+
+Смысловое/техническое исправление:
+- No Chat Reports: в 12 строках заменены буквальные последовательности \\n на настоящие переносы строк, как в EN; теперь все переносы совпадают.
+- Глоссарий дополнен терминами Pam's HarvestCraft.
+
+Коммиты:
+- No Chat Reports [d07da48](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d07da48559be4f0b4e7e064d31674aa87d6dd9bc).
+- Глоссарий [8f098d5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f098d567b89e46220b4e04fb5b5250faf73965c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после pamhc2foodextended: pamhc2trees, patchouli, pipez, placebo, pocketstorage, polylib, polymorph, potionsmaster, productivebees и productivemetalworks. Productive Bees ранее уже переводился; не перезаписывать существующие значения, только сверить и исправить подтверждённые ошибки. FTB Quests/SNBT оставить на заключительный этап.
