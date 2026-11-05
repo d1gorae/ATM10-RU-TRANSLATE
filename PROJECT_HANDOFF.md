@@ -321,3 +321,20 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 Коммиты исправлений: [27299fb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/27299fb2826343f425f38adc7ab471bc8f7daf0d), [42e7851](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/42e7851c0d07bf8909b305b0dbb3e3f0a6e5e226), [40608a7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/40608a74b3a7eb4ff96fdffd6f7874463c5c7b27).
 
 Следующая точка — оставшиеся дополнительные namespace: `irons_patreon_lib`, `lambdynlights`, `lollipop`, `moreculling`, `tempad_static`, `vulkanmod`. После проверки оставшихся источников — FTB Quests/SNBT как финальный этап.
+
+
+## 27. Проверка оставшихся дополнительных namespace и четырёх модулей YUNG's — 05.11.2026
+
+Проверены шесть оставшихся дополнительных namespace:
+- `irons_patreon_lib`: 2/2;
+- `lambdynlights`: 63/63;
+- `lollipop`: 50/50;
+- `moreculling`: 55/55;
+- `tempad_static`: 84/84;
+- `vulkanmod`: 89/89.
+
+Также повторно сверены четыре YUNG-модуля: Better Desert Temples 13/13, Better Dungeons 86/86, Better End Island 13/13, Better Jungle Temples 11/11. Суммарно 466 ключей в десяти файлах. Во всех файлах: missing 0, extra 0, placeholders 0, formatting 0, duplicates 0 (для Tempad — дубликаты ключей верхнего уровня 0; вложенные компоненты проверены рекурсивно). В Better Dungeons исправлено обращение «Установи» → «Установите».
+
+Коммит исправления Better Dungeons: [e34a8fc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e34a8fcac70cd8c0ed93dce66a53178105ff69f8).
+
+Все 13 дополнительных namespace из раздела инвентаризации теперь сверены с EN-оригиналами. Следующий этап — финальная локализация FTB Quests/SNBT; перед началом перечитать соответствующие актуальные источники и текущие файлы.
