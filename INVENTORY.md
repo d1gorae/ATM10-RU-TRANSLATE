@@ -753,3 +753,14 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 В `bigreactors` переведены 13 ранее совпадавших с EN пользовательских значений: названия блоков и деталей энергизатора, а также подпись `Name:`. Оставшиеся совпадения относятся к названию мода, комментариям, числовым настройкам и техническим шаблонам. Добавлены термины Extreme Reactors в `GLOSSARY.md`.
 
 Коммиты: перевод Big Reactors [64aa65e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/64aa65e1036b819ff400c362917d370cf7be4ca7); глоссарий [91bccf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/91bccf6fb0b383c8d5c7f2f701e42977d043ee5) и последующее удаление повторной строки термина [d312883](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d3128835dddef70e1303370e1cae75baa0bbccbb).
+
+
+## JSON-аудит — партия после Big Reactors (06.11.2026)
+
+Проверены 10 namespace: `extremesoundmuffler` (78), `farmersdelight` (479), `fastbench` (7), `fluxnetworks` (123), `framedblocks` (436), `gateways` (96), `glassential` (155), `gmut` (11), `hostilenetworks` (279), `immeng` (4). Итого **1 668 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; пустых значений 1 (Hostile Neural Networks, совпадает с пустым EN); несовпадений плейсхолдеров 0. После исправлений переносы строк и пробелы совпадают с EN. В FramedBlocks сохранены 7 намеренно добавленных серых маркеров `§8` для обозначений направлений; это локальное оформление кратких обозначений, а не пропуск исходного форматирования. В EN Hostile Neural Networks 9 объявлений служебного ключа `_comment`; других дубликатов нет.
+
+Исправлены лишние переносы и неточности в Hostile Neural Networks, восстановлен завершающий перенос в описании Gate Pearl, удалён лишний пробел и уточнено название сегмента шахматного куба в FramedBlocks. Глоссарий дополнен терминами Gateway, Gate Pearl, Data Model, Simulation, Framed Block и Checkered Cube.
+
+Коммиты исправлений: FramedBlocks [36b1d42](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/36b1d42ae10035a07b52e11c230bd2a2295ad7cb), [fb74887](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb74887bbcd2a0702285445d9b0b0c0bf35e8fe2); Gateways [d190753](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d190753758117d33ab676f3e3b51c36a5fc6b676); Hostile Neural Networks [f214cbc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f214cbc8bfed1dafd265a06ccf20249d8d912e0a), [87494d1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87494d1a7e9214b92587bd7e650181d74dc601be), [8dafd63](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8dafd6385d8f0b43fa16bacb9dcdc1adadea0d06); глоссарий [a805b60](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a805b6080e5371cfa054e7b76f1f8723e7c26a57).
