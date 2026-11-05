@@ -354,6 +354,5 @@
   "tag.item.c.buckets.dye.white": "Вёдра с белый красителем",
   "tag.item.c.buckets.dye.yellow": "Вёдра с жёлтый красителем",
   "tag.item.create_dragons_plus.not_applicable_for_coloring": "Не используется в автоматическом рецепте окрашивания",
-  "upgrade.create_dragons_plus.blaze_upgrade": "Улучшение горелки всполоха",
-  "create_dragons_plus.fragile_fluid_tank.effect.infused_dragon_breath": "Уничтожает выпавшие поблизости предметы и может уничтожать надетую экипировку."
+  "upgrade.create_dragons_plus.blaze_upgrade": "Улучшение горелки всполоха"
 }
