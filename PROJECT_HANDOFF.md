@@ -240,13 +240,13 @@ FTB Quests — отдельная подсистема:
 
 ## 15. Текущая точка продолжения — 05.11.2026
 
-- Актуальный срез ATM10 8.5: 497 записей modlist, 490 уникальных mod ID, 393 русских JSON-файла, 380 прямых совпадений mod ID/namespace, 110 mod ID без одноимённого namespace и 13 дополнительных namespace.
+- Актуальный срез ATM10 8.5: 497 записей modlist, 490 уникальных mod ID, 394 русских JSON-файла, 381 прямое совпадение mod ID/namespace, 109 mod ID без одноимённого namespace и 13 дополнительных namespace.
 - Проверены десять языковых источников: BiblioCraft, Bibliobiomes, BiblioWoods, KubeJS Tweaks, ATM Compat, Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped.
 - Новые строки Bibliobiomes и BiblioWoods добавлены в общий namespace BiblioCraft. Итоговый `assets/bibliocraft/lang/ru_ru.json` содержит 23 059 ключей: 2021 BiblioCraft + 9577 Bibliobiomes + 11 461 BiblioWoods.
 - В KubeJS Tweaks добавлена отсутствовавшая строка ошибки рецептов; файл теперь содержит все 4 ключа.
 - ATM Compat полностью покрывается существующими 10 ключами в `assets/allthemodium/lang/ru_ru.json`.
 - Пять источников имеют пустой английский JSON (0 ключей): Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped. Отдельные пустые русские файлы не создавались.
-- Следующая рабочая точка: Chipped (7265 ключей, EN SHA `0fc8d0d50956a43db4bb0b626af2184689814e6b`), затем Rechiseled (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`). Оба требуют полноценного контекстного перевода.
+- Chipped завершён и опубликован: 7265/7265 ключей, см. раздел 22. Следующая рабочая точка: Rechiseled (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`), требуется полноценный контекстный перевод.
 - FTB Quests и SNBT остаются строго на самый конец проекта.
 
 ## 16. Steve's Carts — повторная вычитка и исправления — 05.11.2026
