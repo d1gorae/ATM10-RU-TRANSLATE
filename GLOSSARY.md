@@ -90,3 +90,9 @@
 | Overworld | Верхний мир | Основное измерение Minecraft |
 | Stronghold | Крепость | Подземная структура с порталом в Энд |
 | Nether Fortress | Крепость Незера | Структура Незера; отличать от Stronghold |
+| Utheric | утерит | Материал The Undergarden |
+| Utheric Cluster | кластер утерита | Материал The Undergarden; создаётся из 9 осколков |
+| Utheric Shard | осколок утерита | Фрагмент материала The Undergarden |
+| Utheric Crystal | кристалл утерита | Ресурс The Undergarden |
+| Rogdorium | рогдориум | Материал The Undergarden; сохранять транслитерацию |
+| Rot | Гниль | Название группы монстров The Undergarden; в сочетаниях «мобы Гнили» |
