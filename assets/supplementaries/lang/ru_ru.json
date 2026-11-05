@@ -1170,5 +1170,13 @@
   "supplementaries.configuration.general.use_external_resource_pack": "Использовать внешний ресурспак",
   "supplementaries.configuration.general.use_external_resource_pack.description": "Позволяет Supplementaries использовать текстуры из внешних ресурспаков вместо стандартных текстур мода",
   "supplementaries.configuration.general.no_optifine_warn_screen": "Отключить предупреждение OptiFine",
-  "supplementaries.configuration.general.no_optifine_warn_screen.description": "Отключает экран предупреждения OptiFine"
+  "supplementaries.configuration.general.no_optifine_warn_screen.description": "Отключает экран предупреждения OptiFine",
+  "supplementaries.configuration.general.no_incompatible_mods_screen": "Отключить предупреждение о несовместимых модах",
+  "supplementaries.configuration.general.no_incompatible_mods_screen.description": "Отключает экран предупреждения о несовместимых модах",
+  "supplementaries.configuration.general.configs_button": "Кнопка настроек",
+  "supplementaries.configuration.general.configs_button.description": "Включает кнопку настроек в стиле Quark в главном меню",
+  "supplementaries.configuration.general.configs_button_opens_mod_list": "Кнопка настроек открывает список модов",
+  "supplementaries.configuration.general.configs_button_opens_mod_list.description": "Открывает по нажатию кнопки настроек список модов Moonlight, где доступны настройки каждого установленного мода, вместо непосредственного открытия настроек Supplementaries",
+  "supplementaries.configuration.general.configs_button_y_offset": "Смещение кнопки настроек по Y",
+  "supplementaries.configuration.general.configs_button_y_offset.description": "Смещение кнопки настроек по вертикали"
 }
