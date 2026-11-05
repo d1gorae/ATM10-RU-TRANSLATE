@@ -62,7 +62,7 @@
 - `formationsoverworld`
 - `framework`
 - `ftbjeiextras` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
-- `ftbquests` — финальный этап проекта; аудит SNBT-глав подтверждён до 60/67 файлов, осталось 7 глав и общие SNBT/языковые файлы.
+- `ftbquests` — аудит всех 67/67 файлов глав завершён; общие `chapter.snbt`, `reward_table.snbt` и глобальные языковые SNBT-файлы ожидают финальной проверки.
 - `ftbranks`
 - `ftbxmodcompat` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `fuelgoeshere`
