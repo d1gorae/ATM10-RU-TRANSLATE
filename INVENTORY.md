@@ -585,3 +585,14 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Коммиты:
 - Перевод: [2ecbb4e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2ecbb4e10d59353fb6b76e97f2c8f5f213c3540b), [330c4c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/330c4c78a480ddcf7e9ba2ae8e852f6f3931fde2), [6843521](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/68435214d97db7ae1b63b22440cef70268e77e99), [2567c09](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2567c09603df9b2b68f66450ce3990b33effc69f).
 - Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/02c7633734f452e66d64b6f139b631c4b4f2f7a9).
+
+## Завершение локализации EvilCraft — 05.11.2026
+
+`evilcraft` (`1.2.100`) полностью локализован: **629/629 ключей**. В исходном RU-файле было 376 ключей; добавлено 253 перевода. Существовавшие значения сохранены, кроме исправления выявленных расхождений форматирования в пользовательских текстах книги.
+
+Сверка с read-only EN-файлом `evilcraft-1.21.1-neoforge-1.2.100/evilcraft/en_us.json` (blob SHA `85edb2f5a29645b01ac436ddc90e150a1b79407f`): JSON корректен; missing 0; extra 0; дубликаты RU-ключей 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; несовпадения кодов Minecraft (§) и форматирующих кодов книги (&) 0. Пять совпадений RU=EN оставлены намеренно: название мода/группы предметов и римские обозначения уровней.
+
+В английском оригинале обнаружено 9 повторных объявлений ключей (`_comment` и subtitle-ключи); в RU-файле повторов нет. Для сверки использованы уникальные ключи после разбора JSON; EN-файл не изменялся.
+
+Коммиты перевода: [4427380](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/44273800b06b8b7c692e2495a50ef16039243333), [1929218](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/192921836e3b2959eac96f3d4d5f58d2dd77a31c), [676c20e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/676c20e82fd9a2b2e64bd1ef6ac293e95ac06c8b), [afd8bcf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afd8bcfdce25aae5e5a06d4d2eaa6b21c9f89444), [29f0a59](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/29f0a5934ee0ab3246d2441c365be9943bbf7754), [2be1727](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2be1727a45f1b1313608b62ef122c07c2b1751d7).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5d976621540f09f7e4cca77d1c77237643807602).
