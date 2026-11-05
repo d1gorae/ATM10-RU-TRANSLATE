@@ -1364,5 +1364,16 @@
   "supplementaries.configuration.zombie_horse.zombie_horse_conversion.description": "Накормите скелетную лошадь стопкой гнилой плоти, чтобы превратить её в лошадь-зомби",
   "supplementaries.configuration.zombie_horse.rotten_flesh": "Гнилая плоть",
   "supplementaries.configuration.zombie_horse.rotten_flesh.description": "Необходимое количество гнилой плоти",
-  "supplementaries.configuration.zombie_horse.rideable_underwater": "Возможность ездить под водой"
+  "supplementaries.configuration.zombie_horse.rideable_underwater": "Возможность ездить под водой",
+  "supplementaries.configuration.zombie_horse.rideable_underwater.description": "Позволяет ездить на лошадях-зомби под водой",
+  "supplementaries.configuration.zombie_horse.zombie_horse_inverse_conversion": "Обратное превращение лошади-зомби",
+  "supplementaries.configuration.zombie_horse.zombie_horse_inverse_conversion.description": "Превращает лошадь-зомби обратно в скелетную лошадь, если накормить её золотой морковью",
+  "supplementaries.configuration.bad_luck_tweaks": "Настройки невезения",
+  "supplementaries.configuration.bad_luck_tweaks.lightning_unluck": "Молниеносное невезение",
+  "supplementaries.configuration.bad_luck_tweaks.lightning_unluck.description": "Если на вас наложено невезение, вероятность попадания молнии выше. Ношение громоотвода в руке также вызывает этот эффект",
+  "supplementaries.configuration.extra_crafting": "Дополнительные рецепты",
+  "supplementaries.configuration.extra_crafting.item_lore": "Описание предмета",
+  "supplementaries.configuration.extra_crafting.item_lore.description": "Добавляет рецепт для записи описания предмета: объедините его с биркой с именем",
+  "supplementaries.configuration.extra_crafting.sus_recipes": "Подозрительные рецепты",
+  "supplementaries.configuration.extra_crafting.sus_recipes.description": "Добавляет рецепты подозрительного гравия и подозрительного песка"
 }
