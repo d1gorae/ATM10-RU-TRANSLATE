@@ -665,3 +665,16 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты Mekanism: MoreMachine: перевод [5087a5c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5087a5c90e2907574d447a4ab81d771de073237b), уточнения [7bbcfd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7bbcfd52197ae7edfa150f33e6146bd228f8259c) и [16b0934](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/16b0934e9562cc90ccf77f1d06490ca5d95e51d1); глоссарий [e445dbf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e445dbfc5064f8946f25216fac6435bb2918bdcc); инвентаризация [a5d4172](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a5d417243d1e55421716653b83fe65bbfd55842b).
 
 Суммарное число ключей по десяти модам: **13 420**. Переводы и документация опубликованы в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — заново сверить актуальные состояния обоих репозиториев, `INVENTORY.md` и `GLOSSARY.md`, затем выбрать следующую десятку по фактическим пропускам. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Вторая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Ad Astra: Giselle Addon, Additional Lights, Advanced AE, Advanced Peripherals, Applied Energistics 2, AE2 Crafting Tree, AE2 Import Export Card, AE2 Network Analyser, AE2 Wireless Terminals Library и AE Infinity Booster.
+
+Итог: **1 869/1 869 ключей**. Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates 0; empty 0; placeholder mismatches 0; formatting mismatches 0; newline mismatches 0; interpolation mismatches 0; whitespace mismatches 0. 17 совпадений RU=EN оставлены намеренно: названия/бренды, FE, OpenComputers, P2P, служебный `_eof` и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений нет.
+
+В Advanced Peripherals исправлены формулировки достижений и подсказок NBT Storage, Block Reader, Colony Integrator, ME Bridge и RS Bridge; унифицировано обращение. В Advanced AE исправлена подсказка Evasion и лишний пробел. В Applied Energistics 2 исправлены формулировки команд, SCS, выбора ЦП и названия фиолетового стеклянного МЭ-кабеля. Глоссарий дополнен терминологией AE2.
+
+Коммиты: Advanced Peripherals [585f167](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/585f167ee7e7e2a2cbbacbb9647a9d60ab4d7ea4), [e26d9bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e26d9bb351e0558a7fadd43857d3396f7d3e5274); Applied Energistics 2 [d9d7687](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d9d768712dd2f5cd0e9b0d70a2d1baf26918dee2); Advanced AE [475187a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/475187a9e7bf4ea5f4ebc6b1ceb54b3e158ed3ac); глоссарий [2f0416a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2f0416adfd15844ba2994f4be858c848a2905548); INVENTORY [1d0c960](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1d0c9600b239288aaaa96bbaa2bc511d7076e614).
+
+В двух последних партиях подтверждено **20/20 модов**, суммарно **15 289 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву английских источников и инвентаризации после `aeinfinitybooster`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
