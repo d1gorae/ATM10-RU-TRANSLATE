@@ -54,7 +54,7 @@
   "info.apothic_spawners.spawner.always_drop": "Спавнеры можно изменять с помощью различных предметов; при разрушении они всегда выпадают.",
   "info.apothic_spawners.capturing": "Зачарование «Захват» даёт монстрам шанс выбросить яйцо призыва.\\n \\nШанс выпадения: %s%% за уровень",
   "config.jade.plugin_apothic_spawners.spawner": "Apothic Spawners",
-  "advancements.apothic_spawners.spawner.root": "Спавнеры apothic_spawners",
+  "advancements.apothic_spawners.spawner.root": "Спавнеры мода Apothic Spawners",
   "advancements.apothic_spawners.spawner.root.desc": "Спавнеры можно собирать и изменять. Подробности см. в JEI.",
   "advancements.apothic_spawners.spawner": "Apothic Spawners",
   "advancements.apothic_spawners.spawner.desc": "Добудьте спавнер мобов с помощью «Шёлкового касания».",

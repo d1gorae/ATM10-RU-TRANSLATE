@@ -98,7 +98,7 @@
   "gui.tooltips.advanced_ae.EastButton": "Ориентируйтесь на восточную сторону машины.",
   "gui.tooltips.advanced_ae.EnablePatternButton": "Включено/Отключить",
   "gui.tooltips.advanced_ae.Enabled": "Включено",
-  "gui.tooltips.advanced_ae.EvasionTooltip": "Позволяет избегать урона любого типа с вероятностью %s%% ",
+  "gui.tooltips.advanced_ae.EvasionTooltip": "Позволяет избегать урона любого типа с вероятностью %s%%.",
   "gui.tooltips.advanced_ae.FilteredImport": "Фильтрованный импорт",
   "gui.tooltips.advanced_ae.FilteredImportOff": "Ввод не ограничен",
   "gui.tooltips.advanced_ae.FilteredImportOn": "Ввод должен соответствовать результатам создания, пока выполняются задания создания.",

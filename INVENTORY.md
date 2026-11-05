@@ -573,3 +573,572 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Коммиты Actually Additions: [6146656](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/61466567329721c466729420646696fb7504c3b2), [c74229a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c74229a20476239869f02082311d8d99b8fafc61). Коммиты Industrial Foregoing: [23032f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23032f0d5ad06fcb3afefa9b560b702b82f552bd), [7a3f978](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7a3f97825e6b1a29346d171fd553e3772edb27a8).
 
 Текущая партия не завершена: 2/10. Следующий мод — `irons_spellbooks` (1128/1315; missing 187). Upstream RU не использовать как замену: файл неполный; допустимо переносить только отдельные значения после проверки ключей и плейсхолдеров.
+
+## Завершение локализации Iron's Spells 'n Spellbooks — 05.11.2026
+
+`irons_spellbooks` (`3.16.3`) полностью локализован: **1 315/1 315 уникальных ключей**. В исходном RU-файле было 1 128 ключей; добавлено 187 переводов. Существовавшие RU-значения сохранены.
+
+Сверка с read-only EN-файлом `irons_spellbooks-1.21.1-3.16.3/irons_spellbooks/en_us.json` (blob SHA `beadca863ebede25d55c7615f1a99c12b4b7249c`): JSON корректен; missing 0; extra 0; дубликаты RU-ключей 0; пустых значений 0; несовпадения плейсхолдеров 0; несовпадения кодов Minecraft (§) 0; несовпадения количества переносов строк 0. 14 совпадений RU=EN оставлены намеренно: технические шаблоны, название мода и римские обозначения уровней. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+**Особенность английского оригинала:** в EN-файле дважды объявлен ключ `death.attack.blood_magic` (строки 760 и 778); при разборе JSON действует последнее значение. В RU оставлен один ключ с переводом последнего, полного английского значения. Сам EN-файл не изменялся.
+
+Коммиты:
+- Перевод: [2ecbb4e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2ecbb4e10d59353fb6b76e97f2c8f5f213c3540b), [330c4c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/330c4c78a480ddcf7e9ba2ae8e852f6f3931fde2), [6843521](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/68435214d97db7ae1b63b22440cef70268e77e99), [2567c09](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2567c09603df9b2b68f66450ce3990b33effc69f).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/02c7633734f452e66d64b6f139b631c4b4f2f7a9).
+
+## Завершение локализации EvilCraft — 05.11.2026
+
+`evilcraft` (`1.2.100`) полностью локализован: **629/629 ключей**. В исходном RU-файле было 376 ключей; добавлено 253 перевода. Существовавшие значения сохранены, кроме исправления выявленных расхождений форматирования в пользовательских текстах книги.
+
+Сверка с read-only EN-файлом `evilcraft-1.21.1-neoforge-1.2.100/evilcraft/en_us.json` (blob SHA `85edb2f5a29645b01ac436ddc90e150a1b79407f`): JSON корректен; missing 0; extra 0; дубликаты RU-ключей 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; несовпадения кодов Minecraft (§) и форматирующих кодов книги (&) 0. Пять совпадений RU=EN оставлены намеренно: название мода/группы предметов и римские обозначения уровней.
+
+В английском оригинале обнаружено 9 повторных объявлений ключей (`_comment` и subtitle-ключи); в RU-файле повторов нет. Для сверки использованы уникальные ключи после разбора JSON; EN-файл не изменялся.
+
+Коммиты перевода: [4427380](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/44273800b06b8b7c692e2495a50ef16039243333), [1929218](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/192921836e3b2959eac96f3d4d5f58d2dd77a31c), [676c20e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/676c20e82fd9a2b2e64bd1ef6ac293e95ac06c8b), [afd8bcf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afd8bcfdce25aae5e5a06d4d2eaa6b21c9f89444), [29f0a59](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/29f0a5934ee0ab3246d2441c365be9943bbf7754), [2be1727](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2be1727a45f1b1313608b62ef122c07c2b1751d7).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5d976621540f09f7e4cca77d1c77237643807602).
+
+## Завершение локализации PneumaticCraft: Repressurized — 05.11.2026
+
+`pneumaticcraft` (`8.2.24`) полностью локализован: **2 274/2 274 ключа**. В исходном RU-файле было 1 987 ключей; добавлено 287 переводов. Также исправлены ранее существовавшие пользовательские ошибки в подсказках GPS-инструментов, справке фильтра существ, редакторе таблички, сообщениях Амадрона, описании улучшения дальности брони и нескольких строках форматирования.
+
+Сверка с read-only EN-файлом `pneumaticcraft-repressurized-8.2.24-mc1.21.1/pneumaticcraft/en_us.json` (blob SHA `ca0b980ce454e782d23cdb8b4821faad90febfa3`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; несовпадения кодов Minecraft (§) 0. 22 совпадения RU=EN оставлены намеренно: названия/бренды, FE/RF/µI/CF, координатные оси, единицы измерения, шаблоны вывода и внутренние идентификаторы Jade.
+
+Коммиты перевода: [f83e2ed](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f83e2ed07c312f5376dd783ae727cb34fb210d1c), [fb749b5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb749b5e45ed4d48f6ae0e34e2d23a0a2309a8c4), [59dc0f2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/59dc0f279846eb0155b8ee085275696427a8853b), [2d8c0bf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2d8c0bf2e3d618587c857fbcab924ea0bf206eb0).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d238d3fb1ccda22a2ade88d74d2f1eb59aead27e).
+
+## Завершение локализации Twilight Forest — 05.11.2026
+
+`twilightforest` (`4.8.3345`) полностью локализован: **2 061/2 061 ключ**. В исходном RU-файле было 1 475 ключей; добавлено 586 переводов. Существовавшие значения сохранены; исправлены только точечные расхождения порядка плейсхолдеров и лишние пробелы в нескольких старых строках.
+
+Сверка с read-only EN-файлом `twilightforest-1.21.1-4.8.3345-universal/twilightforest/en_us.json` (blob SHA `d378c0a02c7d95983b998781f792071bd612cdb5`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; несовпадения плейсхолдеров и их порядка 0; переносов строк 0; кодов форматирования 0; переменных `${...}` 0; расхождений завершающих пробелов 0. 18 совпадений RU=EN оставлены намеренно: названия композиций и авторов, командный шаблон, служебные обозначения, форматные символы и отступ.
+
+Коммиты перевода: [4ee350b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ee350b29b217ed85f5466fcf8feebfddd8a5d79), [4095f18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4095f18ce3a0e6da8acf3317910a3f1e5fd1da32), [137ddde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/137ddde891f3c955df1b068b61a536e656ef82e9), [0776c50](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0776c50e2722cc7b821964adc43435d59fbf2eae), [3b83005](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3b83005dac8dbd9483775837ce6d56ea9c9c26d1), [2cc21eb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cc21eb25c39707c087e23f405e6576c94fb02d1), [c95129b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c95129bd7029aea85842c0d015bb4d1996e5c43b).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/60e4b6dd6f2923b90903cc8d516057d01eafa808).
+
+## Завершение локализации Integrated Dynamics — 05.11.2026
+
+`integrateddynamics` (`1.38.2`) полностью локализован: **1 854/1 854 ключа**. В исходном RU-файле было 1 629 ключей; добавлено 225 переводов. Также выровнены старые строки справочника по форматирующим кодам и исправлены некоторые формулировки учебника.
+
+Сверка с read-only EN-файлом `integrateddynamics-1.21.1-neoforge-1.38.2/integrateddynamics/en_us.json` (blob SHA `9ed96bd78177b0786a0a9ff3a6b488cb335c1f6b`): JSON корректен; missing 0; extra 0; дубликаты RU-ключей 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; кодов форматирования (§ и &) 0; интерполяций 0; расхождений завершающих пробелов 0. В EN-файле два повторных объявления (`_comment` и `aspect.aspecttypes.integrateddynamics.integer.range`); в RU повторов нет. 10 совпадений RU=EN оставлены намеренно: RF, NBT, TPS, название мода и техническая строка ID.
+
+Коммиты перевода: [d65e0f7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d65e0f74aba6fea851920893f4ad18151d97ddaf), [2882337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2882337cf799a7ad8d4e0d913c9880ee65d6f0ce), [c0be297](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0be297cb38fdd9a0d2f51c4263ca00a4c204a0a), [aa16aa2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/aa16aa2f4a35f3b49b6632c93a137a121b76c5d4), [eb47cde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/eb47cdeff037a1afac580b0be98bbe63cea128c0).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cdf0da7423c155537729248edda11519142b280a).
+
+## Завершение локализации Reliquary — 05.11.2026
+
+`reliquary` (`2.0.81.1579`) полностью локализован: **551/551 ключ**. В исходном RU-файле было 307 ключей; добавлено 244 перевода. Дополнительно исправлены старые ручные переносы строк в подсказках и описаниях, чтобы их количество точно совпадало с EN.
+
+Сверка с read-only EN-файлом `reliquary-1.21.1-2.0.81.1579/reliquary/en_us.json` (blob SHA `d746dca920f938a59e80dffe9e4c5f6374fbfdb1`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; несовпадения плейсхолдеров 0; переносов строк 0; кодов форматирования 0; расхождений завершающих пробелов 0. 12 совпадений RU=EN оставлены намеренно: бренд мода, Shift, римские цифры, служебные шаблоны и обозначения.
+
+Коммиты перевода: [af1e379](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/af1e37920f13865a8fe6742cf139a0782f9ba79c), [e715c2c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e715c2c290a43059bc4f71ceadb8e80a4b8c4b0e), [4df0756](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4df0756a43456af1bdf1267326fc08a44f526905), [318476b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/318476b356d0dbbabb8712997d579161acb00ebb), [b408fb1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b408fb151c36ffd3333d208f0aafda5bb1f09047), [fff4284](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fff4284c96f785496544bfba6f627b1d3b5024dc).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cb774ff61bfb4c8b4a04022de7bbfc43912d8891).
+
+## Завершение локализации Ars Nouveau — 05.11.2026
+
+`ars_nouveau` (`5.13.3`) полностью локализован: **2 323/2 323 ключа**. В исходном RU-файле было 1 296 ключей; добавлено 1 027 переводов. Дополнительно пересмотрены устаревшие записи справочника и выровнена терминология Истока, связей с Истоком, камеры вливания, аппарата зачарования и фамильяров.
+
+Сверка с read-only EN-файлом `ars_nouveau-1.21.1-5.13.3/ars_nouveau/en_us.json` (blob SHA `b16592155b2b4531aad4cfcc5a3bb1869505219d`): JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 1 (соответствует пустому значению EN); несовпадения плейсхолдеров 0; переносов строк 0; кодов форматирования 0; расхождений начальных/конечных пробелов 0. 10 совпадений RU=EN оставлены намеренно: название/мем Wololo, шаблоны и координаты, название стиля, названия музыкальных композиций и имена авторов.
+
+Коммиты перевода: [a113ce3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a113ce37d8c8d606044fbcb6f49e4270ee30ff13), [0caf1ed](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0caf1ed8221fd735439d73ba2ee87a8d873e1069), [0fd225f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0fd225f8864fe9467974c0cd3504af5a302d6bd4), [0034bf5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0034bf5a9a323dc175aa86edf611aa9d067e7f35), [8ee5c50](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8ee5c5074bfdfca9e4d5829529a89b0b2a9cc8f9), [69cbd0c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/69cbd0c905a152e81e659599ea5d7a60905ef996), [3efa0af](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3efa0af633db83f7a775738493dea38549631031), [57e04a6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/57e04a6adf82e0ca09e6e41b8956f654fd4663d1), [f3905da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f3905da73702a4322c8653cc8a4d086d7228d957), [ca25b56](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ca25b563231658461f3d8650cec519acea0c9330), [36bf355](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/36bf355a621d8b8e7ec3ed3af8ba9275b55e3fb1), [08ff5e3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/08ff5e32a9d506732e41835c5bc62007d4e392a8), [af9a658](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/af9a658bd97e6c8faff5a402f527ea326691a12b), [921037e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/921037e879ddf2573d07aaf825f7e9486f6203d3), [155e7fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/155e7fda7e5fd56a5a1f85edb6e617e0897b4022).
+- Глоссарий: [коммит](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d63a95903d7dd1a51385e17f8862e4ab3202e1d3).
+
+
+## Завершение локализации Mekanism: MoreMachine — 06.11.2026
+
+- Namespace: `mekmm`; файл: `assets/mekmm/lang/ru_ru.json`.
+- Английский оригинал (read-only): `ATM/LANGUAGES_EN_US/mekmm-1.21.1-1.4.2/mekmm/en_us.json`, blob SHA `98b0105375993268312f6c8bf18103bf5ae8d867`.
+- EN/RU: **704/704 ключа**. В импортированном файле из Dropbox все ключи уже присутствовали, но 223 пользовательских значения полностью совпадали с английским оригиналом. Эти строки переведены с учётом механик Mekanism: MoreMachine и терминологии Mekanism; существовавшие качественные переводы сохранены.
+- Проверки: JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; оставшихся точных совпадений RU=EN 0; несовпадений плейсхолдеров 0; форматирующих кодов (§ и &) 0; переносов строк 0; интерполяций 0; расхождений начальных/конечных пробелов 0.
+- Перевод: [5087a5c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5087a5c90e2907574d447a4ab81d771de073237b), уточнения: [7bbcfd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7bbcfd52197ae7edfa150f33e6146bd228f8259c), [16b0934](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/16b0934e9562cc90ccf77f1d06490ca5d95e51d1). Терминология: [e445dbf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e445dbfc5064f8946f25216fac6435bb2918bdcc).
+
+
+## Партия аудита JSON — 06.11.2026: Applied Energistics и дополнения
+
+Проверены и завершены 10 namespace. Для всех файлов сверены актуальные EN-ключи и RU-файлы рабочей ветки; проверены JSON, missing/extra, дубликаты, пустые значения, плейсхолдеры, коды форматирования (§ и &), переносы строк, интерполяции и начальные/конечные пробелы.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|
+| `ad_astra_giselle_addon` | 168/168 | 0 | 0 | 0 | 0 |
+| `additional_lights` | 157/157 | 0 | 0 | 0 | 0 |
+| `advanced_ae` | 246/246 | 0 | 0 | 0 | 0 |
+| `advancedperipherals` | 140/140 | 0 | 0 | 0 | 0 |
+| `ae2` | 1 021/1 021 | 0 | 0 | 0 | 0 |
+| `ae2ct` | 19/19 | 0 | 0 | 0 | 0 |
+| `ae2importexportcard` | 8/8 | 0 | 0 | 0 | 0 |
+| `ae2netanalyser` | 38/38 | 0 | 0 | 0 | 0 |
+| `ae2wtlib` | 46/46 | 0 | 0 | 0 | 0 |
+| `aeinfinitybooster` | 26/26 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 869/1 869** | **0** | **0** | **0** | **0** |
+
+В 17 оставшихся совпадениях RU=EN сохранены только названия модов/брендов, обозначения FE, OpenComputers, P2P, служебный `_eof` и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+Смысловые и терминологические правки:
+- Advanced Peripherals: исправлены описания достижений, NBT Storage, Block Reader, Colony Integrator, ME Bridge и RS Bridge; нормализовано обращение и пунктуация.
+- Advanced AE: исправлена подсказка Evasion, убран лишний завершающий пробел.
+- Applied Energistics 2: исправлены команды, подписи SCS, выбор ЦП и название фиолетового стеклянного МЭ-кабеля; нормализована пунктуация и пробелы.
+- Глоссарий дополнен терминами AE2 и дополнений.
+
+Коммиты: Advanced Peripherals [585f167](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/585f167ee7e7e2a2cbbacbb9647a9d60ab4d7ea4), [e26d9bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e26d9bb351e0558a7fadd43857d3396f7d3e5274); Applied Energistics 2 [d9d7687](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d9d768712dd2f5cd0e9b0d70a2d1baf26918dee2); Advanced AE [475187a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/475187a9e7bf4ea5f4ebc6b1ceb54b3e158ed3ac); глоссарий [2f0416a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2f0416adfd15844ba2994f4be858c848a2905548).
+
+
+## Партия аудита JSON — 06.11.2026: Akashic Tome — Apotheosis
+
+Проверены и завершены следующие 10 namespace. Для каждого файла сверены актуальные EN/RU ключи и выполнены технические проверки JSON, missing/extra, дубликатов, пустых значений, плейсхолдеров, кодов форматирования (§ и &), переносов строк, интерполяций и пробелов.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|
+| `akashictome` | 11/11 | 0 | 0 | 0 | 0 |
+| `allthearcanistgear` | 28/28 | 0 | 0 | 0 | 0 |
+| `allthecompressed` | 1 796/1 796 | 0 | 0 | 0 | 0 |
+| `allthemodium` | 310/310 | 0 | 0 | 0 | 0 |
+| `alltheores` | 516/516 | 0 | 0 | 0 | 0 |
+| `allthetweaks` | 50/50 | 0 | 0 | 0 | 0 |
+| `allthewizardgear` | 16/16 | 0 | 0 | 0 | 0 |
+| `almostunified` | 6/6 | 0 | 0 | 0 | 0 |
+| `amendments` | 316/316 | 0 | 0 | 0 | 0 |
+| `apotheosis` | 802/802 | 0 | 0 | 0 | 0 |
+| **Итого** | **3 851/3 851** | **0** | **0** | **0** | **0** |
+
+27 совпадений RU=EN оставлены намеренно: названия модов и брендов, авторы картин, шаблоны плейсхолдеров, кнопка X и цветовое значение. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+Смысловые правки:
+- Apotheosis: унифицировано обращение на «вы» в обучении, подсказках, описаниях аффиксов и достижениях; исправлена формулировка подсказки достижения; сохранены 20 завершающих пробелов в названии достижения, как в EN-оригинале.
+- All The Tweaks: переведены два предупреждения о косметических функциях Valhelsia; бренд и смысл исходного сообщения сохранены.
+- Глоссарий дополнен терминологией Apotheosis.
+
+Коммиты: Apotheosis [423a2bd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/423a2bdbdab7c3a2ddfb130a64277193210fc10a), [65f0248](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/65f024888f80249bc5d54ce7a0bcef22cb58731c), [a758e5d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a758e5d9aa4ec6c0b5c1c2d7f9605edf43a6de8e); All The Tweaks [cf5c28c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cf5c28c31bf2364f8bf00dd2c24be2bcbe84d671); глоссарий [77d202e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/77d202e7eb82a6bece3317421472bdb1ee616463).
+
+
+## Партия аудита JSON — 06.11.2026: Apothic и Ars addons
+
+Проверены и завершены следующие 10 namespace. Для всех сверены EN/RU ключи и выполнены проверки JSON, missing/extra, дубликатов, пустых значений, плейсхолдеров, кодов форматирования (§ и &), переносов строк, интерполяций и начальных/конечных пробелов.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|
+| `apothic_attributes` | 161/161 | 0 | 0 | 0 | 0 |
+| `apothic_enchanting` | 425/425 | 0 | 0 | 0 | 0 |
+| `apothic_spawners` | 89/89 | 0 | 0 | 0 | 0 |
+| `appflux` | 59/59 | 0 | 0 | 0 | 0 |
+| `appleskin` | 22/22 | 0 | 0 | 0 | 0 |
+| `appmek` | 15/15 | 0 | 0 | 0 | 0 |
+| `aquaculture` | 291/291 | 0 | 0 | 0 | 0 |
+| `ars_additions` | 235/235 | 0 | 0 | 0 | 0 |
+| `ars_controle` | 83/83 | 0 | 0 | 0 | 0 |
+| `ars_creo` | 18/18 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 398/1 398** | **0** | **0** | **0** | **0** |
+
+144 совпадения RU=EN сохранены намеренно: названия и бренды, имена авторов и музыкальные композиции, римские обозначения уровней зачарования, FE/QIO, Shift/Ctrl, XNOR/XOR, служебный комментарий EMI и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+Смысловые правки:
+- Ars Additions: полностью переведены смешанные англо-русские описания Memory Crystal и Source Spawner, подсказка сохранения/загрузки, исправлен перевод Warp Index; название мода в группе предметов приведено к официальному написанию.
+- Apothic Spawners: исправлено название корневого достижения, чтобы не показывать внутренний namespace.
+- Ars Controle: описание пульта переписано естественно, термин radial menu согласован с глоссарием как «круговое меню».
+- Глоссарий дополнен терминами Ars Additions, Ars Controle, Ars Creo, Memory Crystal, Source Spawner, Mob Jar и Warp Index.
+
+Коммиты: Ars Additions [982b74b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/982b74b5d993da0c3d33b091c657e976c5daf587), [4257af8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4257af80ac6c60cf53cc8d096c4801a6fee2a843); Apothic Spawners [e57660d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e57660d082537663e188d6aca2495608cc491701); Ars Controle [afcf57c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afcf57c68abbf6632e043af2605c199bfb23fe66); глоссарий [b6ed8fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b6ed8fd7090f7ba478406ccc82dd13566d524df9), [f890452](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f890452656f803a89b5ee472bbb64ae9956b953a).
+
+
+## JSON-аудит — партия после Ars Creo (06.11.2026)
+
+Проверены 10 namespace: `ars_elemancy` (195), `ars_elemental` (668), `ars_ocultas` (10), `ars_technica` (169), `ars_unification` (11), `arseng` (17), `artifacts` (448), `auroral` (167), `auroras` (1), `balm` (36). Итого **1 722 ключа**.
+
+Для всех файлов: JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов — 0. Два пустых значения `ars_elemental.adv.desc.x` и `ars_elemental.adv.title.x` совпадают с пустыми значениями EN и сохранены. Остальные совпадения RU=EN относятся к названию мода, творческим вкладкам и шаблонам плейсхолдеров. Переводы не требовали изменений.
+
+## JSON-аудит — следующая партия (06.11.2026)
+
+Проверены 10 namespace: `bhc` (67), `bellsandwhistles` (39), `betteradvancedtooltips` (5), `betteradvancements` (1), `betterfortresses` (4), `bettermineshafts` (60), `betteroceanmonuments` (4), `betterstrongholds` (11), `betterwitchhuts` (4), `bigreactors` (522). Итого **717 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; пустых значений 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В EN-файле Big Reactors 31 повторное объявление ключа `_comment` (30 повторов одного служебного ключа); других повторяющихся ключей нет. В RU дубликатов нет.
+
+В `bigreactors` переведены 13 ранее совпадавших с EN пользовательских значений: названия блоков и деталей энергизатора, а также подпись `Name:`. Оставшиеся совпадения относятся к названию мода, комментариям, числовым настройкам и техническим шаблонам. Добавлены термины Extreme Reactors в `GLOSSARY.md`.
+
+Коммиты: перевод Big Reactors [64aa65e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/64aa65e1036b819ff400c362917d370cf7be4ca7); глоссарий [91bccf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/91bccf6fb0b383c8d5c7f2f701e42977d043ee5) и последующее удаление повторной строки термина [d312883](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d3128835dddef70e1303370e1cae75baa0bbccbb).
+
+
+## JSON-аудит — партия после Big Reactors (06.11.2026)
+
+Проверены 10 namespace: `extremesoundmuffler` (78), `farmersdelight` (479), `fastbench` (7), `fluxnetworks` (123), `framedblocks` (436), `gateways` (96), `glassential` (155), `gmut` (11), `hostilenetworks` (279), `immeng` (4). Итого **1 668 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; пустых значений 1 (Hostile Neural Networks, совпадает с пустым EN); несовпадений плейсхолдеров 0. После исправлений переносы строк и пробелы совпадают с EN. В FramedBlocks сохранены 7 намеренно добавленных серых маркеров `§8` для обозначений направлений; это локальное оформление кратких обозначений, а не пропуск исходного форматирования. В EN Hostile Neural Networks 9 объявлений служебного ключа `_comment`; других дубликатов нет.
+
+Исправлены лишние переносы и неточности в Hostile Neural Networks, восстановлен завершающий перенос в описании Gate Pearl, удалён лишний пробел и уточнено название сегмента шахматного куба в FramedBlocks. Глоссарий дополнен терминами Gateway, Gate Pearl, Data Model, Simulation, Framed Block и Checkered Cube.
+
+Коммиты исправлений: FramedBlocks [36b1d42](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/36b1d42ae10035a07b52e11c230bd2a2295ad7cb), [fb74887](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb74887bbcd2a0702285445d9b0b0c0bf35e8fe2); Gateways [d190753](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d190753758117d33ab676f3e3b51c36a5fc6b676); Hostile Neural Networks [f214cbc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f214cbc8bfed1dafd265a06ccf20249d8d912e0a), [87494d1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87494d1a7e9214b92587bd7e650181d74dc601be), [8dafd63](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8dafd6385d8f0b43fa16bacb9dcdc1adadea0d06); глоссарий [a805b60](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a805b6080e5371cfa054e7b76f1f8723e7c26a57).
+
+
+## JSON-аудит — партия после Immersive Energistics (06.11.2026)
+
+Проверены 10 namespace: `immersiveengineering` (1 952), `ironjetpacks` (42), `jade` (410), `jei_mekanism_multiblocks` (103), `justenoughprofessions` (1), `keybindspurger` (4), `cataclysm` (735), `measurements` (15), `moderndynamics` (72), `modern_industrialization` (1 863). Итого **5 197 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Два пустых значения (Immersive Engineering `immersiveengineering.config.title` и Cataclysm `entity.cataclysm.rage_meter`) совпадают с EN. В EN Cataclysm дважды объявлен `maledictus_hurt.sub`: первое значение `Maledictus hurts`, последнее и фактически используемое — `Maledictus dies`; RU корректно переводит последнее значение как «Маледиктус умирает». В EN Measurements повторяется только служебный `_comment` (3 объявления). Других дубликатов нет.
+
+В Cataclysm удалён лишний завершающий пробел в названии Abyss Portal. Глоссарий дополнен термином Abyss Portal.
+
+Коммиты: Cataclysm [903d7cc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/903d7cc3cce5dccb858f7a79bb49c14460f6c897); глоссарий [2897448](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2897448949ff6b2a8582f8b818099b190fb678ce).
+
+
+## JSON-аудит — партия после Big Reactors: пропущенный блок B–C (06.11.2026)
+
+Проверены 10 namespace: `biomeswevegone` (1 169), `blockui` (8), `bookshelf` (208), `botanypots` (238), `brandonscore` (102), `bridgingmod` (96), `buildinggadgets2` (112), `bwncr` (18), `cabletiers` (190), `caelus` (2). Итого **2 143 ключа**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов EN/RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Семь пустых значений Bookshelf/Botany Pots совпадают с EN; это служебные разделители/метаданные и сохранены. Совпадения RU=EN относятся к названиям модов и музыкальных композиций, служебным комментариям, шаблонам форматирования и техническим идентификаторам. Переводы не требовали изменений.
+
+
+
+## JSON-аудит — партия после Caelus (06.11.2026)
+
+Проверены 10 namespace: `camol` (10), `charginggadgets` (5), `chisel` (2 774), `chromacarvings` (65), `cloudglass` (17), `cobblegengalore` (10), `codechickenlib` (18), `colorfulhearts` (14), `comforts` (83), `common_storage_lib` (3). Итого **2 999 ключей**.
+
+Для всех файлов JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Пять совпадений RU=EN относятся к названию Chisel, обозначению RF и техническому шаблону с плейсхолдером. Переводы не требовали изменений.
+
+
+
+## JSON-аудит — партия после Common Storage Lib (06.11.2026)
+
+Проверены 10 namespace: `commoncapabilities` (10), `compactmachines` (58), `connectedglass` (120), `constructionstick` (142), `controlling` (12), `cookingforblockheads` (260), `copycats` (67), `cosmeticarmorreworked` (5), `crafting_on_a_stick` (14), `craftingtweaks` (40). Итого **728 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В EN Common Capabilities три объявления служебного `_comment`, иных повторов нет. Три пустых значения Compact Machines, Construction Sticks и Crafting on a Stick совпадают с EN. В Cooking for Blockheads исправлены два значения: восстановлены экранированные последовательности `\\n` вместо обычных переносов строк, как в оригинале. Остальные совпадения RU=EN относятся к метаданным, плейсхолдерам и служебному обозначению `???`.
+
+Коммит исправления Cooking for Blockheads: [5223759](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/522375983dbeb003719b937ad7ec01759c712396).
+
+
+## JSON-аудит — партия после Crafting Tweaks (06.11.2026)
+
+Проверены 10 namespace: `crashutilities` (4), `create` (3 639), `create_aquatic_ambitions` (39), `create_enchantment_industry` (593), `create_hypertube` (64), `createaddition` (292), `creeperoverhaul` (62), `cristellib` (4), `crystalix` (60), `curios` (48). Итого **4 805 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Семь пустых значений Create совпадают с EN. Проверка последовательности плейсхолдеров выполнена отдельно: несовпадений нет.
+
+В `create_enchantment_industry` переведены **332 значения**, ранее полностью совпадавшие с EN; оставшиеся 4 совпадения — только технические шаблоны `%1$s: %2$s` и ` - %1$s`. В Create исправлены три расхождения пробелов в значениях. В Curios исправлен порядок непозиционных аргументов в двух сообщениях команд (число слотов, тип, получатель).
+
+Коммиты: Create Enchantment Industry — [7d38e4d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7d38e4d82718b5ec9d5fd2293840b0429c5053ec), [3c14002](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3c140029e8da5a6c3ed52c948819f8cfc10deafc), [2399885](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2399885320e7d9d41773e62a95d92fdc3ae35f80), [7cd1d6c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7cd1d6c611f9e3bfb7f54d7b7a09dedda96bdfd5), [bdb5ac4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bdb5ac47418f5b86983e225dd6a1b4a301334550), [23759ee](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23759eeabfb0f3119424de610551fe5d6fcfd9ce); Create [ebce9d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebce9d7983f266e5eefb388ba62f5ad5fec83133); Curios [f2563b5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f2563b5cb0230a8e56c8534c6df9ecac3b0bbbf3), [9921f5d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9921f5d7c878ca73eecf959d42845002f123d6da); глоссарий [9f96cd8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f96cd8fcd9b490e71de53c87fc963029bb6e1a4).
+
+
+## JSON-аудит — партия после Curios (06.11.2026)
+
+Проверены 10 namespace: `darkmodeeverywhere` (24), `deeperdarker` (369), `dungeons_arise` (119), `easy_villagers` (32), `elevatorid` (29), `enderstorage` (8), `extendedae` (264), `enderdrives` (140), `endermanoverhaul` (135), `enderio` (608). Итого **1 728 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В Ender IO переведены три оставшиеся пользовательские подписи слотов фильтров: Fluid Filter Slot, Item Filter Slot и Redstone Filter Slot. Оставшиеся совпадения RU=EN относятся к именам авторов, брендам, плейсхолдерам, числовым значениям и названиям собственных сущностей.
+
+Коммиты: Ender IO [4f1d56b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f1d56b283223434b20c2ef7541572db199ac09e); глоссарий [c3e9a24](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c3e9a24a11d2c1c1aa72ee553d71beea0ba08389).
+
+
+## JSON-аудит — партия после Ender IO (06.11.2026)
+
+Проверены 10 namespace: `farmingforblockheads` (55), `ftbchunks` (349), `ftbessentials` (94), `ftbfiltersystem` (65), `ftblibrary` (113), `ftbteams` (112), `ftbultimine` (89), `functionalstorage` (162), `fusion` (8), `mcwfurnitures` (661). Итого **1 708 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В FTB Ultimine исправлен перенос строки в описании настройки обязательного инструмента. Два дополнительных английских файла `ftbjeiextras` и `ftbxmodcompat` содержат пустые JSON-объекты без языковых ключей и в десятку не включались. FTB Quests не затрагивался.
+
+Коммит исправления FTB Ultimine: [e3dbc2e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e3dbc2e3e1d133526319528848c437519f0023e6).
+
+
+## JSON-аудит — партия после Macaw's Furniture (06.11.2026)
+
+Проверены 10 namespace: `refurbished_furniture` (110), `guideme` (11), `handcrafted` (129), `jearchaeology` (44), `jei` (121), `jeistuff` (4), `journeymap` (1 398), `jupiter` (11), `justenoughbreeding` (5), `justzoom` (14). Итого **1 847 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, кодов форматирования, переносов строк и пробелов — 0. В JourneyMap переведены **819 пользовательских значений**, ранее полностью совпадавших с EN. Оставшиеся 49 совпадений относятся к брендам и доменам, осям координат, буквенным обозначениям цветовых каналов, единицам/форматам и техническим шаблонам. Остальные девять файлов не требовали правок.
+
+Коммиты JourneyMap опубликованы в истории ветки [work/irons-spells-nov05](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commits/work/irons-spells-nov05); заключительная техническая коррекция [ab6d309](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ab6d3095d1cc13969053534faee9c1a5e5fce5f4). Глоссарий JourneyMap [e5064d6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5064d64f5c3ee4ddf77c46fbe89d56d6e5973b8).
+
+
+## JSON-аудит — партия после Just Zoom (06.11.2026)
+
+Проверены 10 namespace: `keybindbundles` (26), `kubejstweaks` (4), `laserbridges` (11), `laserio` (95), `lionfishapi` (4), `little_big_redstone` (312), `livingthings` (106), `logisticsnetworks` (729), `lootr` (249), `luminax` (193). Итого **1 729 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Совпадения RU=EN относятся к названиям модов, техническим сокращениям и идентификаторам, плейсхолдерам, числовым/логическим символам и обозначениям интеграций (AE2, RS, NBT). Переводы не требовали изменений.
+
+## JSON-аудит — партия после Luminax (06.11.2026)
+
+Проверены **10/10 namespace**, всего **3 918 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| mahoutsukai | 1 931/1 931 | 0 | 0 | 0 | 81 (совпадают с EN) | 0 |
+| mcjtylib | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| mcwbridges | 156/156 | 0 | 0 | 0 | 0 | 0 |
+| mcwdoors | 288/288 | 0 | 0 | 0 | 0 | 0 |
+| mcwholidays | 338/338 | 0 | 0 | 0 | 0 | 0 |
+| mcwlights | 146/146 | 0 | 0 | 0 | 0 | 0 |
+| mcwfences | 184/184 | 0 | 0 | 0 | 0 | 0 |
+| mcwpaths | 318/318 | 0 | 0 | 0 | 0 | 0 |
+| mcwstairs | 228/228 | 0 | 0 | 0 | 0 | 0 |
+| mcwwindows | 326/326 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **3 918/3 918** | **0** | **0** | **0** | **81 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; ключи, дубликаты, плейсхолдеры, коды форматирования (§ и &), переносы строк, экранированные переносы и начальные/конечные пробелы проверены. В Mahou Tsukai осталось 14 непустых совпадений RU=EN: название мода, имена/обозначения, пунктуация и буквенные подписи цветовых каналов; пользовательских английских строк не осталось. В McJtyLib два совпадения — служебный _comment и название библиотеки. В остальных восьми namespace точных совпадений с EN нет.
+
+Смысловые исправления:
+- Mahou Tsukai: удалён лишний ключ emi.category.mahoutsukai; исправлены два лишних плейсхолдера в Fame/Style; согласованы Caliburn, Borrowed Authority, Rho Aias и названия нескольких техник/эффектов.
+- Macaw's Windows: Window Key исправлено на «Ключ для окна» по описанию предмета — он запирает окна.
+- Глоссарий дополнен терминологией Mahou Tsukai и Macaw's mods.
+
+Коммиты:
+- Mahou Tsukai: перевод [26f8fc0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/26f8fc007bfebe544363e5d9782ff20da8cc6a8b), глоссарий [9859cc3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9859cc3ccbbb9d14fc22b1b90fbd37c76100e484).
+- Macaw's Windows: перевод [c0b64dd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0b64ddd06df2eb03c8870189a739d709734ab82), глоссарий [58b2e98](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/58b2e980a733ef98ba606e5a40d2262543206db4).
+
+Примечание по Mahou Tsukai: в исходном архиве также присутствует legacy-файл en_us.lang с 678 уникальными ключами, отсутствующими в актуальном en_us.json. В ru_ru.json эти записи не переносились; использование legacy-файла в версии ATM10 1.21.1 отдельно не подтверждено.
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия начинается после mcwwindows: mcwroofs, mcwtrpdoors, megacells, mekanismcovers, mekanisticrouters, memorysettings, merequester, merrymaking, mffs, mifa. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Mifa (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 657 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| mcwroofs | 610/610 | 0 | 0 | 0 | 0 | 0 |
+| mcwtrpdoors | 201/201 | 0 | 0 | 0 | 0 | 0 |
+| megacells | 134/134 | 0 | 0 | 0 | 0 | 0 |
+| mekanismcovers | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| mekanisticrouters | 13/13 | 0 | 0 | 0 | 0 | 0 |
+| memorysettings | 8/8 | 0 | 0 | 0 | 0 | 0 |
+| merequester | 27/27 | 0 | 0 | 0 | 0 | 0 |
+| merrymaking | 472/472 | 0 | 0 | 0 | 1 (совпадает с EN) | 0 |
+| mffs | 186/186 | 0 | 0 | 0 | 0 | 0 |
+| mifa | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 657/1 657** | **0** | **0** | **0** | **1 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропущенных/лишних ключей, дубликатов RU, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. В EN Merrymaking один ключ повторён с одинаковым значением; RU содержит его один раз. Пустое значение Merrymaking совпадает с EN. Совпадения RU=EN: пустая строка Merrymaking и технические обозначения Shift/MFFS в MFFS.
+
+Смысловые и технические исправления:
+- MegaCells: MEGA Crafting Co-Processing Unit переведён как «Мега-сопроцессор крафта».
+- Mekanistic Routers: восстановлена точная последовательность кодов форматирования в подсказке Chemical Refill Module.
+- Memory Settings: восстановлен начальный пробел в строке, которая начинается с пробела в EN.
+- ME Requester: в беспроводных терминалах восстановлено обозначение МЭ.
+- Merrymaking: исправлено согласование рода/числа для кожаных, железных и алмазных предметов; возвращён смысл Ugly Christmas Sweater; восстановлены начальные пробелы у трёх каминных полок.
+- MFFS: Fortron унифицирован как «Фортрон»; Warp в разрешениях прохода через силовые поля больше не переводится как телепортация; восстановлены завершающие пробелы двух подписей.
+- Глоссарий дополнен терминами AE2, Mekanism, MFFS и Merrymaking.
+
+Коммиты:
+- MegaCells [addd475](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/addd475bab0bc2a977eeaffb379d5607cefb5bb6).
+- Mekanistic Routers [e597e87](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e597e8712f611a7cd413d249f6db5477d1f6a10b), [e85eb01](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e85eb01d30e3b97970f542338617d3f8ab32331c).
+- Memory Settings [9e329e4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9e329e4d04764ec4642d158bbc4a93eff6e4d496).
+- ME Requester [9120c52](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9120c52c6fe50f0ada44ae0a400e03834508be03).
+- Merrymaking [38a53dc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/38a53dcff5f807841a720556a84ae799c245e813), [b20f1cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b20f1cd2f088287097996a8a84928e6ae623d8c9), [cc3ad21](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cc3ad21ca85ee3123cb92a405c64642d6b198c18).
+- MFFS [a8eb5f8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a8eb5f8cecc96ab7a954912c2f4bef354729dc60), [988d6a8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/988d6a8975ffaeaac16d35b8a2206e9d51915f5e).
+- Глоссарий [5fb453b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5fb453b56630d2d1343e9b50b1e4a7a6d20c984f), [6704118](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67041181eda9efeed639cbf98770896bd6437039).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: minecolonies, mininggadgets, mob_grinding_utils, modernfix, modonomicon, modularrouters, modularbees, mes, mns, mss. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Mifa, продолжение (06.11.2026)
+
+Проверены **10/10 namespace**, всего **4 994 ключа**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| minecolonies | 3 925/3 925 | 0 | 0 | 0 | 0 | 0 |
+| mininggadgets | 85/85 | 0 | 0 | 0 | 0 | 0 |
+| mob_grinding_utils | 146/146 | 0 | 0 | 0 | 0 | 0 |
+| modernfix | 155/155 | 0 | 0 | 0 | 2 (совпадают с EN) | 0 |
+| modonomicon | 232/232 | 0 | 0 | 0 | 1 (совпадает с EN) | 0 |
+| modularrouters | 371/371 | 0 | 0 | 0 | 2 (совпадают с EN) | 0 |
+| modularbees | 59/59 | 0 | 0 | 0 | 0 | 0 |
+| mes | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| mns | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| mss | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **4 994/4 994** | **0** | **0** | **0** | **5 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов RU, несовпадений плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов нет. В EN Mob Grinding Utils повторяется служебный ключ _comment (10 объявлений); эффективное последнее значение — Item Tool tips, RU содержит его перевод «Подсказки предметов». Пять пустых значений ModernFix/Modonomicon/Modular Routers совпадают с EN. Совпадения RU=EN в остальных файлах — бренды, технические шаблоны, единицы, символы операторов и смайлик.
+
+Смысловые и технические исправления:
+- Modular Routers: переведены оставшиеся пользовательские строки модулей энергии, фильтров, регуляторов и защиты; допереведены подсказки принудительного слива, защиты и вакуумного модуля; восстановлены все исходные переносы строк и форматирование.
+- MineColonies: исправлены шесть расхождений начальных/конечных пробелов в сообщениях и длинных подсказках.
+- Mob Grinding Utils: переведён служебный комментарий, соответствующий последнему повторяющемуся _comment в EN.
+- ModernFix: переписано описание кэширования состояний блоков и восстановлен пропущенный абзац.
+- Глоссарий дополнен терминами Modular Routers и Blockstate.
+
+Коммиты:
+- Modular Routers: [c400bd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c400bd551ce455078c04e8cdb54e23b3629394ce), [4f2964c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f2964c75f47603c2b773f253f053df76ca55aa0).
+- MineColonies: [87d8bf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87d8bf6dfcfdd74cf933795f3320ff2a85ba0a38).
+- Mob Grinding Utils: [2cb4b64](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cb4b64ac6f62d14e2528f23d84d7013e554249f).
+- ModernFix: [788024a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/788024ac9fede2b6bec4117cda97378ec8f3a277).
+- Глоссарий: [6b5515c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b5515c3074bddf54f656e18575040010730a61b), [8c1ad18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c1ad185cc02d9d1548a43eea93e97d9838d1403), [ae1ab43](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1ab43b0222a30682fa605904021ecf0cf4b241).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после mss: moogs_structures, mvs, moonlight, moreoverlays, morered, mostructures, multipiston, mysticalagradditions, mysticalagriculture, naturesaura. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после MNS (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 497 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| moogs_structures | 14/14 | 0 | 0 | 0 | 0 | 0 |
+| mvs | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| moonlight | 265/265 | 0 | 0 | 0 | 0 | 0 |
+| moreoverlays | 40/40 | 0 | 0 | 0 | 0 | 0 |
+| morered | 51/51 | 0 | 0 | 0 | 0 | 0 |
+| mostructures | 27/27 | 0 | 0 | 0 | 0 | 0 |
+| multipiston | 2/2 | 0 | 0 | 0 | 0 | 0 |
+| mysticalagradditions | 104/104 | 0 | 0 | 0 | 0 | 0 |
+| mysticalagriculture | 745/745 | 0 | 0 | 0 | 0 | 0 |
+| naturesaura | 242/242 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 497/1 497** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов нет. 21 совпадение RU=EN — названия модов/сервисов, координатные обозначения, числовые уровни и технические шаблоны.
+
+Смысловые исправления:
+- Mystical Agradditions: согласованы названия пяти ресурсных уровней и Inferium Ore с терминологией Mystical Agriculture.
+- Mystical Agriculture: исправлены род/число в названиях Prudentium Shovel, Prudentium Boots и Imperium Boots; удалены два лишних завершающих пробела.
+- Nature's Aura: Ancient Log переведено как «Древнее бревно», а не «Древнее дерево».
+- Глоссарий дополнен ресурсными уровнями Mystical Agriculture.
+
+Коммиты:
+- Mystical Agradditions [00dfc30](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/00dfc300d95d2ed3095374efadef68107d307bc9).
+- Mystical Agriculture [c975d3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c975d3a0b00d21a8d78517bda1e39131f1b5cb6e), [795fd3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/795fd3a54db0c6f7700600ee510f89b01ce3aec4).
+- Nature's Aura [a959245](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a9592457d1a721de736a1dccefa61b09be3a9fd2).
+- Глоссарий [dbadc93](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dbadc93e7ffb574d9bfe6f21590a14785a45360c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после naturesaura: neo_auth, nochatreports, notenoughanimations, not_enough_glyphs, observable, oracle_index, owo, pamhc2crops, pamhc2foodcore, pamhc2foodextended. Nature's Compass, NeoVitae, Occultism, Biomes We've Gone, Oritech и PneumaticCraft уже завершены и пропускаются. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Nature's Aura (06.11.2026)
+
+Проверены **10/10 namespace**, всего **2 030 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| neo_auth | 45/45 | 0 | 0 | 0 | 0 | 0 |
+| nochatreports | 129/129 | 0 | 0 | 0 | 0 | 0 |
+| notenoughanimations | 107/107 | 0 | 0 | 0 | 0 | 0 |
+| not_enough_glyphs | 249/249 | 0 | 0 | 0 | 1 (совпадает с EN) | 0 |
+| observable | 34/34 | 0 | 0 | 0 | 0 | 0 |
+| oracle_index | 46/46 | 0 | 0 | 0 | 0 | 0 |
+| owo | 25/25 | 0 | 0 | 0 | 0 | 0 |
+| pamhc2crops | 320/320 | 0 | 0 | 0 | 0 | 0 |
+| pamhc2foodcore | 203/203 | 0 | 0 | 0 | 0 | 0 |
+| pamhc2foodextended | 872/872 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **2 030/2 030** | **0** | **0** | **0** | **1 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов верхнего уровня, несовпадений плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов нет. В OWO сохранена структура JSON-компонентов и индексные плейсхолдеры. Единственное пустое значение Not Enough Glyphs совпадает с EN. 17 совпадений RU=EN — названия брендов/модов, технические идентификаторы, клавиши, алгоритмы, числовые/структурные шаблоны.
+
+Смысловое/техническое исправление:
+- No Chat Reports: в 12 строках заменены буквальные последовательности \\n на настоящие переносы строк, как в EN; теперь все переносы совпадают.
+- Глоссарий дополнен терминами Pam's HarvestCraft.
+
+Коммиты:
+- No Chat Reports [d07da48](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d07da48559be4f0b4e7e064d31674aa87d6dd9bc).
+- Глоссарий [8f098d5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f098d567b89e46220b4e04fb5b5250faf73965c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после pamhc2foodextended: pamhc2trees, patchouli, pipez, placebo, pocketstorage, polylib, polymorph, potionsmaster, productivebees и productivemetalworks. Productive Bees ранее уже переводился; не перезаписывать существующие значения, только сверить и исправить подтверждённые ошибки. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Pam's HarvestCraft Food Extended (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 899 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| pamhc2trees | 158/158 | 0 | 0 | 0 | 0 | 0 |
+| patchouli | 92/92 | 0 | 0 | 0 | 0 | 0 |
+| pipez | 83/83 | 0 | 0 | 0 | 0 | 0 |
+| placebo | 6/6 | 0 | 0 | 0 | 0 | 0 |
+| pocketstorage | 28/28 | 0 | 0 | 0 | 0 | 0 |
+| polylib | 13/13 | 0 | 0 | 0 | 0 | 0 |
+| polymorph | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| potionsmaster | 15/15 | 0 | 0 | 0 | 0 | 0 |
+| productivebees | 1 125/1 125 | 0 | 0 | 0 | 0 | 0 |
+| productivemetalworks | 376/376 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 899/1 899** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. 16 совпадений RU=EN — названия модов, технические идентификаторы, клавиши и плейсхолдеры.
+
+Смысловые и технические исправления:
+- Productive Bees: полностью локализованы названия 117 продвинутых ульев и 117 расширителей ульев, включая породы древесины из BYG, Regions Unexplored и других интеграций; исправлены инструкции Shift, названия достижений и подсказки.
+- Pipez: согласованы названия пяти уровней улучшения труб и инструмента задания назначения фильтра.
+- Placebo: Supporter Trails/Wings переведены как спонсорские косметические эффекты.
+- Pam's HarvestCraft Trees: восстановлены три завершающих пробела в названиях саженцев.
+- Глоссарий дополнен терминами Productive Bees, Pipez и Placebo.
+
+Коммиты:
+- Productive Bees [f7fa64c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f7fa64c66fa40d78093fbfba148858696dfff573), [c62cb6b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c62cb6bbf267d04e5d09cf28079a9963f18730b5).
+- Pipez [311aae7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/311aae7c4f7b55de5814a4ca12684191b33d2411).
+- Placebo [a10a081](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a10a0816e7d7f525b9062b6ea8535b6a8149e5e4).
+- Pam's HarvestCraft Trees [cd33c14](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cd33c14c752157f1dc910c211c7115c0b8462255).
+- Глоссарий [d0c2ecd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d0c2ecdd5cd4a246db21d4c025a1ac9de8de648a), [6ed7ef1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ed7ef1066ba364d91882c2265e95831d3257cbf).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после productivemetalworks: rangedpumps, rechiseledcreate, redstonepen, refinedtypes, refinedfluidsubstitution, refinedstorage_curios_integration, refinedstorage_jei_integration, refinedstorage_mekanism_integration, refinedstorage, refinedstorage_quartz_arsenal. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Productive Metalworks (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 349 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| rangedpumps | 9/9 | 0 | 0 | 0 | 0 | 0 |
+| rechiseledcreate | 243/243 | 0 | 0 | 0 | 0 | 0 |
+| redstonepen | 72/72 | 0 | 0 | 0 | 0 | 0 |
+| refinedtypes | 164/164 | 0 | 0 | 0 | 0 | 0 |
+| refinedfluidsubstitution | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_curios_integration | 1/1 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_jei_integration | 10/10 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_mekanism_integration | 37/37 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage | 788/788 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_quartz_arsenal | 22/22 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 349/1 349** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. 12 совпадений RU=EN — названия модов/интеграций, JEI, клавиши/технические идентификаторы и шаблон плейсхолдеров.
+
+Смысловые и технические исправления:
+- Redstone Pen: в трёх длинных подсказках RLC выровнены количество переносов строк и последовательности кодов форматирования.
+- Refined Storage: переведены десять оставшихся пользовательских строк (приоритеты хранения, сочетания клавиш, настройки энергии и подсказки); исправлены три лишних переноса строк в описаниях.
+- Глоссарий дополнен терминами Refined Storage.
+
+Коммиты:
+- Redstone Pen [15732cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/15732cdd82eda464e288e88f0c7905afffeea311).
+- Refined Storage [d42aa73](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d42aa738c30c9e9000cb5379299e9d68985c6df8), [4274337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4274337b955cae44af83dd53b21477cdc3e529c1).
+- Глоссарий [edb01da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/edb01dae26cac69495c4635a5ea354f065584f13).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после refinedstorage_quartz_arsenal: rsinsertexportupgrade, reliquified_artifacts, repeatable_trial_vaults, repurposed_structures, resourcefulconfig, restrictions, rftoolsbase, rftoolsbuilder, rftoolspower, rftoolsstorage. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Refined Storage Quartz Arsenal (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 078 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| rsinsertexportupgrade | 44/44 | 0 | 0 | 0 | 0 | 0 |
+| reliquified_artifacts | 572/572 | 0 | 0 | 0 | 0 | 0 |
+| repeatable_trial_vaults | 1/1 | 0 | 0 | 0 | 0 | 0 |
+| repurposed_structures | 163/163 | 0 | 0 | 0 | 0 | 0 |
+| resourcefulconfig | 28/28 | 0 | 0 | 0 | 0 | 0 |
+| restrictions | 12/12 | 0 | 0 | 0 | 0 | 0 |
+| rftoolsbase | 55/55 | 0 | 0 | 0 | 0 | 0 |
+| rftoolsbuilder | 97/97 | 0 | 0 | 0 | 0 | 0 |
+| rftoolspower | 65/65 | 0 | 0 | 0 | 0 | 0 |
+| rftoolsstorage | 41/41 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 078/1 078** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. Пять совпадений RU=EN — названия модов/категорий и техническая подпись UUID.
+
+Исправление:
+- Reliquified Artifacts: в описании Shock Pendant восстановлен правильный порядок позиционных плейсхолдеров %2$s и %3$s (дальность и число перескоков).
+
+Коммит:
+- Reliquified Artifacts [b5f8ba3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b5f8ba34bc9d8f47bbf172129806dc4945b6d43e).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после rftoolsstorage: rftoolsutility, rootsclassic, sawmill, searchables, sgearmetalworks, shiny, shrink, silentlib, silentgems и simplebackups. Silent Gear уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после RFTools Storage (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 178 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| rftoolsutility | 242/242 | 0 | 0 | 0 | 0 | 0 |
+| rootsclassic | 483/483 | 0 | 0 | 0 | 2 (совпадают с EN) | 0 |
+| sawmill | 8/8 | 0 | 0 | 0 | 0 | 0 |
+| searchables | 1/1 | 0 | 0 | 0 | 0 | 0 |
+| sgearmetalworks | 132/132 | 0 | 0 | 0 | 0 | 0 |
+| shiny | 137/137 | 0 | 0 | 0 | 0 | 0 |
+| shrink | 12/12 | 0 | 0 | 0 | 0 | 0 |
+| silentlib | 5/5 | 0 | 0 | 0 | 0 | 0 |
+| silentgems | 118/118 | 0 | 0 | 0 | 0 | 0 |
+| simplebackups | 40/40 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 178/1 178** | **0** | **0** | **0** | **2 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и пробелов нет. Два пустых значения Roots Classic совпадают с EN. Шесть совпадений RU=EN — название Roots Classic, плейсхолдер, save-all/Mc2Discord и технические обозначения.
+
+Исправление:
+- Roots Classic: удалён лишний начальный пробел в заголовке страницы Wildwood Boots.
+
+Коммит:
+- Roots Classic [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после simplebackups: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics, starbunclemania. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.

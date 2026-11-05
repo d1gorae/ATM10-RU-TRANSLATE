@@ -200,7 +200,7 @@
   "relics.description.panic_necklace.ability.panic.statistic.targeted_duration": "Проведено времени под прицелом мобов",
   "relics.description.shock_pendant.description": "Кулон с расколотым кристаллом, внутри которого непрерывно пробегают тонкие электрические разряды. Камень чутко откликается на враждебные удары, накапливая энергию и мгновенно возвращая её наружу. Стоит врагу задеть владельца - и кристалл отвечает цепью ярких искр, скачущих между целями.",
   "relics.description.shock_pendant.ability.shock": "Электрическая цепь",
-  "relics.description.shock_pendant.ability.shock.description": "При получении урона с шансом %1$s%% выпускает электрическую искру, которая перескакивает между целями на расстояние до %2$s блоков до %3$s раз и наносит %4$s урона каждой.",
+  "relics.description.shock_pendant.ability.shock.description": "При получении урона с шансом %1$s%% выпускает электрическую искру, которая перескакивает между целями до %3$s раз в радиусе %2$s блоков и наносит %4$s урона каждой.",
   "relics.description.shock_pendant.ability.shock.rank_modifier.conductor": "Искра наносит на %5$s%% больше урона в воде или под дождём.",
   "relics.description.shock_pendant.ability.shock.rank_modifier.resistance": "Даёт полный иммунитет к урону от молнии.",
   "relics.description.shock_pendant.ability.shock.rank_modifier.tremor": "Когда носитель получает урон, с шансом %6$s%% накладывает на атакующего тремор на %7$s секунд",

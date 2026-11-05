@@ -606,3 +606,301 @@ FTB Quests/SNBT не затрагивать до заключительного 
 - **Industrial Foregoing** — 683/683 ключа. Missing 0, extra 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0. После смысловой проверки переведены все оставшиеся пользовательские строки; восемь EN/RU совпадений сохранены только для бренда, единицы FE и служебных комментариев. Коммиты: [23032f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23032f0d5ad06fcb3afefa9b560b702b82f552bd), [7a3f978](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7a3f97825e6b1a29346d171fd553e3772edb27a8); глоссарий [ae17226](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1722667226116b21dd6af1e7b556a3b572f758).
 
 **Следующая точка продолжения:** Iron's Spells 'n Spellbooks — в main 1128/1315 ключей, missing 187, extra 0. Не переносить файл из upstream целиком: его ru_ru.json также неполон и содержит отдельные несовпадения плейсхолдеров. Сохранять существующие переводы и дополнять только проверенными значениями. После завершения модов продолжить текущую десятку по подтверждённой очереди: EvilCraft, PneumaticCraft, Twilight Forest, Integrated Dynamics, Reliquary и Ars Nouveau; сверить оставшиеся namespace для точного состава партии из 10. FTB Quests/SNBT не трогать до заключительного этапа.
+
+## Завершение локализации EvilCraft — 05.11.2026
+
+EvilCraft полностью переведён и проверен: **629/629 ключей**, добавлено 253 значения к существовавшим 376. Missing 0, extra 0, RU duplicates 0, empty 0, placeholders 0, newlines 0, Minecraft/guidebook formatting codes 0. В EN-оригинале обнаружено 9 повторных объявлений ключей; RU-файл содержит уникальный набор из 629 ключей.
+
+Коммиты: переводы [4427380](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/44273800b06b8b7c692e2495a50ef16039243333), [1929218](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/192921836e3b2959eac96f3d4d5f58d2dd77a31c), [676c20e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/676c20e82fd9a2b2e64bd1ef6ac293e95ac06c8b), [afd8bcf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afd8bcfdce25aae5e5a06d4d2eaa6b21c9f89444), [29f0a59](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/29f0a5934ee0ab3246d2441c365be9943bbf7754), [2be1727](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2be1727a45f1b1313608b62ef122c07c2b1751d7). Глоссарий [${gUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${gUp.result.commit_sha}); INVENTORY [${iUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${iUp.result.commit_sha}).
+
+Текущая партия: **4/10** — Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft. Следующий мод — PneumaticCraft: Repressurized; затем Twilight Forest, Integrated Dynamics, Reliquary и Ars Nouveau. После этих подтверждённых кандидатов проверить актуальное EN-дерево и выбрать ещё четыре действительно незавершённых мода. FTB Quests/SNBT не затрагивать до финального этапа.
+
+## Завершение локализации PneumaticCraft — 05.11.2026
+
+PneumaticCraft: Repressurized полностью переведён и проверен: **2 274/2 274 ключа**, добавлено 287 значений. Missing 0, extra 0, duplicates 0, empty 0, placeholders 0, newlines 0, Minecraft formatting 0. Восстановлены корректные переводы ряда старых подсказок и сообщений, включая GPS-инструменты, фильтр сущностей, Amadron и жидкостную воронку.
+
+Коммиты: переводы [f83e2ed](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f83e2ed07c312f5376dd783ae727cb34fb210d1c), [fb749b5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb749b5e45ed4d48f6ae0e34e2d23a0a2309a8c4), [59dc0f2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/59dc0f279846eb0155b8ee085275696427a8853b), [2d8c0bf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2d8c0bf2e3d618587c857fbcab924ea0bf206eb0). Глоссарий [${gUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${gUp.result.commit_sha}); INVENTORY [${iUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${iUp.result.commit_sha}).
+
+Текущая партия: **5/10** — Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft, PneumaticCraft: Repressurized. Следующий мод — Twilight Forest (`1 475/2 061`, по последней инвентаризации missing 586). Затем Integrated Dynamics, Reliquary и Ars Nouveau; после них сверить актуальное EN-дерево и выбрать ещё три действительно незавершённых мода. FTB Quests/SNBT не затрагивать до финального этапа.
+
+## Завершение локализации Twilight Forest — 05.11.2026
+
+Twilight Forest полностью переведён и проверен: **2 061/2 061 ключ**, добавлено 586 значений. Missing 0, extra 0, duplicates 0, empty 0, placeholders/order 0, newlines 0, formatting 0, `${...}` 0, trailing whitespace mismatches 0.
+
+Коммиты: переводы [4ee350b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ee350b29b217ed85f5466fcf8feebfddd8a5d79), [4095f18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4095f18ce3a0e6da8acf3317910a3f1e5fd1da32), [137ddde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/137ddde891f3c955df1b068b61a536e656ef82e9), [0776c50](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0776c50e2722cc7b821964adc43435d59fbf2eae), [3b83005](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3b83005dac8dbd9483775837ce6d56ea9c9c26d1), [2cc21eb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cc21eb25c39707c087e23f405e6576c94fb02d1), [c95129b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c95129bd7029aea85842c0d015bb4d1996e5c43b). Глоссарий [${gUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${gUp.result.commit_sha}); INVENTORY [${iUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${iUp.result.commit_sha}).
+
+Текущая партия: **6/10** — Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft, PneumaticCraft: Repressurized, Twilight Forest. Следующий мод — Integrated Dynamics (`1 629/1 854`, по последней инвентаризации missing 225). Затем Reliquary и Ars Nouveau; после них сверить актуальное EN-дерево и выбрать ещё два действительно незавершённых мода. FTB Quests/SNBT не затрагивать до финального этапа.
+
+## Завершение локализации Integrated Dynamics — 05.11.2026
+
+Integrated Dynamics полностью переведён и проверен: **1 854/1 854 ключа**, добавлено 225 значений. Missing 0, extra 0, duplicates 0, empty 0, placeholders 0, newlines 0, formatting 0, interpolation 0, trailing whitespace mismatches 0. EN содержит два повторных объявления ключей; RU-файл без дубликатов.
+
+Коммиты: переводы [d65e0f7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d65e0f74aba6fea851920893f4ad18151d97ddaf), [2882337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2882337cf799a7ad8d4e0d913c9880ee65d6f0ce), [c0be297](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0be297cb38fdd9a0d2f51c4263ca00a4c204a0a), [aa16aa2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/aa16aa2f4a35f3b49b6632c93a137a121b76c5d4), [eb47cde](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/eb47cdeff037a1afac580b0be98bbe63cea128c0). Глоссарий [${gUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${gUp.result.commit_sha}); INVENTORY [${iUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${iUp.result.commit_sha}).
+
+Текущая партия: **7/10** — Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft, PneumaticCraft: Repressurized, Twilight Forest, Integrated Dynamics. Следующий мод — Reliquary (`307/551`, по последней инвентаризации missing 244). Затем Ars Nouveau; после него сверить актуальное EN-дерево и выбрать ещё один действительно незавершённый мод. FTB Quests/SNBT не затрагивать до финального этапа.
+
+## Завершение локализации Reliquary — 05.11.2026
+
+Reliquary полностью переведён и проверен: **551/551 ключ**, добавлено 244 значения. Missing 0, extra 0, duplicates 0, empty 0, placeholders 0, newlines 0, formatting 0, trailing whitespace mismatches 0. Исправлены старые лишние переносы строк в описаниях предметов и рецептов.
+
+Коммиты: переводы [af1e379](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/af1e37920f13865a8fe6742cf139a0782f9ba79c), [e715c2c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e715c2c290a43059bc4f71ceadb8e80a4b8c4b0e), [4df0756](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4df0756a43456af1bdf1267326fc08a44f526905), [318476b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/318476b356d0dbbabb8712997d579161acb00ebb), [b408fb1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b408fb151c36ffd3333d208f0aafda5bb1f09047), [fff4284](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fff4284c96f785496544bfba6f627b1d3b5024dc). Глоссарий [${gUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${gUp.result.commit_sha}); INVENTORY [${iUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${iUp.result.commit_sha}).
+
+Текущая партия: **8/10** — Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft, PneumaticCraft: Repressurized, Twilight Forest, Integrated Dynamics, Reliquary. Следующий мод — Ars Nouveau (`1 296/2 323`, по последней инвентаризации missing 1 027). После него сверить актуальное EN-дерево и выбрать ещё два действительно незавершённых мода. FTB Quests/SNBT не затрагивать до финального этапа.
+
+## Завершение локализации Ars Nouveau — 05.11.2026
+
+Ars Nouveau полностью переведён и проверен: **2 323/2 323 ключа**, добавлено 1 027 значений. Missing 0, extra 0, duplicates 0, placeholders 0, newlines 0, formatting 0, whitespace mismatches 0. Единственное пустое значение совпадает с пустым значением EN.
+
+Коммиты: переводы [a113ce3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a113ce37d8c8d606044fbcb6f49e4270ee30ff13), [0caf1ed](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0caf1ed8221fd735439d73ba2ee87a8d873e1069), [0fd225f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0fd225f8864fe9467974c0cd3504af5a302d6bd4), [0034bf5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0034bf5a9a323dc175aa86edf611aa9d067e7f35), [8ee5c50](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8ee5c5074bfdfca9e4d5829529a89b0b2a9cc8f9), [69cbd0c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/69cbd0c905a152e81e659599ea5d7a60905ef996), [3efa0af](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3efa0af633db83f7a775738493dea38549631031), [57e04a6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/57e04a6adf82e0ca09e6e41b8956f654fd4663d1), [f3905da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f3905da73702a4322c8653cc8a4d086d7228d957), [ca25b56](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ca25b563231658461f3d8650cec519acea0c9330), [36bf355](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/36bf355a621d8b8e7ec3ed3af8ba9275b55e3fb1), [08ff5e3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/08ff5e32a9d506732e41835c5bc62007d4e392a8), [af9a658](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/af9a658bd97e6c8faff5a402f527ea326691a12b), [921037e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/921037e879ddf2573d07aaf825f7e9486f6203d3), [155e7fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/155e7fda7e5fd56a5a1f85edb6e617e0897b4022). Глоссарий [${gUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${gUp.result.commit_sha}); INVENTORY [${iUp.result.commit_sha.slice(0,7)}](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/${iUp.result.commit_sha}).
+
+Текущая партия: **9/10** — Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft, PneumaticCraft: Repressurized, Twilight Forest, Integrated Dynamics, Reliquary, Ars Nouveau. Для завершения партии нужен ещё один действительно незавершённый мод; следующий шаг — полный аудит INVENTORY и EN namespaces, затем выбрать мод с неполной локализацией. FTB Quests/SNBT не затрагивать до финального этапа.
+
+
+## Партия JSON-локализаций завершена — 06.11.2026
+
+**Подтверждено 10/10 модов:** Actually Additions, Industrial Foregoing, Iron's Spells 'n Spellbooks, EvilCraft, PneumaticCraft: Repressurized, Twilight Forest, Integrated Dynamics, Reliquary, Ars Nouveau и Mekanism: MoreMachine.
+
+Mekanism: MoreMachine (`mekmm`) завершён последним в партии: **704/704 ключа**. В импортированном файле все ключи уже присутствовали, однако 223 пользовательских значения совпадали с EN и были переведены. Итоговая проверка актуального EN `mekmm-1.21.1-1.4.2/mekmm/en_us.json`: missing 0, extra 0, duplicates 0, empty 0, точных RU=EN совпадений 0, placeholder mismatches 0, formatting mismatches 0, newline mismatches 0, interpolation mismatches 0, whitespace mismatches 0; JSON корректен.
+
+Коммиты Mekanism: MoreMachine: перевод [5087a5c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5087a5c90e2907574d447a4ab81d771de073237b), уточнения [7bbcfd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7bbcfd52197ae7edfa150f33e6146bd228f8259c) и [16b0934](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/16b0934e9562cc90ccf77f1d06490ca5d95e51d1); глоссарий [e445dbf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e445dbfc5064f8946f25216fac6435bb2918bdcc); инвентаризация [a5d4172](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a5d417243d1e55421716653b83fe65bbfd55842b).
+
+Суммарное число ключей по десяти модам: **13 420**. Переводы и документация опубликованы в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — заново сверить актуальные состояния обоих репозиториев, `INVENTORY.md` и `GLOSSARY.md`, затем выбрать следующую десятку по фактическим пропускам. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Вторая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Ad Astra: Giselle Addon, Additional Lights, Advanced AE, Advanced Peripherals, Applied Energistics 2, AE2 Crafting Tree, AE2 Import Export Card, AE2 Network Analyser, AE2 Wireless Terminals Library и AE Infinity Booster.
+
+Итог: **1 869/1 869 ключей**. Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates 0; empty 0; placeholder mismatches 0; formatting mismatches 0; newline mismatches 0; interpolation mismatches 0; whitespace mismatches 0. 17 совпадений RU=EN оставлены намеренно: названия/бренды, FE, OpenComputers, P2P, служебный `_eof` и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений нет.
+
+В Advanced Peripherals исправлены формулировки достижений и подсказок NBT Storage, Block Reader, Colony Integrator, ME Bridge и RS Bridge; унифицировано обращение. В Advanced AE исправлена подсказка Evasion и лишний пробел. В Applied Energistics 2 исправлены формулировки команд, SCS, выбора ЦП и названия фиолетового стеклянного МЭ-кабеля. Глоссарий дополнен терминологией AE2.
+
+Коммиты: Advanced Peripherals [585f167](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/585f167ee7e7e2a2cbbacbb9647a9d60ab4d7ea4), [e26d9bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e26d9bb351e0558a7fadd43857d3396f7d3e5274); Applied Energistics 2 [d9d7687](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d9d768712dd2f5cd0e9b0d70a2d1baf26918dee2); Advanced AE [475187a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/475187a9e7bf4ea5f4ebc6b1ceb54b3e158ed3ac); глоссарий [2f0416a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2f0416adfd15844ba2994f4be858c848a2905548); INVENTORY [1d0c960](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1d0c9600b239288aaaa96bbaa2bc511d7076e614).
+
+В двух последних партиях подтверждено **20/20 модов**, суммарно **15 289 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву английских источников и инвентаризации после `aeinfinitybooster`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Третья партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Akashic Tome, All The Arcanist Gear, AllTheCompressed, Allthemodium, AllTheOres, All The Tweaks, All the Wizard Gear, Almost Unified, Amendments и Apotheosis.
+
+Итог: **3 851/3 851 ключ**. Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates 0; empty 0; placeholder mismatches 0; formatting mismatches 0; newline mismatches 0; interpolation mismatches 0; whitespace mismatches 0. 27 совпадений RU=EN оставлены намеренно: названия модов/брендов, авторы картин, шаблоны плейсхолдеров, кнопка X и цветовое значение. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+В Apotheosis унифицировано обращение на «вы» в обучении, подсказках, описаниях аффиксов и достижениях; исправлена формулировка подсказки достижения и сохранены 20 завершающих пробелов в названии достижения по EN-оригиналу. В All The Tweaks переведены два предупреждения о косметических функциях Valhelsia. Глоссарий дополнен терминами Apotheosis.
+
+Коммиты: Apotheosis [423a2bd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/423a2bdbdab7c3a2ddfb130a64277193210fc10a), [65f0248](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/65f024888f80249bc5d54ce7a0bcef22cb58731c), [a758e5d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a758e5d9aa4ec6c0b5c1c2d7f9605edf43a6de8e); All The Tweaks [cf5c28c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cf5c28c31bf2364f8bf00dd2c24be2bcbe84d671); глоссарий [77d202e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/77d202e7eb82a6bece3317421472bdb1ee616463); INVENTORY [c9b4a8f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c9b4a8fc144672058337c1bd70d840e423664c18).
+
+В трёх последних партиях подтверждено **30/30 модов**, суммарно **19 140 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву EN-источников и инвентаризации после `apotheosis`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Четвёртая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Apothic Attributes, Apothic Enchanting, Apothic Spawners, Applied Flux, AppleSkin, Applied Mekanistics, Aquaculture, Ars Additions, Ars Controle и Ars Creo.
+
+Итог: **1 398/1 398 ключей**. Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates 0; empty 0; placeholder mismatches 0; formatting mismatches 0; newline mismatches 0; interpolation mismatches 0; whitespace mismatches 0. 144 совпадения RU=EN сохранены намеренно: названия/бренды, имена авторов и музыкальные композиции, римские обозначения уровней зачарования, FE/QIO, Shift/Ctrl, XNOR/XOR, служебный комментарий EMI и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений нет.
+
+В Ars Additions полностью переведены смешанные англо-русские описания Memory Crystal и Source Spawner, подсказка сохранения/загрузки и Warp Index; официальное имя мода восстановлено в группе предметов. В Apothic Spawners исправлено название корневого достижения. В Ars Controle улучшено описание пульта и согласован термин «круговое меню». Глоссарий дополнен терминологией Ars Additions и связанных модов.
+
+Коммиты: Ars Additions [982b74b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/982b74b5d993da0c3d33b091c657e976c5daf587), [4257af8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4257af80ac6c60cf53cc8d096c4801a6fee2a843); Apothic Spawners [e57660d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e57660d082537663e188d6aca2495608cc491701); Ars Controle [afcf57c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afcf57c68abbf6632e043af2605c199bfb23fe66); глоссарий [b6ed8fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b6ed8fd7090f7ba478406ccc82dd13566d524df9), [f890452](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f890452656f803a89b5ee472bbb64ae9956b953a); INVENTORY [6b21ffc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b21ffc154b99a228fb1d5af1d8504a2e2135783).
+
+В четырёх последних партиях подтверждено **40/40 модов**, суммарно **21 936 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву EN-источников и инвентаризации после `ars_creo`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Пятая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace** после `ars_creo`: `ars_elemancy`, `ars_elemental`, `ars_ocultas`, `ars_technica`, `ars_unification`, `arseng`, `artifacts`, `auroral`, `auroras`, `balm`. Всего **1 722 ключа**. JSON корректен во всех файлах; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Два пустых значения Ars Elemental совпадают с EN и сохранены. Необоснованных совпадений пользовательского текста RU=EN не обнаружено; существующие переводы не переписывались.
+
+## Шестая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `bhc`, `bellsandwhistles`, `betteradvancedtooltips`, `betteradvancements`, `betterfortresses`, `bettermineshafts`, `betteroceanmonuments`, `betterstrongholds`, `betterwitchhuts`, `bigreactors`. Всего **717 ключей**. Во всех файлах JSON корректен; missing 0, extra 0, duplicates RU 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В EN Big Reactors повторяется только служебный ключ `_comment` (31 объявление); иных дубликатов нет.
+
+В Big Reactors переведены 13 оставшихся пользовательских строк энергизатора и подпись Name. Добавлены термины Extreme Reactors в глоссарий. Коммиты: [64aa65e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/64aa65e1036b819ff400c362917d370cf7be4ca7), [91bccf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/91bccf6fb0b383c8d5c7f2f701e42977d043ee5), [d312883](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d3128835dddef70e1303370e1cae75baa0bbccbb).
+
+**Итого за две партии: 20/20 namespace, 2 439 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — после `bigreactors` сверить следующие namespace по актуальному EN-дереву и исключить ранее проверенные YUNG's Better Desert Temples, Dungeons, End Island и Jungle Temples. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Седьмая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `extremesoundmuffler`, `farmersdelight`, `fastbench`, `fluxnetworks`, `framedblocks`, `gateways`, `glassential`, `gmut`, `hostilenetworks`, `immeng`. Всего **1 668 ключей**. JSON корректен; missing 0, extra 0, duplicates RU 0, placeholder mismatches 0. Единственное пустое значение Hostile Neural Networks совпадает с EN. Все переносы строк и пробелы после исправлений совпадают с оригиналами. Семь дополнительных серых `§8` маркеров в FramedBlocks сохранены как намеренное оформление обозначений направлений. В EN Hostile Neural Networks повторяется только служебный ключ `_comment` (9 объявлений).
+
+В Hostile Neural Networks исправлены переносы, формулировки и неточности описаний мобов; в Gateways восстановлен завершающий перенос; в FramedBlocks удалён лишний пробел и уточнено название блока. Глоссарий дополнен терминологией трёх модов. Коммиты: [FramedBlocks](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fb74887bbcd2a0702285445d9b0b0c0bf35e8fe2), [Gateways](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d190753758117d33ab676f3e3b51c36a5fc6b676), [Hostile Neural Networks](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8dafd6385d8f0b43fa16bacb9dcdc1adadea0d06), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a805b6080e5371cfa054e7b76f1f8723e7c26a57).
+
+**Итого за три партии после Ars Creo: 30/30 namespace, 4 107 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — сверка следующих namespace после `immeng` с актуальным EN-деревом и INVENTORY, исключая уже проверенные локализации. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Восьмая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `immersiveengineering`, `ironjetpacks`, `jade`, `jei_mekanism_multiblocks`, `justenoughprofessions`, `keybindspurger`, `cataclysm`, `measurements`, `moderndynamics`, `modern_industrialization`. Всего **5 197 ключей**. JSON корректен; missing 0, extra 0, duplicates RU 0, placeholder/format/newline/whitespace mismatches 0. Два пустых значения совпадают с EN. В EN Cataclysm повторяется `maledictus_hurt.sub`; корректным является последнее значение `Maledictus dies`, и RU содержит его перевод. В EN Measurements трижды встречается только служебный `_comment`.
+
+В Cataclysm удалён лишний завершающий пробел в названии Abyss Portal; термин добавлен в глоссарий. Коммиты: [Cataclysm](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/903d7cc3cce5dccb858f7a79bb49c14460f6c897), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2897448949ff6b2a8582f8b818099b190fb678ce).
+
+**Итого за четыре партии после Ars Creo: 40/40 namespace, 9 304 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Позже при сверке порядка EN-дерева обнаружен пропущенный блок B–C перед `extremesoundmuffler`; он проверен в девятой партии ниже. Актуальная точка продолжения после `caelus`. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Девятая партия JSON-аудита завершена — 06.11.2026
+
+После повторной проверки порядка namespace по EN-дереву выявлен пропущенный блок B–C между `bigreactors` и ранее обработанным `extremesoundmuffler`. Проверены **10/10 namespace**: `biomeswevegone`, `blockui`, `bookshelf`, `botanypots`, `brandonscore`, `bridgingmod`, `buildinggadgets2`, `bwncr`, `cabletiers`, `caelus`. Всего **2 143 ключа**. JSON корректен; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Семь пустых значений Bookshelf/Botany Pots совпадают с EN и относятся к служебным разделителям/метаданным. Необоснованных совпадений пользовательского текста RU=EN не обнаружено. Изменения переводов не потребовались.
+
+**Итого за пять партий после Ars Creo: 50/50 namespace, 11 447 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `caelus`; продолжить сверку EN/RU namespace по порядку, пропуская только те файлы, которые уже документально проверены. Ранее обработанные `extremesoundmuffler`–`modern_industrialization` остаются завершёнными и не требуют повторной работы. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Десятая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `camol`, `charginggadgets`, `chisel`, `chromacarvings`, `cloudglass`, `cobblegengalore`, `codechickenlib`, `colorfulhearts`, `comforts`, `common_storage_lib`. Всего **2 999 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. Пять совпадений RU=EN — название Chisel, обозначение RF и технический шаблон. Изменения переводов не потребовались.
+
+**Итого за шесть партий после Ars Creo: 60/60 namespace, 14 446 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `common_storage_lib`; продолжить с `commoncapabilities`, исключая ранее проверенные namespace. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Одиннадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `commoncapabilities`, `compactmachines`, `connectedglass`, `constructionstick`, `controlling`, `cookingforblockheads`, `copycats`, `cosmeticarmorreworked`, `crafting_on_a_stick`, `craftingtweaks`. Всего **728 ключей**. JSON корректен; missing 0, extra 0, duplicates RU 0, placeholder/format/newline/whitespace mismatches 0. Три пустых значения совпадают с EN. В EN Common Capabilities повторяется только служебный `_comment` (3 объявления). В Cooking for Blockheads восстановлены две экранированные последовательности `\\n` из оригинала; коммит [5223759](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/522375983dbeb003719b937ad7ec01759c712396).
+
+**Итого за семь партий после Ars Creo: 70/70 namespace, 15 174 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `craftingtweaks`; блок C–C завершён в двенадцатой партии ниже. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Двенадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `crashutilities`, `create`, `create_aquatic_ambitions`, `create_enchantment_industry`, `create_hypertube`, `createaddition`, `creeperoverhaul`, `cristellib`, `crystalix`, `curios`. Всего **4 805 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Семь пустых значений Create совпадают с EN; порядок плейсхолдеров во всех файлах проверен отдельно и совпадает.
+
+В Create Enchantment Industry переведены 332 ранее полностью английских значения; четыре оставшихся совпадения являются техническими шаблонами. Исправлены пробелы в Create и порядок аргументов в двух сообщениях Curios. Обновлён глоссарий. Коммиты: [Create Enchantment Industry](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23759eeabfb0f3119424de610551fe5d6fcfd9ce), [Create](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebce9d7983f266e5eefb388ba62f5ad5fec83133), [Curios](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9921f5d7c878ca73eecf959d42845002f123d6da), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f96cd8fcd9b490e71de53c87fc963029bb6e1a4).
+
+**Итого за восемь партий после Ars Creo: 80/80 namespace, 19 979 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `curios`; блок D–E проверен в тринадцатой партии ниже. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Тринадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `darkmodeeverywhere`, `deeperdarker`, `dungeons_arise`, `easy_villagers`, `elevatorid`, `enderstorage`, `extendedae`, `enderdrives`, `endermanoverhaul`, `enderio`. Всего **1 728 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В Ender IO переведены три пользовательские подписи слотов фильтров; глоссарий обновлён. Коммиты: [Ender IO](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f1d56b283223434b20c2ef7541572db199ac09e), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c3e9a24a11d2c1c1aa72ee553d71beea0ba08389).
+
+**Итого за девять партий после Ars Creo: 90/90 namespace, 21 707 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `enderio`; блок FTB и Functional Storage проверен в четырнадцатой партии ниже. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Четырнадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `farmingforblockheads`, `ftbchunks`, `ftbessentials`, `ftbfiltersystem`, `ftblibrary`, `ftbteams`, `ftbultimine`, `functionalstorage`, `fusion`, `mcwfurnitures`. Всего **1 708 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В FTB Ultimine исправлен перенос строки в описании настройки. `ftbjeiextras` и `ftbxmodcompat` исключены из подсчёта: EN-файлы содержат пустые JSON-объекты без ключей. FTB Quests не затрагивался. Коммит [FTB Ultimine](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e3dbc2e3e1d133526319528848c437519f0023e6).
+
+**Итого за десять партий после Ars Creo: 100/100 namespace, 23 415 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `mcwfurnitures`; блок мебели и JourneyMap завершён в пятнадцатой партии ниже.
+
+
+## Пятнадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `refurbished_furniture`, `guideme`, `handcrafted`, `jearchaeology`, `jei`, `jeistuff`, `journeymap`, `jupiter`, `justenoughbreeding`, `justzoom`. Всего **1 847 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0.
+
+В JourneyMap переведены 819 пользовательских значений из 868 совпадавших с английским оригиналом. Оставшиеся 49 значений — намеренно сохранённые бренды, домены, координатные обозначения, цветовые сокращения, единицы и технические шаблоны. Заключительная проверка выявила и исправила три расхождения переносов/описаний. История изменений: [коммиты ветки](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commits/work/irons-spells-nov05), [последняя коррекция](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ab6d3095d1cc13969053534faee9c1a5e5fce5f4), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5064d64f5c3ee4ddf77c46fbe89d56d6e5973b8).
+
+**Итого за одиннадцать партий после Ars Creo: 110/110 namespace, 25 262 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `justzoom`; блок K–L завершён в шестнадцатой партии ниже.
+
+
+## Шестнадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `keybindbundles`, `kubejstweaks`, `laserbridges`, `laserio`, `lionfishapi`, `little_big_redstone`, `livingthings`, `logisticsnetworks`, `lootr`, `luminax`. Всего **1 729 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. Все совпадения RU=EN являются техническими/брендовыми или математическими обозначениями. Изменения переводов не потребовались.
+
+**Итого за двенадцать партий после Ars Creo: 120/120 namespace, 26 991 ключ.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `luminax`; продолжить с Mahou Tsukai и следующими namespace, пропуская ранее проверенные. FTB Quests/SNBT оставить на заключительный этап.
+
+## Семнадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Mahou Tsukai, McJtyLib, Macaw's Bridges, Macaw's Doors, Macaw's Holidays, Macaw's Lights, Macaw's Fences, Macaw's Paths, Macaw's Stairs и Macaw's Windows. Всего **3 918 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты RU 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. В Mahou Tsukai 81 пустое значение совпадает с EN; 14 непустых совпадений RU=EN являются брендом, именами, пунктуацией и буквенными обозначениями. В McJtyLib два совпадения — служебный комментарий и название библиотеки. В остальных восьми namespace совпадений RU=EN нет.
+
+В Mahou Tsukai удалён один лишний ключ, исправлены два лишних плейсхолдера и согласованы термины Caliburn, Borrowed Authority и несколько названий техник. В Macaw's Windows исправлен перевод Window Key по описанию предмета. Глоссарий дополнен терминологией обеих групп.
+
+Коммиты:
+- Mahou Tsukai: перевод [26f8fc0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/26f8fc007bfebe544363e5d9782ff20da8cc6a8b), глоссарий [9859cc3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9859cc3ccbbb9d14fc22b1b90fbd37c76100e484).
+- Macaw's Windows: перевод [c0b64dd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0b64ddd06df2eb03c8870189a739d709734ab82), глоссарий [58b2e98](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/58b2e980a733ef98ba606e5a40d2262543206db4).
+- Остальные восемь namespace проверены; исправления не требовались.
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: mcwroofs, mcwtrpdoors, megacells, mekanismcovers, mekanisticrouters, memorysettings, merequester, merrymaking, mffs, mifa. Уже завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Восемнадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Macaw's Roofs, Macaw's Trapdoors, MegaCells, Mekanism Covers, Mekanistic Routers, Memory Settings, ME Requester, Merrymaking, MFFS и MIFA. Всего **1 657 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты RU 0; несовпадения плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов — 0. В EN Merrymaking один ключ повторён с тем же значением; RU содержит его один раз. Единственное пустое значение Merrymaking совпадает с EN. Совпадения RU=EN в Merrymaking/MFFS — пустая строка и технические обозначения.
+
+Исправлены терминология и форматирование в MegaCells, Mekanistic Routers, Memory Settings, ME Requester, Merrymaking и MFFS. Глоссарий дополнен соответствующими терминами. В Macaw's Roofs, Macaw's Trapdoors, Mekanism Covers и MIFA исправления не потребовались.
+
+Коммиты переводов: MegaCells [addd475](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/addd475bab0bc2a977eeaffb379d5607cefb5bb6); Mekanistic Routers [e597e87](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e597e8712f611a7cd413d249f6db5477d1f6a10b), [e85eb01](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e85eb01d30e3b97970f542338617d3f8ab32331c); Memory Settings [9e329e4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9e329e4d04764ec4642d158bbc4a93eff6e4d496); ME Requester [9120c52](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9120c52c6fe50f0ada44ae0a400e03834508be03); Merrymaking [38a53dc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/38a53dcff5f807841a720556a84ae799c245e813), [b20f1cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b20f1cd2f088287097996a8a84928e6ae623d8c9), [cc3ad21](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cc3ad21ca85ee3123cb92a405c64642d6b198c18); MFFS [a8eb5f8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a8eb5f8cecc96ab7a954912c2f4bef354729dc60), [988d6a8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/988d6a8975ffaeaac16d35b8a2206e9d51915f5e). Глоссарий [5fb453b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5fb453b56630d2d1343e9b50b1e4a7a6d20c984f), [6704118](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67041181eda9efeed639cbf98770896bd6437039).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: minecolonies, mininggadgets, mob_grinding_utils, modernfix, modonomicon, modularrouters, modularbees, mes, mns, mss. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Девятнадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** MineColonies, Mining Gadgets, Mob Grinding Utils, ModernFix, Modonomicon, Modular Routers, Modular Bees, Moog's End Structures, Moog's Nether Structures и Moog's Soaring Structures. Всего **4 994 ключа**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты RU 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. В EN Mob Grinding Utils повторяется служебный ключ _comment (10 раз); последнее значение — Item Tool tips, RU содержит его перевод. Пять пустых значений совпадают с EN. Оставшиеся совпадения RU=EN являются брендами, техническими шаблонами, единицами, символами операторов и смайликом.
+
+В Modular Routers переведены оставшиеся пользовательские строки и исправлены неполные подсказки. В MineColonies исправлены шесть расхождений пробелов. В Mob Grinding Utils переведён служебный комментарий. В ModernFix исправлено описание кэширования состояний блоков и восстановлен абзац. Глоссарий дополнен.
+
+Коммиты: Modular Routers [c400bd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c400bd551ce455078c04e8cdb54e23b3629394ce), [4f2964c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f2964c75f47603c2b773f253f053df76ca55aa0); MineColonies [87d8bf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/87d8bf6dfcfdd74cf933795f3320ff2a85ba0a38); Mob Grinding Utils [2cb4b64](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2cb4b64ac6f62d14e2528f23d84d7013e554249f); ModernFix [788024a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/788024ac9fede2b6bec4117cda97378ec8f3a277); глоссарий [6b5515c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b5515c3074bddf54f656e18575040010730a61b), [8c1ad18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c1ad185cc02d9d1548a43eea93e97d9838d1403), [ae1ab43](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1ab43b0222a30682fa605904021ecf0cf4b241).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: moogs_structures, mvs, moonlight, moreoverlays, morered, mostructures, multipiston, mysticalagradditions, mysticalagriculture, naturesaura. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Moog's Structure Lib, Moog's Voyager Structures, Moonlight, More Overlays Updated, More Red, Mo' Structures, Multi-Piston, Mystical Agradditions, Mystical Agriculture и Nature's Aura. Всего **1 497 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. 21 совпадение RU=EN — названия модов/сервисов, координатные обозначения, числовые уровни и технические шаблоны.
+
+Исправлены термины ресурсных уровней Mystical Agriculture, согласование названий трёх предметов и Ancient Log в Nature's Aura. Глоссарий дополнен.
+
+Коммиты: Mystical Agradditions [00dfc30](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/00dfc300d95d2ed3095374efadef68107d307bc9); Mystical Agriculture [c975d3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c975d3a0b00d21a8d78517bda1e39131f1b5cb6e), [795fd3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/795fd3a54db0c6f7700600ee510f89b01ce3aec4); Nature's Aura [a959245](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a9592457d1a721de736a1dccefa61b09be3a9fd2); глоссарий [dbadc93](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dbadc93e7ffb574d9bfe6f21590a14785a45360c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: neo_auth, nochatreports, notenoughanimations, not_enough_glyphs, observable, oracle_index, owo, pamhc2crops, pamhc2foodcore, pamhc2foodextended. Nature's Compass, NeoVitae, Occultism, Biomes We've Gone, Oritech и PneumaticCraft уже завершены и пропускаются. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать первая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** NeoAuth, No Chat Reports, Not Enough Animations, Not Enough Glyphs, Observable, Oracle Index, owo-lib, Pam's HarvestCraft 2 Crops, Food Core и Food Extended. Всего **2 030 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты верхнего уровня 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. В OWO сохранена структура JSON-компонентов и индексные плейсхолдеры. Единственное пустое значение Not Enough Glyphs совпадает с EN. 17 совпадений RU=EN — бренды/названия модов, технические идентификаторы, клавиши, алгоритмы и числовые/структурные шаблоны.
+
+В No Chat Reports исправлены 12 буквальных последовательностей \\n, которые вместо переносов строк отображались как текст. Глоссарий дополнен терминами Pam's HarvestCraft.
+
+Коммиты: No Chat Reports [d07da48](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d07da48559be4f0b4e7e064d31674aa87d6dd9bc); глоссарий [8f098d5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f098d567b89e46220b4e04fb5b5250faf73965c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: pamhc2trees, patchouli, pipez, placebo, pocketstorage, polylib, polymorph, potionsmaster, productivebees и productivemetalworks. Productive Bees ранее уже переводился; не перезаписывать существующие значения, только сверить и исправить подтверждённые ошибки. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать вторая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Pam's HarvestCraft Trees, Patchouli, Pipez, Placebo, PocketStorage, PolyLib, Polymorph, Potions Master, Productive Bees и Productive Metalworks. Всего **1 899 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. 16 совпадений RU=EN — названия модов, технические идентификаторы, клавиши и плейсхолдеры.
+
+В Productive Bees локализованы 117 продвинутых ульев и 117 расширителей ульев с вариантами пород древесины; исправлены достижения и подсказки. В Pipez согласованы названия уровней улучшений, в Placebo — косметические эффекты для спонсоров. В Pam's HarvestCraft Trees восстановлены три завершающих пробела. Глоссарий дополнен.
+
+Коммиты: Productive Bees [f7fa64c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f7fa64c66fa40d78093fbfba148858696dfff573), [c62cb6b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c62cb6bbf267d04e5d09cf28079a9963f18730b5); Pipez [311aae7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/311aae7c4f7b55de5814a4ca12684191b33d2411); Placebo [a10a081](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a10a0816e7d7f525b9062b6ea8535b6a8149e5e4); Pam's HarvestCraft Trees [cd33c14](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cd33c14c752157f1dc910c211c7115c0b8462255); глоссарий [d0c2ecd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d0c2ecdd5cd4a246db21d4c025a1ac9de8de648a), [6ed7ef1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ed7ef1066ba364d91882c2265e95831d3257cbf).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rangedpumps, rechiseledcreate, redstonepen, refinedtypes, refinedfluidsubstitution, refinedstorage_curios_integration, refinedstorage_jei_integration, refinedstorage_mekanism_integration, refinedstorage, refinedstorage_quartz_arsenal. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать третья партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Ranged Pumps, Rechiseled Create, Redstone Pen, Refined Types, Refined Fluid Substitution, Refined Storage Curios Integration, Refined Storage JEI Integration, Refined Storage Mekanism Integration, Refined Storage и Refined Storage Quartz Arsenal. Всего **1 349 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. 12 совпадений RU=EN — названия модов/интеграций, JEI, клавиши/технические идентификаторы и шаблон плейсхолдеров.
+
+В Redstone Pen исправлены переносы и коды форматирования в трёх подсказках RLC. В Refined Storage переведены десять оставшихся пользовательских строк и исправлены три лишних переноса. Глоссарий дополнен.
+
+Коммиты: Redstone Pen [15732cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/15732cdd82eda464e288e88f0c7905afffeea311); Refined Storage [d42aa73](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d42aa738c30c9e9000cb5379299e9d68985c6df8), [4274337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4274337b955cae44af83dd53b21477cdc3e529c1); глоссарий [edb01da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/edb01dae26cac69495c4635a5ea354f065584f13).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rsinsertexportupgrade, reliquified_artifacts, repeatable_trial_vaults, repurposed_structures, resourcefulconfig, restrictions, rftoolsbase, rftoolsbuilder, rftoolspower, rftoolsstorage. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать четвёртая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** RS Insert Export Upgrade, Reliquified Artifacts, Repeatable Trial Vaults, Repurposed Structures, Resourceful Config, Restrictions, RFTools Base, RFTools Builder, RFTools Power и RFTools Storage. Всего **1 078 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. Пять совпадений RU=EN — названия модов/категорий и техническая подпись UUID.
+
+В Reliquified Artifacts исправлен порядок %2$s и %3$s в описании Shock Pendant: теперь дальность и количество перескоков соответствуют EN-оригиналу.
+
+Коммит: Reliquified Artifacts [b5f8ba3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b5f8ba34bc9d8f47bbf172129806dc4945b6d43e).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rftoolsutility, rootsclassic, sawmill, searchables, sgearmetalworks, shiny, shrink, silentlib, silentgems и simplebackups. Silent Gear уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать пятая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** RFTools Utility, Roots Classic, Sawmill, Searchables, Silent Gear Metalworks, Shiny, Shrink, Silent Lib, Silent Gems и Simple Backups. Всего **1 178 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. Два пустых значения Roots Classic совпадают с EN. Шесть совпадений RU=EN — название Roots Classic, плейсхолдер, save-all/Mc2Discord и технические обозначения.
+
+В Roots Classic удалён лишний начальный пробел в заголовке Wildwood Boots. Коммит: [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics, starbunclemania. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
