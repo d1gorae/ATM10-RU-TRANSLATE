@@ -903,4 +903,4 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 
 В Roots Classic удалён лишний начальный пробел в заголовке Wildwood Boots. Коммит: [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
 
-Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics, starbunclemania. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
