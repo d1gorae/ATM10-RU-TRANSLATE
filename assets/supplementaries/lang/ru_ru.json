@@ -1294,5 +1294,15 @@
   "supplementaries.configuration.tools.confetti_popper": "Хлопушка с конфетти",
   "supplementaries.configuration.general": "Общие настройки",
   "supplementaries.configuration.general.dynamic_assets_generation_mode": "Режим генерации динамических ресурсов",
-  "supplementaries.configuration.general.creative_tab": "Вкладка творческого режима"
+  "supplementaries.configuration.general.creative_tab": "Вкладка творческого режима",
+  "supplementaries.configuration.general.creative_tab.description": "Включает вкладку творческого режима",
+  "supplementaries.configuration.general.dispensers": "Раздатчики",
+  "supplementaries.configuration.general.dispensers.description": "Установите false, чтобы отключить особое поведение раздатчиков (например, наполнение банок), если оно вызывает проблемы",
+  "supplementaries.configuration.general.sanity_checks_messages": "Сообщения проверок работоспособности",
+  "supplementaries.configuration.general.sanity_checks_messages.description": "Отключает сообщения при запуске и проверки, с помощью которых мод сообщает о возможных сбоях, вызванных обнаруженными проблемами",
+  "supplementaries.configuration.general.red_merchant_spawn_multiplier": "Множитель появления Красного торговца",
+  "supplementaries.configuration.general.red_merchant_spawn_multiplier.description": "Немного увеличьте или уменьшите значение, чтобы изменить шанс появления Красного торговца. При 0 он не появляется, а при 2 появляется вдвое чаще",
+  "supplementaries.configuration.tweaks": "Дополнительные настройки",
+  "supplementaries.configuration.tweaks.dragon_banner_pattern": "Узор знамени с драконом",
+  "supplementaries.configuration.tweaks.dragon_banner_pattern.description": "Добавляет узор знамени с драконом, создаваемый из головы дракона"
 }
