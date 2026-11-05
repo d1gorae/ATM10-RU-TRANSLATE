@@ -465,3 +465,17 @@ NeoVitae ещё не завершён; в `main` ничего не перено�
 - [a3d1069](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a3d1069eaa33aceee4f1ce1ca8b1a5a83f1748e1) — обновление INVENTORY.md.
 
 `INVENTORY.md` отражает полное покрытие 3 652/3 652. NeoVitae завершён в `work/neovitae-ru`; в `main` ничего не переносилось. Перед началом следующего мода проверить текущие ветки, PROJECT_HANDOFF.md, INVENTORY.md и GLOSSARY.md. FTB Quests и SNBT остаются на самый конец проекта.
+
+
+## Завершение локализации Productive Trees — 05.11.2026
+
+Productive Trees `1.21.1-1.1.1` полностью переведён в `work/productivetrees-ru`: **4 149/4 149 ключей**. В исходном RU-файле было 3 832 ключа; добавлено 317 переводов. Сверка с английским `en_us.json`: missing 0, extra 0, duplicates 0, placeholder mismatches 0, newline mismatches 0, Minecraft formatting-code mismatches 0. JSON корректен.
+
+Оставлены без изменений только два латинских ботанических названия, исходное пустое значение `thunder_bolt.latin` и технический плейсхолдер `%s`; эти совпадения не являются непереведённым пользовательским текстом.
+
+Коммиты:
+- Переводы: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c314b46f925358fdc01d66945f14bb88b482deb
+- Глоссарий: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/55bdd44df2aef9edeff5610270231385af296521
+- Инвентаризация: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f49791e86d8f8870166413da22d27458bda7785
+
+`main` не изменялся. Продолжать со следующего действительно незавершённого мода по актуальному INVENTORY.md; не повторять NeoVitae и Productive Trees. FTB Quests/SNBT остаются на финальном этапе.
