@@ -704,3 +704,16 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты: Ars Additions [982b74b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/982b74b5d993da0c3d33b091c657e976c5daf587), [4257af8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4257af80ac6c60cf53cc8d096c4801a6fee2a843); Apothic Spawners [e57660d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e57660d082537663e188d6aca2495608cc491701); Ars Controle [afcf57c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afcf57c68abbf6632e043af2605c199bfb23fe66); глоссарий [b6ed8fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b6ed8fd7090f7ba478406ccc82dd13566d524df9), [f890452](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f890452656f803a89b5ee472bbb64ae9956b953a); INVENTORY [6b21ffc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b21ffc154b99a228fb1d5af1d8504a2e2135783).
 
 В четырёх последних партиях подтверждено **40/40 модов**, суммарно **21 936 ключей**. Работа опубликована в ветке `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — продолжить проверку по актуальному дереву EN-источников и инвентаризации после `ars_creo`, выбрать следующие десять непроверенных namespace. FTB Quests/SNBT оставить на заключительный этап.
+
+
+## Пятая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace** после `ars_creo`: `ars_elemancy`, `ars_elemental`, `ars_ocultas`, `ars_technica`, `ars_unification`, `arseng`, `artifacts`, `auroral`, `auroras`, `balm`. Всего **1 722 ключа**. JSON корректен во всех файлах; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Два пустых значения Ars Elemental совпадают с EN и сохранены. Необоснованных совпадений пользовательского текста RU=EN не обнаружено; существующие переводы не переписывались.
+
+## Шестая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `bhc`, `bellsandwhistles`, `betteradvancedtooltips`, `betteradvancements`, `betterfortresses`, `bettermineshafts`, `betteroceanmonuments`, `betterstrongholds`, `betterwitchhuts`, `bigreactors`. Всего **717 ключей**. Во всех файлах JSON корректен; missing 0, extra 0, duplicates RU 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В EN Big Reactors повторяется только служебный ключ `_comment` (31 объявление); иных дубликатов нет.
+
+В Big Reactors переведены 13 оставшихся пользовательских строк энергизатора и подпись Name. Добавлены термины Extreme Reactors в глоссарий. Коммиты: [64aa65e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/64aa65e1036b819ff400c362917d370cf7be4ca7), [91bccf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/91bccf6fb0b383c8d5c7f2f701e42977d043ee5), [d312883](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d3128835dddef70e1303370e1cae75baa0bbccbb).
+
+**Итого за две партии: 20/20 namespace, 2 439 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Следующая точка продолжения — после `bigreactors` сверить следующие namespace по актуальному EN-дереву и исключить ранее проверенные YUNG's Better Desert Temples, Dungeons, End Island и Jungle Temples. FTB Quests/SNBT не затрагивать до заключительного этапа.
