@@ -1093,5 +1093,13 @@
   "supplementaries.configuration.slimed_effect.chance_per_slime_size.description": "Вероятность того, что слизневый моб наложит эффект слизи при успешной атаке. Умножается на размер слизи",
   "supplementaries.configuration.clock_and_compass": "Часы и компас",
   "supplementaries.configuration.clock_and_compass.clock_right_click": "Нажатие ПКМ часами",
-  "supplementaries.configuration.clock_and_compass.clock_right_click.description": "Позволяет нажать ПКМ часами, чтобы отобразить текущее время в числовом виде"
+  "supplementaries.configuration.clock_and_compass.clock_right_click.description": "Позволяет нажать ПКМ часами, чтобы отобразить текущее время в числовом виде",
+  "supplementaries.configuration.clock_and_compass.compass_right_click": "Нажатие ПКМ компасом",
+  "supplementaries.configuration.clock_and_compass.compass_right_click.description": "Позволяет нажать ПКМ компасом, чтобы отобразить текущие координаты в числовом виде",
+  "supplementaries.configuration.clock_and_compass.works_in_unnatural_dimensions": "Работа в необычных измерениях",
+  "supplementaries.configuration.clock_and_compass.works_in_unnatural_dimensions.description": "Позволяет этим функциям работать в измерениях вроде Незера и Энда, где обычные часы не работают",
+  "supplementaries.configuration.piston_tweaks": "Настройки поршней",
+  "supplementaries.configuration.piston_tweaks.push_block_entities": "Перемещение блоков с блок-сущностями",
+  "supplementaries.configuration.piston_tweaks.cooperative_pistons": "Совместная работа поршней",
+  "supplementaries.configuration.piston_tweaks.moved_cauldron_filling": "Наполнение перемещаемых котлов"
 }
