@@ -1268,5 +1268,13 @@
   "supplementaries.configuration.bubble_block.break_when_touched.description": "Должен ли пузырьковый блок разрушаться при касании?",
   "supplementaries.configuration.bubble_block.max_charges": "Максимум зарядов",
   "supplementaries.configuration.bubble_block.max_charges.description": "Максимальное количество зарядов, которое может хранить генератор пузырей",
-  "supplementaries.configuration.wrench": "Гаечный ключ"
+  "supplementaries.configuration.wrench": "Гаечный ключ",
+  "supplementaries.configuration.slingshot.stasis_deceleration": "Замедление снаряда стазисом",
+  "supplementaries.configuration.slingshot.stasis_deceleration.description": "Сила замедления снаряда со стазисом",
+  "supplementaries.configuration.slingshot.unrestricted_enderman_intercept": "Свободный перехват эндерменами",
+  "supplementaries.configuration.slingshot.unrestricted_enderman_intercept.description": "Позволяет эндерменам перехватывать любые снаряды рогатки",
+  "supplementaries.configuration.slingshot.allow_buckets": "Разрешить вёдра",
+  "supplementaries.configuration.slingshot.allow_buckets.description": "Позволяет запускать вёдра из рогатки. Брошенные вёдра выливают содержимое при приземлении",
+  "supplementaries.configuration.slingshot.damageable_damage": "Урон разрушаемых предметов",
+  "supplementaries.configuration.slingshot.damageable_damage.description": "Урон, наносимый предметами из тега supplementaries:slingshot_damageable. Зависит от скорости броска. По умолчанию тег пуст"
 }
