@@ -3148,5 +3148,21 @@
   "tooltip.neovitae.sigil.teleposition.desc": "Телепортирует вас в привязанное место",
   "tooltip.neovitae.sigil.teleposition.invalid_dimension": "Измерение привязанного телепозера не загружено.",
   "tooltip.neovitae.sigil.teleposition.no_teleposer": "В привязанном месте больше нет телепозера.",
-  "tooltip.neovitae.sigil.teleposition.unbound": "Этот сигил не привязан к телепозеру. Щёлкните правой кнопкой мыши по телепозеру, чтобы выполнить привязку."
+  "tooltip.neovitae.sigil.teleposition.unbound": "Этот сигил не привязан к телепозеру. Щёлкните правой кнопкой мыши по телепозеру, чтобы выполнить привязку.",
+  "tooltip.neovitae.lexVitae.active": "Активен",
+  "tooltip.neovitae.lexVitae.desc": "Разумный мульти-инструмент: рубит деревья, добывает блоки, копает и вспахивает землю. Присядьте и щёлкните правой кнопкой мыши, чтобы переключить режим. Присядьте и прокрутите колёсико мыши, чтобы настроить радиус добычи. Клавиша смены режима переключает луч между добычей, нанесением урона и обоими режимами. Добытые блоки сразу попадают в ваш инвентарь.",
+  "tooltip.neovitae.lexVitae.dormant": "Спит",
+  "tooltip.neovitae.lexVitae.growth.efficiency": "  +%s к эффективности добычи",
+  "tooltip.neovitae.lexVitae.growth.fortune": "  +%s к удаче",
+  "tooltip.neovitae.lexVitae.growth.level": "Уровень развития %s",
+  "tooltip.neovitae.lexVitae.growth.progress": "  %s / %s опыта до следующего уровня",
+  "tooltip.neovitae.lexVitae.growth.wear": "  Игнорирует %s%% износа",
+  "tooltip.neovitae.lexVitae.mode": "Режим: %s",
+  "tooltip.neovitae.lexVitae.mode.both": "Добыча и урон",
+  "tooltip.neovitae.lexVitae.mode.damaging": "Урон",
+  "tooltip.neovitae.lexVitae.mode.mining": "Добыча",
+  "tooltip.neovitae.lexVitae.radius": "Радиус: %s×%s",
+  "tooltip.neovitae.lexVitae.rider.nihilum": "Сокрушительный урон и бонусы к добыче",
+  "tooltip.neovitae.lexVitae.rider.raw": "Все действия усиливаются запасённым сырым Spiritus",
+  "tooltip.neovitae.lexVitae.rider.vindicta": "Более быстрые взмахи и зарядка луча"
 }
