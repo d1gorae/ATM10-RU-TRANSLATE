@@ -1137,5 +1137,11 @@
   "supplementaries.configuration.flag.slowness": "Период колебания",
   "supplementaries.configuration.flag.slowness.description": "Продолжительность одного колебания флага. Меньшее значение означает более быстрое колебание",
   "supplementaries.configuration.flag.wavyness": "Волнистость",
-  "supplementaries.configuration.flag.wavyness.description": "Выраженность волн в анимации, в пикселях (длина волны)"
+  "supplementaries.configuration.flag.wavyness.description": "Выраженность волн в анимации, в пикселях (длина волны)",
+  "supplementaries.configuration.flag.intensity": "Интенсивность",
+  "supplementaries.configuration.flag.intensity.description": "Высота гребней волны (амплитуда волны)",
+  "supplementaries.configuration.flag.intensity_increment": "Прирост интенсивности",
+  "supplementaries.configuration.flag.intensity_increment.description": "Насколько увеличивается амплитуда волны на каждый пиксель (прирост амплитуды на пиксель)",
+  "supplementaries.configuration.flag.fanciness": "Качество графики",
+  "supplementaries.configuration.flag.fanciness.description": "При каком уровне графики флаги используют улучшенный рендерер: 0 — быстро, 1 — красиво, 2 — великолепно"
 }
