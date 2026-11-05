@@ -1336,5 +1336,10 @@
   "supplementaries.configuration.placeable_gunpowder.spread_age.description": "Возраст, при котором порох распространяется на следующий блок пороха. Также влияет на скорость",
   "supplementaries.configuration.tweaks.raked_gravel": "Разравнивание гравия",
   "supplementaries.configuration.tweaks.raked_gravel.description": "Позволяет разравнивать гравий мотыгой",
-  "supplementaries.configuration.bottle_xp": "Бутылка опыта"
+  "supplementaries.configuration.bottle_xp": "Бутылка опыта",
+  "supplementaries.configuration.bottle_xp.enabled.description": "Позволяет собирать опыт в бутылку, используя её на столе зачаровывания",
+  "supplementaries.configuration.bottle_xp.cost": "Стоимость",
+  "supplementaries.configuration.bottle_xp.cost.description": "Стоимость наполнения бутылки здоровьем",
+  "supplementaries.configuration.bottle_xp.target_block": "Целевой блок",
+  "supplementaries.configuration.bottle_xp.target_block.description": "Блок, по которому нужно нажать для наполнения бутылки. Оставьте поле пустым, чтобы использовать стол зачаровывания. Здесь можно указать другой блок из мода, если он подходит лучше"
 }
