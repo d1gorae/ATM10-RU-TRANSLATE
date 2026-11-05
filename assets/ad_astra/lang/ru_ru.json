@@ -755,5 +755,11 @@
   "painting.ad_astra.mercury.author": "Facu",
   "painting.ad_astra.mercury.title": "Меркурий",
   "painting.ad_astra.moon.author": "Facu",
-  "painting.ad_astra.moon.title": "Луна"
+  "painting.ad_astra.moon.title": "Луна",
+  "painting.ad_astra.neptune.author": "Facu",
+  "painting.ad_astra.neptune.title": "Нептун",
+  "painting.ad_astra.pluto.author": "Facu",
+  "painting.ad_astra.pluto.title": "Плутон",
+  "painting.ad_astra.saturn.author": "Facu",
+  "painting.ad_astra.saturn.title": "Сатурн"
 }
