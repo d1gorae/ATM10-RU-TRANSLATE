@@ -858,3 +858,15 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммиты: No Chat Reports [d07da48](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d07da48559be4f0b4e7e064d31674aa87d6dd9bc); глоссарий [8f098d5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f098d567b89e46220b4e04fb5b5250faf73965c).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: pamhc2trees, patchouli, pipez, placebo, pocketstorage, polylib, polymorph, potionsmaster, productivebees и productivemetalworks. Productive Bees ранее уже переводился; не перезаписывать существующие значения, только сверить и исправить подтверждённые ошибки. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать вторая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Pam's HarvestCraft Trees, Patchouli, Pipez, Placebo, PocketStorage, PolyLib, Polymorph, Potions Master, Productive Bees и Productive Metalworks. Всего **1 899 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. 16 совпадений RU=EN — названия модов, технические идентификаторы, клавиши и плейсхолдеры.
+
+В Productive Bees локализованы 117 продвинутых ульев и 117 расширителей ульев с вариантами пород древесины; исправлены достижения и подсказки. В Pipez согласованы названия уровней улучшений, в Placebo — косметические эффекты для спонсоров. В Pam's HarvestCraft Trees восстановлены три завершающих пробела. Глоссарий дополнен.
+
+Коммиты: Productive Bees [f7fa64c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f7fa64c66fa40d78093fbfba148858696dfff573), [c62cb6b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c62cb6bbf267d04e5d09cf28079a9963f18730b5); Pipez [311aae7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/311aae7c4f7b55de5814a4ca12684191b33d2411); Placebo [a10a081](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a10a0816e7d7f525b9062b6ea8535b6a8149e5e4); Pam's HarvestCraft Trees [cd33c14](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cd33c14c752157f1dc910c211c7115c0b8462255); глоссарий [d0c2ecd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d0c2ecdd5cd4a246db21d4c025a1ac9de8de648a), [6ed7ef1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ed7ef1066ba364d91882c2265e95831d3257cbf).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rangedpumps, rechiseledcreate, redstonepen, refinedtypes, refinedfluidsubstitution, refinedstorage_curios_integration, refinedstorage_jei_integration, refinedstorage_mekanism_integration, refinedstorage, refinedstorage_quartz_arsenal. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
