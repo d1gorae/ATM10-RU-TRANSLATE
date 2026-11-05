@@ -555,3 +555,12 @@ Regions Unexplored 0.6.3-neoforge-21.1: **933/933 ключа**. Исходный
 Перевод: [7affad8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7affad8265968599924b64d9fff82e25b42208c9). Глоссарий: [c844fe5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c844fe56b5115795d82fc4c9b59793f7b80fe7d5). Инвентаризация: [b80e87b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b80e87ba53ff7aaf70c0483858d16361b6654b8e).
 
 Завершены 7 модов текущей очереди: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear, Supplementaries и Regions Unexplored. Партия из десяти ещё не завершена. Следующий шаг — определить три следующих незавершённых мода по актуальным INVENTORY.md и EN-источникам. main не изменялся. FTB Quests/SNBT оставить на самый конец.
+
+
+## Партия из десяти модов завершена — 05.11.2026
+
+Подтверждено 10/10 завершённых локализаций: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools, Silent Gear, Supplementaries, Regions Unexplored, Explorer's Compass, Measurements и Nature's Compass. Для последних трёх восстановлены только пропущенные служебные поля _comment; пользовательские строки уже были переведены.
+
+Explorer's Compass: 68/68, commit [9cfe773](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9cfe773670b156ea801e8a53c2a9feeb6fcbc1e8). Measurements: 15/15, commit [9c6c48a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c6c48a3a76b66b7827d2871525da9ec2e08870a). Nature's Compass: 44/44, commit [1b1cb11](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1b1cb114c2a8fd8bd22212e99fe9e9f445c5451d). Во всех трёх файлах missing 0, extra 0, duplicates 0, placeholder mismatches 0, formatting mismatches 0, newline mismatches 0.
+
+Обновлена инвентаризация: [4ea2fd3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ea2fd3bf85c437d8572734dbd0cbaa976730c40). Следующая партия начинается с Ad Astra: EN 831, RU 685, missing 146, extra 0. Также обнаружен недостающий служебный ключ ZeroCore: EN 50, RU 49. Перед следующими модами сверить свежие состояния репозиториев и определить следующую очередь по INVENTORY.md. `main` не изменялся. FTB Quests/SNBT оставить на самый конец.
