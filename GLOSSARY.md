@@ -56,3 +56,7 @@
 | Potion Shelf | полка для зелий | BiblioCraft |
 | Tool Rack | стойка для инструментов | BiblioCraft |
 | Typewriter | печатная машинка | BiblioCraft |
+| Rechiseled | Rechiseled | Название мода; не переводить |
+| Chisel | резец | Инструмент для обработки блоков в Rechiseled |
+| Chiseling | обработка резцом | Действие обработки блоков в Rechiseled |
+| Connecting textures | соединяемые текстуры | Текстуры блоков, которые визуально соединяются друг с другом |
