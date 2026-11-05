@@ -246,6 +246,7 @@ FTB Quests — отдельная подсистема:
 - Повторно вычитаны и проверены: Herbs & Harvest, Refurbished Furniture, Steve's Carts, Integrated Scripting, Xtones Reworked.
 - Следующий кандидат: Bibliobiomes. Его EN-файл содержит 9577 ключей в namespace bibliocraft, SHA 5e0f1c9b49566cb0353cc4e24869cb9f12f31a76. Текущий русский assets/bibliocraft/lang/ru_ru.json содержит 2021 ключ BiblioCraft; все 9577 ключей Bibliobiomes отсутствуют. Их нужно перевести и добавить в тот же файл, не затирая существующие значения.
 - bibliowoods и accelerateddecay имеют пустые EN-файлы (0 ключей); atmcompat содержит 10 ключей namespace allthemodium, и все они уже присутствуют в русском allthemodium.
+- GLOSSARY.md дополнен терминами новой партии; коммит: [e52bb18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e52bb18ebc6b54beba0bd26085b7b714314f25bb).
 - FTB Quests и SNBT остаются строго на самый конец проекта.
 
 ## 16. Steve's Carts — повторная вычитка и исправления — 05.11.2026
