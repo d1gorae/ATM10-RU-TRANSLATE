@@ -181,7 +181,7 @@
 | `irons_spellbooks` | 1 128 | 1 315 |
 | `silentgear` | 616 | 1 191 |
 | `mekanismgenerators` | 200 | 364 |
-| `neovitae` | 1 541 | 3 652 |
+| `neovitae` | 1 635 | 3 652 |
 | `productivetrees` | 3 832 | 4 149 |
 | `pneumaticcraft` | 1 987 | 2 274 |
 | `mekanismtools` | 800 | 800 |
