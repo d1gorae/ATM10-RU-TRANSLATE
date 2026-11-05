@@ -878,3 +878,43 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Примечание по Mahou Tsukai: в исходном архиве также присутствует legacy-файл en_us.lang с 678 уникальными ключами, отсутствующими в актуальном en_us.json. В ru_ru.json эти записи не переносились; использование legacy-файла в версии ATM10 1.21.1 отдельно не подтверждено.
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия начинается после mcwwindows: mcwroofs, mcwtrpdoors, megacells, mekanismcovers, mekanisticrouters, memorysettings, merequester, merrymaking, mffs, mifa. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Mifa (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 657 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| mcwroofs | 610/610 | 0 | 0 | 0 | 0 | 0 |
+| mcwtrpdoors | 201/201 | 0 | 0 | 0 | 0 | 0 |
+| megacells | 134/134 | 0 | 0 | 0 | 0 | 0 |
+| mekanismcovers | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| mekanisticrouters | 13/13 | 0 | 0 | 0 | 0 | 0 |
+| memorysettings | 8/8 | 0 | 0 | 0 | 0 | 0 |
+| merequester | 27/27 | 0 | 0 | 0 | 0 | 0 |
+| merrymaking | 472/472 | 0 | 0 | 0 | 1 (совпадает с EN) | 0 |
+| mffs | 186/186 | 0 | 0 | 0 | 0 | 0 |
+| mifa | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 657/1 657** | **0** | **0** | **0** | **1 = EN** | **0** |
+
+Во всех десяти файлах JSON корректен; пропущенных/лишних ключей, дубликатов RU, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. В EN Merrymaking один ключ повторён с одинаковым значением; RU содержит его один раз. Пустое значение Merrymaking совпадает с EN. Совпадения RU=EN: пустая строка Merrymaking и технические обозначения Shift/MFFS в MFFS.
+
+Смысловые и технические исправления:
+- MegaCells: MEGA Crafting Co-Processing Unit переведён как «Мега-сопроцессор крафта».
+- Mekanistic Routers: восстановлена точная последовательность кодов форматирования в подсказке Chemical Refill Module.
+- Memory Settings: восстановлен начальный пробел в строке, которая начинается с пробела в EN.
+- ME Requester: в беспроводных терминалах восстановлено обозначение МЭ.
+- Merrymaking: исправлено согласование рода/числа для кожаных, железных и алмазных предметов; возвращён смысл Ugly Christmas Sweater; восстановлены начальные пробелы у трёх каминных полок.
+- MFFS: Fortron унифицирован как «Фортрон»; Warp в разрешениях прохода через силовые поля больше не переводится как телепортация; восстановлены завершающие пробелы двух подписей.
+- Глоссарий дополнен терминами AE2, Mekanism, MFFS и Merrymaking.
+
+Коммиты:
+- MegaCells [addd475](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/addd475bab0bc2a977eeaffb379d5607cefb5bb6).
+- Mekanistic Routers [e597e87](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e597e8712f611a7cd413d249f6db5477d1f6a10b), [e85eb01](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e85eb01d30e3b97970f542338617d3f8ab32331c).
+- Memory Settings [9e329e4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9e329e4d04764ec4642d158bbc4a93eff6e4d496).
+- ME Requester [9120c52](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9120c52c6fe50f0ada44ae0a400e03834508be03).
+- Merrymaking [38a53dc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/38a53dcff5f807841a720556a84ae799c245e813), [b20f1cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b20f1cd2f088287097996a8a84928e6ae623d8c9), [cc3ad21](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cc3ad21ca85ee3123cb92a405c64642d6b198c18).
+- MFFS [a8eb5f8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a8eb5f8cecc96ab7a954912c2f4bef354729dc60), [988d6a8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/988d6a8975ffaeaac16d35b8a2206e9d51915f5e).
+- Глоссарий [5fb453b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5fb453b56630d2d1343e9b50b1e4a7a6d20c984f), [6704118](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67041181eda9efeed639cbf98770896bd6437039).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: minecolonies, mininggadgets, mob_grinding_utils, modernfix, modonomicon, modularrouters, modularbees, mes, mns, mss. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
