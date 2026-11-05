@@ -755,4 +755,13 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 
 Проверены **10/10 namespace**: `commoncapabilities`, `compactmachines`, `connectedglass`, `constructionstick`, `controlling`, `cookingforblockheads`, `copycats`, `cosmeticarmorreworked`, `crafting_on_a_stick`, `craftingtweaks`. Всего **728 ключей**. JSON корректен; missing 0, extra 0, duplicates RU 0, placeholder/format/newline/whitespace mismatches 0. Три пустых значения совпадают с EN. В EN Common Capabilities повторяется только служебный `_comment` (3 объявления). В Cooking for Blockheads восстановлены две экранированные последовательности `\\n` из оригинала; коммит [5223759](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/522375983dbeb003719b937ad7ec01759c712396).
 
-**Итого за семь партий после Ars Creo: 70/70 namespace, 15 174 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `craftingtweaks`; продолжить с `crashutilities`, пропуская ранее проверенные namespace. FTB Quests/SNBT не затрагивать до заключительного этапа.
+**Итого за семь партий после Ars Creo: 70/70 namespace, 15 174 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `craftingtweaks`; блок C–C завершён в двенадцатой партии ниже. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Двенадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `crashutilities`, `create`, `create_aquatic_ambitions`, `create_enchantment_industry`, `create_hypertube`, `createaddition`, `creeperoverhaul`, `cristellib`, `crystalix`, `curios`. Всего **4 805 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Семь пустых значений Create совпадают с EN; порядок плейсхолдеров во всех файлах проверен отдельно и совпадает.
+
+В Create Enchantment Industry переведены 332 ранее полностью английских значения; четыре оставшихся совпадения являются техническими шаблонами. Исправлены пробелы в Create и порядок аргументов в двух сообщениях Curios. Обновлён глоссарий. Коммиты: [Create Enchantment Industry](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23759eeabfb0f3119424de610551fe5d6fcfd9ce), [Create](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebce9d7983f266e5eefb388ba62f5ad5fec83133), [Curios](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9921f5d7c878ca73eecf959d42845002f123d6da), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f96cd8fcd9b490e71de53c87fc963029bb6e1a4).
+
+**Итого за восемь партий после Ars Creo: 80/80 namespace, 19 979 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `curios`; сверить следующие namespace по EN-дереву и INVENTORY, не повторяя ранее проверенные файлы. FTB Quests/SNBT не затрагивать до заключительного этапа.
