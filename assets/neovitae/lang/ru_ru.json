@@ -3646,5 +3646,9 @@
   "trainer.neovitae.allow_others": "Разрешить остальные",
   "trainer.neovitae.deny_others": "Запретить остальные",
   "trainer.neovitae.save": "Сохранить",
-  "trim_material.neovitae.demonite": "Адская ковка"
+  "trim_material.neovitae.demonite": "Адская ковка",
+  "ritual.neovitae.enchanted_vitae.conflict": "Обряд отвергает сочетание %s и %s. Уберите один из отмеченных томов с камня, затем снова предложите предмет, чтобы продолжить.",
+  "sentient_upgrade.neovitae.aquatic_agility": "Водная ловкость",
+  "sentient_upgrade.neovitae.gills": "Жабры",
+  "sentient_upgrade.neovitae.lava_strider": "Хождение по лаве"
 }
