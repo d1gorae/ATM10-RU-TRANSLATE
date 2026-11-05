@@ -624,3 +624,17 @@
 | Perk Nullifier | обнулитель навыка | Удаляет выбранный навык и возвращает очко |
 | Attunement Altar | алтарь настройки | Алтарь для настройки на созвездие |
 | Aevitas, Armara, Discidia, Evorsio, Vicio, Virel, Solyn, Nullae, Caldor, Hyle, Dynamis, Aion, Akasha, Prismatic | Aevitas, Armara, Discidia, Evorsio, Vicio, Virel, Solyn, Nullae, Caldor, Hyle, Dynamis, Aion, Akasha, Prismatic | Имена аспектов; сохранять оригинальное написание |
+
+
+## Extreme Reactors
+
+| English | Русский | Примечание |
+|---|---|---|
+| Energizer | энергизатор | Многоблочная установка Extreme Reactors для преобразования ресурсов в энергию |
+| Energizer Casing | корпус энергизатора | Корпусной блок многоблочной установки |
+| Energizer Controller | контроллер энергизатора | Центральный блок управления установкой |
+| Energizer Status Display | индикатор состояния энергизатора | Блок отображения состояния установки |
+| FE Power Port | порт энергии (FE) | Порт ввода или вывода энергии энергизатора; FE сохранять |
+| Energizer Charging Port | порт зарядки энергизатора (FE) | Порт подачи энергии в энергизатор |
+| Energy Cell | энергетическая ячейка | Блок хранения энергии |
+| Forge Energy (FE) | энергия Forge (FE) | Энергетическая система; FE сохранять как сокращение |
