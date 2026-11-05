@@ -377,3 +377,12 @@ Dropbox использован только для чтения; файлы в �
 - Проверки актуального EN `neovitae-1.21.1-1.1.51`: JSON корректен; missing 2 111, extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0.
 - Переводческий коммит последней порции: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1511d56ad647c1775190212599c8bcfde6397450.
 - Инвентаризация обновлена до 1 541 ключа. NeoVitae не завершён и не опубликован в `main`. Продолжать только в `work/neovitae-ru`; следующая партия — не менее 600 новых ключей.
+
+
+### Текущая точка продолжения NeoVitae — 05.11.2026
+
+- `assets/neovitae/lang/ru_ru.json`: **1 601/3 652 ключей**, отсутствует 2 051.
+- После подтверждённой точки 881/3 652 добавлено 720 новых ключей. Последние 60 строк — Crystallum Fractura и руководство по Предсказателю ритуалов.
+- Сверка с актуальным EN `neovitae-1.21.1-1.1.51`: JSON корректен; missing 2 051, extra 0, duplicates 0, empty 0, placeholder mismatches 0, newline mismatches 0, formatting mismatches 0.
+- Последний переводческий коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/04912b52bca5bad154b8be591f01d80607602996.
+- `INVENTORY.md` обновлён до 1 601 ключа. NeoVitae не завершён и не опубликован в `main`; продолжать в `work/neovitae-ru`, следующая партия — не менее 600 новых ключей.
