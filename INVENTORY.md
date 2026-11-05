@@ -736,3 +736,20 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий дополнен терминами Ars Additions, Ars Controle, Ars Creo, Memory Crystal, Source Spawner, Mob Jar и Warp Index.
 
 Коммиты: Ars Additions [982b74b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/982b74b5d993da0c3d33b091c657e976c5daf587), [4257af8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4257af80ac6c60cf53cc8d096c4801a6fee2a843); Apothic Spawners [e57660d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e57660d082537663e188d6aca2495608cc491701); Ars Controle [afcf57c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/afcf57c68abbf6632e043af2605c199bfb23fe66); глоссарий [b6ed8fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b6ed8fd7090f7ba478406ccc82dd13566d524df9), [f890452](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f890452656f803a89b5ee472bbb64ae9956b953a).
+
+
+## JSON-аудит — партия после Ars Creo (06.11.2026)
+
+Проверены 10 namespace: `ars_elemancy` (195), `ars_elemental` (668), `ars_ocultas` (10), `ars_technica` (169), `ars_unification` (11), `arseng` (17), `artifacts` (448), `auroral` (167), `auroras` (1), `balm` (36). Итого **1 722 ключа**.
+
+Для всех файлов: JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов — 0. Два пустых значения `ars_elemental.adv.desc.x` и `ars_elemental.adv.title.x` совпадают с пустыми значениями EN и сохранены. Остальные совпадения RU=EN относятся к названию мода, творческим вкладкам и шаблонам плейсхолдеров. Переводы не требовали изменений.
+
+## JSON-аудит — следующая партия (06.11.2026)
+
+Проверены 10 namespace: `bhc` (67), `bellsandwhistles` (39), `betteradvancedtooltips` (5), `betteradvancements` (1), `betterfortresses` (4), `bettermineshafts` (60), `betteroceanmonuments` (4), `betterstrongholds` (11), `betterwitchhuts` (4), `bigreactors` (522). Итого **717 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликатов RU 0; пустых значений 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. В EN-файле Big Reactors 31 повторное объявление ключа `_comment` (30 повторов одного служебного ключа); других повторяющихся ключей нет. В RU дубликатов нет.
+
+В `bigreactors` переведены 13 ранее совпадавших с EN пользовательских значений: названия блоков и деталей энергизатора, а также подпись `Name:`. Оставшиеся совпадения относятся к названию мода, комментариям, числовым настройкам и техническим шаблонам. Добавлены термины Extreme Reactors в `GLOSSARY.md`.
+
+Коммиты: перевод Big Reactors [64aa65e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/64aa65e1036b819ff400c362917d370cf7be4ca7); глоссарий [91bccf6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/91bccf6fb0b383c8d5c7f2f701e42977d043ee5) и последующее удаление повторной строки термина [d312883](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d3128835dddef70e1303370e1cae75baa0bbccbb).
