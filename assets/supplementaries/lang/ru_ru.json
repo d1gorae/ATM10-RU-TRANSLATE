@@ -1143,5 +1143,15 @@
   "supplementaries.configuration.flag.intensity_increment": "Прирост интенсивности",
   "supplementaries.configuration.flag.intensity_increment.description": "Насколько увеличивается амплитуда волны на каждый пиксель (прирост амплитуды на пиксель)",
   "supplementaries.configuration.flag.fanciness": "Качество графики",
-  "supplementaries.configuration.flag.fanciness.description": "При каком уровне графики флаги используют улучшенный рендерер: 0 — быстро, 1 — красиво, 2 — великолепно"
+  "supplementaries.configuration.flag.fanciness.description": "При каком уровне графики флаги используют улучшенный рендерер: 0 — быстро, 1 — красиво, 2 — великолепно",
+  "supplementaries.configuration.flag.render_as_banner": "Отображать как знамя",
+  "supplementaries.configuration.flag.render_as_banner.description": "Отображает флаги как знамёна, повёрнутые боком. Игнорирует многие настройки, заданные выше",
+  "supplementaries.configuration.captured_mobs": "Пойманные мобы",
+  "supplementaries.configuration.captured_mobs.tickable_inside_jars": "Обновление мобов внутри банок",
+  "supplementaries.configuration.captured_mobs.tickable_inside_jars.description": "Список мобов, для которых разрешено обновление на стороне клиента, пока они находятся в банках. В основном используется для мобов с частицами. Может вызывать проблемы и побочные эффекты — используйте осторожно",
+  "supplementaries.configuration.hat_stand.swing_physics": "Физика раскачивания",
+  "supplementaries.configuration.turn_table.turn_particles": "Частицы при повороте",
+  "supplementaries.configuration.turn_table.turn_particles.description": "Отображать визуальные частицы при повороте блока",
+  "supplementaries.configuration.speaker_block.mute_narrator": "Отключить диктора",
+  "supplementaries.configuration.speaker_block.mute_narrator.description": "Перенаправляет входящие сообщения диктора блока-динамика в чат вместо их воспроизведения"
 }
