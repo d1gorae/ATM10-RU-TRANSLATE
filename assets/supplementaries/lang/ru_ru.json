@@ -1383,5 +1383,10 @@
   "supplementaries.configuration.slimed_effect.hinders_jump.description": "Брошенные снежки из слизи ненадолго уменьшают высоту прыжка игрока. Отключите, если эффект кажется слишком сильным",
   "supplementaries.configuration.grouper": "Сортировщик",
   "supplementaries.configuration.grouper.compare_entities": "Сравнивать сущности",
-  "supplementaries.configuration.grouper.compare_entities.description": "Позволяет сортировщикам сравнивать сущности по бокам, если с обеих сторон воздух или жидкость. Одинаковый тип сущности даёт слабый сигнал. Для полной мощности требуется точное совпадение: тот же выброшенный предмет или предмет в рамке, тот же вариант моба, профессия жителя или бирка с именем"
+  "supplementaries.configuration.grouper.compare_entities.description": "Позволяет сортировщикам сравнивать сущности по бокам, если с обеих сторон воздух или жидкость. Одинаковый тип сущности даёт слабый сигнал. Для полной мощности требуется точное совпадение: тот же выброшенный предмет или предмет в рамке, тот же вариант моба, профессия жителя или бирка с именем",
+  "supplementaries.configuration.blackboard.connected_gui": "Связанные доски в интерфейсе",
+  "supplementaries.configuration.blackboard.connected_gui.description": "При открытии интерфейса школьной доски также отображаются до девяти соседних досок, чтобы можно было рисовать сразу на всей области 3×3",
+  "supplementaries.configuration.pignata": "Пиньята",
+  "supplementaries.configuration.pignata.heal_interval": "Интервал восстановления",
+  "supplementaries.configuration.pignata.heal_interval.description": "Количество тиков, за которое пиньята восстанавливает одно сердце прочности"
 }
