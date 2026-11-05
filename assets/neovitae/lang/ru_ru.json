@@ -1478,5 +1478,6 @@
   "book.neovitae.guide.tabula_vitae.flask_strength.intro.text": "Эликсир [#](8B0000)Силы[#]() насыщает мышцы [#](4A0080)Эссенцией Vitae[#](), добавляя 3 единицы урона от атак за уровень. То, что прежде было равным боем, становится односторонней расправой.",
   "book.neovitae.guide.tabula_vitae.flask_strength.intro.title": "Сила",
   "book.neovitae.guide.tabula_vitae.flask_strength.name": "Сила",
-  "book.neovitae.guide.tabula_vitae.flask_suspended.description": "Отрывает тело от власти притяжения."
+  "book.neovitae.guide.tabula_vitae.flask_suspended.description": "Отрывает тело от власти притяжения.",
+  "book.neovitae.guide.tabula_vitae.potion_crafting.simple_catalyst.title": "Простой катализатор"
 }
