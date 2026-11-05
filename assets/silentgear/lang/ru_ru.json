@@ -1180,5 +1180,14 @@
   "trait.silentgear.wind_blast": "Порыв ветра",
   "trait.silentgear.wind_blast.desc": "Создаёт порыв ветра при атаке",
   "trait.silentgear.yummy": "Вкуснятина",
-  "trait.silentgear.yummy.desc": "Делает предмет съедобным, но..."
+  "trait.silentgear.yummy.desc": "Делает предмет съедобным, но...",
+  "grade.silentgear.A": "A",
+  "grade.silentgear.B": "B",
+  "grade.silentgear.C": "C",
+  "grade.silentgear.D": "D",
+  "grade.silentgear.E": "E",
+  "grade.silentgear.MAX": "MAX",
+  "grade.silentgear.S": "S",
+  "grade.silentgear.SS": "SS",
+  "grade.silentgear.SSS": "SSS"
 }
