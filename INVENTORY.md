@@ -382,3 +382,34 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 - `create_dragons_plus`: 356/356; удалён один лишний RU-only ключ. Missing 0, extra 0, placeholder mismatches 0, empty 0. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3a92c07d5c00d3a1ddd1d4c0272a17854ebf814d
 - `sophisticatedstorage`: 425/425; missing 0, extra 0, placeholder mismatches 0, empty 0. Актуальное количество ключей — 425.
 - `mekanismgenerators`: 364/364; missing 0, extra 0. Процент в значении `100%` не является плейсхолдером. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/513a0091918e9bfe9d232c1ea9d17bbabd61be3a
+
+
+### Дополнительная сверка с Dropbox — 05.11.2026
+
+Dropbox использован только для чтения; файлы в нём не изменялись. Сравнение показало, что его копии в основном не закрывают текущие пропуски: часть ключей устарела, а некоторые значения имеют ошибки плейсхолдеров. Безусловно переносить весь файл нельзя.
+
+В GitHub восстановлены только пять отсутствующих в RU-репозитории ключей, которые присутствуют в актуальном EN и имеют подходящий перевод с корректными плейсхолдерами:
+- Mekanism — 3 ключа: служебный `_mekanism_force_utf8` и два описания механизмов. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/83b65e92f5fce0076f3a36ffc67d18713502be86
+- Ice and Fire — 1 описание модификатора. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/88e319986aa1cf1244b722cf84274e9e38ec0124
+- Silent Gear — 1 описание особенности. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2441db78ecd100ac81b40d92f4f1522109f72a56
+
+Не перенесены:
+- Mekanism `multiblock.mekanism.invalid_inner`: в Dropbox отсутствует плейсхолдер `%2$s`.
+- Silent Gear: устаревшие ключи, а также значения с неправильными плейсхолдерами (`%d` вместо `%s`, отсутствующие параметры).
+- Supplementaries: найденные Dropbox-значения для `item.supplementaries.bamboo_spikes_tipped.effect` и `message.supplementaries.cannon.maneuver` не сохраняют параметры EN.
+- Ключи Dropbox, отсутствующие в актуальном EN, не импортировались.
+
+### Актуальный остаток после восстановления пяти ключей
+
+| Мод | EN | RU | Missing |
+|---|---:|---:|---:|
+| NeoVitae | 3652 | 256 | 3396 |
+| Mekanism | 3239 | 1608 | 1631 |
+| Ice and Fire | 1809 | 1194 | 615 |
+| Mekanism Tools | 800 | 185 | 615 |
+| Silent Gear | 1191 | 617 | 574 |
+| Supplementaries | 1394 | 708 | 686 |
+| Regions Unexplored | 933 | 455 | 478 |
+| **Итого** | **13018** | **5023** | **7995** |
+
+Повторная проверка всех семи файлов после изменений: extra 0, empty 0, placeholder mismatches 0. Ни один из семи переводов пока не считается завершённым.
