@@ -894,3 +894,13 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Коммит: Reliquified Artifacts [b5f8ba3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b5f8ba34bc9d8f47bbf172129806dc4945b6d43e).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: rftoolsutility, rootsclassic, sawmill, searchables, sgearmetalworks, shiny, shrink, silentlib, silentgems и simplebackups. Silent Gear уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
+
+## Двадцать пятая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** RFTools Utility, Roots Classic, Sawmill, Searchables, Silent Gear Metalworks, Shiny, Shrink, Silent Lib, Silent Gems и Simple Backups. Всего **1 178 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. Два пустых значения Roots Classic совпадают с EN. Шесть совпадений RU=EN — название Roots Classic, плейсхолдер, save-all/Mc2Discord и технические обозначения.
+
+В Roots Classic удалён лишний начальный пробел в заголовке Wildwood Boots. Коммит: [51e15d7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51e15d76edd4c431bd998535f0c375cbcd742327).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion и soulplied_energistics. Sophisticated Storage уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
