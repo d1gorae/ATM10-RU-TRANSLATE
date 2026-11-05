@@ -742,3 +742,10 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 После повторной проверки порядка namespace по EN-дереву выявлен пропущенный блок B–C между `bigreactors` и ранее обработанным `extremesoundmuffler`. Проверены **10/10 namespace**: `biomeswevegone`, `blockui`, `bookshelf`, `botanypots`, `brandonscore`, `bridgingmod`, `buildinggadgets2`, `bwncr`, `cabletiers`, `caelus`. Всего **2 143 ключа**. JSON корректен; missing 0, extra 0, duplicates 0, placeholder/format/newline/whitespace mismatches 0. Семь пустых значений Bookshelf/Botany Pots совпадают с EN и относятся к служебным разделителям/метаданным. Необоснованных совпадений пользовательского текста RU=EN не обнаружено. Изменения переводов не потребовались.
 
 **Итого за пять партий после Ars Creo: 50/50 namespace, 11 447 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `caelus`; продолжить сверку EN/RU namespace по порядку, пропуская только те файлы, которые уже документально проверены. Ранее обработанные `extremesoundmuffler`–`modern_industrialization` остаются завершёнными и не требуют повторной работы. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Десятая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `camol`, `charginggadgets`, `chisel`, `chromacarvings`, `cloudglass`, `cobblegengalore`, `codechickenlib`, `colorfulhearts`, `comforts`, `common_storage_lib`. Всего **2 999 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. Пять совпадений RU=EN — название Chisel, обозначение RF и технический шаблон. Изменения переводов не потребовались.
+
+**Итого за шесть партий после Ars Creo: 60/60 namespace, 14 446 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `common_storage_lib`; продолжить с `commoncapabilities`, исключая ранее проверенные namespace. FTB Quests/SNBT не затрагивать до заключительного этапа.
