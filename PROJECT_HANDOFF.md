@@ -397,3 +397,21 @@ Dropbox использован только для чтения; файлы в �
 Коммиты переводов: [2855440](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/28554406f30a219548fc40f2a57312a3f4e1c41b), [9f4454b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f4454bffec44d1c51b51f5486de9347f98f35cb), [4ab63ef](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ab63ef0f9eb9e82c074393f2b7535e47fd4f089), [9067416](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9067416f218f2ccd545f36f3520dbb471ec9a252). Финальная сортировка ключей и исправление форматирования: [3831712](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3831712f68f73f99953acb7056d232e62b564599).
 
 Следующее действие: продолжить перевод NeoVitae в этой же ветке до добавления минимум 600 новых ключей относительно контрольной точки 1 541; не переходить к следующему моду и не переносить изменения в `main`.
+
+
+## Результаты следующей партии NeoVitae — 05.11.2026
+
+В ветке `work/neovitae-ru` добавлено **600 новых переводов** к контрольной точке 1 635/3 652. Текущее покрытие: **2 235/3 652**, осталось **1 417** ключей.
+
+Проверка с актуальным английским оригиналом `neovitae-1.21.1-1.1.51`:
+- JSON корректен.
+- EN/RU ключи: missing 1 417, extra 0.
+- Дубликаты: 0; пустые значения: 0.
+- Для всех 600 новых значений проверены плейсхолдеры, цветовые маркеры и экранированные переносы строк: расхождений 0.
+- 6 совпадений с английским сохранены осознанно: названия Lex Vitae, Spiritus, Crystallarium Maleficum и счётчик `%s / %s`; это имена собственные/техническое обозначение, а не пропущенный перевод.
+
+Переводы опубликованы отдельными коммитами: [adb1a17](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/adb1a17dca8e60765353a6751d529ff92c3905c9), [8243092](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/82430920d5e8b8557ed529914c851e270ab0f221), [66b4b6b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/66b4b6b5217d7caf69c96d9769f90d5e47abf79a), [2675ac5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2675ac561fa0b9b9919ddb4e9a9455c0ed273f6c), [32d5879](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/32d5879d609fbdd0c7a1995febfa3ea342b9babd), [8f3fc90](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f3fc90dc01e316c718e545581f8f7028b10e339), [fc4a90c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fc4a90c747dbcab6a8d25593cf2bdc67c0437fa4), [14fe72b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/14fe72b7cd5f7d4eee63bb6271e5d5f3a0b53672). Отдельно исправлено экранирование переносов: [3238e0b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3238e0b38565dfbe9870f6e77bfcc86db3ec8353).
+
+Обновлены `INVENTORY.md` (2 235 ключей) и `GLOSSARY.md` (термины NeoVitae). Коммиты документации: [3cd56bf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3cd56bfb07c238820cc269812059b7fd8fe9198b), [b34a2f7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b34a2f7bf60fca218dfff224d53a6ad5448fa5a3).
+
+NeoVitae **не завершён** и изменения не переносились в `main`. Продолжать в `work/neovitae-ru`, не переходить к следующему моду. Следующая партия — ещё не менее 600 новых ключей; исходная контрольная точка этой партии — 2 235/3 652.
