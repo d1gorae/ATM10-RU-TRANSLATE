@@ -1046,5 +1046,20 @@
   "supplementaries.configuration.slice_map.range_multiplier": "Множитель дальности",
   "supplementaries.configuration.slice_map.range_multiplier.description": "Множитель, уменьшающий дальность карт-срезов по сравнению с обычными картами",
   "supplementaries.configuration.bubble_blower": "Генератор пузырей",
-  "supplementaries.configuration.bubble_block": "Пузырьковый блок"
+  "supplementaries.configuration.bubble_block": "Пузырьковый блок",
+  "supplementaries.configuration.wrench.bypass_when_on": "Приоритет при удержании",
+  "supplementaries.configuration.wrench.bypass_when_on.description": "Позволяет гаечному ключу выполнять собственное действие вместо обычного взаимодействия с блоком",
+  "supplementaries.configuration.rope_arrow": "Верёвочная стрела",
+  "supplementaries.configuration.rope_arrow.enabled.description": "Верёвочные стрелы отключаются, если функция «Верёвки» выключена",
+  "supplementaries.configuration.rope_arrow.capacity": "Вместимость",
+  "supplementaries.configuration.rope_arrow.capacity.description": "Максимальное количество верёвок, которое можно хранить в верёвочной стреле",
+  "supplementaries.configuration.rope_arrow.exclusive_to_crossbows": "Только для арбалетов",
+  "supplementaries.configuration.rope_arrow.exclusive_to_crossbows.description": "Разрешает использовать верёвочные стрелы только с арбалетами",
+  "supplementaries.configuration.flute": "Флейта",
+  "supplementaries.configuration.flute.unbound": "Непривязанная флейта",
+  "supplementaries.configuration.flute.unbound.description": "Непривязанная флейта ищет питомцев поблизости и телепортирует их к игроку",
+  "supplementaries.configuration.flute.unbound_radius": "Радиус поиска питомцев",
+  "supplementaries.configuration.flute.unbound_radius.description": "Радиус поиска питомцев непривязанной флейтой",
+  "supplementaries.configuration.flute.bound_distance": "Дальность привязанной флейты",
+  "supplementaries.configuration.flute.bound_distance.description": "Максимальное расстояние, на котором привязанная флейта может телепортировать питомца"
 }
