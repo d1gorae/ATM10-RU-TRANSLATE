@@ -741,5 +741,19 @@
   "fluid_type.ad_astra.flowing_fuel": "Текучее топливо",
   "fluid_type.ad_astra.flowing_hydrogen": "Текучий водород",
   "fluid_type.ad_astra.flowing_oil": "Текущая нефть",
-  "fluid_type.ad_astra.flowing_oxygen": "Текучий кислород"
+  "fluid_type.ad_astra.flowing_oxygen": "Текучий кислород",
+  "painting.ad_astra.alpha_centauri.author": "Facu",
+  "painting.ad_astra.alpha_centauri.title": "Альфа Центавра",
+  "painting.ad_astra.earth.author": "Facu",
+  "painting.ad_astra.earth.title": "Земля",
+  "painting.ad_astra.glacio.author": "Facu",
+  "painting.ad_astra.glacio.title": "Гласио",
+  "painting.ad_astra.jupiter.author": "Facu",
+  "painting.ad_astra.jupiter.title": "Юпитер",
+  "painting.ad_astra.mars.author": "Facu",
+  "painting.ad_astra.mars.title": "Марс",
+  "painting.ad_astra.mercury.author": "Facu",
+  "painting.ad_astra.mercury.title": "Меркурий",
+  "painting.ad_astra.moon.author": "Facu",
+  "painting.ad_astra.moon.title": "Луна"
 }
