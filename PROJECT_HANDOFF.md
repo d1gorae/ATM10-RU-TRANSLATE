@@ -764,4 +764,11 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 
 В Create Enchantment Industry переведены 332 ранее полностью английских значения; четыре оставшихся совпадения являются техническими шаблонами. Исправлены пробелы в Create и порядок аргументов в двух сообщениях Curios. Обновлён глоссарий. Коммиты: [Create Enchantment Industry](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/23759eeabfb0f3119424de610551fe5d6fcfd9ce), [Create](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebce9d7983f266e5eefb388ba62f5ad5fec83133), [Curios](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9921f5d7c878ca73eecf959d42845002f123d6da), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f96cd8fcd9b490e71de53c87fc963029bb6e1a4).
 
-**Итого за восемь партий после Ars Creo: 80/80 namespace, 19 979 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `curios`; сверить следующие namespace по EN-дереву и INVENTORY, не повторяя ранее проверенные файлы. FTB Quests/SNBT не затрагивать до заключительного этапа.
+**Итого за восемь партий после Ars Creo: 80/80 namespace, 19 979 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `curios`; блок D–E проверен в тринадцатой партии ниже. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Тринадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `darkmodeeverywhere`, `deeperdarker`, `dungeons_arise`, `easy_villagers`, `elevatorid`, `enderstorage`, `extendedae`, `enderdrives`, `endermanoverhaul`, `enderio`. Всего **1 728 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В Ender IO переведены три пользовательские подписи слотов фильтров; глоссарий обновлён. Коммиты: [Ender IO](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f1d56b283223434b20c2ef7541572db199ac09e), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c3e9a24a11d2c1c1aa72ee553d71beea0ba08389).
+
+**Итого за девять партий после Ars Creo: 90/90 namespace, 21 707 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `enderio`; далее проверить `exnihilosequentia`, пропуская ранее проверенные `entityculling` и `evilcraft`. FTB Quests/SNBT не затрагивать до заключительного этапа.
