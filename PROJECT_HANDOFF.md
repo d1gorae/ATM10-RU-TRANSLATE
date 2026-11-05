@@ -771,4 +771,11 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 
 Проверены **10/10 namespace**: `darkmodeeverywhere`, `deeperdarker`, `dungeons_arise`, `easy_villagers`, `elevatorid`, `enderstorage`, `extendedae`, `enderdrives`, `endermanoverhaul`, `enderio`. Всего **1 728 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В Ender IO переведены три пользовательские подписи слотов фильтров; глоссарий обновлён. Коммиты: [Ender IO](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4f1d56b283223434b20c2ef7541572db199ac09e), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c3e9a24a11d2c1c1aa72ee553d71beea0ba08389).
 
-**Итого за девять партий после Ars Creo: 90/90 namespace, 21 707 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `enderio`; далее проверить `exnihilosequentia`, пропуская ранее проверенные `entityculling` и `evilcraft`. FTB Quests/SNBT не затрагивать до заключительного этапа.
+**Итого за девять партий после Ars Creo: 90/90 namespace, 21 707 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `enderio`; блок FTB и Functional Storage проверен в четырнадцатой партии ниже. FTB Quests/SNBT не затрагивать до заключительного этапа.
+
+
+## Четырнадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `farmingforblockheads`, `ftbchunks`, `ftbessentials`, `ftbfiltersystem`, `ftblibrary`, `ftbteams`, `ftbultimine`, `functionalstorage`, `fusion`, `mcwfurnitures`. Всего **1 708 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. В FTB Ultimine исправлен перенос строки в описании настройки. `ftbjeiextras` и `ftbxmodcompat` исключены из подсчёта: EN-файлы содержат пустые JSON-объекты без ключей. FTB Quests не затрагивался. Коммит [FTB Ultimine](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e3dbc2e3e1d133526319528848c437519f0023e6).
+
+**Итого за десять партий после Ars Creo: 100/100 namespace, 23 415 ключей.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `mcwfurnitures`; далее сверить `refurbished_furniture` и следующие namespace, не повторяя завершённые проверки. FTB Quests/SNBT оставить на заключительный этап.
