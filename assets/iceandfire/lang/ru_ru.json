@@ -1191,5 +1191,6 @@
   "sound.iceandfire.subtitle.icedragon_hurt": "Ледяному дракону больно",
   "sound.iceandfire.subtitle.icedragon_death": "Ледяной дракон умирает",
   "sound.iceandfire.subtitle.dragonegg_hatch": "Драконье яйцо вылупилось",
-  "sound.iceandfire.subtitle.dragonflute": "Играет драконья флейта"
+  "sound.iceandfire.subtitle.dragonflute": "Играет драконья флейта",
+  "modifier.sweater_song.desc": "\"Если ты хочешь испортить мой свитер...\"§r\\nЦели в броне имеют шанс 30%, что их броня исчезнет от критического удара."
 }
