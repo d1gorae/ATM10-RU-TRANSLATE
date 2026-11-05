@@ -1,4 +1,5 @@
 {
+  "_comment": "Gui",
   "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync": "Синхронизация поиска JEI",
   "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync.info": "Синхронизировать строку поиска с JEI.",
   "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync": "Синхронизация поиска EMI",
