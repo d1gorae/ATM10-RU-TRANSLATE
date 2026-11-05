@@ -41,8 +41,31 @@
 
 Во всех 10 файлах: дубликаты ключей 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, SNBT-структура сбалансирована. В главе ATM Star исправлены два устаревших описания мультиблочных структур и повреждённые кавычки вокруг двух изображений.
 
-**Ограничения:** проверка структуры не заменяет запуск FTB Quests в игре. Остаются 57 глав, общие `chapter.snbt` и `reward_table.snbt`, а также глобальные языковые файлы. FTB Quests не завершён и не готов к релизу.
+**Ограничения:** проверка структуры не заменяет запуск FTB Quests в игре. Остаются 47 глав, общие `chapter.snbt` и `reward_table.snbt`, а также глобальные языковые файлы. FTB Quests не завершён и не готов к релизу.
 
 ## Следующая партия глав
 
 `basic_armor`, `basic_logistics`, `basic_power`, `basic_tools`, `bounty_board`, `building_tips`, `bumblezone`, `cataclysm`, `chapter_2_the_star`, `create`.
+
+
+## Вторая партия проверки — 05.11.2026
+
+Проверены следующие 10 глав: `basic_armor`, `basic_logistics`, `basic_power`, `basic_tools`, `bounty_board`, `building_tips`, `bumblezone`, `cataclysm`, `chapter_2_the_star`, `create`.
+
+| Глава | EN-ключи | RU-записи | Дополнительные RU-поля |
+|---|---:|---:|---:|
+| `basic_armor` | 347 | 347 | 0 |
+| `basic_logistics` | 76 | 87 | 11 |
+| `basic_power` | 96 | 96 | 0 |
+| `basic_tools` | 110 | 110 | 0 |
+| `bounty_board` | 54 | 54 | 0 |
+| `building_tips` | 255 | 255 | 0 |
+| `bumblezone` | 189 | 192 | 3 |
+| `cataclysm` | 230 | 230 | 0 |
+| `chapter_2_the_star` | 246 | 262 | 16 |
+| `create` | 190 | 190 | 0 |
+| **Итого** | **1793** | **1823** | **30** |
+
+Все 30 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах, поэтому сохранены как дополнительные локализованные поля. Удалено 14 устаревших записей с ID, отсутствующими в актуальных базовых главах. Пропущенных EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все файлы имеют сбалансированную SNBT-структуру.
+
+Итого проверено 20 из 67 глав; осталось 47. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
