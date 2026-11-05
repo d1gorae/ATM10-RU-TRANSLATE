@@ -522,3 +522,24 @@
 | Large Wind Generator | большой ветрогенератор | Генератор энергии от ветра |
 | Solar Heat Generator | солнечный теплогенератор | Генератор энергии с помощью солнечного тепла |
 | Large Antiprotonic Nucleosynthesizer | большой антипротонный нуклеосинтезатор | Многоблочная машина дополнения |
+
+
+## Applied Energistics 2 и дополнения
+
+| English | Русский | Примечание |
+|---|---|---|
+| Applied Energistics 2 | Applied Energistics 2 | Название мода; сохранять оригинальное написание |
+| ME Network | МЭ-сеть | Энергетическая и предметная сеть Applied Energistics 2 |
+| Crafting CPU | ЦП (процессор крафтинга) | Вычислительный блок, выполняющий задания крафта |
+| ME Bridge | МЭ-мост | Периферия Advanced Peripherals для управления предметами МЭ-сети |
+| RS Bridge | мост RS | Периферия Advanced Peripherals для управления Refined Storage |
+| ME Glass Cable | стеклянный МЭ-кабель | Тип кабеля Applied Energistics 2 |
+| Facade | фасад | Декоративная оболочка для кабеля |
+| P2P Tunnel | P2P-туннель | Туннель для передачи ресурсов по МЭ-сети |
+| Network Analyser | анализатор сети | Инструмент для анализа МЭ-сети |
+| Block Reader | считыватель блоков | Периферия Advanced Peripherals для чтения данных блоков |
+| NBT Storage | хранилище NBT | Периферия для хранения данных в формате NBT |
+| Advanced Peripherals | Advanced Peripherals | Название мода; сохранять оригинальное написание |
+| Advanced AE | Advanced AE | Название дополнения; сохранять оригинальное написание |
+| AE Infinity Booster | AE Infinity Booster | Название дополнения; сохранять оригинальное написание |
+| SCS | SCS | Техническое сокращение, используемое интерфейсом AE2 |
