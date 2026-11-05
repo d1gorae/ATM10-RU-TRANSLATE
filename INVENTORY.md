@@ -838,3 +838,11 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 Во всех десяти файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, кодов форматирования, переносов строк и пробелов — 0. В JourneyMap переведены **819 пользовательских значений**, ранее полностью совпадавших с EN. Оставшиеся 49 совпадений относятся к брендам и доменам, осям координат, буквенным обозначениям цветовых каналов, единицам/форматам и техническим шаблонам. Остальные девять файлов не требовали правок.
 
 Коммиты JourneyMap опубликованы в истории ветки [work/irons-spells-nov05](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commits/work/irons-spells-nov05); заключительная техническая коррекция [ab6d309](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ab6d3095d1cc13969053534faee9c1a5e5fce5f4). Глоссарий JourneyMap [e5064d6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5064d64f5c3ee4ddf77c46fbe89d56d6e5973b8).
+
+
+## JSON-аудит — партия после Just Zoom (06.11.2026)
+
+Проверены 10 namespace: `keybindbundles` (26), `kubejstweaks` (4), `laserbridges` (11), `laserio` (95), `lionfishapi` (4), `little_big_redstone` (312), `livingthings` (106), `logisticsnetworks` (729), `lootr` (249), `luminax` (193). Итого **1 729 ключей**.
+
+Во всех файлах JSON корректен; missing 0; extra 0; duplicates EN/RU 0; empty 0; несовпадений плейсхолдеров, форматирования, переносов строк и пробелов — 0. Совпадения RU=EN относятся к названиям модов, техническим сокращениям и идентификаторам, плейсхолдерам, числовым/логическим символам и обозначениям интеграций (AE2, RS, NBT). Переводы не требовали изменений.
+
