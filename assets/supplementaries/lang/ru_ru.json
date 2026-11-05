@@ -1341,5 +1341,12 @@
   "supplementaries.configuration.bottle_xp.cost": "Стоимость",
   "supplementaries.configuration.bottle_xp.cost.description": "Стоимость наполнения бутылки здоровьем",
   "supplementaries.configuration.bottle_xp.target_block": "Целевой блок",
-  "supplementaries.configuration.bottle_xp.target_block.description": "Блок, по которому нужно нажать для наполнения бутылки. Оставьте поле пустым, чтобы использовать стол зачаровывания. Здесь можно указать другой блок из мода, если он подходит лучше"
+  "supplementaries.configuration.bottle_xp.target_block.description": "Блок, по которому нужно нажать для наполнения бутылки. Оставьте поле пустым, чтобы использовать стол зачаровывания. Здесь можно указать другой блок из мода, если он подходит лучше",
+  "supplementaries.configuration.map_tweaks": "Настройки карт",
+  "supplementaries.configuration.random_adventurer_maps": "Случайные карты искателя приключений",
+  "supplementaries.configuration.random_adventurer_maps.enabled.description": "Картографы будут продавать карты искателя приключений, ведущие к случайной ванильной структуре из заранее подготовленного списка.\nЛучше отключить эту функцию, если вы добавляете собственные карты искателя приключений с помощью датапака. Подробнее — в вики.",
+  "supplementaries.configuration.random_adventurer_maps.max_search_radius": "Максимальный радиус поиска",
+  "supplementaries.configuration.random_adventurer_maps.max_search_radius.description": "Максимальное количество типов структур из тега, которые дорожные указатели проверяют за один поиск. Уменьшение значения ускоряет поиск, но указатели могут перестать находить ближайшую структуру. Слишком низкое значение иногда замедляет поиск, если выбирается редко появляющаяся структура",
+  "supplementaries.configuration.random_adventurer_maps.max_structures_searches": "Максимум типов структур для поиска",
+  "supplementaries.configuration.random_adventurer_maps.max_structures_searches.description": "Выбирает случайную структуру для поиска вместо перебора всех структур из тега с выбором ближайшей. При включении чаще будут встречаться карты, ведущие к разным структурам, например к разным разрушенным порталам. Значение выше 1 позволяет выбирать несколько случайных структур и может ускорить поиск, уменьшая вероятность выбора далёкой структуры"
 }
