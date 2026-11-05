@@ -404,6 +404,6 @@
   "sophisticatedbackpacks.configuration.allowOpeningOtherPlayerBackpacks": "Разрешить открывать рюкзаки других игроков",
   "sophisticatedbackpacks.configuration.itemDisplayDisabled": "Выключить отображение предмета",
   "sophisticatedbackpacks.configuration.tickDedupeLogicDisabled": "Выключить защиту от дюпа",
-  "sophisticatedbackpacks.configuration.canBePlacedInContainerItems": "Могут быть помещены внутрь предметов-контейнеров ",
+  "sophisticatedbackpacks.configuration.canBePlacedInContainerItems": "Могут быть помещены внутрь предметов-контейнеров",
   "sophisticatedbackpacks.configuration.chestLootEnabled": "Включить сундуки с лутом"
 }
