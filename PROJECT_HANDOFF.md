@@ -106,3 +106,14 @@ FTB Quests и SNBT остаются последним этапом проект
 Исправлены RGB-коды в MI Electric и цветовые обозначения мелков в Occultism. Коммиты: [MI Digital](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9f55f92595705a0a5d311ab7ec37ec589739c9a7), [MI Electric stale cleanup](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0c4617acce6caf62adccb4796edc777c376b808e), [MI Endgame](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/81eefe1a181903d608c9cee9bf4161696a2c9816), [MI Steam](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7dd31f8f204e40f6822c06b670d23df5029e2acc), [MI Electric RGB](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a63131867f9b87477e691ad5e4e86a02a6b8beed), [Occultism RGB](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c6276abfa8e10f3fe43d502d2aa84d632258d9b8).
 
 Следующая партия: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`. После неё останется 7 глав.
+
+
+## Рабочая сессия 05.11.2026 — продолжение аудита FTB Quests
+
+После завершения пятой партии (50 из 67 глав) начата следующая десятка: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`.
+
+В этой сессии запущена построчная сверка RU-глав с EN-оригиналами и базовыми SNBT, включая проверку ключей и ID, плейсхолдеров, ссылок на изображения и структуры SNBT. Для `oritech` и `relics` отдельно выполнялась проверка устаревших записей по базовым ID; потенциально удалённые записи не считаются завершённой главой без итоговой повторной проверки.
+
+Дополнительно зафиксированы выполненные ранее исправления пятой партии: восстановление RGB-кодов в `mi_electric` и цветовых обозначений в `occultism`, а также удаление устаревших записей Modern Industrialization.
+
+**Статус:** официально подтверждённый прогресс остаётся 50/67 глав. Следующая десятка пока не засчитывается как завершённая партия: перед обновлением счётчика требуется повторно получить сводные результаты всех десяти файлов, проверить каждую правку и записать точные коммиты. Осталось 17 глав по последнему полностью зафиксированному состоянию. Следующая точка продолжения — завершить и перепроверить текущую десятку, затем обработать последние 7 глав.
