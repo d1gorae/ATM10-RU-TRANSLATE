@@ -70,7 +70,7 @@
   "ftbultimine.server_settings.costs_limits.require_tool": "Требовать инструмент для Ultimine",
   "ftbultimine.server_settings.costs_limits.require_tool.tooltip": "Если включено, у игрока должен быть инструмент с прочностью или предмет из тега «ftbultimine:tools».\nСм. также «Требовать подходящий инструмент для Ultimine».",
   "ftbultimine.server_settings.costs_limits.require_valid_tool_for_block": "Требовать подходящий инструмент для Ultimine",
-  "ftbultimine.server_settings.costs_limits.require_valid_tool_for_block.tooltip": "Если включено, инструмент должен подходить для добываемого блока, то есть позволять получать выпадающие предметы.\nСм. также «Требовать инструмент для Ultimine».",
+  "ftbultimine.server_settings.costs_limits.require_valid_tool_for_block.tooltip": "Если включено, инструмент должен подходить для добываемого блока,\nто есть позволять получать выпадающие предметы.\nСм. также «Требовать инструмент для Ultimine»",
   "ftbultimine.server_settings.costs_limits.experience_per_block": "Стоимость опыта за добытый блок",
   "ftbultimine.server_settings.costs_limits.experience_per_block.tooltip": "Значение может быть дробным.\nЕсли установлен FTB Ranks, при наличии узел «ftbultimine.experience_per_block» имеет приоритет.",
   "ftbultimine.server_settings.costs_limits.ultimine_cooldown": "Перезарядка Ultimine (тики)",
