@@ -47,5 +47,6 @@
   "gui.zerocore.base.redstone.sensorbehavior.activewhileabove.text": "Активен при значении выше",
   "gui.zerocore.base.redstone.sensorbehavior.activewhilebelow.text": "Активен при значении ниже",
   "gui.zerocore.base.redstone.sensorbehavior.activewhilebetween.text": "Активен между значениями",
-  "gui.zerocore.base.redstone.validation.invalidminmax.text": "Максимальное значение должно быть больше минимального"
+  "gui.zerocore.base.redstone.validation.invalidminmax.text": "Максимальное значение должно быть больше минимального",
+  "_comment": "GUI"
 }
