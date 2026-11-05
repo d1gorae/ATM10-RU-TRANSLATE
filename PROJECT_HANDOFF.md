@@ -301,3 +301,23 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 Проверены: `stylecolonies`, `supermartijn642configlib`, `sussysniffers`, `t_and_t`, `theurgy_kubejs`, `towntalk`, `underground_villages`, `uranus`, `valhelsia_core`, `villagesandpillages`. По полному дереву `ATM/LANGUAGES_EN_US` отдельные EN JSON для этих namespace не найдены. Переводы не создавались, так как подтверждённых ключей нет. Отсутствие файлов в репозитории источников не доказывает отсутствие строк внутри JAR.
 
 Следующая точка продолжения — `wits` в `INVENTORY.md`. FTB Quests/SNBT — самый последний этап.
+
+
+## 26. Проверка трёх mod ID и семи дополнительных namespace — 05.11.2026
+
+Проверены три оставшиеся позиции списка без прямого namespace: `wits`, `yeetusexperimentus`, `yungsextras`. Отдельные EN JSON с этими namespace в источнике не обнаружены. Для YUNG's в источнике присутствуют отдельные языковые файлы YUNG's API и отдельных модулей; их нельзя автоматически приписывать namespace `yungsextras`.
+
+Также полностью сверены семь уже существующих дополнительных RU namespace с EN-оригиналами:
+- `borderless`: 21/21;
+- `cloth-config2`: 49/49;
+- `dynamic_fps`: 85/85;
+- `entityculling`: 27/27;
+- `evilcraftcompat`: 29/29;
+- `integrateddynamicscompat`: 213/213;
+- `integratedterminalscompat`: 19/19.
+
+Итого 443 ключа. После исправлений: missing 0, extra 0, placeholders 0, formatting 0, duplicates 0. Исправлено название бренда `Baubles`, подпись `Is RS Network` и добавлен служебный ключ `_comment` в Integrated Terminals Compat.
+
+Коммиты исправлений: [27299fb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/27299fb2826343f425f38adc7ab471bc8f7daf0d), [42e7851](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/42e7851c0d07bf8909b305b0dbb3e3f0a6e5e226), [40608a7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/40608a74b3a7eb4ff96fdffd6f7874463c5c7b27).
+
+Следующая точка — оставшиеся дополнительные namespace: `irons_patreon_lib`, `lambdynlights`, `lollipop`, `moreculling`, `tempad_static`, `vulkanmod`. После проверки оставшихся источников — FTB Quests/SNBT как финальный этап.
