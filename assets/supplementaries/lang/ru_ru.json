@@ -1085,5 +1085,13 @@
   "supplementaries.configuration.slingshot": "Рогатка",
   "supplementaries.configuration.slingshot.range_multiplier": "Множитель дальности",
   "supplementaries.configuration.slingshot.range_multiplier.description": "Множитель дальности рогатки. Влияет на начальную скорость снаряда",
-  "supplementaries.configuration.slingshot.charge_time": "Время натяжения"
+  "supplementaries.configuration.slingshot.charge_time": "Время натяжения",
+  "supplementaries.configuration.slingshot.charge_time.description": "Время в тиках, необходимое для полного натяжения рогатки",
+  "supplementaries.configuration.slimed_effect.duration": "Длительность",
+  "supplementaries.configuration.slimed_effect.duration.description": "Длительность эффекта слизи в тиках",
+  "supplementaries.configuration.slimed_effect.chance_per_slime_size": "Шанс в зависимости от размера слизи",
+  "supplementaries.configuration.slimed_effect.chance_per_slime_size.description": "Вероятность того, что слизневый моб наложит эффект слизи при успешной атаке. Умножается на размер слизи",
+  "supplementaries.configuration.clock_and_compass": "Часы и компас",
+  "supplementaries.configuration.clock_and_compass.clock_right_click": "Нажатие ПКМ часами",
+  "supplementaries.configuration.clock_and_compass.clock_right_click.description": "Позволяет нажать ПКМ часами, чтобы отобразить текущее время в числовом виде"
 }
