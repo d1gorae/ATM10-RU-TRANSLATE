@@ -1120,5 +1120,8 @@
   "supplementaries.configuration.pedestal.fancy_renderers": "Улучшенное отображение",
   "supplementaries.configuration.pedestal.fancy_renderers.description": "Включает особые варианты отображения предметов, например мечей, трезубцев и кристаллов Энда",
   "supplementaries.configuration.bubble_block.wobble": "Колебание",
-  "supplementaries.configuration.bubble_block.wobble.description": "Интенсивность колебаний. Установите 0, чтобы отключить"
+  "supplementaries.configuration.bubble_block.wobble.description": "Интенсивность колебаний. Установите 0, чтобы отключить",
+  "supplementaries.configuration.bubble_block.grow_speed": "Скорость роста",
+  "supplementaries.configuration.bubble_block.grow_speed.description": "Скорость роста блока после создания. Значение 1 означает мгновенный рост",
+  "supplementaries.configuration.item_shelf.supported_blocks": "Поддерживаемые блоки"
 }
