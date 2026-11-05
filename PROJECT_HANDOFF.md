@@ -787,4 +787,11 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 
 В JourneyMap переведены 819 пользовательских значений из 868 совпадавших с английским оригиналом. Оставшиеся 49 значений — намеренно сохранённые бренды, домены, координатные обозначения, цветовые сокращения, единицы и технические шаблоны. Заключительная проверка выявила и исправила три расхождения переносов/описаний. История изменений: [коммиты ветки](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commits/work/irons-spells-nov05), [последняя коррекция](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ab6d3095d1cc13969053534faee9c1a5e5fce5f4), [глоссарий](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e5064d64f5c3ee4ddf77c46fbe89d56d6e5973b8).
 
-**Итого за одиннадцать партий после Ars Creo: 110/110 namespace, 25 262 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `justzoom`; продолжить с KubeJS и его дополнений, исключая уже проверенные namespace. FTB Quests/SNBT оставить на заключительный этап.
+**Итого за одиннадцать партий после Ars Creo: 110/110 namespace, 25 262 ключа.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `justzoom`; блок K–L завершён в шестнадцатой партии ниже.
+
+
+## Шестнадцатая партия JSON-аудита завершена — 06.11.2026
+
+Проверены **10/10 namespace**: `keybindbundles`, `kubejstweaks`, `laserbridges`, `laserio`, `lionfishapi`, `little_big_redstone`, `livingthings`, `logisticsnetworks`, `lootr`, `luminax`. Всего **1 729 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. Все совпадения RU=EN являются техническими/брендовыми или математическими обозначениями. Изменения переводов не потребовались.
+
+**Итого за двенадцать партий после Ars Creo: 120/120 namespace, 26 991 ключ.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `luminax`; продолжить с Mahou Tsukai и следующими namespace, пропуская ранее проверенные. FTB Quests/SNBT оставить на заключительный этап.
