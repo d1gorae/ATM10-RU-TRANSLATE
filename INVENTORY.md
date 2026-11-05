@@ -1054,3 +1054,35 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий [d0c2ecd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d0c2ecdd5cd4a246db21d4c025a1ac9de8de648a), [6ed7ef1](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6ed7ef1066ba364d91882c2265e95831d3257cbf).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после productivemetalworks: rangedpumps, rechiseledcreate, redstonepen, refinedtypes, refinedfluidsubstitution, refinedstorage_curios_integration, refinedstorage_jei_integration, refinedstorage_mekanism_integration, refinedstorage, refinedstorage_quartz_arsenal. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Productive Metalworks (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 349 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| rangedpumps | 9/9 | 0 | 0 | 0 | 0 | 0 |
+| rechiseledcreate | 243/243 | 0 | 0 | 0 | 0 | 0 |
+| redstonepen | 72/72 | 0 | 0 | 0 | 0 | 0 |
+| refinedtypes | 164/164 | 0 | 0 | 0 | 0 | 0 |
+| refinedfluidsubstitution | 3/3 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_curios_integration | 1/1 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_jei_integration | 10/10 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_mekanism_integration | 37/37 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage | 788/788 | 0 | 0 | 0 | 0 | 0 |
+| refinedstorage_quartz_arsenal | 22/22 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 349/1 349** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. 12 совпадений RU=EN — названия модов/интеграций, JEI, клавиши/технические идентификаторы и шаблон плейсхолдеров.
+
+Смысловые и технические исправления:
+- Redstone Pen: в трёх длинных подсказках RLC выровнены количество переносов строк и последовательности кодов форматирования.
+- Refined Storage: переведены десять оставшихся пользовательских строк (приоритеты хранения, сочетания клавиш, настройки энергии и подсказки); исправлены три лишних переноса строк в описаниях.
+- Глоссарий дополнен терминами Refined Storage.
+
+Коммиты:
+- Redstone Pen [15732cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/15732cdd82eda464e288e88f0c7905afffeea311).
+- Refined Storage [d42aa73](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d42aa738c30c9e9000cb5379299e9d68985c6df8), [4274337](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4274337b955cae44af83dd53b21477cdc3e529c1).
+- Глоссарий [edb01da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/edb01dae26cac69495c4635a5ea354f065584f13).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после refinedstorage_quartz_arsenal: rsinsertexportupgrade, reliquified_artifacts, repeatable_trial_vaults, repurposed_structures, resourcefulconfig, restrictions, rftoolsbase, rftoolsbuilder, rftoolspower, rftoolsstorage. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
