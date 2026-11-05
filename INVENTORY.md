@@ -21,17 +21,17 @@
 
 ## Mod ID без одноимённого ru_ru.json
 
-- `accelerateddecay`
+- `accelerateddecay` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `ae2jeiintegration`
 - `aiimprovements`
 - `alltheleaks`
 - `architectury`
 - `athena`
 - `atlas_api`
-- `atmcompat`
+- `atmcompat` — все 10 ключей уже есть в `assets/allthemodium/lang/ru_ru.json`.
 - `attributefix`
-- `bibliobiomes`
-- `bibliowoods`
+- `bibliobiomes` — переведён, ключи объединены в `assets/bibliocraft/lang/ru_ru.json` (9577 ключей); отдельный namespace не создавать.
+- `bibliowoods` — переведён, ключи объединены в `assets/bibliocraft/lang/ru_ru.json` (11461 ключ); отдельный namespace не создавать.
 - `blueflame`
 - `borderlesswindow`
 - `botanypotsmystical`
@@ -62,17 +62,17 @@
 - `formationsnether`
 - `formationsoverworld`
 - `framework`
-- `ftbjeiextras`
+- `ftbjeiextras` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `ftbquests`
 - `ftbranks`
-- `ftbxmodcompat`
+- `ftbxmodcompat` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `fuelgoeshere`
 - `geckolib`
 - `glodium`
 - `hellish_trials`
 - `heyberryshutup`
 - `iceberg`
-- `illagerwarship`
+- `illagerwarship` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `immediatelyfast`
 - `incontrol`
 - `iris`
@@ -107,7 +107,7 @@
 - `prism`
 - `rebind_narrator`
 - `rechiseled`
-- `rechiseled_chipped`
+- `rechiseled_chipped` — EN-файл проверен, 0 ключей; отдельный RU-файл не нужен.
 - `resourcefullib`
 - `rhino`
 - `smartbrainlib`
@@ -254,3 +254,14 @@ Dropbox — вспомогательный источник ранее сдел�
 - ftbquests остаётся отложенным до самого конца проекта.
 
 Следующая рабочая точка: `chipped` (7265 ключей, EN SHA `0fc8d0d50956a43db4bb0b626af2184689814e6b`). Русского файла пока нет. Это большой набор декоративных названий; требуется контекстный перевод, а не буквальная подстановка слов.
+
+## Проверка языковых источников — 05.11.2026
+
+- BiblioCraft, Bibliobiomes и BiblioWoods используют общий namespace `bibliocraft`. Файл `assets/bibliocraft/lang/ru_ru.json` содержит 23 059 ключей (2021 + 9577 + 11461). Коммиты добавления дополнений: [3d6fa0f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d6fa0f4a5d43d7d8eff60d5bed70d566f4935f6), [a3f3b0d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a3f3b0db5c5a5efb5ebc91330d0e5b097b5b4012). Общий blob SHA: `78e3da9f8afcc82ac062093b46bb4b9503bd01e6`.
+- BiblioCraft base: 2021/2021 ключей, missing 0, placeholders 0; 12 EN/RU совпадений сохранены намеренно.
+- Bibliobiomes: 9577/9577, missing 0, placeholders 0, formatting 0, duplicates 0, exact English matches 0.
+- BiblioWoods: 11461/11461, missing 0, placeholders 0, formatting 0, duplicates 0, exact English matches 0.
+- KubeJS Tweaks: исправлен файл `assets/kubejstweaks/lang/ru_ru.json`; теперь 4/4 ключа, missing 0, extra 0, placeholders 0. Коммит: [9ab2fda](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9ab2fdaf634bd81a22a10e45148e3af748540d50).
+- ATM Compat: 10/10 ключей уже присутствуют в `assets/allthemodium/lang/ru_ru.json`; файл не менялся.
+- Accelerated Decay, FTB JEI Extras, FTB XMod Compat, Illager Warship и Rechiseled Chipped: английские файлы пусты (0 ключей); отдельные пустые русские файлы не создавались.
+- Следующие реальные переводы: Chipped (7265 ключей, EN SHA `0fc8d0d50956a43db4bb0b626af2184689814e6b`) и Rechiseled (3656 ключей, EN SHA `ed99e24fab965e740dcdcad021a76e7c7787c84e`). FTB Quests/SNBT — самый последний этап.
