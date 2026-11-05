@@ -1,9 +1,9 @@
 {
   "itemGroup.merequester.tab": "МЭ-запросчик",
   "item.merequester.requester_terminal": "Терминал МЭ-запросчика",
-  "item.merequester.wireless_requester_terminal": "Беспроводной терминал запросчика",
+  "item.merequester.wireless_requester_terminal": "Беспроводной терминал МЭ-запросчика",
   "block.merequester.requester": "МЭ-запросчик",
-  "key.ae2.wireless_requester_terminal": "Открыть беспроводной терминал запросчика",
+  "key.ae2.wireless_requester_terminal": "Открыть беспроводной терминал МЭ-запросчика",
   "gui.merequester.requester_terminal": "Терминал МЭ-запросчика",
   "gui.merequester.no_requesters": "МЭ-запросчики не найдены!",
   "tooltip.merequester.requester_desc": "Автоматически поддерживает запас предметов и жидкостей, запуская новые заказы на изготовление по мере необходимости. Должен быть подключён к МЭ-сети и доступен через терминал МЭ-запросчика. При разрушении теряет настройки. Настройки можно скопировать с помощью карты памяти.",
