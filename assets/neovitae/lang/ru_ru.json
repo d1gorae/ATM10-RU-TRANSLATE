@@ -2166,6 +2166,7 @@
   "jei.neovitae.effect.deflection.name": "Массив отражения",
   "jei.neovitae.effect.elevator.desc": "Телепортирует вас к совмещённым массивам выше или ниже.",
   "jei.neovitae.effect.elevator.name": "Массив телепозиции",
+  "jei.neovitae.effect.ender_sever.desc": "Не позволяет эндерменам, шалкерам и похожим существам телепортироваться в радиусе 16 блоков от массива.",
   "jei.neovitae.effect.ender_sever.name": "Массив отсечения эндерменов",
   "jei.neovitae.effect.endless_fountain.name": "Массив бесконечного фонтана",
   "jei.neovitae.effect.freeze.name": "Массив заморозки",
