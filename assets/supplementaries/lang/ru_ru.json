@@ -1259,5 +1259,14 @@
   "supplementaries.configuration.pulley_block.pull_limit.description": "Максимальное количество блоков, НЕ являющихся верёвками, которое может переместить один блок с тросом (якорь и всё, что прикреплено к нему липкими блоками). Сегменты верёвки не учитываются. Совместно работающие блоки объединяют свои лимиты: два блока могут переместить вдвое больше блоков.",
   "supplementaries.configuration.pulley_block.pull_interval.description": "Количество тиков между перемещениями отдельных блоков при включённом плавном втягивании.\nМеньше значение — быстрее движение. Минимум — 2 тика, поскольку столько длится анимация; дальнейшее уменьшение ничего не меняет.",
   "supplementaries.configuration.crystal_display.chaining.description": "Позволяет соединить два кристаллических индикатора: левый будет питаться от правого, ЕСЛИ его собственная мощность превышает 10. Передаваемая мощность равна собственной мощности, делённой на 10. Для работы за индикатором десятичного значения НЕ должно быть источника сигнала. Иначе цепное подключение отключится",
-  "supplementaries.configuration.rope.enabled.description": "Также отключает галеоны, блоки с тросом, флажные гирлянды, верёвочные стрелы и верёвки в шахтах.\nОтключает и совместимые блоки, например верёвочные помидоры из Supplementaries/Farmer's Delight и верёвочные люстры из Decorative Blocks.\nНапоминаем, что любой предмет любого мода можно отключить с помощью рецепта в датапаке и скрытия в JEI."
+  "supplementaries.configuration.rope.enabled.description": "Также отключает галеоны, блоки с тросом, флажные гирлянды, верёвочные стрелы и верёвки в шахтах.\nОтключает и совместимые блоки, например верёвочные помидоры из Supplementaries/Farmer's Delight и верёвочные люстры из Decorative Blocks.\nНапоминаем, что любой предмет любого мода можно отключить с помощью рецепта в датапаке и скрытия в JEI.",
+  "supplementaries.configuration.bubble_blower.stasis_cost": "Расход мыла",
+  "supplementaries.configuration.bubble_blower.stasis_cost.description": "Количество мыла, расходуемого на размещение одного пузырькового блока",
+  "supplementaries.configuration.bubble_block.lifetime": "Время существования",
+  "supplementaries.configuration.bubble_block.lifetime.description": "Максимальное время существования пузырьковых блоков. Установите 10000, чтобы сделать его бесконечным",
+  "supplementaries.configuration.bubble_block.break_when_touched": "Разрушать при касании",
+  "supplementaries.configuration.bubble_block.break_when_touched.description": "Должен ли пузырьковый блок разрушаться при касании?",
+  "supplementaries.configuration.bubble_block.max_charges": "Максимум зарядов",
+  "supplementaries.configuration.bubble_block.max_charges.description": "Максимальное количество зарядов, которое может хранить генератор пузырей",
+  "supplementaries.configuration.wrench": "Гаечный ключ"
 }
