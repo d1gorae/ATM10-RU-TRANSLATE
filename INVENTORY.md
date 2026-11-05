@@ -338,3 +338,8 @@ Chipped — переведён: `assets/chipped/lang/ru_ru.json`, 7265/7265 кл
 ### FTB Quests — вторая партия SNBT, 05.11.2026
 
 Проверены главы: `basic_armor`, `basic_logistics`, `basic_power`, `basic_tools`, `bounty_board`, `building_tips`, `bumblezone`, `cataclysm`, `chapter_2_the_star`, `create`. Всего 1793 EN-ключей и 1823 RU-записей, включая 30 дополнительных RU-полей для quest ID, присутствующих в базовых SNBT. Missing 0, stale extra 0, duplicates 0, placeholders 0, image mismatches 0, все SNBT-файлы структурно сбалансированы. Удалено 14 устаревших записей с отсутствующими в базовых главах ID. Всего проверено 20/67 глав; осталось 47. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
+
+
+### FTB Quests — третья партия SNBT, 05.11.2026
+
+Проверены главы: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`. EN-ключей 1477, RU-записей 1501, дополнительных RU-полей 24; все дополнительные поля ссылаются на quest ID, присутствующие в базовых SNBT. Удалено 20 устаревших записей. Missing 0, stale extra 0, duplicates 0, placeholders 0, image mismatches 0, SNBT balance OK. Всего проверено 30/67 глав; осталось 37. Следующая партия: `generators`, `hostile_neural_networks`, `ice__fire`, `immersive_engineering`, `industrial_foregoing`, `integrated_dynamics`, `iron_spells_and_spellbooks`, `justdirethings`, `mahou_tsukai`, `mainquestline_part_1`.
