@@ -1086,3 +1086,31 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий [edb01da](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/edb01dae26cac69495c4635a5ea354f065584f13).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после refinedstorage_quartz_arsenal: rsinsertexportupgrade, reliquified_artifacts, repeatable_trial_vaults, repurposed_structures, resourcefulconfig, restrictions, rftoolsbase, rftoolsbuilder, rftoolspower, rftoolsstorage. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после Refined Storage Quartz Arsenal (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 078 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| rsinsertexportupgrade | 44/44 | 0 | 0 | 0 | 0 | 0 |
+| reliquified_artifacts | 572/572 | 0 | 0 | 0 | 0 | 0 |
+| repeatable_trial_vaults | 1/1 | 0 | 0 | 0 | 0 | 0 |
+| repurposed_structures | 163/163 | 0 | 0 | 0 | 0 | 0 |
+| resourcefulconfig | 28/28 | 0 | 0 | 0 | 0 | 0 |
+| restrictions | 12/12 | 0 | 0 | 0 | 0 | 0 |
+| rftoolsbase | 55/55 | 0 | 0 | 0 | 0 | 0 |
+| rftoolsbuilder | 97/97 | 0 | 0 | 0 | 0 | 0 |
+| rftoolspower | 65/65 | 0 | 0 | 0 | 0 | 0 |
+| rftoolsstorage | 41/41 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 078/1 078** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, форматирования, переносов строк и начальных/конечных пробелов нет. Пять совпадений RU=EN — названия модов/категорий и техническая подпись UUID.
+
+Исправление:
+- Reliquified Artifacts: в описании Shock Pendant восстановлен правильный порядок позиционных плейсхолдеров %2$s и %3$s (дальность и число перескоков).
+
+Коммит:
+- Reliquified Artifacts [b5f8ba3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b5f8ba34bc9d8f47bbf172129806dc4945b6d43e).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после rftoolsstorage: rftoolsutility, rootsclassic, sawmill, searchables, sgearmetalworks, shiny, shrink, silentlib, silentgems и simplebackups. Silent Gear уже завершён и пропускается. FTB Quests/SNBT оставить на заключительный этап.
