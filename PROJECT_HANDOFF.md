@@ -795,3 +795,18 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 Проверены **10/10 namespace**: `keybindbundles`, `kubejstweaks`, `laserbridges`, `laserio`, `lionfishapi`, `little_big_redstone`, `livingthings`, `logisticsnetworks`, `lootr`, `luminax`. Всего **1 729 ключей**. JSON корректен; missing 0, extra 0, duplicates 0, empty 0, placeholder/format/newline/whitespace mismatches 0. Все совпадения RU=EN являются техническими/брендовыми или математическими обозначениями. Изменения переводов не потребовались.
 
 **Итого за двенадцать партий после Ars Creo: 120/120 namespace, 26 991 ключ.** Работа опубликована в `work/irons-spells-nov05`; `main` не изменялся. Актуальная следующая точка — после `luminax`; продолжить с Mahou Tsukai и следующими namespace, пропуская ранее проверенные. FTB Quests/SNBT оставить на заключительный этап.
+
+## Семнадцатая партия JSON-аудита завершена — 06.11.2026
+
+**Подтверждено 10/10 namespace:** Mahou Tsukai, McJtyLib, Macaw's Bridges, Macaw's Doors, Macaw's Holidays, Macaw's Lights, Macaw's Fences, Macaw's Paths, Macaw's Stairs и Macaw's Windows. Всего **3 918 ключей**.
+
+Во всех десяти файлах JSON корректен; missing 0; extra 0; дубликаты RU 0; несовпадения плейсхолдеров, форматирования, переносов строк и пробелов — 0. В Mahou Tsukai 81 пустое значение совпадает с EN; 14 непустых совпадений RU=EN являются брендом, именами, пунктуацией и буквенными обозначениями. В McJtyLib два совпадения — служебный комментарий и название библиотеки. В остальных восьми namespace совпадений RU=EN нет.
+
+В Mahou Tsukai удалён один лишний ключ, исправлены два лишних плейсхолдера и согласованы термины Caliburn, Borrowed Authority и несколько названий техник. В Macaw's Windows исправлен перевод Window Key по описанию предмета. Глоссарий дополнен терминологией обеих групп.
+
+Коммиты:
+- Mahou Tsukai: перевод [26f8fc0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/26f8fc007bfebe544363e5d9782ff20da8cc6a8b), глоссарий [9859cc3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9859cc3ccbbb9d14fc22b1b90fbd37c76100e484).
+- Macaw's Windows: перевод [c0b64dd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c0b64ddd06df2eb03c8870189a739d709734ab82), глоссарий [58b2e98](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/58b2e980a733ef98ba606e5a40d2262543206db4).
+- Остальные восемь namespace проверены; исправления не требовались.
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия: mcwroofs, mcwtrpdoors, megacells, mekanismcovers, mekanisticrouters, memorysettings, merequester, merrymaking, mffs, mifa. Уже завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
