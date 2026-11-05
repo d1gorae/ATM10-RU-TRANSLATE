@@ -68,7 +68,7 @@
 
 Все 30 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах, поэтому сохранены как дополнительные локализованные поля. Удалено 14 устаревших записей с ID, отсутствующими в актуальных базовых главах. Пропущенных EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все файлы имеют сбалансированную SNBT-структуру.
 
-Итого проверено 40 из 67 глав; осталось 27. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
+Итого проверено 50 из 67 глав; осталось 17. Следующая партия: `create_addons`, `deeper_and_darker`, `draconic_evolution`, `elmystical_agriculturerr`, `eternal_starlight`, `evilcraft`, `extended__advanced_ae`, `extreme_reactors`, `food_and_farming`, `forbidden__arcanus`.
 
 
 ## Третья партия проверки — 05.11.2026
@@ -117,3 +117,26 @@
 Все 25 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах. Удалена одна устаревшая запись Mahou Tsukai с отсутствующим ID. Пропусков EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все 10 файлов имеют сбалансированную SNBT-структуру.
 
 Итого проверено 40 из 67 глав; осталось 27. Следующая партия: `mekanism`, `mekanism_reactors`, `mi_digital`, `mi_electric`, `mi_endgame`, `mi_steam`, `modular_router`, `natures_aura`, `neo_vitae`, `occultism`.
+
+
+## Пятая партия проверки — 05.11.2026
+
+Проверены главы: `mekanism`, `mekanism_reactors`, `mi_digital`, `mi_electric`, `mi_endgame`, `mi_steam`, `modular_router`, `natures_aura`, `neo_vitae`, `occultism`.
+
+| Глава | EN-ключи | RU-записи | Дополнительные RU-поля |
+|---|---:|---:|---:|
+| `mekanism` | 235 | 246 | 11 |
+| `mekanism_reactors` | 233 | 234 | 1 |
+| `mi_digital` | 61 | 66 | 5 |
+| `mi_electric` | 74 | 74 | 0 |
+| `mi_endgame` | 12 | 12 | 0 |
+| `mi_steam` | 40 | 40 | 0 |
+| `modular_router` | 66 | 70 | 4 |
+| `natures_aura` | 64 | 65 | 1 |
+| `neo_vitae` | 279 | 279 | 0 |
+| `occultism` | 164 | 164 | 0 |
+| **Итого** | **1228** | **1250** | **22** |
+
+Все 22 дополнительных RU-полей относятся к quest ID, присутствующим в базовых SNBT-файлах. Удалены 4 устаревшие записи Modern Industrialization с отсутствующими ID. Пропусков EN-ключей нет; дубликаты 0, несоответствия плейсхолдеров 0, расхождения ссылок на изображения 0, все 10 файлов имеют сбалансированную SNBT-структуру. RGB-цвета сверены: в MI Electric и Occultism восстановлены пропущенные цветовые коды.
+
+Итого проверено 50 из 67 глав; осталось 17. Следующая партия: `oritech`, `pneumaticcraft`, `powah`, `productive_bees`, `productive_trees`, `pylons`, `railcraft`, `refined_storage`, `relics`, `silent_gear`.
