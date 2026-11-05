@@ -954,3 +954,37 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - Глоссарий: [6b5515c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6b5515c3074bddf54f656e18575040010730a61b), [8c1ad18](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8c1ad185cc02d9d1548a43eea93e97d9838d1403), [ae1ab43](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ae1ab43b0222a30682fa605904021ecf0cf4b241).
 
 Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после mss: moogs_structures, mvs, moonlight, moreoverlays, morered, mostructures, multipiston, mysticalagradditions, mysticalagriculture, naturesaura. Ранее завершённые namespace пропускать. FTB Quests/SNBT оставить на заключительный этап.
+
+## JSON-аудит — партия после MNS (06.11.2026)
+
+Проверены **10/10 namespace**, всего **1 497 ключей**. Все файлы сверены с актуальными EN-оригиналами из ATM/LANGUAGES_EN_US.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates RU | Empty RU | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|---:|
+| moogs_structures | 14/14 | 0 | 0 | 0 | 0 | 0 |
+| mvs | 7/7 | 0 | 0 | 0 | 0 | 0 |
+| moonlight | 265/265 | 0 | 0 | 0 | 0 | 0 |
+| moreoverlays | 40/40 | 0 | 0 | 0 | 0 | 0 |
+| morered | 51/51 | 0 | 0 | 0 | 0 | 0 |
+| mostructures | 27/27 | 0 | 0 | 0 | 0 | 0 |
+| multipiston | 2/2 | 0 | 0 | 0 | 0 | 0 |
+| mysticalagradditions | 104/104 | 0 | 0 | 0 | 0 | 0 |
+| mysticalagriculture | 745/745 | 0 | 0 | 0 | 0 | 0 |
+| naturesaura | 242/242 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 497/1 497** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти файлах JSON корректен; пропусков/лишних ключей, дубликатов, несовпадений плейсхолдеров, кодов форматирования, переносов строк и начальных/конечных пробелов нет. 21 совпадение RU=EN — названия модов/сервисов, координатные обозначения, числовые уровни и технические шаблоны.
+
+Смысловые исправления:
+- Mystical Agradditions: согласованы названия пяти ресурсных уровней и Inferium Ore с терминологией Mystical Agriculture.
+- Mystical Agriculture: исправлены род/число в названиях Prudentium Shovel, Prudentium Boots и Imperium Boots; удалены два лишних завершающих пробела.
+- Nature's Aura: Ancient Log переведено как «Древнее бревно», а не «Древнее дерево».
+- Глоссарий дополнен ресурсными уровнями Mystical Agriculture.
+
+Коммиты:
+- Mystical Agradditions [00dfc30](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/00dfc300d95d2ed3095374efadef68107d307bc9).
+- Mystical Agriculture [c975d3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c975d3a0b00d21a8d78517bda1e39131f1b5cb6e), [795fd3a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/795fd3a54db0c6f7700600ee510f89b01ce3aec4).
+- Nature's Aura [a959245](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a9592457d1a721de736a1dccefa61b09be3a9fd2).
+- Глоссарий [dbadc93](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dbadc93e7ffb574d9bfe6f21590a14785a45360c).
+
+Работа опубликована в work/irons-spells-nov05; main не изменялся. Следующая партия после naturesaura: neo_auth, nochatreports, notenoughanimations, not_enough_glyphs, observable, oracle_index, owo, pamhc2crops, pamhc2foodcore, pamhc2foodextended. Nature's Compass, NeoVitae, Occultism, Biomes We've Gone, Oritech и PneumaticCraft уже завершены и пропускаются. FTB Quests/SNBT оставить на заключительный этап.
