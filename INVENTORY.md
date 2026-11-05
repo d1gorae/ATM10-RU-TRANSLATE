@@ -181,7 +181,7 @@
 | `irons_spellbooks` | 1 128 | 1 315 |
 | `silentgear` | 616 | 1 191 |
 | `mekanismgenerators` | 200 | 364 |
-| `neovitae` | 256 | 3 652 |
+| `neovitae` | 281 | 3 652 |
 | `productivetrees` | 3 832 | 4 149 |
 | `pneumaticcraft` | 1 987 | 2 274 |
 | `mekanismtools` | 800 | 800 |
@@ -401,7 +401,7 @@ Dropbox использован только для чтения; файлы в �
 
 | Мод | EN | RU | Missing |
 |---|---:|---:|---:|
-| NeoVitae | 3652 | 256 | 3396 |
+| NeoVitae | 3652 | 281 | 3371 |
 | Mekanism | 3239 | 1608 | 1631 |
 | Ice and Fire | 1809 | 1194 | 615 |
 | Mekanism Tools | 800 | 800 | 0 |
