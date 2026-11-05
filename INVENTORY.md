@@ -397,20 +397,20 @@ Dropbox использован только для чтения; файлы в �
 - Supplementaries: найденные Dropbox-значения для `item.supplementaries.bamboo_spikes_tipped.effect` и `message.supplementaries.cannon.maneuver` не сохраняют параметры EN.
 - Ключи Dropbox, отсутствующие в актуальном EN, не импортировались.
 
-### Актуальный остаток после восстановления пяти ключей
+### Актуальное состояние семи локализаций после завершения Silent Gear
 
 | Мод | EN | RU | Missing |
 |---|---:|---:|---:|
 | NeoVitae | 3652 | 3652 | 0 |
-| Mekanism | 3239 | 1608 | 1631 |
-| Ice and Fire | 1809 | 1194 | 615 |
+| Mekanism | 3239 | 3239 | 0 |
+| Ice and Fire | 1809 | 1809 | 0 |
 | Mekanism Tools | 800 | 800 | 0 |
-| Silent Gear | 1191 | 617 | 574 |
+| Silent Gear | 1191 | 1191 | 0 |
 | Supplementaries | 1394 | 708 | 686 |
 | Regions Unexplored | 933 | 455 | 478 |
-| **Итого** | **13018** | **5023** | **7995** |
+| **Итого** | **13018** | **11854** | **1164** |
 
-Повторная проверка всех семи файлов после изменений: extra 0, empty 0, placeholder mismatches 0. Ни один из семи переводов пока не считается завершённым.
+Пять модов из этой очереди полностью переведены и проверены: NeoVitae, Mekanism, Ice and Fire, Mekanism Tools и Silent Gear. Supplementaries и Regions Unexplored остаются незавершёнными. Эти семь модов не объявляются полной партией из десяти.
 
 
 
@@ -495,3 +495,14 @@ NeoVitae полностью переведён и проверен в рабоч
 - Четыре совпадения RU=EN оставлены обоснованно: два латинских ботанических названия (`Laurus nobilis`, `Maclura pomifera`), пустое значение исходного ключа `thunder_bolt.latin` и технический плейсхолдер `%s`.
 
 Перевод опубликован в рабочей ветке `work/productivetrees-ru`; `main` не изменялся. Коммит: https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9c314b46f925358fdc01d66945f14bb88b482deb.
+
+
+## Завершение локализации Silent Gear — 05.11.2026
+
+Silent Gear для ATM10 8.5 полностью переведён в ветке `work/productivetrees-ru`: **1 191/1 191 ключ**. В исходном RU-файле было 617 ключей; добавлено 574 перевода. Существовавшие 617 значений сохранены. Переведены достижения, блоки, команды, интерфейсы машин, типы снаряжения, предметы и детали, JEI, материалы, характеристики, конфигурация и свойства.
+
+Финальная сверка с read-only EN-файлом `silent-gear-1.21.1-neoforge-4.2.1.1/silentgear/en_us.json` (SHA `458a50aed74a049d099ab97bf14723b0fb91dc1b`): JSON корректен; EN/RU 1 191/1 191; missing 0; extra 0; дубликаты ключей 0; несовпадения плейсхолдеров 0; несовпадения кодов форматирования Minecraft (§) 0; несовпадения количества переносов строк 0. Девять буквенных/ранговых обозначений grade (A–E, S–SSS, MAX) оставлены без перевода намеренно. Внутриигровое тестирование не проводилось.
+
+Коммиты перевода: [4ae2a83](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4ae2a83cde5048aea1fc242a42b03adbd30ae04f), [5269ad8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5269ad88435aae15f3035ecd3aec35515e5fd185), [eaa0f20](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/eaa0f204c8d59459a3933f3ea5e4163135e8fc02), [e135d5b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e135d5b417c92e23b69414837ed8a21effd11f0e), [fa0a4f0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/fa0a4f092ffb0414554c66329d7e621e1a729665), [d80af99](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d80af9995dfb5d98442ca28ac25391bf684332b3), [0a44d35](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0a44d3596f2bcb55d8d0ab41fa8b0e25610cd67c), [28e31bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/28e31bb921f5dc0bda0762c7ba309005e9645391), [bd843c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bd843c72bd123a157d4b03a2fc9c383e45651544).
+
+Работа опубликована только в рабочей ветке; `main` не изменялся. Следующая точка очереди — Supplementaries, затем Regions Unexplored. FTB Quests/SNBT остаются на финальном этапе.
