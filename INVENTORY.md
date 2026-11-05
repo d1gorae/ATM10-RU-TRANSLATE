@@ -650,3 +650,32 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 - EN/RU: **704/704 ключа**. В импортированном файле из Dropbox все ключи уже присутствовали, но 223 пользовательских значения полностью совпадали с английским оригиналом. Эти строки переведены с учётом механик Mekanism: MoreMachine и терминологии Mekanism; существовавшие качественные переводы сохранены.
 - Проверки: JSON корректен; missing 0; extra 0; дубликаты 0; пустых значений 0; оставшихся точных совпадений RU=EN 0; несовпадений плейсхолдеров 0; форматирующих кодов (§ и &) 0; переносов строк 0; интерполяций 0; расхождений начальных/конечных пробелов 0.
 - Перевод: [5087a5c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5087a5c90e2907574d447a4ab81d771de073237b), уточнения: [7bbcfd5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7bbcfd52197ae7edfa150f33e6146bd228f8259c), [16b0934](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/16b0934e9562cc90ccf77f1d06490ca5d95e51d1). Терминология: [e445dbf](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e445dbfc5064f8946f25216fac6435bb2918bdcc).
+
+
+## Партия аудита JSON — 06.11.2026: Applied Energistics и дополнения
+
+Проверены и завершены 10 namespace. Для всех файлов сверены актуальные EN-ключи и RU-файлы рабочей ветки; проверены JSON, missing/extra, дубликаты, пустые значения, плейсхолдеры, коды форматирования (§ и &), переносы строк, интерполяции и начальные/конечные пробелы.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Placeholder / format / newline / whitespace |
+|---|---:|---:|---:|---:|---:|
+| `ad_astra_giselle_addon` | 168/168 | 0 | 0 | 0 | 0 |
+| `additional_lights` | 157/157 | 0 | 0 | 0 | 0 |
+| `advanced_ae` | 246/246 | 0 | 0 | 0 | 0 |
+| `advancedperipherals` | 140/140 | 0 | 0 | 0 | 0 |
+| `ae2` | 1 021/1 021 | 0 | 0 | 0 | 0 |
+| `ae2ct` | 19/19 | 0 | 0 | 0 | 0 |
+| `ae2importexportcard` | 8/8 | 0 | 0 | 0 | 0 |
+| `ae2netanalyser` | 38/38 | 0 | 0 | 0 | 0 |
+| `ae2wtlib` | 46/46 | 0 | 0 | 0 | 0 |
+| `aeinfinitybooster` | 26/26 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 869/1 869** | **0** | **0** | **0** | **0** |
+
+В 17 оставшихся совпадениях RU=EN сохранены только названия модов/брендов, обозначения FE, OpenComputers, P2P, служебный `_eof` и шаблоны с плейсхолдерами. Обычных непереведённых пользовательских строк среди совпадений не осталось.
+
+Смысловые и терминологические правки:
+- Advanced Peripherals: исправлены описания достижений, NBT Storage, Block Reader, Colony Integrator, ME Bridge и RS Bridge; нормализовано обращение и пунктуация.
+- Advanced AE: исправлена подсказка Evasion, убран лишний завершающий пробел.
+- Applied Energistics 2: исправлены команды, подписи SCS, выбор ЦП и название фиолетового стеклянного МЭ-кабеля; нормализована пунктуация и пробелы.
+- Глоссарий дополнен терминами AE2 и дополнений.
+
+Коммиты: Advanced Peripherals [585f167](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/585f167ee7e7e2a2cbbacbb9647a9d60ab4d7ea4), [e26d9bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e26d9bb351e0558a7fadd43857d3396f7d3e5274); Applied Energistics 2 [d9d7687](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d9d768712dd2f5cd0e9b0d70a2d1baf26918dee2); Advanced AE [475187a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/475187a9e7bf4ea5f4ebc6b1ceb54b3e158ed3ac); глоссарий [2f0416a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2f0416adfd15844ba2994f4be858c848a2905548).
