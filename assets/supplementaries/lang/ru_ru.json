@@ -1219,5 +1219,15 @@
   "supplementaries.configuration.slingshot.stasis_block_outline.description": "Отображает контур удалённых блоков, до которых можно добраться рогаткой с зачарованием «Стазис»",
   "supplementaries.configuration.slingshot.block_outline_color": "Цвет контура блока",
   "supplementaries.configuration.slingshot.block_outline_color.description": "Цвет контура блока в формате RGBA и шестнадцатеричном виде, например 0x00000066 для ванильного цвета контура",
-  "supplementaries.configuration.slingshot.projectile_scale": "Размер снаряда"
+  "supplementaries.configuration.slingshot.projectile_scale": "Размер снаряда",
+  "supplementaries.configuration.slingshot.projectile_scale.description": "Размер снаряда, выпускаемого из рогатки",
+  "supplementaries.configuration.lunch_basket.overlay": "Индикатор",
+  "supplementaries.configuration.lunch_basket.overlay.description": "Добавляет в интерфейс корзинки для обеда индикатор выбранной еды",
+  "supplementaries.configuration.altimeter": "Высотомер",
+  "supplementaries.configuration.altimeter.click_action": "Действие при нажатии",
+  "supplementaries.configuration.altimeter.click_action.description": "Действие при нажатии на измеритель глубины, отображающий текущую глубину",
+  "supplementaries.configuration.altimeter.extra_dimension_textures": "Дополнительные текстуры измерений",
+  "supplementaries.configuration.altimeter.extra_dimension_textures.description": "Позволяет использовать уникальные текстуры измерителя глубины для каждого измерения. Добавьте ID измерений и соответствующую текстуру по нужному пути, заменив ':' на '_'",
+  "supplementaries.configuration.altimeter.texture_precision_multiplier": "Множитель точности текстуры",
+  "supplementaries.configuration.altimeter.texture_precision_multiplier.description": "При значении выше 1 изображение измерителя глубины будет отображаться с дробными значениями вместо точного соответствия пикселям"
 }
