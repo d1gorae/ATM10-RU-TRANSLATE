@@ -1193,3 +1193,25 @@ Dropbox не изменялся.
 
 В английском каталоге после `xycraft_override` остаются два обычных namespace: `xycraft_world` и `yet_another_config_lib_v3`. После них — финальные специальные задачи FTB Quests и SNBT. FTB Quests уже имеет перевод 67/67 глав, но оставлен для итоговой проверки в конце проекта.
 
+## Финальный хвост обычных локализаций — 06.11.2026
+
+После партии utilitarian—xycraft_override закрыты последние два обычных namespace: **xycraft_world** и **yet_another_config_lib_v3**. Это финальный остаток, не отдельная десятка: **2/2 namespace, 350 ключей**.
+
+| Namespace | EN/RU |
+|---|---:|
+| xycraft_world | 324/324 |
+| yet_another_config_lib_v3 | 26/26 |
+| **Итого** | **350/350** |
+
+Техническая проверка: JSON корректен; missing 0, extra 0, duplicates 0, placeholder/type/position mismatch 0, formatting mismatch 0, newline mismatch 0, edge whitespace mismatch 0, empty mismatch 0.
+
+Смысловые исправления XyCraft World: исправлены формы цветов и согласование в названиях ламп, блоков Оури, алюминиевых и ксикориевых блоков; «Light» приведено к значению «светлый», Glass Viewer — к «смотровому стеклу», уточнены названия породы Киви и хранилищ самоцветов. В YACL улучшены подсказки сохранения и отмены изменений.
+
+Коммиты: XyCraft World [be4094c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/be4094c9e306d6d05b7424040a6291aa26a79552), [5d25540](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5d25540abf3a22eb1de65f75fb9f650b31f2107c); YACL [662e0e6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/662e0e60b5d2f8e30814b12c22e87bf182b91334); GLOSSARY [a77536a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a77536a8fa396be38f69e4af0ce40228aebec345).
+
+## Финальная проверка FTB Quests / SNBT
+
+По текущему дереву EN/RU совпадают имена **67/67 глав FTB Quests**. Английский репозиторий не менялся после коммита `1f1bb082612226447ad674ae6045fc4b28001b09` от 02.11.2026. Последний зафиксированный полный аудит FTB Quests/SNBT: 67 глав, общие языковые файлы и **20 SNBT-файлов**; структура SNBT сбалансирована, пропусков ключей и ошибок плейсхолдеров не обнаружено. В этой сессии FTB Quests/SNBT не изменялись.
+
+Обычные namespace английского дерева закрыты. Полноценный запуск сборки и внутриигровая проверка локализации по-прежнему не выполнялись. Dropbox не изменялся.
+
