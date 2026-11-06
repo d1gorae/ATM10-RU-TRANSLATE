@@ -1044,3 +1044,59 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 5. Только после полного аудита обновить сводные результаты и перейти к следующей партии.
 
 Dropbox не изменялся. Все изменения локализации, перечисленные выше, находятся в GitHub main. На момент этой записи новая партия не объявляется завершённой.
+
+
+## Завершение полной вычитки партии stepcrafter—titanium — 06.11.2026
+
+**Партия завершена: 10/10 namespace, 5 205 ключей.** Эта запись заменяет предыдущую контрольную точку, где партия ещё считалась незавершённой. Все изменения опубликованы напрямую в main; Dropbox не изменялся.
+
+| Namespace | EN/RU ключей | Missing | Extra | Дубликаты | Плейсхолдеры/порядок | Форматирование | Переносы строк | Краевые пробелы |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| stepcrafter | 79/79 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| storagedelight | 178/178 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| structurize | 236/236 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| supermartijn642corelib | 1/1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sushigocrafting | 108/108 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| terrablender | 2/2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| the_bumblezone | 1 800/1 800 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| theurgy | 2 744/2 744 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| tiab | 4/4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| titanium | 53/53 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **5 205/5 205** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти JSON проверены корректность разбора, точное совпадение наборов ключей, отсутствие дубликатов, пустые значения относительно EN, плейсхолдеры и их порядок, коды форматирования, число переносов строк и начальные/конечные пробелы. Для Theurgy и The Bumblezone дополнительно сверены внутренние ссылки item://, entry:// и category://. Все проверки завершились без расхождений.
+
+### Смысловая вычитка
+
+- **StepCrafter:** уточнено название улучшения слотов; сохранены технические обозначения формул и параметров.
+- **Storage Delight:** проверены названия кухонных блоков, шкафов, ящиков и их вариантов; сохранены правильные состояния блоков и древесные породы.
+- **Structurize:** уточнены формулировки инструмента сканирования, интерфейса схем, предварительного просмотра и конфигурации.
+- **SuperMartijn642CoreLib:** единственная строка проверена по оригиналу; правка не потребовалась.
+- **Sushi Go Crafting:** выровнена терминология еды и эффектов; Small Bites передано как шанс сохранить съедаемое блюдо, Itamae — «итамаэ».
+- **TerraBlender:** обе строки команд проверены; правки не потребовались.
+- **The Bumblezone:** вычитаны описания Шмеллиафана, корневиков, часовых, медовых слизней, блоков сот с расплодом, медовых кристаллов, сахарной воды, маточного молочка, эссенций, брони и аксессуаров. Исправлены конфигурации появления пчёл и спавнеров, совместимость с другими модами, названия эффектов и структур, тексты достижений и торговые теги. Унифицированы термины «Жужжилище», «Шмеллиафан», «Корневик», «блок сот с расплодом», «Опчеление».
+- **Theurgy:** выправлены описания аппаратов и книжное руководство; исправлены логика реформации, трансмутации и возвышения, категории нитера, рецепты и инструкции, гадательные жезлы, ртутная логистика, загрузчики/извлекатели. Пересмотрены названия исходных материалов: бревна, древесина, породы, пищевые культуры, минералы и блоки. Исправлены ошибки вроде Common Metals → «обычные металлы», Mossy Cobblestone/Infested Cobblestone, Netherrack, End Stone, Glow Ink Sac, Lettuce, Date, Kale и другие. Ссылки книги и разметка сверены с EN.
+- **TIAB:** все четыре строки сверены; правки не потребовались.
+- **Titanium:** уточнены подсказки взаимодействия с резервуаром и название тестового блока.
+- **GLOSSARY.md:** добавлены единые термины для загрузчиков/извлекателей Theurgy, уровней нитера и ключевых существ, эффектов, блоков и структур The Bumblezone.
+
+### Коммиты main
+
+- StepCrafter: [86e4505](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/86e45058364041c5f25a37eda43763b12012c9f1).
+- Storage Delight: [c28ba9a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c28ba9a9885a00a1d3400b18eba729028e791180), [0e2e828](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0e2e82834f2008b1a6aef607b2eb2c9c4c372f2c), [bab298b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bab298bcad2f152e85c0c2735f46350bd669901b).
+- Structurize: [5dc80a4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5dc80a4a6a121caf57c327c571a8b3789c27a301), [68938b0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/68938b01f4c39ac3a65b332b65c53f8b57d8ed1e).
+- Sushi Go Crafting: [67b02c5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67b02c5f49433aaef1c13818d92cc89871a4388f), [644957f](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/644957fc68cfdad5fba3e283209d296f35892683).
+- The Bumblezone: [caa9e7c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/caa9e7cc78cbb8cba0d0b39b991566dd7584cb82), [44b4667](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/44b46671d370cd53d7614f910053167eaab50486), [730c8cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/730c8cdc213165d7bfbf0047c94d97f81266308e), [ad77e4d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ad77e4dd8b3d191fb857f7e668f687abeff5975f), [df91f16](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/df91f16e5bb3db448d5f9d9173665867e8bf2fcf), [29cd1ea](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/29cd1eab5ec3cb32f7171389d3deeca37fd379f8), [3d604e9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3d604e970a71b42b45b8ebff1e803ae75c4f1568), [e7f07d3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e7f07d3b30ec8c94f84b5db89aff559aad308efc), [458aa82](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/458aa823b32bc38b7f1237e7dc8b50697ecfc126), [a2cc19c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a2cc19c56a813326da5e020284e26c2b22b6fe8c), [26ecbf9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/26ecbf99ba58252f942396773cfdae11d9908ced), [8d4ded0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8d4ded098211275befd0e23f881724724e21d3cc), [bb5c371](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bb5c3710e92779b7396415c747b5481e82eceddc), [7f7ba8d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7f7ba8dd7e924346f8b4062cbfb8139b3a2f37b4), [6cc0714](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6cc071476a25f6b7cf4af71beb21cd1da4096203).
+- Theurgy: [a53c8ee](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a53c8ee5a31fab9936f9577c97754eb7c5192723), [413e847](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/413e847842445bb9b5f5739625c10c658dee620a), [73e79c0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/73e79c0344d98e4bc59d7b74e31a828f13b7ca89), [29dc8bb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/29dc8bb9080cf4e9803966d3c225fabad0bd8acd), [ceb4b99](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ceb4b99475545d7ea498491166d3a441c64a94ea), [ca8121e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ca8121e50107b74a740d097260d7c61abb408d08), [bec8f13](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bec8f13b988d87c360f5dce69753f939f0e0912f), [5ee6999](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5ee699913fea0b3c6db519fab3e767e0ed280c08), [e8b5521](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e8b5521d1c96987c4f33d24a50686eab50d2e274), [478d354](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/478d3540311c9b622a07061d447728385aafccbb), [3cec024](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/3cec024203acd0e8e3132d23219702c8bf3ab3bd), [51d0218](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/51d0218e703ac0b1c46ccd80fc8b7d8f8aeaa070), [dc790c0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/dc790c0eec072d000f2c15646fed99aead4cdd13), [e020d5b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/e020d5b2831d25db1ba11329673e7843bc060de1), [113984b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/113984b42ecc2935e5ad6f313b156ee51c7498b1), [f76ddd8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f76ddd826c4ec74cc96b511109c4b46fe9e5d457), [399601d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/399601dfb5d8597fff978a3285b608164c3335e6), [6787784](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6787784ed2a59ff6628bc316f2e132e2539a2e27), [7cb82d3](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7cb82d39b06852b662c66f127421eb23c997b731), [31b4af6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/31b4af6039aed55520db9d7accb858caae26165d).
+- Titanium: [de96d64](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/de96d64e1a9cb007dbf85b6c6adcc714c45f0ff6).
+- GLOSSARY: [f2d3579](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f2d35794e753de50d7b8dd93ca782364291e084c).
+
+У supermartijn642corelib, terrablender и tiab после сверки с EN правки не потребовались; их JSON включены в общий технический аудит.
+
+### Следующая точка продолжения
+
+Следующая десятка по порядку английских источников после titanium (Twilight Forest уже завершён и пропускается): toastcontrol, tombstone, toolbelt, torchmaster, transfer_labels, trashcans, trashslot, treetap, trophymanager, universalgrid.
+
+У всех десяти RU-файлы уже существуют, а первичная сверка показывает совпадение наборов ключей с EN. Их не нужно создавать заново: следующая задача — повторная смысловая вычитка и полный технический аудит этих существующих файлов. После universalgrid следующими по дереву источников идут utilitarian и utilityvest.
+
+Перед новой партией перечитать актуальные PROJECT_HANDOFF.md, INVENTORY.md, GLOSSARY.md, проверить свежие main обоих репозиториев и не повторять завершённые namespace. FTB Quests/SNBT оставить на самый конец проекта.
