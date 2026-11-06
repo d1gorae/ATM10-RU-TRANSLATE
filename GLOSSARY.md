@@ -932,6 +932,8 @@
 | Illuminant Column | световая колонна | Трёхблочный фонарный столб Simply Light |
 | Illuminant Fixture | светильник | Световой блок, крепящийся к стенам, потолку или полу |
 | Dynamic Edge Light | динамический краевой светильник | Светильник Simply Light, принимающий форму по соседним блокам |
-| Stack Upgrade | улучшение вместимости слота | Улучшение Sophisticated Backpacks, увеличивающее число стаков в одном слоте |
+| Stack Upgrade | увеличение вместимости слота | Улучшение Sophisticated Backpacks, увеличивающее число стаков в одном слоте |
 | Stack Downgrade | уменьшение вместимости слота | Улучшение Sophisticated Backpacks, уменьшающее число стаков в одном слоте |
 | Stack Capacity Multiplier | множитель вместимости слота | Параметр вместимости слота в Sophisticated Backpacks/Core |
+
+| Fluid Sourcelink | связь жидкостей с Истоком | Устройство StarbuncleMania, генерирующее Исток из жидкостей |
