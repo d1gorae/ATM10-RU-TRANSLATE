@@ -115,7 +115,7 @@
   "gui.sophisticatedcore.upgrades.pump.tooltip": "Помпа",
   "gui.sophisticatedcore.upgrades.advanced_pump.tooltip": "Продвинутая помпа",
   "gui.sophisticatedcore.upgrades.xp_pump.tooltip": "Помпа опыта",
-  "gui.sophisticatedcore.upgrades.tank.contents_tooltip": "%s mB из %s mB",
+  "gui.sophisticatedcore.upgrades.tank.contents_tooltip": "%s мБ из %s мБ",
   "gui.sophisticatedcore.upgrades.tank.xp_contents_tooltip": "%s из %s ур. опыта",
   "gui.sophisticatedcore.upgrades.battery.tooltip": "Аккумулятор",
   "gui.sophisticatedcore.upgrades.battery.contents_tooltip": "%s FE из %s FE",
