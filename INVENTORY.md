@@ -1226,3 +1226,39 @@ JSON корректен во всех файлах. Плейсхолдеры п�
 ### Следующая очередь
 
 После titanium и пропуска уже завершённого Twilight Forest следующая десятка по дереву английских источников: toastcontrol, tombstone, toolbelt, torchmaster, transfer_labels, trashcans, trashslot, treetap, trophymanager, universalgrid. Все десять RU JSON уже существуют; первичная сверка показывает совпадение наборов ключей с EN. Следующая работа — смысловая вычитка и полный повторный технический аудит, не создание файлов заново. После universalgrid идут utilitarian, utilityvest.
+
+## Смысловая вычитка и повторный JSON-аудит — партия toastcontrol—universalgrid (06.11.2026)
+
+Завершена партия **10/10 namespace, 1 413 ключей**. Все файлы сверены с актуальными английскими оригиналами из `ATM/LANGUAGES_EN_US`.
+
+| Namespace | EN/RU | Missing | Extra | Дубликаты | Empty mismatch | Placeholder/order | Formatting | Newlines | Edge whitespace |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| toastcontrol | 2/2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| tombstone | 1240/1240 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| toolbelt | 13/13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| torchmaster | 42/42 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| transfer_labels | 21/21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| trashcans | 34/34 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| trashslot | 24/24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| treetap | 8/8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| trophymanager | 13/13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| universalgrid | 16/16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1413/1413** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех файлах JSON корректен. Наборы ключей совпадают полностью; нет пропусков, лишних ключей, дубликатов, несовпадений пустых значений, плейсхолдеров/порядка, форматирования, переносов строк и краевых пробелов.
+
+Смысловые правки:
+- **Tombstone:** исправлены и дополнены статьи компендиума, инструкции предметов, мировоззрение, молитвы, Знание смерти, костяная игла, магические книги и скрижали, названия достижений и подсказки. Унифицированы «памятная табличка», «душа могилы», «Сосуд души», «Сосуд фамильяра», «Анкх молитвы», «Знание смерти».
+- **Torchmaster:** Feral Flare Lantern унифицирован как «светильник дикого пламени».
+- **TreeTap:** Tap — «кран для подсочки», Sap Collector — «сборщик древесного сока».
+- **Tool Belt:** сверены названия предметов, слотов и действий.
+- **ToastControl, Transfer Labels, Trash Cans, TrashSlot, Trophy Manager и Universal Grid:** проверены по контексту, дополнительных исправлений не потребовалось.
+
+Намеренные совпадения с EN: название Torchmaster в группе предметов; SHIFT/CTRL в строках изменения лимита Trash Cans; название категории TrashSlot; имя мода Universal Grid.
+
+GLOSSARY дополнен терминами Tombstone, Tool Belt, Torchmaster и TreeTap. Коммиты перечислены в последней записи PROJECT_HANDOFF.md. Dropbox не изменялся.
+
+### Следующая очередь
+
+Следующие десять namespace по порядку английских источников: `utilitarian`, `utilityvest`, `variantsandventures`, `waystones`, `wirelesschargers`, `xnet`, `xtonesreworked`, `xycraft_core`, `xycraft_machines`, `xycraft_override`. После них остаются `xycraft_world` и `yet_another_config_lib_v3`.
+
