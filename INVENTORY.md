@@ -1188,3 +1188,12 @@ JSON корректен во всех файлах. Плейсхолдеры п�
 Смысловые исправления внесены в Simply Light, Simple Weather, SoL Carrot, Sophisticated Backpacks, Sophisticated Core и StarbuncleMania; остальные четыре namespace проверены, смысловых правок не потребовали. Подробности и коммиты приведены в последней записи PROJECT_HANDOFF.md.
 
 Следующая очередь из незавершённых RU/EN namespace: stepcrafter, storagedelight, structurize, supermartijn642corelib, sushigocrafting, terrablender, the_bumblezone, theurgy, tiab, titanium. Не повторять stevescarts, supplementaries, tempad и tempad_static: они уже проверены ранее.
+
+
+## Контрольная точка вычитки — 06.11.2026
+
+После завершения первой партии (10 namespace / 1197 ключей; см. предыдущую запись) начата следующая десятка. В main подтверждены смысловые правки в stepcrafter, storagedelight, structurize, sushigocrafting, the_bumblezone, theurgy и titanium. Коммиты и краткие описания приведены в PROJECT_HANDOFF.md. Это частичная работа: следующая десятка не объявляется завершённой, повторный полный технический аудит ещё не зарегистрирован. По supermartijn642corelib, terrablender и tiab закрытие работ не подтверждено.
+
+Для Theurgy внесены крупные смысловые исправления аппаратов, алхимической терминологии, чанов, руководства и гадательных жезлов. Финальный аудит внутренних ссылок/разметки и полный повторный JSON-аудит остаются незавершёнными.
+
+При продолжении: сначала проверить свежие main и GLOSSARY.md; закончить Theurgy, затем вычитать и проверить всю текущую десятку. Не повторять уже сделанные правки. Dropbox не изменялся.
