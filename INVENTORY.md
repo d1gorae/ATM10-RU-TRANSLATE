@@ -1262,3 +1262,36 @@ GLOSSARY дополнен терминами Tombstone, Tool Belt, Torchmaster �
 
 Следующие десять namespace по порядку английских источников: `utilitarian`, `utilityvest`, `variantsandventures`, `waystones`, `wirelesschargers`, `xnet`, `xtonesreworked`, `xycraft_core`, `xycraft_machines`, `xycraft_override`. После них остаются `xycraft_world` и `yet_another_config_lib_v3`.
 
+## Смысловая вычитка и технический аудит — партия utilitarian—xycraft_override (06.11.2026)
+
+Завершено **10/10 namespace, 1 858 ключей**.
+
+| Namespace | EN/RU | Missing | Extra | Дубликаты | Empty | Placeholder/order | Formatting | Newlines | Edge whitespace |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| utilitarian | 111/111 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| utilityvest | 36/36 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| variantsandventures | 128/128 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| waystones | 361/361 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| wirelesschargers | 23/23 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| xnet | 186/186 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| xtonesreworked | 547/547 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| xycraft_core | 106/106 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| xycraft_machines | 225/225 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| xycraft_override | 135/135 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 858/1 858** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех JSON синтаксис корректен. Проверка плейсхолдеров учитывает позиционные аргументы: для команд Waystones сохранено исходное соответствие типов и номеров аргументов, несмотря на перестановку в русской фразе. Несовпадений форматирования, переносов, краевых пробелов, пустых значений и ссылок нет.
+
+Смысловые исправления:
+- Utilitarian: единый вежливый стиль, подсказки предметов и настройки запуска.
+- Utility Vest: ошибка сохранения записи и подсказка фильтра.
+- Variants&Ventures: имена мобов и грамматика настроек спавна.
+- Waystones: цвета камней связи, команды и видимость.
+- XNet: антенны, фасады, коннекторы, единицы мБ и метаданные.
+- XyCraft Core/Machines/Override: теги, машины, модули и связанные текстуры.
+- Wireless Chargers и Xtones Reworked проверены; подтверждённых смысловых ошибок не обнаружено.
+
+Намеренные английские значения: Variants&Ventures, BlueMap, XNet, NBT, Xtones Reworked и 34 имени палитр, XyCraft, Xynergy. Это названия модов, брендов, технические обозначения и имена материалов. GLOSSARY дополнен терминами Waystones, Variants&Ventures и XyCraft. Dropbox не изменялся.
+
+Следующие два обычных namespace в английском каталоге: `xycraft_world`, `yet_another_config_lib_v3`. После них остаются FTB Quests и SNBT как финальные специальные задачи.
+
