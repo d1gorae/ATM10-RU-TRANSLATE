@@ -1102,3 +1102,64 @@ Dropbox не изменялся. Все изменения локализаци�
 У всех десяти RU-файлы уже существуют, а первичная сверка показывает совпадение наборов ключей с EN. Их не нужно создавать заново: следующая задача — повторная смысловая вычитка и полный технический аудит этих существующих файлов. После universalgrid следующими по дереву источников идут utilitarian и utilityvest.
 
 Перед новой партией перечитать актуальные PROJECT_HANDOFF.md, INVENTORY.md, GLOSSARY.md, проверить свежие main обоих репозиториев и не повторять завершённые namespace. FTB Quests/SNBT оставить на самый конец проекта.
+
+## Дополнение к завершённым проверкам и новая партия — 06.11.2026
+
+### Дополнительные исправления после аудита stepcrafter—titanium
+
+После завершения партии внесены ещё несколько подтверждённых смысловых исправлений:
+- **Theurgy:** уточнены описания аппаратов и EMI-подсказки, приведены к глоссарию категории нашатыря и ртути, исправлено согласование «алхимическая сера».
+- **The Bumblezone:** выправлены описания медовых предметов и компаса, тексты достижений и команд, названия настроек; восстановлено исходное форматирование § и количество переносов строк.
+- **StepCrafter:** улучшено описание рекурсивного автокрафта и формулировка энергопотребления улучшения слота.
+- **Structurize:** уточнены подсказки сканирования, якорных блоков, заполнителей, телепортации и выполнения операций.
+
+Коммиты: Theurgy [d95c3c0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d95c3c0e73fe3208f3a89f756604f459eaaa5281), [bafb1a8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bafb1a8d21bf3c2fc1450a5f7a2f6e11a9b2c74a), [ea92c80](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ea92c80a0c01fc943d87a1d9f9460fe10fc8f283); The Bumblezone [7a85940](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/7a859402462c1ba26ab6976665e59850eee989eb), [948d455](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/948d4559d7af88508b127052396fe97e676187b9), [de5d287](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/de5d28780065a80418e1ae6b20fc36a2d7554e20), [07e66fa](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/07e66fac25ced476688091e4ad594fcbc7af06c9), [6df0f62](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6df0f62322120af5bff5fc0825bd699ba39a62d4); StepCrafter [d438d7c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d438d7c6c080c6050cadaf70514b4b905446b93b); Structurize [26571f2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/26571f27eb3863630062aeb080c12a44c2958b11).
+
+Повторный технический аудит всех 5 205 ключей этой партии завершился без расхождений: ключи, плейсхолдеры и их порядок, форматирование, переносы строк, краевые пробелы и пустые значения соответствуют EN.
+
+### Завершена партия toastcontrol—universalgrid
+
+**Завершено 10/10 namespace, 1 413 ключей.** Все десять файлов сверены с актуальными оригиналами в `ATM/LANGUAGES_EN_US`.
+
+| Namespace | EN/RU ключей | Missing | Extra | Дубликаты | Плейсхолдеры | Форматирование | Переносы | Краевые пробелы |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| toastcontrol | 2/2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| tombstone | 1 240/1 240 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| toolbelt | 13/13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| torchmaster | 42/42 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| transfer_labels | 21/21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| trashcans | 34/34 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| trashslot | 24/24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| treetap | 8/8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| trophymanager | 13/13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| universalgrid | 16/16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 413/1 413** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+Все JSON корректны. Совпадение наборов ключей полное; дубликатов, пропусков, лишних ключей, несовпадений плейсхолдеров, форматирования, переносов строк, краевых пробелов и пустых значений нет.
+
+Смысловые исправления:
+- **Tombstone:** исправлены ошибочные и неполные статьи компендиума (мировоззрение, молитвы, Знание смерти, костяная игла, души и сосуды, зачарования, скрижали и магические книги); уточнены инструкции предметов, тексты достижений, названия памятной таблички и подсказки. Терминология сведена к единому виду.
+- **Tool Belt:** проверены названия пояса, подсумка, слотов и действий с инструментами.
+- **Torchmaster:** Feral Flare Lantern унифицирован как «светильник дикого пламени» во всех названиях и настройках.
+- **TreeTap:** Tap уточнён как «кран для подсочки», Sap Collector — «сборщик древесного сока».
+- **ToastControl, Transfer Labels, Trash Cans, TrashSlot, Trophy Manager и Universal Grid:** строки проверены по контексту; подтверждённых дополнительных смысловых ошибок не осталось.
+
+Совпадения с английским оставлены только там, где это оправдано: название Torchmaster в группе предметов, модификаторы клавиш SHIFT/CTRL в Trash Cans, название категории TrashSlot и имя мода Universal Grid.
+
+Коммиты текущей партии:
+- Tombstone: [b025a7b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b025a7b23855a09375b8ad1c48d6e078b3625e09), [a62d1fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a62d1fdf144e726142f3c1b5cd43112670a139d8), [b238777](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b238777726d354cac6ab60b241992fa04ff8a9a8), [d59f80d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d59f80d8559aa9f0e051f386262b32e1b587b50e), [8080261](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8080261e0490851214f01155349db2d75a39a67d), [78f1828](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/78f182866aa91d21b2ce93d75099a27d08123b93), [1dfc691](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1dfc6914a073c47c6cce4bd0c531a0539691987f), [1c3127d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1c3127ded512f5eaa283743e80de3ec3f1959180), [4964293](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/49642933fb84c264aa0ffe2ce89be20e1877694f), [09dfcb9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/09dfcb94eb6c35cfab8d82388b63c0f969c20ad7), [b851b49](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b851b497f4614086f0974c6033a61d155b2168a8).
+- Tool Belt: [34b8469](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/34b8469774997346b58c0855fcd97588a6860057).
+- Torchmaster: [cb9e5e9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/cb9e5e994066dfbd7405047077679269cdeb468c).
+- TreeTap: [ebc1dbc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebc1dbc28cc6cea238cf470d7a6614972e98038e), [9dc74e5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9dc74e56265440e55039612a2c245c75647bf6d3).
+- Universal Grid: [36b7447](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/36b744783b82c803c69a99f2d23bb4696a75064f).
+- GLOSSARY: [c93d634](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c93d6342041ca53fb1686120be96e83cf7c99c36), [8fa512b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8fa512b8354997594cb0ea7a9245f16b1a0d2ca6).
+
+Dropbox не изменялся.
+
+### Следующая партия
+
+Следующие десять namespace по порядку английских источников:
+`utilitarian`, `utilityvest`, `variantsandventures`, `waystones`, `wirelesschargers`, `xnet`, `xtonesreworked`, `xycraft_core`, `xycraft_machines`, `xycraft_override`.
+
+После них остаются `xycraft_world` и `yet_another_config_lib_v3`. Перед началом следующей партии проверить актуальные файлы и версии в обоих репозиториях; уже сделанные правки не повторять.
+
