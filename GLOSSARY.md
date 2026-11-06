@@ -919,3 +919,19 @@
 | Charm Fragment | фрагмент оберега | Компонент создания оберегов Reliquary |
 | Infernal Tear | инфернальная слеза | Предмет Reliquary для поглощения выбранных предметов |
 | Magicbane | Магический бан | Артефактное оружие; название отсылает к Nethack |
+
+
+## Термины Simply Light и Sophisticated Storage
+
+| English | Русский | Примечание |
+|---|---|---|
+| Illuminant Block | светящийся блок | Основной светящийся блок Simply Light |
+| Illuminant Panel | светящаяся панель | Плоский светодиодный блок Simply Light |
+| Illuminant Slab | светящаяся плита | Светящийся блок в форме плиты Simply Light |
+| Illuminant Rod | светящийся стержень | Направленно устанавливаемый источник света Simply Light |
+| Illuminant Column | световая колонна | Трёхблочный фонарный столб Simply Light |
+| Illuminant Fixture | светильник | Световой блок, крепящийся к стенам, потолку или полу |
+| Dynamic Edge Light | динамический краевой светильник | Светильник Simply Light, принимающий форму по соседним блокам |
+| Stack Upgrade | улучшение вместимости слота | Улучшение Sophisticated Backpacks, увеличивающее число стаков в одном слоте |
+| Stack Downgrade | уменьшение вместимости слота | Улучшение Sophisticated Backpacks, уменьшающее число стаков в одном слоте |
+| Stack Capacity Multiplier | множитель вместимости слота | Параметр вместимости слота в Sophisticated Backpacks/Core |
