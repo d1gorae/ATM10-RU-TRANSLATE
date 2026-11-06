@@ -968,3 +968,47 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 - GLOSSARY: [caf1bdd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/caf1bdd2c4455f67be8d15a64e0886ed15dd512e).
 
 Ветка `work/atm10-batch-nov05` больше не нужна для дальнейшей работы: её полезные терминологические дополнения и отобранные формулировки перенесены в main; неперенесённые варианты не содержат недостающих ключей и не должны автоматически заменять текущие переводы. После удаления ветки продолжать работу только в `main`.
+
+
+## Полный круг технической и смысловой вычитки — партия 1 после StarbuncleMania — 06.11.2026
+
+Завершена ручная смысловая вычитка и повторная техническая сверка следующих **10 namespace** непосредственно в `main`:
+
+| Namespace | EN/RU ключей | Missing | Extra | Дубликаты | Плейсхолдеры (с позициями) | Форматирование | Переносы | Краевые пробелы |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| simplemagnets | 38/38 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| simple_weather | 19/19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| simplylight | 192/192 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| smithingtemplateviewer | 1/1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| solcarrot | 60/60 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sophisticatedbackpacks | 407/407 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sophisticatedcore | 318/318 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sophisticatedstorageinmotion | 8/8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| soulplied_energistics | 4/4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| starbunclemania | 150/150 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1 197/1 197** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+Во всех десяти JSON корректны. Проверены точные наборы ключей, дубликаты, пустые значения относительно EN, порядок и типы позиционных плейсхолдеров, коды форматирования, количество переносов строк и начальные/конечные пробелы. В StarbuncleMania одно пустое значение оставлено пустым, поскольку оно пустое и в EN-оригинале. Пропусков и лишних ключей нет.
+
+### Результаты смысловой вычитки и исправления
+
+- **Simply Light:** исправлена большая группа названий блоков с ошибками рода и капитализации: панели, плиты, лампочки, блоки, стержни и колонны. Исправлены описания световых блоков/панелей/стержня, нижнего и верхнего краевого светильника, подсказка клавиши Shift. Убраны оставшиеся фрагменты машинного перевода.
+- **Simple Weather:** исправлена смысловая ошибка настройки AABB: EN `Calculate AABB`, RU теперь «Рассчитывать AABB», а не «Использовать кэшированный AABB».
+- **SoL Carrot:** «Boring Foods Tasted» уточнено как «Попробовано непитательных блюд».
+- **Sophisticated Backpacks:** исправлены описания загрузки/выгрузки и пополнения, механики переплавки/плавки, батареи и резервуара, насоса, мультиинструмента и ловца мобов. Термин Stack Upgrade приведён к смыслу увеличения вместимости слота; Inception Upgrade — к вложению рюкзаков. Уточнены статусы ловца мобов, шаблоны и ряд конфигурационных подписей.
+- **Sophisticated Core:** выправлены формулировки Ender Linker, фильтров, переполнения, помпы опыта, настроек вкладок и экспорта SNBT. Исправлены единицы мБ и сообщения о вместимости. В сообщении с переставленными аргументами сохранена точная позиционная адресация `%1$d`, `%2$s`, `%3$s`.
+- **StarbuncleMania:** термин Starbuncle унифицирован с GLOSSARY как «звездоух», Drygmy — «дригми». Исправлены газовая единица измерения, Sourcelink/Source Condenser и связанные строки на «Исток», а также несколько описаний книги.
+- **Simple Magnets, Smithing Template Viewer, Sophisticated Storage In Motion и Soulplied Energistics:** проверены по EN-контексту; смысловых правок, требующих внесения, не обнаружено.
+- **GLOSSARY.md:** дополнены термины Simply Light и Sophisticated Storage, уточнены Stack Upgrade и добавлена Fluid Sourcelink.
+
+### Коммиты main
+
+- Simply Light: [0443afc](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0443afc4ea879061ab80900c851ded2342dbc021), [744ba9a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/744ba9a0ddb15ce9689bec638b2f7d2cd9daae43).
+- Simple Weather: [c7f4115](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c7f41159d4893feb3b0b79c0d226c395df6abd44).
+- SoL Carrot: [b7f979d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b7f979d7f853509a1c2badbd9b1fecd6d866cb53).
+- Sophisticated Backpacks: [67742f2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67742f2716405be091e7aae809cf7e651355eb3d), [4e35920](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/4e3592087eebab69c5e4cd9977ce283fd2cebf44), [0bf7d8d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0bf7d8d93fb3fe27d4e0252a63b04b03cc331661).
+- Sophisticated Core: [f871599](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f871599f4a404728ce67fa1c530279d67a366201), [12e8cbd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/12e8cbd317b8844fdff90107d4b6ef9c0d759b0e), [ebe12f9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ebe12f94648182fa5f3a75b97c711f3415d548ef), [38854bd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/38854bde8c7c23f827141f777c13a53c3ca116b6).
+- StarbuncleMania: [9396737](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/939673754c223aaf04640c2ae468db140adb5b82), [9ab3233](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9ab3233f938129172a53dd7b62a076262b6b2221), [52c04c2](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/52c04c2315bae602db2983fccb172499d7246ed3), [2ee876d](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/2ee876d6d08046dd1dc90e0a42102937b5cd5a53), [0a0e992](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0a0e992e8d349116b3ee647e787f6113ecf66a7b).
+- GLOSSARY: [a380e9e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a380e9e4be041f82a53dc16c120a00e8099b4a65), [6d371fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6d371fdcf326977be4ffdc3475cf1c34eaa2f901).
+
+Следующая незавершённая десятка по текущему дереву RU/EN: `stepcrafter`, `storagedelight`, `structurize`, `supermartijn642corelib`, `sushigocrafting`, `terrablender`, `the_bumblezone`, `theurgy`, `tiab`, `titanium`. Ранее проверенные `stevescarts`, `supplementaries`, `tempad` и `tempad_static` повторно не включать. Продолжать в `main`.
