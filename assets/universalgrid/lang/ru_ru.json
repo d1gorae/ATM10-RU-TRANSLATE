@@ -11,8 +11,8 @@
   "gui.universalgrid.grid.grid_type": "Тип сетки",
   "text.autoconfig.universalgrid.option.wirelessUniversalGrid": "Беспроводная универсальная сетка",
   "text.autoconfig.universalgrid.option.wirelessUniversalGrid.tooltip": "Настройки беспроводной универсальной сетки.",
-  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity": "Ёмкость энергии",
-  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity.tooltip": "Ёмкость энергии беспроводной универсальной сетки.",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity": "Энергоёмкость",
+  "text.autoconfig.universalgrid.option.wirelessUniversalGrid.energyCapacity.tooltip": "Энергоёмкость беспроводной универсальной сетки.",
   "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType": "Тип сетки",
   "text.autoconfig.universalgrid.option.wirelessUniversalGrid.gridType.tooltip": "Выбранный тип беспроводной универсальной сетки."
 }
