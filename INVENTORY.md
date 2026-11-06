@@ -1163,3 +1163,28 @@ Regions Unexplored `0.6.3-neoforge-21.1` полностью локализова
 | **Итого** | **6623/6623** | **0** | **0** | **0** | **0** | **0** |
 
 Отобранные смысловые и терминологические улучшения зафиксированы в `PROJECT_HANDOFF.md`. Все пять JSON успешно разобраны; повторная проверка ключей, плейсхолдеров и форматирующих токенов прошла без расхождений.
+
+
+## Смысловая вычитка и повторный JSON-аудит — 06.11.2026
+
+Завершена партия из 10 namespace (1197 ключей): simplemagnets 38, simple_weather 19, simplylight 192, smithingtemplateviewer 1, solcarrot 60, sophisticatedbackpacks 407, sophisticatedcore 318, sophisticatedstorageinmotion 8, soulplied_energistics 4, starbunclemania 150.
+
+| Namespace | EN/RU | Missing | Extra | Duplicates | Empty mismatch | Placeholder/order | Formatting | Newlines | Edge whitespace |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| simplemagnets | 38/38 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| simple_weather | 19/19 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| simplylight | 192/192 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| smithingtemplateviewer | 1/1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| solcarrot | 60/60 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sophisticatedbackpacks | 407/407 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sophisticatedcore | 318/318 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sophisticatedstorageinmotion | 8/8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| soulplied_energistics | 4/4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| starbunclemania | 150/150 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **1197/1197** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+JSON корректен во всех файлах. Плейсхолдеры проверены с учётом позиционных индексов, форматирующие коды, переносы строк и начальные/конечные пробелы совпадают с EN. Одно пустое значение StarbuncleMania совпадает с EN и намеренно оставлено пустым.
+
+Смысловые исправления внесены в Simply Light, Simple Weather, SoL Carrot, Sophisticated Backpacks, Sophisticated Core и StarbuncleMania; остальные четыре namespace проверены, смысловых правок не потребовали. Подробности и коммиты приведены в последней записи PROJECT_HANDOFF.md.
+
+Следующая очередь из незавершённых RU/EN namespace: stepcrafter, storagedelight, structurize, supermartijn642corelib, sushigocrafting, terrablender, the_bumblezone, theurgy, tiab, titanium. Не повторять stevescarts, supplementaries, tempad и tempad_static: они уже проверены ранее.
