@@ -258,7 +258,7 @@
   "book.theurgy.the_hermetica.apparatus.target_pedestal.structure.title": "Структура",
   "book.theurgy.the_hermetica.apparatus.target_pedestal.usage.text": "Установите пьедестал на землю.\\\nЗатем нажмите ПКМ по нему, держа в руке серу, которую хотите получить в большем количестве.\n",
   "book.theurgy.the_hermetica.apparatus.target_pedestal.usage.title": "Использование",
-  "book.theurgy.the_hermetica.apparatus.transmutation_and_exaltation.about.text": "[#](ad03fc)Трансмутация[#]() — процесс преобразования серы в серу другого типа (например, из драгоценных камней в металлы),\\\n[#](ad03fc)возвышение[#]() — преобразование серы в серу другого уровня (например, из обычной в редкую).\n",
+  "book.theurgy.the_hermetica.apparatus.transmutation_and_exaltation.about.text": "[#](ad03fc)Трансмутация[#]() — процесс преобразования серы в серу другого типа (например, из драгоценных камней в металлы),\n[#](ad03fc)возвышение[#]() — преобразование серы в серу другого уровня (например, из обычной в редкую).\n",
   "book.theurgy.the_hermetica.apparatus.transmutation_and_exaltation.about.title": "Трансмутация и возвышение",
   "book.theurgy.the_hermetica.apparatus.transmutation_and_exaltation.description": "Преобразование серы в серу другого типа или уровня",
   "book.theurgy.the_hermetica.apparatus.transmutation_and_exaltation.exaltation.text": "Для возвышения также нужны два аппарата: чан для разложения и массив реформации.\\\n\\\n\\\nЧан — самостоятельный блок, не требующий особой конструкции.\n",
