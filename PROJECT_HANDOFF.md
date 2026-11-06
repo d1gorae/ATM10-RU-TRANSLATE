@@ -1163,3 +1163,33 @@ Dropbox не изменялся.
 
 После них остаются `xycraft_world` и `yet_another_config_lib_v3`. Перед началом следующей партии проверить актуальные файлы и версии в обоих репозиториях; уже сделанные правки не повторять.
 
+## Завершена партия utilitarian—xycraft_override — 06.11.2026
+
+**10/10 namespace, 1 858 ключей.** Все RU-файлы сверены с актуальными EN-оригиналами.
+
+| Namespace | EN/RU |
+|---|---:|
+| utilitarian | 111/111 |
+| utilityvest | 36/36 |
+| variantsandventures | 128/128 |
+| waystones | 361/361 |
+| wirelesschargers | 23/23 |
+| xnet | 186/186 |
+| xtonesreworked | 547/547 |
+| xycraft_core | 106/106 |
+| xycraft_machines | 225/225 |
+| xycraft_override | 135/135 |
+| **Итого** | **1 858/1 858** |
+
+**Техническая проверка:** JSON корректен; missing 0, extra 0, duplicates 0, empty mismatch 0, placeholder/type/position mismatch 0, formatting mismatch 0, newline mismatch 0, edge whitespace mismatch 0, link mismatch 0. В трёх командах Waystones использованы позиционные плейсхолдеры, чтобы аргументы оставались на своих местах при перестановке слов.
+
+**Смысловые правки:** Utilitarian — выровнены обращения, уточнены подсказки и настройки подавления стартовых сообщений; Utility Vest — исправлены сообщение об отклонённой записи и подсказка фильтра; Variants&Ventures — унифицированы имена мобов и исправлены формы в настройках появления; Waystones — переведены цвета Sharestone, уточнены настройки видимости и команды; XNet — исправлены подписи антенн, названия коннекторов и единицы мБ; XyCraft — уточнены описания машин, модулей, многоблочных конструкций и тегов. Wireless Chargers и Xtones Reworked проверены, дополнительных смысловых ошибок не обнаружено.
+
+Оставлены намеренные совпадения с EN: имена Variants&Ventures, XNet, XyCraft, BlueMap, NBT, Xynergy, группа Xtones Reworked и 34 оригинальных имени палитр Xtones. GLOSSARY дополнен терминами Waystones, Variants&Ventures и XyCraft. Dropbox не изменялся.
+
+Коммиты: Utilitarian [9eead33](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/9eead33e3a53a09a12d37b4708e357049e7ba34f); Utility Vest [1b4a073](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1b4a073a697d724795cc6fd64a0f4019d8a80342); Variants&Ventures [0f60058](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0f600583f651a7adcb939de3c6f73891f758ed7c), [ac949d9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/ac949d9296afd46a8bb7bded52eac9719f8d5e75), [c54e89a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c54e89acb382939932f9ba0e74f5a69c8884ac02); Waystones [b9a7112](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/b9a711207dfff52d7a153ade482f9384334b4851), [1a5736a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/1a5736aa0749abe3ad693be13df02eb7d425df46), [68269d8](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/68269d8aecb5ba1a034451a64b8d27e19508bfa3); XNet [f042dfb](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f042dfbc6ee5bbba2425a4c6e43f847f13613bbc); XyCraft Machines [5a51b89](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5a51b891c298a7bc6461f51c9c8ff8438589744b), [85c7d44](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/85c7d4412c8a86079c4fc01d4492dfa5b59a810b), [bd240e9](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bd240e9f93d29f767410e768443446c10a9e9567), [f787b27](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/f787b27bed06b6a92979b453ff51407a702c0ff9); XyCraft Core [d883efa](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/d883efa96bd6881f38b66475ce8feb9fb352a713); XyCraft Override [0c75348](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0c753487610cb0b745d10c1440523e95c4da98eb); GLOSSARY [32682ad](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/32682adc0aebbd689dca8e64decdf61ccf7ee701), [8f126f6](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/8f126f623a9ba3a3142381a6d43e68884348a43c).
+
+### Следующий шаг
+
+В английском каталоге после `xycraft_override` остаются два обычных namespace: `xycraft_world` и `yet_another_config_lib_v3`. После них — финальные специальные задачи FTB Quests и SNBT. FTB Quests уже имеет перевод 67/67 глав, но оставлен для итоговой проверки в конце проекта.
+
