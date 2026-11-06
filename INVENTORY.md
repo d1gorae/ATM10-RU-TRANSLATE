@@ -1295,3 +1295,17 @@ GLOSSARY дополнен терминами Tombstone, Tool Belt, Torchmaster �
 
 Следующие два обычных namespace в английском каталоге: `xycraft_world`, `yet_another_config_lib_v3`. После них остаются FTB Quests и SNBT как финальные специальные задачи.
 
+## Финальный остаток обычных namespace — 06.11.2026
+
+| Namespace | EN/RU | Missing | Extra | Дубликаты | Empty | Placeholder/order | Formatting | Newlines | Edge whitespace |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| xycraft_world | 324/324 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| yet_another_config_lib_v3 | 26/26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **Итого** | **350/350** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
+
+Оба JSON корректны. В XyCraft World исправлены согласование цветов, названия RGB-ламп, смотрового стекла, блоков из породы Киви и ксикориевых самоцветов. В YACL уточнены подсказки сохранения и отмены. Коммиты перечислены в PROJECT_HANDOFF.md. GLOSSARY дополнен терминами XyCraft World.
+
+## Итоговая проверка FTB Quests / SNBT
+
+В текущем дереве имена глав EN/RU совпадают: **67/67**. Последний зафиксированный полный аудит FTB Quests/SNBT: все 67 глав, общие языковые файлы и 20 SNBT-файлов; структура сбалансирована, missing/placeholder/image-reference mismatches — 0. Английский репозиторий не менялся после 02.11.2026. В этой сессии FTB Quests/SNBT не редактировались.
+
