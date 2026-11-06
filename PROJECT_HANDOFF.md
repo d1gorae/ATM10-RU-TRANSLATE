@@ -1012,3 +1012,35 @@ Mekanism: MoreMachine (`mekmm`) завершён последним в парт�
 - GLOSSARY: [a380e9e](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/a380e9e4be041f82a53dc16c120a00e8099b4a65), [6d371fd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/6d371fdcf326977be4ffdc3475cf1c34eaa2f901).
 
 Следующая незавершённая десятка по текущему дереву RU/EN: `stepcrafter`, `storagedelight`, `structurize`, `supermartijn642corelib`, `sushigocrafting`, `terrablender`, `the_bumblezone`, `theurgy`, `tiab`, `titanium`. Ранее проверенные `stevescarts`, `supplementaries`, `tempad` и `tempad_static` повторно не включать. Продолжать в `main`.
+
+
+## Контрольная точка перед паузой — 06.11.2026
+
+Пользователь остановил работу и попросил зафиксировать состояние до следующего продолжения. Ничего не считать завершённым сверх того, что подтверждено ниже.
+
+### Завершённая первая партия вычитки
+
+Первая десятка после StarbuncleMania (simplemagnets, simple_weather, simplylight, smithingtemplateviewer, solcarrot, sophisticatedbackpacks, sophisticatedcore, sophisticatedstorageinmotion, soulplied_energistics, starbunclemania) уже описана выше: 10 namespace, 1197 ключей, техническая проверка без зарегистрированных расхождений. Смысловые правки опубликованы в main.
+
+### Состояние следующей десятки на момент паузы
+
+В работе/частично вычитаны следующие namespace: stepcrafter, storagedelight, structurize, sushigocrafting, the_bumblezone, theurgy, titanium. По ним есть реальные опубликованные смысловые правки; это **не означает**, что вся десятка завершена. По supermartijn642corelib, terrablender и tiab завершение не подтверждено. Полный повторный технический аудит этой десятки ещё не зафиксирован.
+
+Подтверждённые коммиты в main:
+- StepCrafter: [86e4505](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/86e45058364041c5f25a37eda43763b12012c9f1) — уточнено название улучшения слотов.
+- Storage Delight: [c28ba9a](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/c28ba9a9885a00a1d3400b18eba729028e791180), [0e2e828](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/0e2e82834f2008b1a6aef607b2eb2c9c4c372f2c), [bab298b](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/bab298bcad2f152e85c0c2735f46350bd669901b) — сверены/очищены ключи относительно EN и исправлены названия кухонных блоков.
+- Structurize: [5dc80a4](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/5dc80a4a6a121caf57c327c571a8b3789c27a301), [68938b0](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/68938b01f4c39ac3a65b332b65c53f8b57d8ed1e) — уточнены подсказки инструмента сканирования, интерфейса схем и конфигурации.
+- Sushi Go Crafting: [67b02c5](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/67b02c5f49433aaef1c13818d92cc89871a4388f) — улучшена пищевая терминология.
+- The Bumblezone: [caa9e7c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/caa9e7cc78cbb8cba0d0b39b991566dd7584cb82), [730c8cd](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/730c8cdc213165d7bfbf0047c94d97f81266308e) — вычитаны описания и конфигурационные строки, сохранены исходные пробелы.
+- Theurgy: [82239c7](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/82239c73eaa11876398729251eab62bc0b1f2b3d), [755004c](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/755004c58eab408ee553e142110017cb6d76005e) — исправлены оставшиеся английские/искажённые формулировки руководства и справочная категория аппарата. Ранее в этой сессии также были внесены крупные исправления названий аппаратов, терминов ртути/серы/нашатыря, чанов и гадательных жезлов. **Финальная проверка внутренних ссылок и разметки Theurgy не завершена/результат не зафиксирован**; обязательно вернуться к ней.
+- Titanium: [de96d64](https://github.com/d1gorae/ATM10-RU-TRANSLATE/commit/de96d64e1a9cb007dbf85b6c6adcc714c45f0ff6) — уточнены формулировки подсказок резервуара и названия тестового блока.
+
+### Следующая точка продолжения
+
+1. Сначала перечитать этот handoff, INVENTORY.md и GLOSSARY.md, а также проверить свежие main обоих репозиториев.
+2. Продолжить именно текущую десятку, не повторять уже внесённые правки.
+3. Завершить Theurgy: проверить все ссылки вида `item://`, `entry://`, `category://`, синтаксис форматирования книги, плейсхолдеры и смысл относительно EN; затем повторить полный JSON-аудит.
+4. Провести полную смысловую и техническую вычитку остальных namespace этой десятки, включая supermartijn642corelib, terrablender и tiab; не объявлять десятку завершённой до закрытия всех десяти.
+5. Только после полного аудита обновить сводные результаты и перейти к следующей партии.
+
+Dropbox не изменялся. Все изменения локализации, перечисленные выше, находятся в GitHub main. На момент этой записи новая партия не объявляется завершённой.
