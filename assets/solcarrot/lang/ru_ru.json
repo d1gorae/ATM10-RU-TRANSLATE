@@ -39,7 +39,7 @@
   "gui.solcarrot.food_book.config.tooltip.minimum_food_value": "Минимальное значение голода, которое должна восстанавливать еда, чтобы учитываться для этапов.",
   "gui.solcarrot.food_book.config.hearty_fraction": "Питательная еда",
   "gui.solcarrot.food_book.config.tooltip.hearty_fraction": "Из %1$s видов еды, %2$s достаточно питательны, чтобы улучшить ваше здоровье.",
-  "gui.solcarrot.food_book.config.eaten_cheap_foods": "Попробовано бесполезной еды",
+  "gui.solcarrot.food_book.config.eaten_cheap_foods": "Попробовано непитательных блюд",
   "gui.solcarrot.food_book.config.tooltip.eaten_cheap_foods": "Из %1$s видов еды, недостаточно питательных для улучшения здоровья, вы съели %2$s.",
   "gui.solcarrot.food_book.config.blacklist": "Еда в чёрном списке",
   "gui.solcarrot.food_book.config.whitelist": "Еда в белом списке",
