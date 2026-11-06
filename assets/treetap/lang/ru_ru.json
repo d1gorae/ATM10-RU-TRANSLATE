@@ -1,7 +1,7 @@
 {
   "block.treetap.tap": "Подсочник",
-  "block.treetap.sap_collector": "Сборщик смолы",
-  "block.treetap.wooden_sap_collector": "Деревянный сборщик смолы",
+  "block.treetap.sap_collector": "Сборщик древесного сока",
+  "block.treetap.wooden_sap_collector": "Деревянный сборщик древесного сока",
   "item.treetap.tap.modifier": "Модификатор скорости: %s",
   "jei.treetap.tap_extract": "Подсочка деревьев",
   "jei.treetap.life_cycle.months": "%s",
