@@ -176,5 +176,19 @@
   "block.storagedelight.pale_oak_cabinet_with_polished_blackstone_countertop": "Бледно-дубовый шкаф со столешницей из полированного чернита",
   "block.storagedelight.pale_oak_cabinet_with_polished_diorite_countertop": "Бледно-дубовый шкаф со столешницей из полированного диорита",
   "block.storagedelight.pale_oak_cabinet_with_stone_bricks_countertop": "Бледно-дубовый шкаф со столешницей из каменных кирпичей",
-  "itemGroup.storagedelight": "Радость хранения"
+  "itemGroup.storagedelight": "Радость хранения",
+  "block.storagedelight.kitchen_cupboard_open": "Открытый кухонный шкафчик",
+  "block.storagedelight.kitchen_drawer": "Выдвижной кухонный ящик",
+  "block.storagedelight.kitchen_drawer_open": "Открытый кухонный ящик",
+  "block.storagedelight.kitchen_sink_faucet_on": "Включённый кухонный кран",
+  "block.storagedelight.pantry_shelf_full": "Заполненная полка кладовой",
+  "block.storagedelight.pantry_shelf_half": "Наполовину заполненная полка кладовой",
+  "block.storagedelight.shelf_full": "Заполненная полка",
+  "block.storagedelight.shelf_half": "Наполовину заполненная полка",
+  "block.storagedelight.storage_cabinet_open": "Открытый шкаф для хранения",
+  "container.storagedelight.cooking_pot": "Кастрюля",
+  "container.storagedelight.cooking_pot.inventory": "Содержимое кастрюли",
+  "item.storagedelight.cooking_pot": "Кастрюля",
+  "item.storagedelight.pantry_shelf_half": "Наполовину заполненная полка кладовой",
+  "item.storagedelight.pantry_shelf_full": "Заполненная полка кладовой"
 }
