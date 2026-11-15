@@ -21,7 +21,7 @@
 | [GLOSSARY.md](GLOSSARY.md) | Единая терминология |
 | [INVENTORY.md](INVENTORY.md) | Список модов и состояние переводов |
 | [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) | Текущая точка работы и история |
-| [NO_RU_JSON_AUDIT.md](NO_RU_JSON_AUDIT.md) | Аудит модов без отдельного RU-файла |
+| [Аудит namespace](docs/NO_RU_JSON_AUDIT.md) | Аудит модов без отдельного RU-файла |
 | [FTB Quests](FTBQUESTS/) | Переводы заданий |
 
 **Важно:** кнопка GitHub «Code → Download ZIP» скачивает исходники, а не готовый установщик. Нужен архив из раздела [Releases](https://github.com/d1gorae/ATM10-RU-TRANSLATE/releases).
