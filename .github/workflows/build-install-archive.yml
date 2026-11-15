@@ -1,0 +1,73 @@
+name: Build ATM10 RU install archive
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/**"
+      - "pack.mcmeta"
+      - "FTBQUESTS/ru_ru/**"
+      - ".github/workflows/build-install-archive.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Assemble and validate install archive
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          chapter_count="$(find FTBQUESTS/ru_ru/chapters -maxdepth 1 -type f -name '*.snbt' | wc -l | tr -d ' ')"
+          test "$chapter_count" = "67"
+          test -f pack.mcmeta
+          test -d assets
+
+          mkdir -p staging/resourcepacks/ATM10-RU
+          mkdir -p staging/config/ftbquests/quests/lang/ru_ru
+
+          cp -a assets staging/resourcepacks/ATM10-RU/
+          cp pack.mcmeta staging/resourcepacks/ATM10-RU/pack.mcmeta
+          cp -a FTBQUESTS/ru_ru/. staging/config/ftbquests/quests/lang/ru_ru/
+
+          (cd staging && zip -qr ../ATM10-RU-Full.zip resourcepacks config)
+
+          unzip -Z1 ATM10-RU-Full.zip | grep -qx 'resourcepacks/ATM10-RU/pack.mcmeta'
+          unzip -Z1 ATM10-RU-Full.zip | grep -qx 'resourcepacks/ATM10-RU/assets/apotheosis/lang/ru_ru.json'
+          unzip -Z1 ATM10-RU-Full.zip | grep -qx 'config/ftbquests/quests/lang/ru_ru/chapter.snbt'
+          unzip -Z1 ATM10-RU-Full.zip | grep -qx 'config/ftbquests/quests/lang/ru_ru/chapters/pylons.snbt'
+
+          echo "Archive contents:"
+          unzip -l ATM10-RU-Full.zip
+          echo "Archive size:"
+          du -h ATM10-RU-Full.zip
+
+      - name: Publish archive as a GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: atm10-ru-${{ github.run_number }}
+          name: ATM10-RU-Full — build ${{ github.run_number }}
+          body: |
+            Единый установочный архив русской локализации ATM10.
+
+            Распаковать всё содержимое ZIP прямо в корень экземпляра ATM10 (папку, где находятся mods, config и saves). При запросе Windows подтвердить слияние папок и замену совпадающих файлов.
+
+            Внутри:
+            - resourcepacks/ATM10-RU — ресурс-пак с переводами модов;
+            - config/ftbquests/quests/lang/ru_ru — перевод FTB Quests.
+
+            Ресурс-пак после распаковки нужно включить в меню «Настройки → Наборы ресурсов».
+            Исходный commit: ${{ github.sha }}
+          files: ATM10-RU-Full.zip
+          fail_on_unmatched_files: true
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
